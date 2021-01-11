@@ -1,1 +1,5 @@
-
+import csv
+with open('books.csv', newline = '') as csvfile:
+spamreader = csv.reader(csvfile, delimiter=' ', quotechar='|')
+for row in books.csv:
+print(', '.join(row))
