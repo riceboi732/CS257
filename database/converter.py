@@ -58,8 +58,6 @@ def writefile(reader,filename1, filename2, filename3):
 def in_table1(index):
     if index >=8 and index <=11:
         return False
-    elif index == 0:
-        return False
     else: 
         return True
 

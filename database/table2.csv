@@ -1,84 +1,51 @@
-1,1992 Summer,1992,Summer,Barcelona
-2,2012 Summer,2012,Summer,London
-3,1920 Summer,1920,Summer,Antwerpen
-4,1900 Summer,1900,Summer,Paris
-5,1988 Winter,1988,Winter,Calgary
-5,1992 Winter,1992,Winter,Albertville
-5,1994 Winter,1994,Winter,Lillehammer
-6,1992 Winter,1992,Winter,Albertville
-6,1994 Winter,1994,Winter,Lillehammer
-7,1992 Winter,1992,Winter,Albertville
-7,1994 Winter,1994,Winter,Lillehammer
-8,1932 Summer,1932,Summer,Los Angeles
-9,2002 Winter,2002,Winter,Salt Lake City
-10,1952 Summer,1952,Summer,Helsinki
-11,1980 Winter,1980,Winter,Lake Placid
-12,2000 Summer,2000,Summer,Sydney
-13,1996 Summer,1996,Summer,Atlanta
-13,2000 Summer,2000,Summer,Sydney
-14,1994 Winter,1994,Winter,Lillehammer
-15,1912 Summer,1912,Summer,Stockholm
-15,1920 Summer,1920,Summer,Antwerpen
-15,1924 Summer,1924,Summer,Paris
-16,2014 Winter,2014,Winter,Sochi
-17,1948 Summer,1948,Summer,London
-17,1952 Summer,1952,Summer,Helsinki
-18,2000 Summer,2000,Summer,Sydney
-19,1948 Summer,1948,Summer,London
-20,1992 Winter,1992,Winter,Albertville
-20,1994 Winter,1994,Winter,Lillehammer
-20,1998 Winter,1998,Winter,Nagano
-20,2002 Winter,2002,Winter,Salt Lake City
-20,2006 Winter,2006,Winter,Torino
-21,2008 Summer,2008,Summer,Beijing
-22,2016 Summer,2016,Summer,Rio de Janeiro
-23,2000 Summer,2000,Summer,Sydney
-23,2004 Summer,2004,Summer,Athina
-24,1960 Winter,1960,Winter,Squaw Valley
-24,1964 Winter,1964,Winter,Innsbruck
-25,1920 Summer,1920,Summer,Antwerpen
-26,1984 Winter,1984,Winter,Sarajevo
-27,1984 Summer,1984,Summer,Los Angeles
-28,1968 Summer,1968,Summer,Mexico City
-28,1972 Summer,1972,Summer,Munich
-29,1988 Summer,1988,Summer,Seoul
-30,1996 Summer,1996,Summer,Atlanta
-30,2000 Summer,2000,Summer,Sydney
-31,1936 Summer,1936,Summer,Berlin
-32,1912 Summer,1912,Summer,Stockholm
-33,1992 Summer,1992,Summer,Barcelona
-33,1996 Summer,1996,Summer,Atlanta
-34,2012 Summer,2012,Summer,London
-35,1998 Winter,1998,Winter,Nagano
-36,1996 Summer,1996,Summer,Atlanta
-36,2000 Summer,2000,Summer,Sydney
-37,1996 Summer,1996,Summer,Atlanta
-38,1920 Summer,1920,Summer,Antwerpen
-39,1912 Summer,1912,Summer,Stockholm
-40,1952 Winter,1952,Winter,Oslo
-40,1956 Winter,1956,Winter,Cortina d'Ampezzo
-40,1960 Winter,1960,Winter,Squaw Valley
-41,1920 Summer,1920,Summer,Antwerpen
-42,1912 Summer,1912,Summer,Stockholm
-43,1992 Summer,1992,Summer,Barcelona
-44,1998 Winter,1998,Winter,Nagano
-44,2002 Winter,2002,Winter,Salt Lake City
-45,1936 Summer,1936,Summer,Berlin
-46,1936 Summer,1936,Summer,Berlin
-46,1948 Summer,1948,Summer,London
-46,1952 Summer,1952,Summer,Helsinki
-46,1956 Summer,1956,Summer,Melbourne
-46,1960 Summer,1960,Summer,Roma
-47,1920 Summer,1920,Summer,Antwerpen
-47,1924 Summer,1924,Summer,Paris
-47,1928 Summer,1928,Summer,Amsterdam
-48,2012 Summer,2012,Summer,London
-49,2004 Summer,2004,Summer,Athina
-49,2008 Summer,2008,Summer,Beijing
-50,1992 Summer,1992,Summer,Barcelona
-50,1996 Summer,1996,Summer,Atlanta
-51,2016 Summer,2016,Summer,Rio de Janeiro
-52,1976 Summer,1976,Summer,Montreal
-53,2000 Summer,2000,Summer,Sydney
-54,1948 Summer,1948,Summer,London
-55,2016 Summer,2016,Summer,Rio de Janeiro
+1992 Summer,1992,Summer,Barcelona
+2012 Summer,2012,Summer,London
+1920 Summer,1920,Summer,Antwerpen
+1900 Summer,1900,Summer,Paris
+1988 Winter,1988,Winter,Calgary
+1992 Winter,1992,Winter,Albertville
+1994 Winter,1994,Winter,Lillehammer
+1932 Summer,1932,Summer,Los Angeles
+2002 Winter,2002,Winter,Salt Lake City
+1952 Summer,1952,Summer,Helsinki
+1980 Winter,1980,Winter,Lake Placid
+2000 Summer,2000,Summer,Sydney
+1996 Summer,1996,Summer,Atlanta
+1912 Summer,1912,Summer,Stockholm
+1924 Summer,1924,Summer,Paris
+2014 Winter,2014,Winter,Sochi
+1948 Summer,1948,Summer,London
+1998 Winter,1998,Winter,Nagano
+2006 Winter,2006,Winter,Torino
+2008 Summer,2008,Summer,Beijing
+2016 Summer,2016,Summer,Rio de Janeiro
+2004 Summer,2004,Summer,Athina
+1960 Winter,1960,Winter,Squaw Valley
+1964 Winter,1964,Winter,Innsbruck
+1984 Winter,1984,Winter,Sarajevo
+1984 Summer,1984,Summer,Los Angeles
+1968 Summer,1968,Summer,Mexico City
+1972 Summer,1972,Summer,Munich
+1988 Summer,1988,Summer,Seoul
+1936 Summer,1936,Summer,Berlin
+1952 Winter,1952,Winter,Oslo
+1956 Winter,1956,Winter,Cortina d'Ampezzo
+1956 Summer,1956,Summer,Melbourne
+1960 Summer,1960,Summer,Roma
+1928 Summer,1928,Summer,Amsterdam
+1976 Summer,1976,Summer,Montreal
+1980 Summer,1980,Summer,Moskva
+1964 Summer,1964,Summer,Tokyo
+2010 Winter,2010,Winter,Vancouver
+1968 Winter,1968,Winter,Grenoble
+1906 Summer,1906,Summer,Athina
+1972 Winter,1972,Winter,Sapporo
+1976 Winter,1976,Winter,Innsbruck
+1924 Winter,1924,Winter,Chamonix
+1904 Summer,1904,Summer,St. Louis
+1928 Winter,1928,Winter,Sankt Moritz
+1908 Summer,1908,Summer,London
+1948 Winter,1948,Winter,Sankt Moritz
+1932 Winter,1932,Winter,Lake Placid
+1936 Winter,1936,Winter,Garmisch-Partenkirchen
+1896 Summer,1896,Summer,Athina
