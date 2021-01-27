@@ -7,7 +7,7 @@ def openfile(filename):
     reader = csv.reader(csvFile)
     return reader
 
-def writefile(reader,filename1, filename2):
+def writefile(reader,filename1, filename2, filename3):
     # table1 olympians:
 
     #table1:
@@ -17,13 +17,19 @@ def writefile(reader,filename1, filename2):
     #table2:
     csvFile2 = open(filename2, "w")
     writer2 = csv.writer(csvFile2)
+
+    #table3:
+    csvFile3 = open(filename3, "w")
+    writer3 = csv.writer(csvFile3)
     
     #check redundancy
     set1 = []
     set2 = []
+    set3 = []
     for row in reader:
         d1 = []
         d2 = []
+        d3 = []
         if reader.line_num == 1:
             continue
         for i in range(len(row)):
@@ -37,6 +43,11 @@ def writefile(reader,filename1, filename2):
                 #    d2.append(int(row[i])) 
                 #else:
                 d2.append(row[i])
+        d3.append(row[1])
+        d3.append(row[8])
+        if d3 not in set3:
+            set3.append(d3)
+            writer3.writerow(d3)
         if d1 not in set1:
             set1.append(d1)
             writer1.writerow(d1)
@@ -59,5 +70,5 @@ def is_int(i):
 
 def main():
     reader = openfile("athlete_test.csv")
-    writefile(reader,"table1.csv","table2.csv")
+    writefile(reader,"table1.csv","table2.csv","table3.csv")
 main()
