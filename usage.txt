@@ -1,0 +1,31 @@
+Author: Victor Huang, Silas Zhao
+
+usage: python3 olympics.py [-h] [-n NOC [NOC ...]] [-gl][-ln]
+These are commands of olympics in various situations:
+
+optional arguments:
+	-h, --help              
+							show this help message and exit
+	
+	-n [NOC ...], --noc  [NOC ...]
+							lists the names of all the athletes from a specified NOC.
+
+	-gl --goldList
+							Lists all the NOCs and the number of gold medals they have won, in decreasing order of the number of gold medals.
+
+	-ln --listNOC
+							Lists all the NOCs in alphabetical order by abbreviation. 
+    Note:
+	1. Multiple arguments of the same flag will be handled in OR logic
+		ex. $  python3 books.py -t boys wild
+			Boys and Sex, 2020, Peggy Orenstein (1961-)
+			The Tenant of Wildfell Hall, 1848, Ann Bronte (1820-1849)
+			A Wild Sheep Chase, 1982, Haruki Murakami(1949-)
+	2. Multiple arguments of different flags will be handled in AND logic
+		ex. $  python3 books.py -t boys -a Peggy Herman
+			Peggy Orenstein:
+				Boys and Sex, 2020, Peggy Orenstein (1961-)
+			Herman:
+ 				(No book matches)
+	3. All find options are case-insensitive.
+	4. If there are illegal arguments, the program will print the default help message.
