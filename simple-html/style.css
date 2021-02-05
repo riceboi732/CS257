@@ -1,35 +1,41 @@
-/* Author: Victor Huang */
+/*
+   For use with sample5.html
+   Jeff Ondich, 3 May 2016
+*/
+
 body {
     margin: 20px;
 }
 
 #sections {
-    height: 500px;
+    height: 90vh;
     width: 100%;
 }
 
-/* top section CSS */
 #top {
     width: 100%;
-    height: 20%;
+    height: 30%;
     float:left;
+    font-size: 24pt;
+    color: white;
     background-color: green;
 }
 
-/* left section CSS */
+
 #left {
     width: 30%;
-    height: 80%;
+    height: 70%;
     float:left;
+    font-size: 24pt;
+    color: white;
     background-color: #aa0000;
 }
 
-/* right section CSS */
 #right {
     width: 70%;
-    height: 80%;
+    height: 70%;
     float:left;
+    font-size: 24pt;
+    color: white;
     background-color: #cccc00;
 }
-
-
