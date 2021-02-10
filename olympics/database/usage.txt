@@ -1,0 +1,20 @@
+python3 olympics.py
+  The program returns a list of information based on olympics.sql given
+
+    --help/-h
+            prints usage.txt, explaining how to use the command line interface.
+              e.g python3 olympics.py --help
+
+    --athletes_noc/-a
+            prints the list of all athletes from a specific NOC(given a full country name)
+              e.g --athletes_noc "Kenya"
+                  -a "Japan"
+    --gold_nocs/-b
+            prints the list of all NOCs and the number of gold medals they have won in decreasing
+            order of the number of gold medals. No additional argument needed.
+              e.g --gold_nocs
+                  -b
+    --year_athletes_gold/-c
+            prints the list of all athletes that won a gold medal in a specific year, given the year.
+              e.g --year_athletes_gold "2012"
+                  -c "2004"
