@@ -1,1 +1,16 @@
+Victor Huang, Martin Bernard
 
+Link: https://www.kaggle.com/ahsen1330/us-police-shootings?select=shootings.csv
+Description: Our data set is on police shootings in the United States from 2015 to 2020. The data is 15 fields (including but not limited to ID, Name, Date, and State). 
+
+Story 1: A student from Texas writing a paper on police shootings wants to know all the shootings that have occurred in Texas. 
+
+Implementation 1: One way to support this user would be to have a sidebar that lists all the states in the United States. He or she can then click on the state that they want and it would bring up all victims from that State. Another way to implement this would be to have an interactive map of the United States and the user would be able to click on the state they want and it would bring up all the victims from that state. 
+
+Story 2: A new married couple of immigrants from Asia want to find the safest state to start their family in America.
+
+Implementation 2: The user would be able to view all states and compare datasets among them. After the user inputs their desired parameters, they would then press the analyze button which will bring them to a page of graphs and charts to show them the information they were searching for. They also would have the option to compare different states to judge their safety
+
+Story 3: A teacher wants to know all shooting victims that were 19 or under at the time of the shooting, so that he can teach about racial prejudice. 
+
+Implantation 3: One way to implement this feature would be to have a button that will display all shootings victims in the United States. Then there can be a side area where there are different options that can filter by age, gender, ethnicity, etc. where multiple parameters can be chosen depending on the user.  
