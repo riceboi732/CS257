@@ -1,1 +1,33 @@
+Martin Brenard, Victor Huang
 
+REQUEST: /victims
+
+GET parameters:
+    min_year(Optional, default: -infinity): Only returns victims that were shot during or after this year
+    max_year(Optional, default: +infinity): Only returns victims that were shot during or before this year
+    state(Optional, default: all states): Only returns victims from specified states
+    min_age(Optional, default: -infinity): Only returns victims that are at or above specified age
+    max_age(Optional, default: +infinity): Only returns victims that are at or below specified age
+    ethnicity(Optional, default: all ethnicity): Only returns victims that are of specified ethnicity
+    armed(Optional, default: all): Only returns victims that were specified to be armed or not
+
+RESPONSE: Returns a list of JSON, which of each are victims with specified parameters, if there are any.
+    date - (date) The date of the shooting
+    name - (String) The name of the victim
+    age - (Integer) The age of the victim
+    gender - (String) The gender of the victim
+    ethnicity - (String) The ethnicity of the victim
+    armed - (String) An armed or unarmed indicator
+
+
+REQUEST: /victims/analyze
+
+GET parameters:
+	states (Optional, default: all states): Only returns victims from specified states
+
+REPONSE: Returns a JSON dictionary of dictionary, where each key corresponds to the filtered data needed for each visualization. 
+	Keys:
+		years - (Dict) List of years with the total number of incidents per year
+ethnicity - (Dict) List of incidents that happen to an ethnic group
+armed - (Dict) List of incidents that occur when a victim is armed and not armed
+gender - (Dict) List of incidents that occurs to a gender 	
