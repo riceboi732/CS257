@@ -5023,4901 +5023,4901 @@ COPY public.victim_state (victim_id, state_id) FROM stdin;
 --
 
 COPY public.victims (id, victim_name, victim_ethnicity, victim_age, incident_date, armed_status, victim_gender) FROM stdin;
-0	Tim Elliot	Asian	53	2015-01-02	gun	M
-1	Lewis Lee Lembke	White	47	2015-01-02	gun	M
 2	John Paul Quintero	Hispanic	23	2015-01-03	unarmed	M
-3	Matthew Hoffman	White	32	2015-01-04	toy weapon	M
-4	Michael Rodriguez	Hispanic	39	2015-01-04	nail gun	M
-5	Kenneth Joe Brown	White	18	2015-01-04	gun	M
-6	Kenneth Arnold Buck	Hispanic	22	2015-01-05	gun	M
-7	Brock Nichols	White	35	2015-01-06	gun	M
 8	Autumn Steele	White	34	2015-01-06	unarmed	F
-9	Leslie Sapp III	Black	47	2015-01-06	toy weapon	M
-10	Patrick Wetter	White	25	2015-01-06	knife	M
-11	Ron Sneed	Black	31	2015-01-07	gun	M
-12	Hashim Hanif Ibn Abdul-Rasheed	Black	41	2015-01-07	knife	M
-13	Nicholas Ryan Brickman	White	30	2015-01-07	gun	M
-14	Omarr Julian Maximillian Jackson	Black	37	2015-01-07	gun	M
-15	Loren Simpson	White	28	2015-01-08	unknown	M
-16	James Dudley Barker	White	42	2015-01-08	shovel	M
 17	Artago Damon Howard	Black	36	2015-01-08	unarmed	M
-18	Thomas Hamby	White	49	2015-01-08	gun	M
-19	Jimmy Foreman	White	71	2015-01-09	gun	M
-20	Andy Martinez	Hispanic	33	2015-01-09	gun	M
-21	Tommy Smith	White	39	2015-01-11	gun	M
-22	Brian  Barbosa	Hispanic	23	2015-01-11	gun	M
-23	Salvador Figueroa	Hispanic	29	2015-01-11	gun	M
-24	John Edward O'Keefe	White	34	2015-01-13	gun	M
-25	Richard McClendon	White	43	2015-01-13	knife	M
-26	Marcus Golden	Black	24	2015-01-14	unknown	M
-27	Michael Goebel	White	29	2015-01-14	unknown	M
-28	Mario Jordan	Black	34	2015-01-14	gun	M
-29	Talbot Schroeder	White	75	2015-01-14	knife	M
-30	Robert Edwards	White	68	2015-01-14	gun	M
-31	Jeffrey R. Nielson	White	34	2015-01-14	knife	M
-32	Donte Sowell	Black	27	2015-01-15	gun	M
-33	Kavonda Earl Payton	Black	39	2015-01-15	gun	M
-34	Quincy Reed Reindl	White	24	2015-01-15	gun	M
-35	Jose Ceja	Hispanic	36	2015-01-15	knife	M
-36	Nathan Massey	White	33	2015-01-15	gun	M
-37	Scott Hall	White	41	2015-01-16	gun	M
-38	Zaki Shinwary	Other	48	2015-01-16	knife	M
-39	Terence Walker	Black	21	2015-01-17	gun	M
-40	Pablo Meza	Hispanic	24	2015-01-17	gun	M
-41	Daniel Brumley	Hispanic	27	2015-01-17	knife	M
-42	Jonathan Guillory	White	32	2015-01-18	gun	M
-43	Carter Castle	White	67	2015-01-18	gun	M
-44	Paul Campbell	White	49	2015-01-19	knife	M
-45	Dewayne Carr	Black	42	2015-01-20	unknown	M
-46	Todd Allen Hodge	White	36	2015-01-21	gun	M
-47	Miguel Angel de Santos-Rodriguez	Hispanic	36	2015-01-21	gun	M
-48	Isaac Holmes	Black	19	2015-01-21	gun	M
-49	Andrew Toto	White	54	2015-01-21	gun	M
-50	Tiano Meton	Black	25	2015-01-22	toy weapon	M
-51	Kristiana Coignard	White	17	2015-01-22	knife	F
-52	Demaris Turner	Black	29	2015-01-23	unknown	M
-53	Jose Antonio Espinoza Ruiz	Hispanic	56	2015-01-23	knife	M
-54	Robert Francis Mesch	White	61	2015-01-23	gun	M
-55	Daryl Myler	White	45	2015-01-24	gun	M
-56	Darin Hutchins	Black	26	2015-01-24	knife	M
-57	Wendell King	White	40	2015-01-24	gun	M
-58	Orlando Jude Lopez	Hispanic	26	2015-01-25	gun	M
-59	Jessie Hernandez	Hispanic	17	2015-01-26	unknown	F
-60	Raymond Kmetz	White	68	2015-01-26	gun	M
 61	Joshua Omar Garcia	Hispanic	24	2015-01-26	unarmed	M
-62	David Garcia	Hispanic	34	2015-01-26	knife	M
-63	Tiffany Terry	White	39	2015-01-27	knife	F
-64	Nicolas Leland Tewa	Native	26	2015-01-27	unknown	M
-65	Chris Ingram	White	29	2015-01-27	gun	M
-66	Jermonte Fletcher	Black	33	2015-01-27	gun	M
-67	Alan Lance Alverson	White	45	2015-01-28	gun	M
-68	Cody Karasek	White	26	2015-01-28	gun	M
-69	Matautu Nuu	Asian	35	2015-01-28	hammer	M
-70	Alan James	White	31	2015-01-29	gun	M
 71	Ralph Willis	White	42	2015-01-29	unarmed	M
-72	John Barry Marshall	White	48	2015-01-30	gun	M
-73	Victor Manuel Reyes	Hispanic	31	2015-01-31	gun	M
-74	Edward Donnell Bright	Black	54	2015-01-31	knife	M
 75	David Kassick	White	59	2015-02-02	unarmed	M
-76	Francis Murphy Rose III	White	42	2015-02-02	gun	M
-77	Jacob Haglund	White	17	2015-02-02	gun	M
-78	Ledarius D. Williams	Black	23	2015-02-03	gun	M
-79	Yuvette Henderson	Black	38	2015-02-03	gun	F
-80	Dewayne Deshawn Ward	Black	29	2015-02-03	knife	M
-81	Anthony Purvis	White	45	2015-02-03	gun	M
 82	Jeremy Lett	Black	28	2015-02-04	unarmed	M
-83	Izzy Colon	Hispanic	37	2015-02-04	gun	M
-84	Salvador Muna	Hispanic	28	2015-02-04	gun	M
 85	Joaquin Hernandez	Hispanic	28	2015-02-04	unarmed	M
-86	Jimmy Ray Robinson Jr.	Black	51	2015-02-04	gun	M
-87	Markell Atkins	Black	36	2015-02-04	knife	M
-88	Paul Alfred Eugene Johnson	White	59	2015-02-05	gun	M
-89	Herbert Hill	Black	25	2015-02-06	gun	M
-90	John  Sawyer	White	26	2015-02-07	toy weapon	M
-91	James Allen	Black	74	2015-02-07	gun	M
-92	John Martin Whittaker	White	33	2015-02-08	gun	M
-93	Sawyer Flache	White	27	2015-02-08	gun	M
-94	Vincent Cordaro	White	57	2015-02-08	gun	M
-95	Joseph Paffen	White	46	2015-02-08	gun	M
-96	Larry Hostetter	White	41	2015-02-08	gun	M
-97	Kenneth Kreyssig	White	61	2015-02-09	gun	M
-98	Desmond Luster	Black	45	2015-02-09	gun	M
-99	Anthony Bess	Black	49	2015-02-10	gun	M
-100	Brian Fritze	White	45	2015-02-10	gun	M
 101	Antonio Zambrano-Montes	Hispanic	35	2015-02-10	unarmed	M
-102	Phillip Watkins	Black	23	2015-02-11	knife	M
-103	Fletcher Ray Stewart	White	46	2015-02-11	toy weapon	M
-104	Jonathan Larry Harden	White	23	2015-02-13	unknown	M
-105	Andres Lara-Rodriguez	Hispanic	21	2015-02-13	gun	M
 106	Richard Carlin	Hispanic	35	2015-02-13	unarmed	M
-107	Matthew D. Belk	White	27	2015-02-13	gun	M
-108	Daniel Mejia	Hispanic	37	2015-02-13	knife	M
-109	Jason C. Hendrix	White	16	2015-02-14	gun	M
-110	Roy Joy Day	White	51	2015-02-14	gun	M
-111	Howard Brent Means Jr.	White	34	2015-02-15	gun	M
-112	Bruce Steward	White	34	2015-02-15	hatchet	M
 113	Lavall Hall	Black	25	2015-02-15	unarmed	M
-114	Lawrence Caldwell	White	56	2015-02-16	gun	M
-115	Michael K. Casper	White	26	2015-02-16	gun	M
-116	Cody Evans	White	24	2015-02-16	toy weapon	M
-117	Betty Sexton	White	43	2015-02-17	gun	F
 118	Michael Ireland	White	31	2015-02-17	unarmed	M
-119	Matthew Lundy	White	32	2015-02-17	gun	M
-120	Douglas Sparks	White	30	2015-02-17	toy weapon	M
-121	Pedro Juan Saldivar	Hispanic	50	2015-02-17	unknown	M
-122	Janisha Fonville	Black	20	2015-02-18	unknown	F
 123	Ruben Villalpando	Hispanic	31	2015-02-20	unarmed	M
-124	Stanley Lamar Grant	Black	38	2015-02-20	gun	M
-125	Douglas Harris	Black	77	2015-02-20	gun	M
-126	Alejandro Salazar	Hispanic	37.11793090137039	2015-02-20	gun	M
-127	Jason Moncrief Carter	White	41	2015-02-21	gun	M
-128	Kent Norman	White	51	2015-02-21	knife	M
-129	Bradford Leonard	White	50	2015-02-22	gun	M
-130	Robert Kohl	White	47	2015-02-23	gun	M
-131	Michael Wayne Smashey	White	37	2015-02-23	knife	M
-132	Anthony Giaquinta	White	41	2015-02-23	gun	M
-133	A'Donte Washington	Black	16	2015-02-23	gun	M
-134	Jerome Nichols	White	42	2015-02-23	knife	M
 135	Daniel Elrod	White	39	2015-02-23	unarmed	M
-136	Joseph Biegert	White	30	2015-02-24	knife	M
-137	Glenn Lewis	Black	27	2015-02-25	unknown	M
-138	Francis Spivey	White	43	2015-02-25	gun	M
-139	David Cuevas	Hispanic	42	2015-02-26	gun	M
-140	Amilcar Perez-Lopez	Hispanic	21	2015-02-26	knife	M
 141	Rodney Biggs	White	49	2015-02-26	unarmed	M
-142	Crystal Lee Miley Harry	White	34	2015-02-26	gun	F
 143	Alexander Phillip Long	White	31	2015-02-26	unarmed	M
 144	Ernesto Javiar Canepa Diaz	Hispanic	27	2015-02-27	unarmed	M
-145	Chazsten Freeman	White	24	2015-02-28	gun	M
 146	Thomas Allen	Black	34	2015-02-28	unarmed	M
-147	Jessica Uribe	Hispanic	28	2015-02-28	knife	F
-148	Cornelius J. Parker	Black	28	2015-02-28	gun	M
-149	Ian Sherrod	Black	40	2015-02-28	gun	M
-150	Stephanie Hill	White	37	2015-02-28	gun	F
 151	Deven Guilford	White	17	2015-02-28	unarmed	M
-152	Hung Trieu	Asian	35	2015-03-01	gun	M
-153	Donald Lewis Matkins	White	49	2015-03-01	gun	M
 154	Charly Leundeu Keunang	Black	43	2015-03-01	unarmed	M
-155	Shaquille Barrow	Black	20	2015-03-02	gun	M
-156	Fednel Rhinvil	Black	25	2015-03-03	gun	M
-157	Matthew Metz	White	25	2015-03-03	knife	M
 158	Derek Cruice	White	26	2015-03-04	unarmed	M
-159	Carl Lao	Asian	28	2015-03-04	gun	M
-160	Tyrone Ryerson Lawrence	Black	45	2015-03-05	knife	M
 161	Sergio Alexander Navas	Hispanic	36	2015-03-05	unarmed	M
-162	Tyson Hubbard	White	34	2015-03-05	gun	M
 163	Tony Robinson	Black	19	2015-03-06	unarmed	M
 164	Naeschylus  Vinzant	Black	37	2015-03-06	unarmed	M
-165	Andrew Anthony Williams	Black	48	2015-03-06	unknown	M
-166	Adam Reinhart	White	29	2015-03-07	gun	M
-167	Monique Jenee Deckard	Black	43	2015-03-08	knife	F
-168	Aurelio Duarte	Hispanic	40	2015-03-08	gun	M
-169	Michael McKillop	White	35	2015-03-08	unknown	M
 170	Anthony Hill	Black	27	2015-03-09	unarmed	M
-171	Lester Brown	White	58	2015-03-09	gun	M
-172	James Brent Damon	White	46	2015-03-09	gun	M
-173	Cedrick Lamont Bishop	Black	30	2015-03-09	gun	M
-174	Theodore Johnson	Black	64	2015-03-10	gun	M
-175	Jamie Croom	Black	31	2015-03-10	gun	M
-176	Christopher Mitchell	White	23	2015-03-10	knife	M
-177	Edixon  Franco	Hispanic	37	2015-03-10	sword	M
-178	Terry Garnett Jr.	Black	37	2015-03-11	unknown	M
-179	James Greenwell	White	31	2015-03-11	gun	M
-180	Benito Osorio	Hispanic	39	2015-03-11	gun	M
-181	Ryan Dean Burgess	White	31	2015-03-11	toy weapon	M
-182	Gilbert Fleury	White	54	2015-03-11	gun	M
-183	William Russell  Smith	White	53	2015-03-11	gun	M
-184	Aaron Valdez	Hispanic	25	2015-03-11	unknown	M
 185	Bobby Gross	Black	35	2015-03-12	unarmed	M
-186	James Richard Jimenez	Hispanic	41	2015-03-13	gun	M
-187	Fred  Liggett	White	59	2015-03-13	gun	M
-188	Andrew Driver	White	36	2015-03-13	knife	M
 189	Antonio Perez	Hispanic	32	2015-03-13	unarmed	M
-190	Clifton Reintzel	White	53	2015-03-14	knife	M
-191	Aaron Siler	White	26	2015-03-14	gun	M
-192	Richard Castilleja	Hispanic	29	2015-03-14	gun	M
-193	Troy Ray Boyd	White	27	2015-03-15	machete	M
-194	Justin Tolkinen	White	28	2015-03-16	gun	M
-195	William Dean Poole	White	52	2015-03-16	gun	M
-196	Andrew Charles Shipley	White	49	2015-03-17	gun	M
-197	Declan Owen	White	24	2015-03-17	gun	M
-198	Alice Brown	White	24	2015-03-17	unknown	F
-199	Eugene Smith	White	20	2015-03-17	gun	M
 200	Roberto Leon	Hispanic	22	2015-03-17	unarmed	M
-201	Kaylene Stone	White	49	2015-03-18	gun	F
-202	Garland Lee Wingo	White	64	2015-03-18	gun	M
-203	Jeff Alexander	White	47	2015-03-18	knife	M
-204	Shane Watkins	White	39	2015-03-19	box cutter	M
 205	Brandon Jones	Black	18	2015-03-19	unarmed	M
-206	Brandon Rapp	White	31	2015-03-19	gun	M
-207	Kendre Alston	Black	16	2015-03-19	gun	M
 208	Jamison  Childress	White	20	2015-03-19	unarmed	M
-209	Robert Burdge	White	36	2015-03-19	gun	M
-210	Richard White	Black	63	2015-03-20	machete	M
-211	Tyrel Vick	White	34	2015-03-20	gun	M
-212	Justin Fowler	Native	24	2015-03-20	gun	M
-213	Enoch Gaver	White	21	2015-03-21	gun	M
-214	James Ellis	White	44	2015-03-21	gun	M
-215	Gary Page	White	60	2015-03-21	gun	M
-216	Jason Smith	White	42	2015-03-21	gun	M
-217	Phillip Conley	White	37	2015-03-22	knife	M
-218	Christopher Ryan Healy	White	36	2015-03-22	knife	M
-219	Denzel Brown	Black	21	2015-03-22	unknown	M
-220	Devin Gates	Black	24	2015-03-23	gun	M
-221	Walter J. Brown III	Black	29	2015-03-24	gun	M
-222	Scott Dunham	White	57	2015-03-24	gun	M
-223	Stephen Snyder	White	38	2015-03-24	gun	M
-224	Nicholas Thomas	Black	23	2015-03-25	unknown	M
-225	Jeremy Lorenza Kelly	Black	27	2015-03-25	gun	M
-226	Victor Terrazas	Hispanic	28	2015-03-25	gun	M
-227	Joseph Tassinari	White	63	2015-03-25	gun	M
-228	Deanne Choate	White	53	2015-03-26	gun	F
-229	Adrian Solis	Hispanic	35	2015-03-26	knife	M
-230	Megan Hockaday	Black	26	2015-03-27	knife	F
-231	Harvey Oates	White	42	2015-03-27	gun	M
-232	Angelo West	Black	41	2015-03-27	gun	M
-233	Gary Kendrick	White	56	2015-03-27	gun	M
-234	Jamalis Hall	Black	39	2015-03-27	knife	M
-235	Adrian Hernandez	Hispanic	23	2015-03-27	toy weapon	M
-236	Neil Seifert	White	40	2015-03-27	gun	M
-237	Byron Herbert	Black	29	2015-03-29	gun	M
-238	Robert Rooker	White	26	2015-03-29	unknown	M
-239	Brian Babb	White	49	2015-03-30	gun	M
-240	Jeremy Anderson	White	36	2015-03-31	gun	M
-241	Benjamin Quezada	Hispanic	21	2015-03-31	toy weapon	M
-242	Mya Hall	Black	27	2015-03-31	unknown	F
-243	Robert Washington	Black	37	2015-04-01	gun	M
-244	Shawn Clyde	White	36	2015-04-01	knife	M
-245	Darrin Langford	Black	32	2015-04-02	gun	M
 246	Eric Harris	Black	44	2015-04-02	unarmed	M
-247	Aaron Rutledge	White	27	2015-04-02	gun	M
-248	Donald Hicks	White	63	2015-04-02	gun	M
-249	Christopher Prevatt	White	38	2015-04-03	knife	M
-250	Justus Howell	Black	17	2015-04-04	gun	M
-251	Paul Anderson	Black	31	2015-04-04	gun	M
-252	Ethan Noll	White	34	2015-04-04	gun	M
 253	Walter Scott	Black	50	2015-04-04	unarmed	M
-254	Ken Cockerel	White	51	2015-04-05	knife	M
-255	Richard Hanna	White	56	2015-04-05	gun	M
-256	Alexander Myers	White	23	2015-04-06	gun	M
-257	Desmond Willis	Black	25	2015-04-06	gun	M
-258	Tyrell J. Larsen	White	31	2015-04-06	gun	M
-259	Erick Rose	White	32	2015-04-07	gun	M
-260	Douglas Faith	White	60	2015-04-08	gun	M
-261	Dexter Pernell Bethea	Black	42	2015-04-08	unknown	M
-262	Roberto Rodriguez	Hispanic	39	2015-04-08	gun	M
-263	Joseph Jeremy Weber	Asian	28	2015-04-08	knife	M
-264	Gordon Kimbrell	White	22	2015-04-09	sword	M
-265	Don Smith	Black	29	2015-04-09	gun	M
-266	Jess Leipold	White	31	2015-04-09	gun	M
-267	Phillip Burgess	White	28	2015-04-09	gun	M
-268	Angel Cresencio Corona	Hispanic	21	2015-04-10	knife	M
-269	Richard Reed	White	38	2015-04-10	gun	M
-270	Donald Allen	White	66	2015-04-11	gun	M
-271	Mack Long	Black	36	2015-04-12	gun	M
-272	Richard Dale Weaver	White	83	2015-04-12	machete	M
-273	Jason Lee Evans	White	32	2015-04-12	gun	M
-274	Isaac Jimenez	Hispanic	27	2015-04-13	gun	M
-275	Colby Robinson	Black	26	2015-04-14	unknown	M
-276	Christopher Grant Finley	White	31	2015-04-14	machete	M
-277	Tevin Barkley	Black	22	2015-04-15	gun	M
-278	Dante Noble	Black	41	2015-04-15	knife	M
 279	Frank Shephard	Black	41	2015-04-15	unarmed	M
-280	Mark W. Adair	White	51	2015-04-15	toy weapon	M
-281	Stanley Watson	White	72	2015-04-15	gun	M
-282	Ernesto Flores	Hispanic	52	2015-04-15	toy weapon	M
-283	Rodolfo Velazquez	Hispanic	47	2015-04-16	knife	M
-284	Jeffrey Kemp	Black	18	2015-04-17	gun	M
-285	Elias Cavazos	Hispanic	29	2015-04-17	gun	M
-286	Thaddeus McCarroll	Black	23	2015-04-17	knife	M
-287	Erik Tellez	Hispanic	43	2015-04-18	gun	M
-288	Grover Sapp	White	45	2015-04-18	gun	M
-289	Michael Foster	White	40	2015-04-19	gun	M
-290	Dana Hlavinka	White	44	2015-04-19	knife	M
-291	Santos Cortez Hernandez	Hispanic	25	2015-04-20	gun	M
 292	Daniel Covarrubias	Native	37	2015-04-21	unarmed	M
-293	Kimber Key	White	59	2015-04-21	knife	M
-294	Luis Martinez	Hispanic	35	2015-04-21	knife	M
-295	Daniel Wolfe	Black	35	2015-04-21	unknown	M
 296	William Chapman	Black	18	2015-04-22	unarmed	M
-297	Carlos Saavedra Ramirez	Hispanic	51	2015-04-22	knife	M
-298	Jonathan Efraim	White	30	2015-04-22	gun	M
-299	Reginald McGregor	Black	31	2015-04-22	gun	M
-300	Lue Vang	Asian	39	2015-04-22	gun	M
-301	Andrew Valadez	White	26	2015-04-23	gun	M
-302	Joseph Potts	White	51	2015-04-23	gun	M
 303	Hector Morejon	Hispanic	19	2015-04-23	unarmed	M
-304	Karen Janks	White	46	2015-04-24	unknown	F
-305	Mark Cecil Hawkins	White	49	2015-04-24	gun	M
-306	Gary Timmie  Collins	White	63	2015-04-24	gun	M
-307	Todd Jamal Dye	Black	20	2015-04-24	gun	M
-308	Brandon Lawrence	White	25	2015-04-25	machete	M
 309	David Felix	Black	24	2015-04-25	unarmed	M
-310	Daniel Davis	White	58	2015-04-25	knife	M
 311	Billy Joe Patrick	White	29	2015-04-26	unarmed	M
-312	Albert Hanson	White	76	2015-04-26	gun	M
-313	Dean Genova	White	45	2015-04-26	gun	M
-314	Terrance  Kellom	Black	20	2015-04-27	hammer	M
-315	David Parker	White	58	2015-04-28	gun	M
-316	Jared Johnson	Black	21	2015-04-28	gun	M
-317	Joshua Green	White	27	2015-04-28	gun	M
-318	Andrew Jackson	White	26	2015-04-29	knife	M
-319	Joshua Deysie	Hispanic	33	2015-04-29	gun	M
-320	Luis Chavez-Diaz	Hispanic	27	2015-04-29	gun	M
-321	Alexia Christian	Black	25	2015-04-29	gun	F
-322	Jeffrey Adkins	Black	53	2015-04-29	gun	M
-323	John Acree	White	53	2015-04-29	gun	M
 324	Fridoon Zalbeg Nehad	Other	42	2015-04-30	unarmed	M
-325	Erick Emmanuel Sanchez	Hispanic	22	2015-04-30	metal object	M
-326	Kenneth Mathena	White	52	2015-05-02	gun	M
-327	Kevin Vance Norton	White	36	2015-05-03	gun	M
-328	Elton Simpson	Black	30	2015-05-03	gun	M
-329	Nadir Soofi	Other	34	2015-05-03	gun	M
-330	Billy Grimm	Hispanic	44	2015-05-03	gun	M
-331	Michael Asher	White	53	2015-05-03	gun	M
-332	Roark Cook	White	36	2015-05-04	toy weapon	M
 333	Brendon Glenn	Black	29	2015-05-05	unarmed	M
-334	Thong Kien Ma	Asian	32	2015-05-05	knife	M
-335	Robert A. Frost	White	46	2015-05-05	gun	M
-336	David William Johnson	White	18	2015-05-06	gun	M
-337	Michael Murphy	White	38	2015-05-07	knife	M
-338	Nephi Arriguin	Black	21	2015-05-07	unknown	M
-339	Shaun Johnson	White	35	2015-05-08	sword	M
-340	David Schwalm	White	58	2015-05-08	gun	M
-341	Dedrick Marshall	Black	48	2015-05-08	gun	M
-342	Sam Holmes	Black	31	2015-05-08	unknown	M
-343	Stephen  Cunningham	White	47	2015-05-10	gun	M
-344	Lionel Lorenzo Young	Black	34	2015-05-10	unknown	M
-345	Kelvin Goldston	Black	30	2015-05-11	unknown	M
-346	Justin Way	White	28	2015-05-11	knife	M
-347	D'Angelo Stallworth	Black	28	2015-05-12	gun	M
-348	Alec Ouzounian	White	40	2015-05-12	unknown	M
-349	Bruce Zalonka	Other	46	2015-05-12	gun	M
-350	Sean Michael Pelletier	White	37	2015-05-14	gun	M
-351	Cary Martin	White	53	2015-05-14	gun	M
-352	Mark Farrar	White	41	2015-05-15	gun	M
-353	Matt Coates	White	42	2015-05-15	toy weapon	M
-354	Ronell Wade	Black	45	2015-05-16	gun	M
-355	Dennis  Fiel	White	34	2015-05-17	gun	M
-356	Austin Goodner	White	18	2015-05-17	gun	M
-357	Timothy Jones	White	27	2015-05-17	sword	M
 358	Alfredo Rials-Torres	Hispanic	54	2015-05-19	unarmed	M
-359	Jonathan McIntosh	White	35	2015-05-19	gun	M
-360	David  Gaines	White	17	2015-05-19	gun	M
-361	Anthony Gomez	Black	29	2015-05-20	gun	M
-362	Chrislon Talbott	Black	38	2015-05-20	gun	M
-363	Marcus Wheeler	Black	26	2015-05-20	gun	M
-364	Jonathan  Colley	White	52	2015-05-20	knife	M
-365	Nikki Jo Burtsfield	White	39	2015-05-20	knife	F
-366	David Alejandro Gandara	Hispanic	22	2015-05-21	gun	M
-367	Javoris Washington	Black	29	2015-05-21	knife	M
-368	James Anthony Cooper	White	43	2015-05-21	knife	M
-369	Elvin Diaz	Hispanic	24	2015-05-21	knife	M
-370	Jerome Caldwell	Black	32	2015-05-21	gun	M
-371	Michael Lowery	White	40	2015-05-22	toy weapon	M
-372	James Horn	White	47	2015-05-23	gun	M
-373	Eric Robinson	White	40	2015-05-23	gun	M
-374	Caso Jackson	Black	25	2015-05-23	gun	M
-375	Cassandra Bolin	White	31	2015-05-25	gun	F
-376	Anthony Briggs	Black	36	2015-05-25	knife	M
-377	Dalton Branch	Black	51	2015-05-26	gun	M
-378	Jessie  Williams	White	24	2015-05-26	unknown	M
-379	Millard Tallant III	White	62	2015-05-26	gun	M
-380	Scott McAllister	White	39	2015-05-27	knife	M
-381	Garrett  Sandeno	White	24	2015-05-27	toy weapon	M
-382	Harry Davis	White	57	2015-05-27	knife	M
 383	Feras Morad	Other	20	2015-05-27	unarmed	M
-384	Simon Hubble	White	33	2015-05-27	screwdriver	M
-385	Darrell Morgan	White	60	2015-05-28	gun	M
-386	James Strong	Black	32	2015-05-28	gun	M
-387	Kenneth Dothard	Black	40	2015-05-28	gun	M
-388	Kyle Baker	White	18	2015-05-28	lawn mower blade	M
-389	Kevin Allen	Black	36	2015-05-29	knife	M
-390	Nehemiah Fischer	White	35	2015-05-29	gun	M
-391	Robert Box	White	55	2015-05-29	gun	M
 392	Ebin Lamont Proctor	White	19	2015-05-30	unarmed	M
-393	Alexander Tirado Rivera	Hispanic	39	2015-05-30	toy weapon	M
-394	James Bushey	White	47	2015-05-31	toy weapon	M
-395	Joseph Ladd	White	23	2015-06-01	gun	M
-396	Usaamah Rahim	Black	26	2015-06-02	knife	M
-397	Kamal Dajani	White	26	2015-06-02	knife	M
-398	Miguel Martinez	Hispanic	18	2015-06-03	gun	M
-399	Edelmiro Hernandez	Hispanic	33	2015-06-03	knife	M
-400	Ronald Neal	White	56	2015-06-03	gun	M
-401	Lorenzo Garza	Hispanic	46	2015-06-03	gun	M
 402	Rudy Baca	Hispanic	36	2015-06-03	unarmed	M
-403	Jesus Quezada Gomez	Hispanic	50	2015-06-05	gun	M
-404	Christie Cathers	White	45	2015-06-05	unknown	F
-405	James Smillie	White	53	2015-06-06	gun	M
-406	Alejandro Campos Fernandez	Hispanic	45	2015-06-06	gun	M
-407	Joe Nevels	White	42	2015-06-06	box cutter	M
-408	Damien Ramirez	Hispanic	27	2015-06-06	gun	M
-409	Demouria Hogg	Black	30	2015-06-06	gun	M
-410	Matthew Wayne McDaniel	White	36	2015-06-07	gun	M
-411	Gene Marshall	White	58	2015-06-07	gun	M
-412	Rene Garcia	Hispanic	30	2015-06-08	knife	M
-413	Richard Warolf	White	69	2015-06-08	gun	M
 414	Jeremy Linhart	White	30	2015-06-09	unarmed	M
-415	Greg  Hartley	White	45	2015-06-09	gun	M
-416	QuanDavier Hicks	Black	22	2015-06-09	gun	M
 417	Ryan Bolinger	White	28	2015-06-09	unarmed	M
-418	Isiah Hampton	Black	19	2015-06-10	gun	M
-419	Charles Ziegler	Black	40	2015-06-11	gun	M
-420	Fritz Severe	Black	46	2015-06-11	unknown	M
-421	Mark Flores	Hispanic	28	2015-06-11	gun	M
-422	Raymond Peralta-Lantigua	Hispanic	22	2015-06-11	knife	M
-423	Shelly Haendiges	White	17	2015-06-12	toy weapon	F
-424	Anthony Hodge	White	46	2015-06-13	gun	M
-425	Deng Manyoun	Black	35	2015-06-13	flagpole	M
-426	James Boulware	White	35	2015-06-13	guns and explosives	M
-427	Kenneth Garcia	Hispanic	28	2015-06-14	unknown	M
-428	Zane Terryn	White	15	2015-06-14	gun	M
 429	Kris Jackson	Black	22	2015-06-15	unarmed	M
-430	Christopher DeLeon	Hispanic	28	2015-06-16	gun	M
-431	Joe Charboneau	Native	31	2015-06-16	gun	M
-432	Wendy Chappell	White	40	2015-06-17	gun	F
-433	Kenneth Lanphier	White	48	2015-06-17	gun	M
-434	Oleg Tcherniak	White	58	2015-06-18	knife	M
-435	Santos Laboy	Hispanic	44	2015-06-19	knife	M
-436	Trepierre Hummons	Black	21	2015-06-19	gun	M
-437	Louis Atencio	Hispanic	50	2015-06-19	gun	M
-438	Alfontish Cockerham	Black	23	2015-06-20	gun	M
 439	Adrian Simental	Hispanic	24	2015-06-21	unarmed	M
-440	Charles  Marshall	White	49	2015-06-21	cordless drill	M
-441	James Monroe Barrett	White	60	2015-06-22	gun	M
-442	Eduardo Reyes	Hispanic	35	2015-06-22	gun	M
-443	Tyler Wicks	White	29	2015-06-22	gun	M
-444	Tyrone Harris	Black	20	2015-06-22	gun	M
 445	Joshua Dyer	White	34	2015-06-23	unarmed	M
-446	Jonathan Wilson	White	22	2015-06-23	knife	M
-447	Randall Waddel	White	49	2015-06-23	knife	M
-448	Taylor Culbertson	White	32	2015-06-23	gun	M
-449	Damien A. Harrell	Black	26	2015-06-24	gun	M
 450	Spencer McCain	Black	41	2015-06-25	unarmed	M
-451	Gilbert Jake Vanderburgh	White	61	2015-06-25	gun	M
-452	Richard Matt	White	49	2015-06-26	gun	M
-453	Joe Angel Cisneros	Hispanic	28	2015-06-26	gun	M
-454	Joshua Crittenden	White	35	2015-06-27	gun	M
-455	Alan  Bellew	White	29	2015-06-28	toy weapon	M
-456	Richard LaPort	White	51	2015-06-29	gun	M
-457	Clay Alan  Lickteig	White	52	2015-06-30	gun	M
-458	Kevin Lamont Judson	Black	24	2015-07-01	unknown	M
-459	Kaleb Landon	White	32	2015-07-01	gun	M
-460	Douglas Buckley	White	45	2015-07-02	toy weapon	M
-461	Ton Nguyen	Asian	60	2015-07-02	knife	M
 462	Victor Emanuel Larosa	Black	23	2015-07-02	unarmed	M
-463	Arturo Lopez	Hispanic	46	2015-07-03	gun	M
-464	Oscar Camacho	Hispanic	33	2015-07-03	gun	M
-465	Joseph Julian	White	40	2015-07-03	gun	M
-466	Cesar A. Limon Juarez	Hispanic	27	2015-07-03	knife	M
-467	Robert Elando Malone	Black	42	2015-07-04	gun	M
-468	Michael Shannon Gaby	White	37	2015-07-04	gun	M
-469	Kawanza Beaty	Black	23	2015-07-04	gun	M
-470	Bryan David Bauer	White	36	2015-07-04	gun	M
 471	John Deming	White	19	2015-07-05	unarmed	M
-472	Michael Holt	White	35	2015-07-05	gun	M
 473	Johnny Ray Anderson	White	43	2015-07-05	unarmed	M
-474	Richard Munroe	White	25	2015-07-05	toy weapon	M
-475	Tyler Rogers	White	20	2015-07-06	gun	M
-476	Hagen Esty-Lennon	White	42	2015-07-06	knife	M
-477	Jason Hendley	Black	29	2015-07-06	knife	M
-478	David Oliva Sarabia	Hispanic	42	2015-07-06	knife	M
-479	John Leonard Berry	White	31	2015-07-06	unknown	M
-480	Marcellus Jamarcus Burley	Black	18	2015-07-07	gun	M
-481	Adam Dujanovic	White	33	2015-07-07	metal pole	M
-482	Joe Cody	White	59	2015-07-07	gun	M
-483	Daniel Hernandez	Hispanic	47	2015-07-07	gun	M
-484	Jose Graciano Lopez	Hispanic	39	2015-07-07	gun	M
-485	Tremaine Dantzler	Black	37	2015-07-07	knife	M
-486	Nicholas Booth	White	35	2015-07-07	gun	M
-487	Joshua Blough	White	28	2015-07-07	knife	M
-488	Michael Terence Westrich	White	59	2015-07-08	gun	M
-489	Dallas Shatley	White	62	2015-07-08	unknown	M
-490	Rocco Joseph Palmisano	White	50	2015-07-09	gun	M
-491	Robert Hammonds	White	68	2015-07-09	gun	M
-492	Martice Milliner	Black	27	2015-07-09	gun	M
-493	Cyrus Hurtado	White	17	2015-07-09	gun	M
-494	Javon Hawkins	Black	21	2015-07-09	sword	M
-495	Neil White	White	38	2015-07-09	Taser	M
-496	James Michael Todora	White	54	2015-07-10	gun	M
-497	Freddie Blue	Black	20	2015-07-10	gun	M
-498	Eugene McSwain	Black	25	2015-07-10	gun	M
-499	Billy Maine	White	31	2015-07-11	gun	M
-500	Paul Castaway	Native	35	2015-07-12	knife	M
-501	David Lepine	White	60	2015-07-12	gun	M
-502	Matthew Watson	White	24	2015-07-12	gun	M
-503	Christopher Benton	White	27	2015-07-12	gun	M
 504	Salvado Ellswood	Black	36	2015-07-12	unarmed	M
-505	Frederick Farmer	Black	20	2015-07-13	gun	M
-506	Matthew Ryan Graham	White	24	2015-07-13	gun	M
-507	Rafael Suazo	Hispanic	23	2015-07-13	unknown	M
-508	Jason Davis	White	41	2015-07-13	box cutter	M
-509	Chacarion Avant	Black	20	2015-07-14	gun	M
-510	Eugene Kailing	White	43	2015-07-15	metal pipe	M
-511	Antonio Gonzalez	Hispanic	29	2015-07-16	sword	M
-512	Edward Foster III	Black	35	2015-07-16	gun	M
-513	Patrick Stephen Pippin	White	30	2015-07-16	gun	M
-514	Mohammad Youssef Abdulazeez	Other	24	2015-07-16	gun	M
-515	Saige Hack	Native	23	2015-07-16	gun	M
-516	Pierre Gabriel Koellner	White	29	2015-07-16	gun	M
-517	Anthonie Smith	Black	25	2015-07-16	metal hand tool	M
-518	Samuel Smith	White	27	2015-07-17	knife	M
-519	Jackie Brand	White	50	2015-07-17	gun	M
 520	Darrius Stewart	Black	19	2015-07-17	unarmed	M
-521	Jose Roman Rodriguez	Hispanic	24	2015-07-17	unknown	M
 522	Albert Joseph Davis	Black	23	2015-07-17	unarmed	M
-523	David  Wheat Jr.	White	22	2015-07-18	knife	M
-524	Kevin Thomas Snyder	White	46	2015-07-18	gun	M
-525	Charles Edward Dewey	White	65	2015-07-18	gun	M
 526	Samuel DuBose	Black	43	2015-07-19	unarmed	M
-527	Joshua LeBoeuf	White	35	2015-07-20	gun	M
 528	Darren Billy Wilson	White	47	2015-07-21	unarmed	M
-529	Joseph Fuller	White	24	2015-07-21	gun	M
-530	Jerrod Tyre	White	35	2015-07-21	gun	M
-531	Francisco Benitez-Santiago	Hispanic	25	2015-07-22	gun	M
-532	Devon Guisherd	Black	27	2015-07-22	gun	M
-533	Andre Dontrell Williams	Black	26	2015-07-22	knife	M
-534	Dontae L. Martin	Black	34	2015-07-23	gun	M
-535	Brian Stortzum	White	32	2015-07-23	gun	M
-536	Robbie Lee Edison	White	47	2015-07-23	toy weapon	M
-537	Tamala Satre	White	44	2015-07-23	gun	F
 538	Derek Wolfsteller	White	31	2015-07-23	unarmed	M
-539	Seth Raines	White	44	2015-07-24	gun	M
-540	Lee Aaron Gerston	White	30	2015-07-24	knife	M
-541	Christopher Olmstead	White	60	2015-07-25	blunt object	M
-542	Roger Braswell	White	50	2015-07-25	gun	M
-543	Bryan Keith  Day	Black	36	2015-07-25	toy weapon	M
-544	Earl Jackson	Black	59	2015-07-25	gun	M
-545	Khari Westly	Black	33	2015-07-26	gun	M
-546	Zachary Hammond	White	19	2015-07-26	unknown	M
-547	Timothy Milliken	White	56	2015-07-27	knife	M
-548	Jean Paul Falgout	White	45	2015-07-27	toy weapon	M
-549	Samuel Forgy	White	22	2015-07-27	knife	M
-550	Michael Malone	Hispanic	34	2015-07-29	gun	M
-551	Roger Darrin Barker	White	53	2015-07-29	gun	M
-552	Mark Perkins	White	48	2015-07-30	gun	M
-553	Ryan Daniel Vrenon	White	25	2015-07-30	gun	M
-554	Philip Vallejo	Hispanic	30	2015-07-30	gun	M
-555	Oscar Lotari Romero	Hispanic	47	2015-07-30	metal stick	M
-556	Rafael Molina	Hispanic	33	2015-07-31	gun	M
-557	Jeremy  Hatch	White	34	2015-07-31	gun	M
-558	Armando Serrano	Hispanic	29	2015-08-01	gun	M
-559	Virgil Reynolds	White	63	2015-08-02	unknown	M
-560	Antonio Clements	Black	49	2015-08-03	gun	M
-561	Joshua Malave	White	18	2015-08-03	gun	M
-562	Franklin Short	White	71	2015-08-03	gun	M
-563	Shawn Ruble	White	35	2015-08-03	toy weapon	M
-564	Daniel Robert Avila	Hispanic	55	2015-08-04	unknown	M
-565	Darius D. Graves	Black	31	2015-08-04	gun	M
-566	Tyler Alexander Dattilo	White	18	2015-08-05	knife	M
-567	John Dieringer	White	51	2015-08-05	knife	M
-568	Raymond Hodge	Black	39	2015-08-05	gun	M
-569	Keshawn Dominique Hargrove	Black	20	2015-08-05	gun	M
-570	Vincente Montano	White	29	2015-08-05	hatchet	M
-571	Jason Galaviz	White	40	2015-08-05	gun	M
-572	Gustavo Ponce-Galon	Hispanic	42	2015-08-06	knife	M
-573	Charles Bertram	Black	22	2015-08-06	gun	M
 574	Christian Taylor	Black	19	2015-08-07	unarmed	M
-575	Abel Correa	Hispanic	24	2015-08-07	sharp object	M
-576	Aaron Marchese	White	30	2015-08-07	toy weapon	M
-577	Mark Keckhafer	White	53	2015-08-07	unknown	M
-578	Tsombe Clark	Black	25	2015-08-07	gun	M
-579	Derrick Lee Hunt	Black	28	2015-08-07	knife	M
-580	Shamir Terrel Palmer	Black	24	2015-08-08	gun	M
-581	Jeffrey Clyde Wilkes	White	59	2015-08-08	gun	M
-582	Kevin McDaniel	White	46	2015-08-08	gun	M
-583	Andre Green	Black	15	2015-08-09	unknown	M
-584	Eric Tompkins	White	41	2015-08-09	gun	M
-585	Edrian Rivera	Hispanic	22	2015-08-09	meat cleaver	M
-586	Richard Tyler Young	White	24	2015-08-10	unknown	M
-587	Casey George Alarcon	White	34	2015-08-11	gun	M
-588	Randall Lance Hughes	White	48	2015-08-11	knife	M
-589	Richard Dean Shull Jr.	White	24	2015-08-12	gun	M
-590	Nathaniel Wilks	Black	27	2015-08-12	gun	M
-591	Anthony Lorenzo Vallejo	Hispanic	27	2015-08-12	gun	M
-592	Reginald Marshall	Black	27	2015-08-12	gun	M
-593	William Smith	White	49	2015-08-12	gun	M
-594	Redel Jones	Black	30	2015-08-12	knife	F
-595	Garland Tyree	Black	38	2015-08-14	gun	M
-596	Hector Rene Sorriano Gonzalez	Hispanic	26	2015-08-14	gun	M
 597	Asshams Pharoah Manley	Black	30	2015-08-14	unarmed	M
-598	Christopher Anderson	White	53	2015-08-14	box cutter	M
-599	Allen Matthew Baker	Black	23	2015-08-15	gun	M
-600	Benjamin Peter Ashley	Black	34	2015-08-15	unknown	M
-601	Jonathon  Pope	White	30	2015-08-15	gun	M
 602	John Unsworth	White	43	2015-08-15	unarmed	M
-603	Matthew Castillo	Hispanic	29	2015-08-16	gun	M
-604	Steven B. Norton	White	47	2015-08-16	gun	M
-605	Frederick Roy	Black	35	2015-08-17	gun	M
 606	Richard Jacquez	Hispanic	40	2015-08-17	unarmed	M
-607	Mansur Ball-Bey	Black	18	2015-08-19	gun	M
-608	Deviere Ernel Ransom	Black	24	2015-08-19	gun	M
-609	Jason Hale	White	29	2015-08-19	gun	M
-610	Wade Allen Baker	White	44	2015-08-19	gun	M
-611	Raul Herrera	Hispanic	17	2015-08-20	gun	M
-612	Tyler Gerken	White	19	2015-08-20	gun	M
 613	Jeffory Ray Tevis	White	50	2015-08-20	unarmed	M
-614	Timmy Walling	White	57	2015-08-21	gun	M
-615	Charles S. Hall	White	30	2015-08-21	unknown	M
-616	Alan Joseph Rushton	White	38	2015-08-21	knife	M
-617	Adam Schneider	White	31	2015-08-22	gun	M
-618	Jason Lee Alderman	White	29	2015-08-22	carjack	M
-619	Nicholas Garner	White	26	2015-08-22	unknown	M
-620	Kenneth Henry Morgan	White	64	2015-08-22	knife	M
-621	Thaddeus Faison	Black	39	2015-08-22	gun	M
-622	William Lee Snider	White	57	2015-08-23	gun	M
-623	Richard Francis Compo	White	36	2015-08-23	gun	M
-624	Christopher Ray Tompkins	White	36	2015-08-23	gun	M
-625	Julian Hoffman	White	21	2015-08-23	toy weapon	M
-626	Bobby Troledge Norris	Black	53	2015-08-23	gun	M
-627	Marvin Maestas	Hispanic	30	2015-08-25	gun	M
-628	Curtis Smith	Black	34	2015-08-25	knife	M
-629	Todd Tomlinson	White	53	2015-08-25	gun	M
-630	Shane Rudolph	White	45	2015-08-25	gun	M
-631	Marvin Arroliga	Hispanic	22	2015-08-25	gun	M
-632	Steven Dodd	White	22	2015-08-26	toy weapon	M
-633	Brent Pickard	White	46	2015-08-26	gun	M
-634	Kyle Lambrose	White	27	2015-08-26	gun	M
-635	Yonas Alehegne	Black	30	2015-08-27	chain	M
-636	Robert Hober	White	54	2015-08-27	box cutter	M
-637	Manuel Soriano	Hispanic	29	2015-08-27	contractor's level	M
-638	Bertrand Davis	Black	42	2015-08-27	box cutter	M
-639	Gilbert Flores	Hispanic	41	2015-08-28	unknown	M
-640	William Evans	White	28	2015-08-28	gun	M
 641	Felix Kumi	Black	61	2015-08-28	unarmed	M
-642	Devin Brian Dial	White	23	2015-08-28	gun	M
-643	James Marcus Brown	Black	25	2015-08-29	gun	M
-644	Roger Albrecht	White	37.11793090137039	2015-08-29	knife	M
 645	Rafael Cruz Jr	Hispanic	29	2015-08-29	unarmed	M
-646	Shawn Hall	White	20	2015-08-30	gun	M
-647	David M.  Leon	Hispanic	40	2015-08-30	gun	M
-648	William Rippley	White	45	2015-08-31	knife	M
-649	Cedric Maurice Williams	Black	33	2015-09-01	guns and explosives	M
-650	Charles Robert Shaw	White	76	2015-09-01	gun	M
-651	Michael Todd Evans	White	47	2015-09-01	gun	M
-652	Arthur Bates	White	45	2015-09-02	gun	M
 653	Freddy Centeno	Hispanic	40	2015-09-03	unarmed	M
-654	Curtis James Meyer	White	37	2015-09-04	gun	M
-655	Richard Keith Kelley	White	27	2015-09-04	gun	M
-656	Sully Lanier	White	36	2015-09-04	gun	M
-657	Harrison Lambert	White	23	2015-09-04	knife	M
-658	Jose Ramon Damiani Jr	Hispanic	49	2015-09-04	metal pipe	M
-659	La'vante Trevon Biggs	Black	21	2015-09-05	toy weapon	M
-660	Luis Wenceslao	Hispanic	32	2015-09-05	metal pipe	M
-661	Angelo Delano Perry	Black	35	2015-09-05	gun	M
 662	India Kager	Black	28	2015-09-05	unarmed	F
-663	Carlos Yero	Hispanic	59	2015-09-06	gun	M
-664	Mohamed Ibrahim	Black	28	2015-09-06	gun	M
-665	William Verrett	White	45	2015-09-06	gun	M
-666	Casimero Carlos Casillas	Hispanic	45	2015-09-07	metal pipe	M
-667	Tristan Vent	Native	19	2015-09-08	gun	M
-668	Dustin Kuik	White	25	2015-09-09	gun	M
-669	Tyrone Holman	Black	37	2015-09-09	guns and explosives	M
-670	Vincent J. Perdue	Native	33	2015-09-09	gun	M
-671	William Chau	Asian	59	2015-09-09	knife	M
-672	Tian Ma	Asian	31	2015-09-10	knife	M
-673	Brandon Foy	Black	29	2015-09-10	gun	M
-674	 Austin Wilburly  Reid	White	32	2015-09-10	gun	M
-675	Eddie Tapia	Hispanic	41	2015-09-10	gun	M
-676	Robert T. Edwards	White	31	2015-09-11	gun	M
-677	Phillip Pfleghardt	White	44	2015-09-11	gun	M
-678	Derick Davis	White	23	2015-09-12	unknown	M
-679	Jack Stevens Jr.	White	45	2015-09-12	gun	M
-680	Martin Francis Hammen	White	39	2015-09-13	gun	M
-681	Clifford Butler	Black	67	2015-09-13	gun	M
-682	Jeffrey Eugene Brooks	White	29	2015-09-13	gun	M
-683	Joseph Thompson Johnson-Shanks	Black	25	2015-09-14	gun	M
 684	David Todd Powell	White	28	2015-09-14	unarmed	M
-685	Tyrone Bass	Black	21	2015-09-15	unknown	M
-686	Florencio Chaidez	Hispanic	32	2015-09-15	gun	M
-687	Jorge  Suarez-Ruiz	Hispanic	51	2015-09-15	gun	M
-688	Carlos Wilhelm	Hispanic	39	2015-09-15	gun	M
-689	Bobby R. Anderson	Black	27	2015-09-15	gun	M
-690	Rory Lynn Gunderman	White	31	2015-09-16	gun	M
-691	Mark Gary	White	50	2015-09-17	gun	M
-692	Lawrence Price	White	37.11793090137039	2015-09-17	gun	M
-693	Nicholas Alan Johnson	White	32	2015-09-18	unknown	M
-694	Gregory Herrell	White	47	2015-09-18	unknown	M
-695	Lucien Rolland	White	46	2015-09-19	gun	M
-696	Scott Beech	White	57	2015-09-19	gun	M
-697	Michael Thomas Pierce	White	23	2015-09-20	gun	M
-698	Jerrald Wright	White	56	2015-09-20	gun	M
-699	Gerardo Ramirez	Hispanic	24	2015-09-21	gun	M
-700	William Spaits	White	27	2015-09-21	gun	M
-701	Tina Money	White	23	2015-09-21	gun	F
-702	Timothy Wagner	White	26	2015-09-21	gun	M
-703	Dominic Fuller	Hispanic	34	2015-09-21	stapler	M
 704	Steven McKenny	White	21	2015-09-21	unarmed	M
-705	Dante Osborne	Black	32	2015-09-22	gun	M
-706	Joel Dixon Smith	White	33	2015-09-22	gun	M
-707	Tim Kyle Torngren	White	55	2015-09-22	gun	M
-708	Robert Berger	Other	48	2015-09-23	knife	M
-709	Joseph Khammash	White	35	2015-09-23	gun	M
 710	Keith Harrison McLeod	Black	19	2015-09-23	unarmed	M
-711	Kenneth Ray Pinter	White	45	2015-09-23	gun	M
-712	Jeremy McDole	Black	28	2015-09-23	gun	M
-713	Ernesto Medina Lopez	Hispanic	42	2015-09-24	knife	M
-714	Patrick O'Grady	White	17	2015-09-24	gun	M
-715	Philip Quinn	Other	30	2015-09-24	screwdriver	M
 716	William Lemmon	White	21	2015-09-25	unarmed	M
-717	Jeffrey Blood	White	45	2015-09-25	gun	M
-718	James Anderson	Black	33	2015-09-25	box cutter	M
-719	Anthony McKinney	Black	46	2015-09-26	knife	M
-720	Alejandro Lerma	Hispanic	23	2015-09-26	gun	M
-721	Norma Angelica Guzman	Hispanic	37	2015-09-27	knife	F
-722	Christopher Shell	White	43	2015-09-27	gun	M
-723	Victor Oswaldo Coronado-Martinez	Hispanic	40	2015-09-27	gun	M
-724	Alberto Hernandez	Hispanic	59	2015-09-28	toy weapon	M
 725	Junior Prosper	Black	31	2015-09-28	unarmed	M
-726	Patrick Stephen Lundstrom	Native	46	2015-09-29	blunt object	M
 727	Robert  Christen	White	37	2015-09-29	unarmed	M
-728	Brandon Lamar Johnson	Black	28	2015-09-30	gun	M
-729	David M. Diaz	Hispanic	28	2015-10-02	gun	M
-730	Phyllis Ilene Jepsen	White	55	2015-10-02	knife	F
 731	Matthew Dobbins	White	29	2015-10-02	unarmed	M
-732	Christian Pena	Hispanic	26	2015-10-02	knife	M
-733	Eric Edgell	White	27	2015-10-04	gun	M
-734	Jeffery McCallum	Black	31	2015-10-04	gun	M
-735	James  Dunaway	White	51	2015-10-05	gun	M
-736	Rodney Jencsik	White	50	2015-10-05	gun	M
 737	Omar Ali	Other	27	2015-10-05	unarmed	M
-738	Charles A. Pettit	Black	18	2015-10-05	gun	M
-739	Amado Lago	Hispanic	46	2015-10-07	machete	M
-740	Gary Carmona Boitano	Black	19	2015-10-09	knife	M
-741	Christopher Whitmarsh	White	49	2015-10-10	unknown	M
-742	Richard Love	White	31	2015-10-10	gun	M
-743	William Combs	White	38	2015-10-10	unknown	M
-744	Travis Quay	White	40	2015-10-10	crossbow	M
-745	Anthony Aguilar	Hispanic	35	2015-10-10	unknown	M
-746	Joe Pasquez Ortiz	Hispanic	34	2015-10-11	unknown	M
-747	Kevin Lau	Asian	44	2015-10-11	gun	M
-748	Bernard Brandon Powers	Black	23	2015-10-11	gun	M
-749	Robert Humberto Medellin	Hispanic	43	2015-10-11	machete	M
-750	Jason Day	Black	37.11793090137039	2015-10-12	gun	M
-751	Rudolph Smith	White	31	2015-10-12	gun	M
-752	Brent Brannon	White	27	2015-10-14	gun	M
-753	Michelle Marie Burg	White	46	2015-10-14	gun	F
-754	Samuel Villarreal	Hispanic	18	2015-10-14	unknown	M
-755	Leslie Portis	Black	57	2015-10-14	gun	M
-756	Jorge Santiago Tapia	Hispanic	15	2015-10-15	gun	M
-757	Kaleb Alexander	Black	25	2015-10-15	gun	M
-758	Linda Lee Lush	White	50	2015-10-15	gun	F
-759	Michael J. Brennan	White	31	2015-10-15	toy weapon	M
-760	Robert Burgess	White	35	2015-10-15	gun	M
-761	Herbert Benitez	Hispanic	27	2015-10-15	gun	M
-762	Martin  Ryans Jr.	Black	20	2015-10-15	gun	M
 763	Johnny Angel Rangel	Hispanic	27	2015-10-16	unarmed	M
-764	Ricky Javenta Ball	Black	33	2015-10-16	unknown	M
-765	Jeffrey Womack	White	27	2015-10-16	gun	M
-766	Gino Paredes	Hispanic	22	2015-10-17	toy weapon	M
-767	Dequan Williams	Black	28	2015-10-17	knife	M
-768	Corey Jones	Black	31	2015-10-18	gun	M
-769	Krikor Ekizian	White	28	2015-10-18	knife	M
-770	Dion Lamont Ramirez	Black	53	2015-10-19	unknown	M
-771	Roger D.  Hall	White	30	2015-10-20	toy weapon	M
-772	Lamontez Jones	Black	39	2015-10-20	toy weapon	M
-773	Joel Lopes	Hispanic	40	2015-10-20	gun	M
-774	Darien Greenwood	White	30	2015-10-20	knife	M
-775	Jonathan Tyler Gossman	White	21	2015-10-20	gun	M
-776	Miguel Angel Marin Galena	Hispanic	35	2015-10-21	knife	M
 777	Ryan Christopher Rodriguez	Hispanic	21	2015-10-21	unarmed	M
-778	Timothy Arnold	White	47	2015-10-21	gun	M
-779	Lawrence Green	Black	38	2015-10-22	knife	M
-780	Adriene Jamarr Ludd	Black	36	2015-10-22	gun	M
-781	Stephen H. Brock	White	53	2015-10-22	unknown	M
-782	Juan Ulloa	Hispanic	34	2015-10-24	gun	M
-783	Rolly Thomas	Black	34	2015-10-24	gun	M
-784	Dominic Hutchinson	Black	30	2015-10-24	unknown	M
-785	Arthur West	White	28	2015-10-24	gun	M
-786	Darren Myron Fude	White	47	2015-10-24	gun	M
-787	Jon Ployhar	White	49	2015-10-24	unknown	M
-788	John Harley Turner	White	36	2015-10-25	gun	M
-789	Kevin Brunson	Black	45	2015-10-26	unknown	M
-790	Marquesha McMillan	Black	21	2015-10-26	gun	F
 791	Kobvey Igbuhay	Other	18	2015-10-26	unarmed	M
-792	Tyrie Cuyler	Black	25	2015-10-27	gun	M
 793	Anthony Ashford	Black	29	2015-10-28	unarmed	M
-794	Ricky Keith Keeton	White	57	2015-10-28	gun	M
-795	Jerry Michael Graham Jr.	Black	34	2015-10-28	gun	M
-796	Jasper Levi Adams	White	35	2015-10-28	gun	M
-797	Deaunte Lamar Bell	Black	37.11793090137039	2015-10-29	gun	M
-798	Allen Quintez Swader	White	18	2015-10-29	gun	M
-799	Floyd Ray Cook	White	62	2015-10-30	gun	M
-800	Mario Martinez	Hispanic	29	2015-10-30	gun	M
-801	Tony Berry	Black	25	2015-10-30	gun	M
-802	Daniel Nole	White	30	2015-10-30	knife	M
-803	Brian Crawford	Black	24	2015-10-30	gun	M
-804	Larry Busby	White	52	2015-10-30	gun	M
-805	Noah Harpham	White	33	2015-10-31	gun	M
 806	Bennie Lee Tignor	Black	56	2015-10-31	unarmed	M
-807	Luverne Roy Christensen	White	49	2015-11-01	gun	M
-808	Killian O'Quinn	White	20	2015-11-01	gun	M
-809	Jack Yantis	White	62	2015-11-01	gun	M
-810	James Covington	Black	62	2015-11-02	gun	M
 811	Jeremy Mardis	White	6	2015-11-03	unarmed	M
-812	Joseph Tyndall	White	30	2015-11-04	gun	M
-813	John Allen	Black	57	2015-11-04	gun	M
-814	Faisal Mohammad	Other	18	2015-11-04	knife	M
 815	Timothy Gene Smith	White	47	2015-11-04	unarmed	M
-816	David  Romanoski	White	48	2015-11-05	gun	M
-817	James Bigley	White	20	2015-11-05	gun	M
-818	Jacob Hohman	White	30	2015-11-05	hammer	M
-819	Laura Lemieux	White	36	2015-11-05	gun	F
-820	Michael  Johnson	White	51	2015-11-06	gun	M
-821	James Francis Smyth	White	55	2015-11-06	unknown	M
-822	Kim Lee Long	White	48	2015-11-06	unknown	M
-823	Delvin Simmons	Black	20	2015-11-09	unknown	M
-824	Cesar Cuellar	Hispanic	25	2015-11-09	gun	M
-825	Dale Maverick Hudson	White	26	2015-11-09	gun	M
-826	Leonel Acevedo	Hispanic	45	2015-11-09	gun	M
-827	Miguel Cano	Hispanic	35	2015-11-09	bean-bag gun	M
-828	Eddie Gabriel Sanchez	Hispanic	34	2015-11-10	gun	M
-829	Jason Leanard Mesaros	Hispanic	36	2015-11-10	unknown	M
-830	Andrew Blake	White	22	2015-11-10	gun	M
-831	Dana Bruce Ott	White	63	2015-11-10	toy weapon	M
-832	Joseph Jaramillo	Hispanic	31	2015-11-11	unknown	M
-833	Javier Lopez Garcia	Hispanic	25	2015-11-11	gun	M
-834	Brian Gavin	White	57	2015-11-11	gun	M
-835	Ryan Quinn Martin	Black	32	2015-11-11	gun	M
-836	Moises Nero	Black	42	2015-11-12	knife	M
-837	Michael Joseph Bartkiewicz	White	52	2015-11-13	toy weapon	M
-838	Ernesto Gamino	Hispanic	25	2015-11-13	unknown	M
-839	Matthew Coleman	White	25	2015-11-13	gun	M
-840	Ramon Salazar	Hispanic	31	2015-11-14	hammer	M
-841	Richard Perkins	Black	39	2015-11-15	toy weapon	M
-842	Shane Whitehead	Black	16	2015-11-15	unknown	M
 843	Jamar Clark	Black	24	2015-11-15	unarmed	M
-844	John David Livingston	White	32	2015-11-15	Taser	M
-845	Brent Noblitt	White	25	2015-11-16	unknown	M
-846	Cameron Davis Long	White	28	2015-11-16	unknown	M
-847	Yohans Leon	Black	28	2015-11-17	gun	M
-848	Demetrius Bryant	Black	21	2015-11-17	gun	M
-849	Jeray Chatham	Black	30	2015-11-17	unknown	M
 850	Derry Touchstone	White	58	2015-11-17	unarmed	M
-851	Francis Hartnett	White	47	2015-11-17	gun	M
-852	Michael Tindall	White	41	2015-11-17	gun	M
-853	Cornelius Brown	Black	25	2015-11-18	unknown	M
-854	Marcus Meridy	Black	44	2015-11-18	gun	M
-855	Randy Allen Smith	Black	34	2015-11-19	gun	M
-856	Steve Dormil	Black	27	2015-11-19	knife	M
-857	Darick Napper	Black	34	2015-11-19	knife	M
 858	Nathaniel Harris Pickett	Black	29	2015-11-20	unarmed	M
-859	William Tarrant	White	39	2015-11-20	gun	M
 860	Chris Nichols	White	24	2015-11-21	unarmed	M
-861	James Daniel Hall	White	47	2015-11-22	knife	M
-862	Matthew Grows	White	45	2015-11-22	gun	M
-863	Miguel Angel Martinez	Hispanic	28	2015-11-22	gun	M
-864	Barry Kirk	White	50	2015-11-23	gun	M
-865	Henry Reyna	Hispanic	49	2015-11-23	knife	M
-866	Michael Kirvelay	White	45	2015-11-24	toy weapon	M
-867	Freddy Baez	Black	24	2015-11-24	gun	M
-868	Thomas Joseph Mceniry	White	32	2015-11-24	toy weapon	M
-869	Magnum Edgar Phillips	White	23	2015-11-25	knife	M
-870	Douglas R. Slade	White	52	2015-11-25	gun	M
-871	Somer Speer	White	37	2015-11-25	gun	F
 872	Andrew Thomas	White	26	2015-11-26	unarmed	M
-873	Rick Gullickson	White	58	2015-11-27	gun	M
-874	Kevin Close	White	50	2015-11-28	baseball bat and fireplace poker	M
-875	Justin D. McHenry	White	22	2015-11-29	gun	M
-876	Lionel Kerns	White	53	2015-11-29	gun	M
-877	Ralph Aguilar	Hispanic	69	2015-11-29	gun	M
-878	Hugo Fernando Celio	Hispanic	23	2015-11-29	gun	M
-879	Zachary Grigsby	White	29	2015-11-29	gun	M
-880	Tuan Hoang	Asian	25	2015-11-30	unknown	M
-881	Darius Smith	Black	18	2015-11-30	gun	M
-882	Fernando Sauceda	Hispanic	31	2015-11-30	unknown	M
-883	Joshua  Jozefowicz 	White	23	2015-12-01	gun	M
-884	John Anthony Gonzalez	Hispanic	18	2015-12-01	gun	M
-885	Phillip Munoz	Hispanic	35	2015-12-02	gun	M
-886	Tashfeen Malik	Other	27	2015-12-02	gun	F
-887	Syed Farook	Other	28	2015-12-02	gun	M
-888	Mario Woods	Black	26	2015-12-02	knife	M
-889	Allen Pacheco	Hispanic	32	2015-12-02	gun	M
-890	Florencio Lucero	Hispanic	36	2015-12-02	gun	M
-891	Neil Scott Stretesky	White	66	2015-12-03	gun	M
-892	Raymone M. Davis	Black	21	2015-12-04	gun	M
-893	Ivan Krstic	White	47	2015-12-04	metal stick	M
-894	Colten Price Marcellus	White	24	2015-12-05	gun	M
-895	Michael L. Funk	White	60	2015-12-05	gun	M
-896	Sheilah Huck	White	61	2015-12-05	gun	F
-897	Juan Perez	Hispanic	38	2015-12-05	gun	M
-898	David  Winesett	White	51	2015-12-05	straight edge razor	M
-899	Raymond Azevedo	White	35	2015-12-06	gun	M
-900	Carlumandarlo Zaramo	Black	46	2015-12-06	gun	M
-901	John Alan Britton	White	48	2015-12-06	knife	M
 902	Miguel Espinal	Black	36	2015-12-08	unarmed	M
-903	Derek Stokes	Black	33	2015-12-08	gun	M
-904	Christopher Higdon	White	66	2015-12-09	gun	M
-905	Jason Bryant	White	34	2015-12-10	gun	M
-906	Charles Edward Rosemond	Black	55	2015-12-10	gun	M
-907	Thomas Arthur Gendreau	White	54	2015-12-10	knife	M
 908	Steven Wickert	White	36	2015-12-11	unarmed	M
-909	Christopher Goodlow	Black	25	2015-12-12	knife	M
-910	Javario Shante Eagle	Black	24	2015-12-12	gun and knife	M
-911	Nicholas Robertson	Black	28	2015-12-12	gun	M
-912	Jonathan Wardlow	White	36	2015-12-12	Taser	M
-913	Andrew Jospeh Todd	White	20	2015-12-12	gun	M
-914	Roy Carreon	Hispanic	49	2015-12-12	knife	M
-915	Shirley  Weis	White	51	2015-12-13	gun	F
-916	Ryan McMillan	White	21	2015-12-13	ax	M
-917	Nephi  Leiataua	Other	30	2015-12-13	knife	M
-918	Enrique Gonzalez	Hispanic	32	2015-12-13	gun	M
-919	Calvin McKinnis	Black	33	2015-12-14	gun	M
-920	Michael  Thomason	White	56	2015-12-14	unknown	M
-921	Brenda Dean Kimberling	White	48	2015-12-14	gun	F
-922	Mharloun Verdejo  Saycon	Asian	39	2015-12-14	knife	M
-923	Hector Alvarez	Hispanic	19	2015-12-14	unknown	M
-924	Roberto Sanchez	Hispanic	45	2015-12-14	gun	M
-925	Mark Toney	White	33	2015-12-14	gun	M
-926	Jeffrey Gene Evans	White	52	2015-12-14	knife	M
-927	Ronnie Dubose Carter	Black	51	2015-12-15	unknown	M
-928	Bryant Neil Duncan	White	37.11793090137039	2015-12-16	knife	M
-929	Douglas Yon	White	25	2015-12-17	machete	M
-930	Christopher Fletcher	White	24	2015-12-17	gun	M
-931	Erica Lauro	White	22	2015-12-18	gun	F
-932	Amos Frerichs	White	32	2015-12-18	unknown	M
-933	Robert L. Martinez	Hispanic	58	2015-12-18	toy weapon	M
-934	Trayvon Scruggs	Black	24	2015-12-19	gun	M
-935	Ruben Jose Herrera	Hispanic	26	2015-12-19	unknown	M
-936	Leroy Browning	Black	30	2015-12-20	gun	M
-937	Mark  Ramirez	Hispanic	31	2015-12-20	gun	M
-938	Guadalupe Quiroz	Hispanic	34	2015-12-21	gun	M
-939	Bobby Daniels	Black	48	2015-12-21	gun	M
 940	Michael Noel	Black	37.11793090137039	2015-12-21	unarmed	M
-941	Derek DeGroat	White	21	2015-12-21	gun	M
-942	Robert L. Teter	White	39	2015-12-21	gun	M
-943	Chan Leith	Black	25	2015-12-21	gun	M
-944	Brandon Barsnick	White	30	2015-12-21	gun	M
-945	Kenneth Stephens	White	56	2015-12-22	gun	M
-946	Michael Hilber	White	29	2015-12-22	unknown	M
-947	Jose  Rodriguez	Hispanic	19	2015-12-22	gun	M
 948	Kevin Matthews	Black	35	2015-12-23	unarmed	M
-949	Schuylar Gunning	White	36	2015-12-24	unknown	M
-950	Terrozza Tyree Griffin	Black	24	2015-12-24	gun	M
-951	Omar Ventura	Hispanic	23	2015-12-24	knife	M
-952	William David Raff	White	31	2015-12-25	knife	M
-953	Lonnie Niesen	White	41	2015-12-26	brick	M
 954	Bettie Jones	Black	55	2015-12-26	unarmed	F
-955	Quintonio LeGrier	Black	19	2015-12-26	baseball bat	M
-956	Gilbert Heredia	Hispanic	38	2015-12-26	gun	M
-957	Michael Parker	White	36	2015-12-27	unknown	M
-958	Sean Mould	White	34	2015-12-27	knife	M
-959	Gayneaux Paul Trahan	White	52	2015-12-27	unknown	M
-960	Corey Jason Achstein	White	28	2015-12-28	toy weapon	M
-961	Siolosega Velega-Nuufolau	Other	50	2015-12-29	knife	F
-962	Tien Hua	Asian	37.11793090137039	2015-12-29	unknown	M
-963	Fred Perez	Hispanic	55	2015-12-30	knife	M
 964	Keith Childress	Black	23	2015-12-31	unarmed	M
-965	Joshua Sisson	White	30	2016-01-01	knife	M
-966	Lance Light	White	54	2016-01-02	gun	M
-967	Lonnie Haskell Powers	White	37	2016-01-02	gun	M
-968	Sean O'Brien	White	37	2016-01-02	knife	M
-969	Germonta Wallace	Black	30	2016-01-03	gun	M
-970	Eric John Senegal	Black	27	2016-01-04	unknown	M
-971	Rodney Turner	Black	22	2016-01-04	gun	M
-972	Joel Anthony Nelson	White	29	2016-01-05	unknown	M
-973	James K. Maher	White	39	2016-01-05	knife	M
-974	Carlton Antonio Murphy	Black	33	2016-01-05	gun	M
-975	Stephen Bukwich	White	52	2016-01-05	gun	M
-976	Albert Thompson	Hispanic	28	2016-01-05	hand torch	M
-977	David Zollo	White	54	2016-01-05	knife	M
-978	Charles Hollstein	White	38	2016-01-06	toy weapon	M
-979	Alan Huberth Franco-Armenta	Hispanic	32	2016-01-06	gun	M
-980	Kenneth Clay	White	34	2016-01-06	gun	M
-981	Eric C. Olsen	White	26	2016-01-08	knife	M
-982	Andrew Earl Abernathy	White	50	2016-01-08	gun	M
-983	David Jay Kent	White	37	2016-01-10	chain saw	M
-984	Christine A. Lucas	White	45	2016-01-10	toy weapon	F
-985	Alan Paul Bartley	White	56	2016-01-11	unknown	M
-986	Robert Tenbrink	White	45	2016-01-11	toy weapon	M
-987	Ramone Lonergan	White	32	2016-01-11	gun	M
 988	Ciara Meyer	White	12	2016-01-11	unarmed	F
-989	Herman Bean	Native	49	2016-01-12	knife	M
-990	Keith Richardson	White	58	2016-01-12	gun	M
-991	Brandon Bearden	White	29	2016-01-13	gun	M
-992	Timothy Meehan	White	60	2016-01-13	gun	M
-993	Willie Holderfield	White	40	2016-01-14	gun	M
-994	Miguel Hernandez	Hispanic	39	2016-01-14	knife	M
-995	William Keith Waldron	White	26	2016-01-15	gun	M
-996	Rakeem Bentley	Black	24	2016-01-15	gun	M
-997	Alfred Longoria	Hispanic	34	2016-01-16	toy weapon	M
-998	Ashton Lane Morris	White	27	2016-01-16	gun	M
-999	Adam Karjalainen	White	44	2016-01-16	toy weapon	M
 1000	Kelsey Rose Hauser	White	25	2016-01-16	unarmed	F
-1001	Clarence Layfield	White	55	2016-01-16	unknown	M
-1002	Henry Bennett	Black	19	2016-01-16	gun	M
-1003	Crayton West	Black	52	2016-01-17	gun	M
-1004	Corey Lee Henderson	White	31	2016-01-17	gun	M
 1005	Daniel Shaver	White	26	2016-01-17	unarmed	M
-1006	Efrain Herrera	Hispanic	24	2016-01-17	knife	M
-1007	Joshua Tate Fielding	White	38	2016-01-17	gun	M
-1008	Jordan Szymanski	White	33	2016-01-18	gun	M
-1009	Eric Provost	White	28	2016-01-18	toy weapon	M
-1010	Timothy Caruthers	White	27	2016-01-18	knife	M
-1011	Levi Gene Wilson	White	39	2016-01-18	gun	M
-1012	Vasilios Alexander Katsouras	White	29	2016-01-18	garden tool	M
-1013	Gary Wayne Jones	White	36	2016-01-19	gun	M
-1014	Samuel Grady	White	55	2016-01-19	knife	M
-1015	Jim Redmond	White	28	2016-01-19	gun	M
-1016	Timothy Albert	Black	40	2016-01-20	gun	M
-1017	Randy Joe Sanders	White	33	2016-01-20	gun	M
-1018	Michael Clyde Lynch	White	37	2016-01-20	knife	M
-1019	Cedric Norris	Black	39	2016-01-21	gun	M
-1020	Michael Lamar Robinson	White	43	2016-01-23	toy weapon	M
-1021	Sergio Alvarado-Morales	Hispanic	38	2016-01-25	knife	M
-1022	Robert "LaVoy" Finicum	White	55	2016-01-26	gun	M
-1023	Scott Scanlon	White	52	2016-01-27	gun	M
-1024	Johnathan Bratcher	Black	32	2016-01-27	gun	M
-1025	Herman Flores	Hispanic	31	2016-01-27	gun	M
-1026	John Wesley Smith	White	27	2016-01-27	knife	M
-1027	Thongsavanh Vandarack	Asian	40	2016-01-27	toy weapon	M
-1028	Janet Wilson	Black	31	2016-01-27	unknown	F
-1029	Nathan Lee Bailey	White	30	2016-01-27	gun	M
-1030	Israel Vladimir Rodriguez	Hispanic	26	2016-01-27	gun	M
-1031	Jacqueline D. Salyers	Native	32	2016-01-28	unknown	F
-1032	William A. Adams	White	33	2016-01-28	gun	M
-1033	Christopher Kalonji	Black	19	2016-01-28	gun	M
-1034	Randolph McClain	Black	33	2016-01-29	gun	M
-1035	Christopher Michael Dew	Black	29	2016-01-29	gun	M
-1036	Angela Hiatt	White	41	2016-01-29	unknown	F
-1037	Charles M. Smith	Black	29	2016-01-30	gun	M
-1038	Philip B. Salazar	Hispanic	38	2016-01-30	scissors	M
-1039	Jose Alegre	Hispanic	64	2016-01-30	gun	M
-1040	Jeremy J. Sinclair	White	42	2016-01-30	gun	M
-1041	Juan A. Ruiz	Hispanic	46	2016-01-31	knife	M
-1042	Joshua Shane Bispo	White	42	2016-01-31	gun	M
-1043	Bruce Kelley	Black	37	2016-01-31	knife	M
 1044	Michael Brown	White	25	2016-01-31	unarmed	M
-1045	Peter John	Black	36	2016-02-01	toy weapon	M
-1046	Edgar Rene Alvarado	Hispanic	21	2016-02-01	gun	M
-1047	Justin Prescott	White	30	2016-02-02	knife	M
-1048	John Henry Neuman	White	53	2016-02-03	gun	M
-1049	Cristiaan Oliver Dubrino	Hispanic	31	2016-02-03	gun	M
-1050	Raymond Gassman	Native	22	2016-02-03	gun	M
-1051	Kayden Clarke	White	24	2016-02-04	knife	M
 1052	Antronie Scott	Black	36	2016-02-04	unarmed	M
-1053	Scott Harless	White	47	2016-02-04	gun	M
-1054	Thomas Hirko	White	54	2016-02-04	toy weapon	M
-1055	Hector Leroy	Hispanic	43	2016-02-04	gun	M
-1056	Ronald Barawis	Other	38	2016-02-05	unknown	M
-1057	Blake Edward Fitzgerald	White	30	2016-02-05	gun	M
-1058	Vinson Ray Strickland	White	51	2016-02-05	gun	M
-1059	Phillip Ferry	White	55	2016-02-05	gun	M
-1060	Jose Mendez	Hispanic	16	2016-02-06	gun	M
-1061	Marese V. Collins	Black	23	2016-02-07	gun	M
-1062	Phillip Luchsinger	White	36	2016-02-07	gun	M
-1063	Shalamar Longer	Black	33	2016-02-08	gun	M
 1064	David Joseph	Black	17	2016-02-08	unarmed	M
-1065	Eric Harris	Black	22	2016-02-08	unknown	M
 1066	Gustavo Najera	Hispanic	22	2016-02-09	unarmed	M
-1067	Scottie Yanagawa	Other	29	2016-02-09	gun	M
-1068	Timothy Vessels	White	41	2016-02-10	gun	M
-1069	David Brian Evans	White	67	2016-02-10	gun	M
-1070	Vincent Nageak	Native	36	2016-02-10	gun	M
-1071	John Birkeland	White	52	2016-02-10	knife	M
-1072	Anthony Bertoni	Other	56	2016-02-10	gun	M
-1073	Alijah Jackson	White	35	2016-02-11	knife	M
-1074	Matthew Quinn	White	45	2016-02-11	ax	M
-1075	Mohamed Barry	Black	30	2016-02-11	machete	M
-1076	Peter Fanfan	Black	29	2016-02-12	gun	M
-1077	David Glen Watson	White	53	2016-02-12	gun	M
-1078	Sahlah Ridgeway	Black	32	2016-02-12	gun	F
-1079	Calvin Smith	Black	22	2016-02-13	gun	M
 1080	Calin Roquemore	Black	24	2016-02-13	unarmed	M
 1081	Dyzhawn L. Perkins	Black	19	2016-02-13	unarmed	M
-1082	Ali Eisa Abdalla Yahia	Black	29	2016-02-13	gun	M
-1083	Marc Stoddart	White	50	2016-02-14	knife	M
-1084	Eduardo Rodriguez	Hispanic	29	2016-02-14	gun	M
-1085	Rammy Jaradat	White	26	2016-02-14	knife	M
-1086	Brandon Lee Witt	White	39	2016-02-15	unknown	M
-1087	Guadalupe Sauceda	Hispanic	52	2016-02-15	gun	M
-1088	Christopher Andrews	White	51	2016-02-16	knife	M
-1089	Destry Meikle	White	48	2016-02-16	unknown	M
-1090	Shawn Henry Allen Dickens	White	30	2016-02-16	gun	M
-1091	Paul Gaston	Black	37	2016-02-17	toy weapon	M
-1092	Jose Quintanilla	Hispanic	30	2016-02-18	unknown	M
-1093	Oscar Reyes	Hispanic	35	2016-02-18	unknown	M
-1094	Ronnie Padron	Hispanic	32	2016-02-18	gun	M
-1095	Joseph Noel	White	25	2016-02-18	unknown	M
-1096	Justin Patrick Moses	White	35	2016-02-19	knife	M
-1097	Curtis James Dugger	White	31	2016-02-19	gun	M
-1098	Danny Rendon	Hispanic	30	2016-02-20	gun	M
-1099	Edgar Camacho-Alvarado	Hispanic	23	2016-02-20	gun	M
-1100	Marcos Perea	Black	41	2016-02-20	gun	M
-1101	Charles Lee Lambert	White	45	2016-02-20	gun	M
-1102	Che Taylor	Black	46	2016-02-21	unknown	M
-1103	Sherrisa Homer	Native	36	2016-02-21	gun	F
-1104	Kisha Michael	Black	31	2016-02-21	gun	F
-1105	Marquintan Sandlin	Black	32	2016-02-21	unknown	M
-1106	Patricia Kruger	Native	38	2016-02-21	gun	F
-1107	Gerardino Cayetano Gonzalez	Hispanic	33	2016-02-22	gun	M
-1108	Jamie Clark Long	White	45	2016-02-22	knife	M
-1109	David Michael Green	White	38	2016-02-22	unknown	M
-1110	Rouven Loch	White	22	2016-02-22	toy weapon	M
-1111	Travis Stevenson	Black	48	2016-02-23	unknown	M
-1112	Angel Alan Gleason	Hispanic	36	2016-02-23	gun	M
-1113	Alex Buckner	White	26	2016-02-23	gun	M
-1114	Baltazar Ramos	Hispanic	39	2016-02-23	machete	M
-1115	Robert Keil	White	16	2016-02-24	knife	M
-1116	Martin Wirth	White	58	2016-02-24	gun	M
-1117	Victor Rivera	Hispanic	27	2016-02-24	unknown	M
-1118	Francisco Garcia	Hispanic	26	2016-02-24	unknown	M
 1119	Christopher J. Davis	Black	21	2016-02-24	unarmed	M
-1120	Luke Miller	White	37	2016-02-25	gun	M
-1121	Greg Gunn	Black	56	2016-02-25	pole	M
-1122	Tristan Conti	White	19	2016-02-25	gun	M
-1123	Cedric Ford	Black	38	2016-02-25	gun	M
-1124	Kionte Desean Spencer	Black	18	2016-02-26	toy weapon	M
 1125	Abraham Mitchell Fryer	White	35	2016-02-26	unarmed	M
-1126	Fernando Hernandez	Hispanic	23	2016-02-27	gun	M
-1127	Nathan Grissom	White	41	2016-02-28	gun	M
-1128	Earl Hicks	White	44	2016-02-28	gun	M
-1129	Akiel Denkins	Black	24	2016-02-29	gun	M
-1130	Dimitri Corcino	Hispanic	39	2016-03-01	gun	M
-1131	Jorge Brian Gonzalez	Hispanic	22	2016-03-01	gun	M
-1132	Mickey Dewayne Sweatt	White	37	2016-03-01	gun	M
 1133	Travis Boyd Bradley	White	36	2016-03-02	unarmed	M
-1134	Daniel Burkhardt	White	41	2016-03-02	knife	M
-1135	Sergio Ochoa	Hispanic	27	2016-03-03	knife	M
 1136	Brandon Stanley	White	30	2016-03-04	unarmed	M
-1137	Darrell Bosell	White	34	2016-03-05	gun	M
-1138	Herbert Ballance	White	22	2016-03-05	gun	M
-1139	Mark Minnick	White	51	2016-03-06	gun	M
 1140	James Scott	White	42	2016-03-06	unarmed	M
-1141	Osvaldo Torres	Hispanic	41	2016-03-06	gun	M
-1142	Philip Vitullo	White	49	2016-03-07	gun	M
-1143	Bryon Rosas	White	45	2016-03-07	knife	M
-1144	Randall J. Selsor	White	45	2016-03-07	unknown	M
-1145	John Charles "JC" Graham	White	42	2016-03-07	gun	M
-1146	Daniel H. Chavez	Hispanic	41	2016-03-07	unknown	M
-1147	Jeffrey Glen Casale	White	27	2016-03-08	toy weapon	M
-1148	Wesley Sheppard	White	37	2016-03-10	toy weapon	M
-1149	Arteair Porter Jr.	Black	22	2016-03-10	toy weapon	M
-1150	Martin Hurtado	Hispanic	21	2016-03-10	gun	M
-1151	Jason Meador	White	50	2016-03-10	gun	M
-1152	German Gonzalez	Hispanic	23	2016-03-10	unknown	M
-1153	Tyre Privott	Black	25	2016-03-11	gun	M
-1154	Manford "Butch" Moore Jr.	White	51	2016-03-11	gun	M
-1155	Jack Goodman	White	46	2016-03-11	knife	M
-1156	Teodoro Valencia	Hispanic	23	2016-03-11	gun	M
-1157	Christopher Michael Tokazowski	White	43	2016-03-12	gun	M
 1158	Peter Gaines	Black	37	2016-03-12	unarmed	M
-1159	Marco Loud	Black	20	2016-03-12	Taser	M
-1160	Gevork Alachadzhyan	White	45	2016-03-13	unknown	M
 1161	Jose Raul Cruz	Hispanic	16	2016-03-13	unarmed	M
 1162	Joshua Grubb	White	30	2016-03-13	unarmed	M
-1163	Wesley Chad Deerman	White	26	2016-03-13	gun	M
-1164	Keith Montgomery Jr.	Black	24	2016-03-13	gun	M
-1165	Amy Jean McCoy	White	38	2016-03-13	hammer	F
-1166	Jacai Colson	Black	28	2016-03-13	gun	M
-1167	Lamar Harris	Black	29	2016-03-14	gun	M
-1168	Joseph Harris	White	34	2016-03-15	gun	M
-1169	Daniel J. Wooters	White	38	2016-03-15	knife	M
-1170	Ed Russell McIver	White	43	2016-03-15	gun	M
 1171	Cristian Rene Medina	Hispanic	23	2016-03-16	unarmed	M
-1172	Eric Hernandez	Hispanic	33	2016-03-16	gun	M
-1173	Dennis Penny	White	40	2016-03-16	gun	M
-1174	Map Kong	Asian	38	2016-03-17	gun	M
-1175	Sunny Chin	Asian	53	2016-03-17	gun	M
-1176	Scott Bennett	Black	29	2016-03-17	gun	M
-1177	Christopher Nelms	Black	30	2016-03-17	gun	M
-1178	David Alma Giles	White	60	2016-03-18	gun	M
-1179	India Beaty	Black	25	2016-03-19	toy weapon	F
-1180	Joshua Douglas	White	24	2016-03-19	unknown	M
-1181	Thurman Reynolds	Black	21	2016-03-19	gun	M
-1182	Dylan R. Whitaker	White	23	2016-03-19	gun	M
-1183	Boyd Keith Ballard	White	61	2016-03-20	knife	M
-1184	Clarence Briggs	White	54	2016-03-20	gun	M
-1185	Abraham Martinez	Hispanic	62	2016-03-20	gun	M
-1186	Robert Dentmond	Black	16	2016-03-20	toy weapon	M
-1187	Dylan Pape	White	25	2016-03-21	toy weapon	M
-1188	Edward J. Gorinski	White	28	2016-03-21	gun	M
-1189	Ralph "Phil" Grenon	White	76	2016-03-21	knife	M
-1190	Ethan James Rincon	Hispanic	25	2016-03-22	pick-axe	M
-1191	Travis J. Blair	White	33	2016-03-22	unknown	M
-1192	Daven Scott Hannu	White	51	2016-03-23	gun	M
-1193	Raymond Gonzalez	Hispanic	34	2016-03-23	gun	M
-1194	Alexio Allen	Black	30	2016-03-23	gun	M
-1195	Robert L. Dussourd	White	44	2016-03-24	knife	M
-1196	Dominique Silva	Black	24	2016-03-24	toy weapon	M
-1197	Andrew Mike	White	29	2016-03-24	gun	M
-1198	Joel A. Gonzales	Hispanic	48	2016-03-24	gun and knife	M
-1199	Mario Sandoval	Hispanic	19	2016-03-24	gun	M
-1200	Jermon Seals	Black	22	2016-03-24	gun	M
-1201	Jose Perez	Hispanic	39	2016-03-26	meat cleaver	M
-1202	Terrence Shane Blackburn	White	36	2016-03-26	gun	M
-1203	Donald Andrew White	White	55	2016-03-26	gun	M
-1204	Patrick Matthew McManamon	White	46	2016-03-26	gun	M
-1205	Jeffrey Lanahan	White	34	2016-03-27	knife	M
-1206	Loreal Tsingine	Native	27	2016-03-27	scissors	F
-1207	Robert D. Guerin	White	33	2016-03-27	gun	M
-1208	Deriante Deon Miller	Black	18	2016-03-27	gun	M
-1209	Earl Ashby	White	33	2016-03-27	gun	M
-1210	Robert Morgan Garrison Jr.	White	51	2016-03-29	gun	M
-1211	Denise Fairchild	White	50	2016-03-29	gun	F
-1212	Joseph Louis Melvin	White	46	2016-03-29	flashlight	M
-1213	Angel Montion	White	33	2016-03-30	gun	M
-1214	Ruben Cossyleon	Hispanic	25	2016-03-30	gun	M
-1215	Thomas Lagano	White	52	2016-03-30	gun	M
-1216	Kimani Johnson	Black	18	2016-03-31	gun	M
-1217	Matthew Vincent Wood	Black	43	2016-03-31	gun	M
-1218	James Brown III	Black	34	2016-03-31	gun	M
-1219	James Craig Simpson	Black	31	2016-03-31	gun	M
-1220	Jesus Juarez	Hispanic	65	2016-04-01	shovel	M
-1221	Joel Fabela	Hispanic	37	2016-04-01	gun	M
-1222	Cameron Gover	Black	30	2016-04-02	gun	M
-1223	Melissa Boarts	White	36	2016-04-03	unknown	F
-1224	Darrin Andrew Martin	White	25	2016-04-03	gun	M
-1225	David Mack	White	69	2016-04-03	Taser	M
-1226	Preston Paul Perez	White	48	2016-04-03	unknown	M
-1227	Raul Salvador Marquez Heraldes	Hispanic	50	2016-04-04	knife	M
-1228	Peter J. Doherty	White	52	2016-04-05	knife	M
 1229	Kevin Hicks	Black	44	2016-04-05	unarmed	M
-1230	Marvin Cremeans	White	60	2016-04-06	ax	M
-1231	Laronda Sweatt	Black	40	2016-04-06	ax	F
-1232	Cesar Frias	Hispanic	20	2016-04-06	knife	M
-1233	Luis Gongora	Hispanic	45	2016-04-07	knife	M
-1234	Lance C. McIntire	White	44	2016-04-07	unknown	M
-1235	Dazion Flenaugh	Black	40	2016-04-08	knife	M
-1236	Melissa M. Abbott	White	25	2016-04-08	hatchet	F
-1237	Lamont Gulley	Black	43	2016-04-08	knife	M
-1238	Diahlo Grant	Black	27	2016-04-09	gun	M
-1239	Quron Williams	Black	19	2016-04-09	gun	M
-1240	Lonnie Ball	White	39	2016-04-10	gun	M
-1241	William Clark	White	30	2016-04-10	knife	M
-1242	Arturo Yobani-Torrez Valdez	Hispanic	28	2016-04-10	knife	M
-1243	Efren Eloy Trujillo	Hispanic	22	2016-04-11	gun	M
-1244	Pierre Loury	Black	16	2016-04-11	gun	M
 1245	Dion Daman	White	40	2016-04-12	unarmed	M
-1246	Joshua Moreno	Hispanic	38	2016-04-12	gun	M
-1247	Travis Wood	White	20	2016-04-12	unknown	M
-1248	Rodney Watts	Black	35	2016-04-13	unknown	M
-1249	Jeffrey Gray Wise	White	52	2016-04-13	gun	M
-1250	Koltlee Whitson	White	26	2016-04-13	gun	M
 1251	Jeff Robertson	White	54	2016-04-14	unarmed	M
-1252	Clemente Najera	Hispanic	38	2016-04-15	baseball bat	M
-1253	David Swatsky	White	52	2016-04-15	gun	M
-1254	Storm Allen Smith	White	26	2016-04-15	unknown	M
-1255	Gerald Robert Boyes	White	53	2016-04-16	gun	M
-1256	Kisha Arrone	Black	35	2016-04-17	gun	F
 1257	Eric John Wilson	White	22	2016-04-17	unarmed	M
-1258	Richard Bard Jr.	Black	31	2016-04-17	gun	M
-1259	George Tillman	Black	32	2016-04-17	gun	M
-1260	Edson Thevenin	Black	37	2016-04-17	unknown	M
-1261	Rico Don Rae Johnson	Black	28	2016-04-18	gun	M
-1262	Demetrius Dorsey	Black	18	2016-04-18	gun	M
-1263	Sylasone Ackhavong	Asian	41	2016-04-19	gun	M
-1264	Jorevis Scruggs	Black	15	2016-04-19	gun	M
-1265	Daniel Eric Blackmon	White	38	2016-04-19	gun	M
-1266	Francis Scot Dufore	White	41	2016-04-20	gun	M
-1267	Jackie Lee Kirkham	White	52	2016-04-20	unknown	M
-1268	Mario Mejia Martinez	Hispanic	48	2016-04-21	knife	M
-1269	Tyler Hunkin	White	29	2016-04-22	knife	M
-1270	Carl Baranishyn	White	51	2016-04-22	knife	M
-1271	Demarcus Semer	Black	21	2016-04-23	unknown	M
-1272	Mitchell Oakley	White	24	2016-04-23	gun	M
-1273	Jakob E. Wagner	White	18	2016-04-23	gun	M
-1274	Eric C. Wakup	White	30	2016-04-23	gun	M
-3128	TK TK	White	42	2018-04-29	unknown	M
-1275	Willie Tillman	Black	33	2016-04-23	unknown	M
-1276	Kay Frances Campbell	White	60	2016-04-25	gun	F
-1277	Robin Barber	White	28	2016-04-26	gun	M
-1278	Joshua Brooks	Black	26	2016-04-26	gun	M
-1279	Jacquelyn Burke	White	24	2016-04-26	gun	F
-1280	Darrel S. Machemehl	White	44	2016-04-26	gun	M
-1281	Cin Lam Mung	Asian	34	2016-04-27	machete	M
-1282	Damon Blair	White	21	2016-04-27	gun	M
-1283	David Shane Anderson	White	36	2016-04-27	gun	M
-1284	Kendar del Rosario	Black	37	2016-04-28	knife	M
-1285	Lee Easter	White	53	2016-04-28	gun	M
-1286	Ashtian Barnes	Black	24	2016-04-28	unknown	M
-1287	Michael Kurtz	White	45	2016-04-28	knife	M
-1288	Jeffrey Darrell Hobbs	White	48	2016-04-29	unknown	M
-1289	Oswald Mattner	White	42	2016-04-30	knife	M
-1290	Mark Daniel Bess	White	33	2016-04-30	knife	M
-1291	Bender Dass	White	55	2016-04-30	unknown	M
-1292	Marion Habana	Asian	28	2016-04-30	knife	M
-1293	Charlin Charles	Black	25	2016-05-01	toy weapon	M
-1294	Ronald Branch	White	28	2016-05-01	gun	M
-1295	Reginald Darnell Dogan	Black	52	2016-05-02	gun	M
-1296	Raymond Hopper	White	59	2016-05-03	knife	M
-1297	Richard Ferretti	White	52	2016-05-04	unknown	M
-1298	Cayce A. DiTullio	White	39	2016-05-04	gun	M
-1299	Gerry J. Thompson	White	40	2016-05-04	unknown	M
-1300	Corey DiGiovanni	White	36	2016-05-05	unknown	M
-1301	Burt Johnson	Black	38	2016-05-05	gun	M
-1302	Deresha Armstrong	Black	26	2016-05-05	gun	F
-1303	Ronald D. Williams	Black	37.11793090137039	2016-05-06	gun	M
-1304	Nathan Q. Cates	White	29	2016-05-07	gun	M
-1305	Alton Fitzgerald Witchard	Black	37	2016-05-07	gun	M
-1306	Derek J. Sam	Other	29	2016-05-07	knife	M
-1307	Lionel Gibson	Black	21	2016-05-08	toy weapon	M
-1308	Jaffort Smith	Black	33	2016-05-09	gun	M
 1309	Christian Bowman	White	23	2016-05-09	unarmed	M
-1310	Michael Johnson	White	26	2016-05-09	gun	M
-1311	Jamie Stotts	White	29	2016-05-09	gun	M
-1312	Arthur R. Williams	Black	33	2016-05-09	toy weapon	M
-1313	Arthur DaRosa	Black	28	2016-05-10	knife	M
-1314	Stephen Schuster	White	35	2016-05-11	gun	M
-1315	Thongsoune Vilaysane	Asian	33	2016-05-11	unknown	M
-1316	Sean Ryan Mondragon	Black	24	2016-05-11	gun	M
-1317	Steve Godfrey	White	37.11793090137039	2016-05-11	gun	M
-1318	Robert Mark Diaz	Hispanic	28	2016-05-13	gun	M
-1319	Cody Marsh	White	19	2016-05-14	knife	M
-1320	Francis Clark	Native	43	2016-05-14	gun	M
-1321	Jeffrey Sims	White	59	2016-05-14	gun	M
-1322	Ryan Johnson	White	34	2016-05-14	gun	M
-1323	Dracy "Clint" Pendleton	White	35	2016-05-15	gun	M
-1324	Jabril Robinson	Black	23	2016-05-16	gun	M
-1325	Luke Sanders	White	36	2016-05-17	ax	M
-1326	Garry Conrad	White	46	2016-05-18	knife	M
-1327	Joseph Weatherby	White	44	2016-05-18	gun	M
-1328	Israel Santos-Banos	Hispanic	20	2016-05-18	gun	M
 1329	Jeremias Cruz	Hispanic	30	2016-05-19	unarmed	M
 1330	Jessica Nelson-Williams	Black	29	2016-05-19	unarmed	F
-1331	Jaime Ide	Hispanic	35	2016-05-19	knife	M
-1332	Timothy Brandon Stacy	White	36	2016-05-19	gun	M
-1333	Kentrill William Carraway	Black	22	2016-05-19	gun	M
-1334	Joshua Beebee	Black	31	2016-05-20	knife	M
-1335	Norman Campbell	White	63	2016-05-21	gun	M
 1336	Travis Moore	White	38	2016-05-21	unarmed	M
-1337	Mark Nelson	Native	31	2016-05-21	gun	M
 1338	Michael Eugene Wilson Jr.	Black	27	2016-05-22	unarmed	M
-1339	Jorge Zambrano	Hispanic	35	2016-05-22	gun	M
 1340	Vernell Bing	Black	22	2016-05-22	unarmed	M
-1341	Bryson Fischer	White	28	2016-05-22	gun	M
-1342	Verl Bedonie	Native	26	2016-05-23	gun	M
-1343	Bodhi Wilson Dean Phelps	White	22	2016-05-24	knife	M
-1344	Mario Montoya	Hispanic	31	2016-05-24	gun	M
-1345	Derek Prophet	White	43	2016-05-25	knife	M
-1346	Doll Pierre-Louis	Black	24	2016-05-25	unknown	M
-1347	Eugene "Geno" Francis Smith	White	29	2016-05-26	gun	M
-1348	Warren Christian	White	43	2016-05-26	gun	M
-1349	Devonte Gates	Black	21	2016-05-26	unknown	M
-1350	Fernando Castro	Hispanic	19	2016-05-26	gun	M
-1351	Angel Daniel Navarro	Hispanic	25	2016-05-26	gun	M
-1352	Terry Edwards	White	59	2016-05-27	gun	M
-1353	Dennis Hudson	Black	50	2016-05-28	gun	M
-1354	Dennis Humphrey	White	58	2016-05-28	gun	M
-1355	Dionisio Augustine Garza III	Hispanic	25	2016-05-29	gun	M
-1356	Donald Edward Brown III	White	32	2016-05-29	knife	M
-1357	John Mark Coffey	White	53	2016-05-29	gun	M
 1358	Todd Brent Burroughs	White	38	2016-05-29	unarmed	M
-1359	Robert Wickizer	White	70	2016-05-30	gun	M
-1360	Osee Calix	Black	33	2016-05-30	gun	M
-1361	Nicholas Berger	White	36	2016-05-31	knife	M
-1362	Michael Johnson	Black	21	2016-06-01	gun	M
-1363	Daniel Pigg	White	51	2016-06-01	gun	M
-1364	Willie Demetrius James	Black	43	2016-06-02	knife	M
-1365	Rodney Rodriguez Smith	Black	18	2016-06-02	gun	M
-1366	Joshua Smith	White	33	2016-06-03	knife	M
-1367	Hubert Thomas Burns, Jr.	Native	34	2016-06-03	knife	M
-1368	Daniel Jonathan Shaham	White	31	2016-06-04	unknown	M
-1369	Demarco Rhymes	Black	35	2016-06-04	gun	M
-1370	Larry Dustin Stepp	White	31	2016-06-04	knife	M
-1371	Christopher Michael Moran	White	31	2016-06-05	gun	M
-1372	Henry Green	Black	23	2016-06-06	gun	M
-1373	Kalyp Allen Rapoza	Other	25	2016-06-06	knife	M
 1374	Andrew Henson	White	25	2016-06-07	unarmed	M
-1375	Omar Villagomez	Hispanic	21	2016-06-07	vehicle	M
-1376	Willis N. Walker	Black	49	2016-06-07	gun	M
-1377	William David Powell	White	63	2016-06-07	gun	M
-1378	Carlos Garcia	Hispanic	43	2016-06-08	gun	M
-1379	William Michael Hollis	White	34	2016-06-09	gun	M
-1380	James Allen Nickol	White	38	2016-06-09	gun	M
-1381	John Michael Brisco	Black	52	2016-06-09	gun	M
-1382	Clifford Tucker	White	68	2016-06-09	gun	M
-1383	Clayton Millsaps	White	29	2016-06-10	baseball bat	M
-1384	Bobby Sanchez	Hispanic	32	2016-06-10	gun	M
-1385	J. Juan Briseno-Ortega	Hispanic	50	2016-06-10	gun	M
-1386	Keith Bursey	Black	31	2016-06-10	gun	M
-1387	Lyndarius Cortez Witherspoon	Black	27	2016-06-11	gun	M
-1388	Jesus Duran	Hispanic	31	2016-06-11	spear	M
-1389	Omar Mateen	Other	29	2016-06-12	gun	M
-1390	Daniel Bennett Edwards	White	23	2016-06-12	knife	M
-1391	John Williams	Black	61	2016-06-12	gun	M
-1392	Joshua Sciscm	White	33	2016-06-13	gun	M
-1393	Michael Moore	Black	18	2016-06-13	gun	M
-1394	Edward Acquisto	Hispanic	80	2016-06-13	gun	M
-1395	Kenneth Allen Pointer	White	43	2016-06-13	unknown	M
-1396	Noel Rodriguez	Hispanic	50	2016-06-14	unknown	M
-1397	Nicholas Ferro	White	47	2016-06-14	gun	M
-1398	Mohammad Moghaddam	Other	54	2016-06-14	gun	M
-1399	Fernando Geovanni Llanez	Hispanic	22	2016-06-14	unknown	M
-1400	Russell Rosser	White	43	2016-06-15	unknown	M
-1401	Michael Rasmussen	White	38	2016-06-15	gun	M
-1402	Peter Grandpre	White	36	2016-06-16	gun	M
-1403	Nicholas Damon	Hispanic	30	2016-06-16	unknown	M
-1404	John Anderson	White	59	2016-06-16	gun	M
-1405	Ronald Delfino	Hispanic	21	2016-06-16	gun	M
-1406	William Thomas Hennessey	White	34	2016-06-18	toy weapon	M
-1407	Sergey Makarenko	White	17	2016-06-18	unknown	M
 1408	Antwun Shumpert	Black	37	2016-06-18	unarmed	M
-1409	Rashaun Lloyd	Black	25	2016-06-19	gun	M
-1410	Raufeal M. Bostick	Black	23	2016-06-20	gun	M
-1411	Devin Christopher Scott	White	20	2016-06-20	knife	M
-1412	Lane Lesko	White	19	2016-06-21	toy weapon	M
-1413	Jeff Hyde	White	50	2016-06-21	gun	M
-1414	Pedro Cruz-Amado	Hispanic	24	2016-06-21	chair	M
-1415	Josiah Williams	White	25	2016-06-22	gun	M
-1416	Isaiah Core	Black	20	2016-06-22	unknown	M
-1417	Roger Ponce	White	37	2016-06-22	knife	M
-1418	Quencezola Maurice Splunge	Black	44	2016-06-22	gun	M
 1419	Deravis Caine Rogers	Black	22	2016-06-22	unarmed	M
-1420	Shaun Trevor Walke	White	31	2016-06-22	gun	M
-1421	Jay Anderson	Black	25	2016-06-23	gun	M
-1422	Angelo Brown	Black	37.11793090137039	2016-06-23	gun	M
-1423	Ismael Miranda	Black	36	2016-06-24	gun	M
-1424	Randy Blecher	White	50	2016-06-24	gun	M
-1425	Christy Sheats	White	42	2016-06-24	gun	F
-1426	Miguel Angel Chavez-Angles	Hispanic	42	2016-06-24	gun	M
-1427	Jamil Alejandro Valladares	Hispanic	26	2016-06-24	gun	M
 1428	Dylan Noble	White	19	2016-06-25	unarmed	M
-1429	Waldemar Bogusiewicz	White	59	2016-06-25	gun	M
 1430	Rodrigo Guardiola	Hispanic	36	2016-06-25	unarmed	M
-1431	Terry Lynn Maurer	White	51	2016-06-26	baseball bat	M
-1432	Daniel Reyes	Hispanic	27	2016-06-26	knife	M
-1433	Germichael Kennedy	Black	22	2016-06-26	gun	M
-1434	Donte L. Johnson	Black	30	2016-06-26	gun	M
-1435	Michael Disbrowe	White	28	2016-06-27	toy weapon	M
-1436	Sherman Evans	Black	63	2016-06-27	toy weapon	M
-1437	Blake Peacock	White	32	2016-06-27	gun	M
-1438	Travis Vierra	White	26	2016-06-27	gun	M
-1439	Raymond Hutson	White	25	2016-06-27	toy weapon	M
-1440	Barry Prak	Asian	27	2016-06-28	knife	M
-1441	Walden Dang	Asian	61	2016-06-28	knife	M
-1442	Jessie J. Mills	White	30	2016-06-29	unknown	M
-1443	Tyrone Reado	Black	37.11793090137039	2016-06-29	gun	M
-1444	Lafayette Evans	Black	37	2016-06-29	gun	M
-1445	Michael William Schumacher	White	41	2016-06-29	pitchfork	M
-1446	Kawme Dejuan Patrick	Black	25	2016-06-30	gun	M
-1447	Tristan Vilters	White	24	2016-06-30	gun	M
-1448	Jasen Scott Ramirez	Hispanic	44	2016-06-30	unknown	M
-1449	Alexis George Mishtowt	White	63	2016-07-01	gun	M
-1450	Helmut Wihowski	White	58	2016-07-01	knife	M
-1451	Steven McQueen	White	30	2016-07-01	gun	M
-1452	Jai Lateef Solveig Williams	Black	35	2016-07-02	gun	M
-1453	Jonathan Lane Justiss	White	50	2016-07-02	gun	M
-1454	Shannon Labit	White	40	2016-07-03	knife	M
-1455	Raul Saavedra-Vargas	Hispanic	37.11793090137039	2016-07-03	unknown	M
-1456	Pedro Villanueva	Hispanic	19	2016-07-03	unknown	M
-1457	William Tracy Patterson	White	34	2016-07-04	gun	M
-1458	Anthony Nunez	Hispanic	18	2016-07-04	gun	M
-1459	Sidney Washington	Black	21	2016-07-04	gun	M
-1460	Joshua Bolster	White	29	2016-07-05	unknown	M
-1461	Sam Newby	White	49	2016-07-05	unknown	M
-1462	Melissa Ventura	Hispanic	24	2016-07-05	knife	F
-1463	Alton Sterling	Black	37	2016-07-05	unknown	M
-1464	Philando Castile	Black	32	2016-07-06	gun	M
-1465	Thomas Vandemark	White	65	2016-07-06	gun	M
-1466	Vinson Lee Ramos	Hispanic	37	2016-07-07	knife	M
-1467	Adam Smith	White	33	2016-07-07	unknown	M
-1468	Earnest Fells	Black	63	2016-07-07	gun	M
-1469	Abraham Smith	White	30	2016-07-08	knife	M
-1470	Andre Johnson	Black	40	2016-07-09	gun	M
-1471	Alva Burnett Braziel	Black	38	2016-07-10	gun	M
-1472	Joseph Mann	Black	50	2016-07-11	knife	M
-1473	Jason Brooks	Black	41	2016-07-11	gun	M
-1474	Pablo Medina	Hispanic	41	2016-07-11	gun	M
-1475	Orville Edwards	Black	39	2016-07-11	gun	M
-1476	Larry Darnell Gordon	White	44	2016-07-11	gun	M
-1477	Benjamin Zeckovic	White	23	2016-07-12	hatchet	M
-1478	Donald S. Myers	White	32	2016-07-13	gun	M
-1479	Richard G. Dinneny	White	56	2016-07-13	toy weapon	M
-1480	Dayten Ernest Harper	Black	33	2016-07-14	gun	M
-1481	Bobby Horne	White	63	2016-07-15	gun	M
-1482	Billy D. Smith	White	31	2016-07-16	gun	M
-1483	Patrick Fennell	White	57	2016-07-16	gun	M
-1484	Cody Wayne Jarrett	White	26	2016-07-16	gun	M
-1485	Kevin Higgins	White	39	2016-07-17	gun	M
-1486	Jermaine Johnson	Black	42	2016-07-17	gun	M
-1487	Gavin Eugene Long	Black	29	2016-07-17	gun	M
-1488	Michael Ray Ramsey	White	43	2016-07-17	screwdriver	M
-1489	Jerry Brimer	White	56	2016-07-18	ax	M
-1490	Javier Garcia Gaona	Hispanic	31	2016-07-20	knife	M
-1491	Derek Love	Black	50	2016-07-21	gun	M
-1492	BJ Medeiros	Other	36	2016-07-21	gun	M
-1493	Paul Edward Yacabitis	White	50	2016-07-22	gun	M
-1494	Austin Jerry Lee Howard	Black	49	2016-07-23	knife	M
-1495	Bernard Wells	Black	31	2016-07-23	gun	M
-1496	Steven Alfred Longoria	Hispanic	34	2016-07-23	gun	M
-1497	Robert Lee Lourenco	White	36	2016-07-24	hatchet and gun	M
-1498	Alvin R. Sylversmythe	Native	29	2016-07-24	knife	M
-1499	Jeff Cornell Tyson	Black	32	2016-07-25	gun	M
-1500	Richard Risher	Black	18	2016-07-25	gun	M
-1501	Scot Minard	White	50	2016-07-26	gun	M
-1502	Juan Reynaldo Duran	Hispanic	36	2016-07-26	gun	M
-1503	Devon Martes	Black	17	2016-07-27	gun	M
 1504	Dalvin Hollins	Black	19	2016-07-27	unarmed	M
-1505	Dylan Liberti	White	24	2016-07-27	knife	M
-1506	Saddam Trejeda-Campos	Hispanic	24	2016-07-27	knife	M
-1507	Emil Ambrose Mecklenburg	White	20	2016-07-27	knife	M
-1508	Michael Adams	White	33	2016-07-27	knife	M
-1509	Jorge Moreno-Aguirre	Hispanic	41	2016-07-28	unknown	M
-1510	Jeffrey Smith	Black	47	2016-07-28	unknown	M
-1511	Paul O'Neal	Black	18	2016-07-28	unknown	M
-1512	Jesus Rael	Hispanic	31	2016-07-28	gun	M
 1513	Donnell Thompson	Black	27	2016-07-28	unarmed	M
-1514	Omar Gonzalez	Hispanic	36	2016-07-28	unknown	M
-1515	Amanda Page Bivens	White	40	2016-07-29	gun	F
-1516	Melvin Faison	White	59	2016-07-29	gun	M
-1517	John Casey	White	32	2016-07-31	rock	M
-1518	Mario Martinez Torres	Hispanic	38	2016-07-31	unknown	M
-1519	Limichael Shine	Asian	18	2016-07-31	knife	M
-1520	Korryn Gaines	Black	23	2016-08-01	gun	F
-1521	Bryan N. Byrd	White	43	2016-08-01	unknown	M
-1522	Kenneth Eugene Bonanno	White	67	2016-08-01	gun	M
-1523	Richard Swihart	White	32	2016-08-01	unknown	M
-1524	Richard Lance London	White	22	2016-08-02	gun	M
-1525	Adam Jo Klimek	White	31	2016-08-02	knife	M
-1526	DeMarco Newman	Black	43	2016-08-02	gun	M
-1527	Matthew David Conrad	White	34	2016-08-02	gun	M
-1528	William Bowers	White	51	2016-08-02	unknown	M
-1529	Benjamin William Heaton	White	31	2016-08-03	gun	M
-1530	Bradley Carey	White	54	2016-08-03	knife	M
-1531	E.J. Walters	White	69	2016-08-03	gun	M
-1532	Johannes Wood	White	58	2016-08-05	knife	M
-1533	Jamarion Rashad Robinson	Black	26	2016-08-05	gun	M
-1534	James Quealy	White	59	2016-08-05	gun	M
-1535	Jawari Porter	Black	25	2016-08-07	knife	M
-1536	Earl Pinckney	Black	20	2016-08-07	knife	M
-1537	Darnell Wicker	Black	57	2016-08-08	knife	M
-1538	Michael McClurg	White	56	2016-08-08	gun	M
-1539	James Eugene Burgess	White	64	2016-08-08	gun	M
-1540	Juan J. Godines	Hispanic	34	2016-08-08	gun	M
-1541	James W. Jennings	White	69	2016-08-08	gun	M
-1542	Ronald Smith	White	45	2016-08-09	gun	M
-1543	Jesse James Romero	Hispanic	14	2016-08-09	gun	M
-1544	Jeffrey Allen Morris	White	44	2016-08-09	unknown	M
-1545	Jeff Martelli	White	59	2016-08-11	gun	M
-1546	Sergio Daniel Weick	Hispanic	33	2016-08-11	knife	M
-1547	Tommy Seneca	White	54	2016-08-11	gun	M
-1548	Jesus Armando Carillo	Hispanic	22	2016-08-12	unknown	M
-1549	Dominic Rollice	White	49	2016-08-12	hammer	M
-1550	Sylville Smith	Black	23	2016-08-13	gun	M
-1551	Ruben Horacio Strand Alvear	Hispanic	38	2016-08-13	knife	M
-1552	Perry Lee Heitman	White	53	2016-08-13	gun	M
-1553	Eric Ortega Soto	Hispanic	36	2016-08-13	unknown	M
-1554	Jovany Martinez	Hispanic	29	2016-08-15	metal pole	M
-1555	Danny Pirtle	White	42	2016-08-15	gun	M
-1556	Michael S. Martin	White	36	2016-08-16	gun	M
-1557	Carl Nivens	White	32	2016-08-16	gun	M
-1558	Larry Eugene Kurtley	White	53	2016-08-16	toy weapon	M
-1559	Colby Friday	Black	30	2016-08-16	gun	M
 1560	Marcos Antonio Gastelum	Hispanic	25	2016-08-16	unarmed	M
-1561	Kenney Watkins	Black	18	2016-08-16	gun	M
-1562	John O'Handley	White	55	2016-08-16	gun	M
-1563	Omer Ismail Ali	Black	27	2016-08-17	piece of wood	M
-1564	Francisco Villarreal	Hispanic	37	2016-08-18	gun	M
 1565	Daniel Kevin Harris	White	29	2016-08-18	unarmed	M
-1566	Chad Irwin	White	40	2016-08-18	knife	M
-1567	Joseph Weber	White	36	2016-08-18	unknown	M
-1568	Trenton Lohman	White	38	2016-08-18	gun	M
-1569	David Klassen	White	29	2016-08-18	gun	M
-1570	David Fulton	White	59	2016-08-18	gun	M
-1571	Marcelo Luna	Hispanic	47	2016-08-19	bayonet	M
-1572	Jorge Ceniceros	Hispanic	22	2016-08-19	gun	M
-1573	Kole B. Knight	White	31	2016-08-19	toy weapon	M
-1574	Kyle Zimbelman	White	29	2016-08-19	unknown	M
-1575	Todd P. Browning	White	54	2016-08-19	knife	M
-1576	Pedro Montanez	Hispanic	71	2016-08-20	knife	M
-1577	Juan Gabriel Torres	Hispanic	36	2016-08-21	knife	M
-1578	Kelley Brandon Forte	Black	34	2016-08-22	knife	M
-1579	Bobby Lyn Buck	White	49	2016-08-23	gun	M
-1580	Elias Portillo	Hispanic	36	2016-08-24	gun	M
-1581	William Charbonneau	White	43	2016-08-24	gun	M
-1582	Jeffrey Darren Hosea	White	53	2016-08-24	gun	M
-1583	Donta Taylor	Black	31	2016-08-25	gun	M
-1584	David Coborubio	Hispanic	32	2016-08-25	unknown	M
-1585	Matthew Gibbon	White	41	2016-08-26	gun	M
-1586	Angel Torres Jr.	Hispanic	26	2016-08-27	toy weapon	M
-1587	Darrel Hetrick	White	82	2016-08-27	gun	M
-1588	Justin Kulhanek-Derks	White	37	2016-08-28	gun	M
-1589	Jaqwan Julius Terry	Black	24	2016-08-29	gun	M
-1590	Paula Dell Phillips	White	35	2016-08-29	gun	F
-1591	Michael Peacor	White	56	2016-08-29	knife	M
 1592	Levonia Riggins	Black	22	2016-08-30	unarmed	M
-1593	Lyle Patrick Blanchard	White	59	2016-08-30	gun	M
-1594	Gregory Mathis	White	36	2016-08-30	knife	M
-1595	Michael Ferguson	White	21	2016-08-31	gun	M
-1596	Thomas E. Sekscinski	White	38	2016-08-31	unknown	M
-1597	Ed Holup	White	60	2016-09-01	unknown	M
-1598	Caleb J. Douglas	White	18	2016-09-01	gun	M
-1599	Joshua Quintero	Hispanic	23	2016-09-01	gun	M
-1600	TK TK	Hispanic	37.11793090137039	2016-09-01	pipe	M
-1601	Joseph Moreno	Hispanic	38	2016-09-02	gun	M
-1602	Michael Robert Musson	White	22	2016-09-02	glass shard	M
-1603	Michael Thompson	Black	38	2016-09-02	gun	M
-1604	Jerome Damon	Black	25	2016-09-03	unknown	M
-1605	Cameron Ayers	White	25	2016-09-03	unknown	M
-1606	Donny Max Daugherty	White	36	2016-09-03	gun	M
-1607	Jose Romero	Hispanic	37.11793090137039	2016-09-04	knife	M
-1608	Simon Gomez	Hispanic	44	2016-09-04	knife	M
-1609	Moses Ruben	Black	36	2016-09-05	gun	M
-1610	Cesar Garcia	Hispanic	35	2016-09-05	gun	M
-1611	David L. Anderson	White	25	2016-09-06	vehicle	M
-1612	Steven Del Rio	Hispanic	31	2016-09-06	gun	M
-1613	Larry Grant Whitehead	White	70	2016-09-06	gun	M
-1614	Dylan Papa	White	25	2016-09-06	sword	M
-1615	Robert Lee Brown	Black	55	2016-09-07	knife	M
-1616	Jesse Daniel Joynt	White	35	2016-09-07	unknown	M
-1617	Sadiq Bishara-Abaker Idris	Black	25	2016-09-07	gun	M
-1618	Francis Perry	White	32	2016-09-08	gun	M
-1619	Jose Torres	Hispanic	38	2016-09-08	toy weapon	M
-1620	Ricardo Tenorio	Hispanic	32	2016-09-09	gun	M
-1621	Travis Ell	White	64	2016-09-09	unknown	M
-1622	Gregory Frazier	Black	55	2016-09-09	knife	M
-1623	Dennis Claude Stanley	White	69	2016-09-10	toy weapon	M
-1624	Adrian Joseph Shaffer	White	37	2016-09-10	gun	M
-1625	Terrence Sterling	Black	31	2016-09-11	motorcycle	M
-1626	Markell Bivins	Black	25	2016-09-12	knife	M
 1627	Christian Vargas	Hispanic	25	2016-09-12	unarmed	M
-1628	Tyre King	Black	13	2016-09-14	toy weapon	M
-1629	Robert Carrillo	Hispanic	32	2016-09-15	gun	M
-1630	Joseph Allen Schlosser	White	69	2016-09-15	gun	M
-1631	Morgan Wayne Crocker	White	34	2016-09-15	gun	M
 1632	Jesse Beshaw	Native	29	2016-09-16	unarmed	M
-1633	Lucas Anderson	White	29	2016-09-16	knife	M
 1634	Terence Crutcher	Black	40	2016-09-16	unarmed	M
-1635	Robert Duh	White	42	2016-09-17	hatchet	M
-1636	Nicholas Glenn	Black	25	2016-09-17	gun	M
-1637	Robert Young	White	45	2016-09-17	toy weapon	M
-1638	William Joseph Ryan	White	55	2016-09-17	gun	M
-1639	Dahir Adan	Other	22	2016-09-17	knife	M
-1640	Philip Hasan	Black	61	2016-09-18	gun	M
-1641	Michelle Miller	White	46	2016-09-19	gun	F
-1642	Jeremy Ray Swenson	White	30	2016-09-19	unknown	M
-1643	Gary Don Lafon	White	56	2016-09-19	gun	M
-1644	Charles Dove	White	35	2016-09-20	gun	M
-1645	Joshua Scott	White	22	2016-09-20	gun	M
-1646	Michael Goodale	White	23	2016-09-20	unknown	M
-1647	Keith Lamont Scott	Black	43	2016-09-20	gun	M
-1648	Sandy Joe Duke	White	43	2016-09-20	gun	M
-1649	Thomas Tucker	White	49	2016-09-20	gun	M
 1650	Austin M. Baier	White	23	2016-09-21	unarmed	M
-1651	Jesse Ataway	White	41	2016-09-23	unknown	M
-1652	Oddis Bernard Colvin	Black	33	2016-09-23	unknown	M
-1653	Christopher Contreras	Hispanic	30	2016-09-23	gun	M
-1654	Cody Lafont	White	25	2016-09-25	gun	M
-1655	Anthony Ray Bauer	White	52	2016-09-26	gun	M
-1656	Leeland White	White	32	2016-09-26	gun	M
-1657	Nathan DeSai	White	46	2016-09-26	gun	M
-1658	Jamie Joseph Lewis	White	48	2016-09-26	gun	M
 1659	Alfred Olango	Black	38	2016-09-27	unarmed	M
-1660	John Ethan Carpentier	White	26	2016-09-27	unknown	M
 1661	Christopher Sowell	Black	32	2016-09-28	unarmed	M
-1662	Johnathan Lozano-Murillo	Hispanic	28	2016-09-28	knife	M
-1663	Jeffrey Clair Cave	White	53	2016-09-29	gun	M
-1664	Clayton Eugene Baker	White	38	2016-09-30	unknown	M
-1665	George Richards-Meyers	Black	18	2016-09-30	unknown	M
-1666	Douglas Marrickus Rainey	Black	32	2016-09-30	gun	M
-1667	Richard Parent	White	37	2016-09-30	gun	M
-1668	Najier Salaam	Black	18	2016-09-30	unknown	M
-1669	Jacquarius M. Robinson	Black	20	2016-09-30	gun	M
-1670	Joshua Allen Perry	White	28	2016-10-01	gun	M
-1671	Carnell Snell	Black	18	2016-10-01	gun	M
-1672	Daniel Perez	Hispanic	16	2016-10-02	toy weapon	M
-1673	Donte T. Jones	Black	36	2016-10-02	unknown	M
-1674	Robert Dapkus	White	57	2016-10-03	gun	M
-1675	John H. Fetter	White	49	2016-10-03	gun	M
-1676	Isaias Salgado	Hispanic	31	2016-10-04	brick	M
-1677	Zachary Sutton	White	26	2016-10-04	gun	M
-1678	Dean Bruning	White	51	2016-10-04	gun	M
-1679	Brandon Simmons	White	28	2016-10-05	machete	M
-1680	Lucas M. Felkel	White	35	2016-10-05	gun	M
-1681	Larry Daniel Matthews	Black	57	2016-10-07	pepper spray	M
-1682	Joseph S. Schroeder	White	36	2016-10-07	knife	M
-1683	Eddie Collins	White	42	2016-10-07	gun	M
-1684	Christopher Darnell Shackleford	Black	37.11793090137039	2016-10-07	gun	M
-1685	Thomas Jeffery Burns	White	49	2016-10-07	toy weapon	M
-1686	Ricardo Hernandez	Hispanic	21	2016-10-08	knife	M
-1687	Kim Jackson	White	53	2016-10-08	knife	F
-1688	Charles Antrup	White	62	2016-10-08	knife	M
-1689	Deric J. Brown	Black	41	2016-10-09	gun	M
-1690	Luis Michael Hoff	White	40	2016-10-09	gun	M
-1691	Maurico Barron	Hispanic	27	2016-10-10	unknown	M
-1692	Kheyanev Littledog	Native	19	2016-10-10	gun	M
-1693	Devan Desnoyers	White	26	2016-10-10	unknown	M
-1694	Michael L. Taylor	Asian	44	2016-10-11	knife	M
-1695	Dominick Musulman	White	30	2016-10-11	knife	M
-1696	Blaine J. Beason	White	31	2016-10-12	gun	M
-1697	Kirk Figueroa	Black	33	2016-10-12	gun	M
-1698	Matthew Brewer	White	22	2016-10-12	gun	M
-1699	Patrick D. Reddeck	White	38	2016-10-13	gun	M
-1700	Shawn Pappe	White	46	2016-10-13	knife	M
-1701	Chaz Logan York	White	23	2016-10-14	baseball bat	M
-1702	George Zapata	Hispanic	24	2016-10-14	gun	M
-1703	Nicholas McWherter	White	26	2016-10-14	gun	M
-1704	Micah Dsheigh Jester	White	26	2016-10-16	toy weapon	F
-1705	Sean Arlt	White	32	2016-10-16	metal rake	M
-1706	Rolando Delgado	Hispanic	50	2016-10-17	sword	M
-1707	Keegan Schweikle	White	17	2016-10-17	gun	M
-1708	Eric St. Germain	White	39	2016-10-17	knife	M
-1709	Darius Wimberly	Black	28	2016-10-18	gun	M
-1710	Deborah Danner	Black	66	2016-10-18	baseball bat	F
-1711	Salvador Reyes	Hispanic	42	2016-10-18	gun	M
-1712	Charles Stidham	White	34	2016-10-18	gun	M
-1713	Frank J. Sandor	White	38	2016-10-19	unknown	M
-1714	Javier Munoz	Hispanic	28	2016-10-19	unknown	M
-1715	Jacob DePetris	White	29	2016-10-20	gun	M
-1716	Renee Davis	Native	23	2016-10-21	gun	F
-1717	William Frost	White	58	2016-10-21	knife	M
-1718	Nathaniel B. Dorough	White	21	2016-10-22	unknown	M
-1719	Kristofer Daniel Youngquist	White	45	2016-10-23	toy weapon	M
-1720	Kenny Tomblin	White	38	2016-10-23	gun	M
-1721	Demetrius Mac Moore	Black	40	2016-10-23	gun	M
-1722	Aaron Marquis Ballard	Black	19	2016-10-24	gun	M
-1723	Roy Lee Richards	Black	46	2016-10-25	toy weapon	M
-1724	Brandon Jones	White	25	2016-10-25	toy weapon	M
-1725	Chelsea M. Porter	White	25	2016-10-25	toy weapon	F
-1726	Brandon Millard	White	37	2016-10-25	knife	M
-1727	Malcolm Loren Hickson	Black	25	2016-10-26	gun	M
 1728	William Clifford Cole	White	36	2016-10-26	unarmed	M
-1729	Kyle Killough	White	32	2016-10-27	gun	M
-1730	Thad Demarco Hale	Black	33	2016-10-27	gun and knife	M
-1731	Edwin Amaya Maldonado	Hispanic	24	2016-10-27	unknown	M
-1732	Jay Johannes Holmgren	White	37	2016-10-28	gun	M
-1733	Jason King	Black	38	2016-10-28	gun	M
-1734	Jun Wang	Asian	45	2016-10-28	knife	M
-1735	Terrence Coleman	Black	31	2016-10-30	knife	M
-1736	Kenneth Jack Kennedy	White	34	2016-10-30	unknown	M
-1737	Jordan Gonzales	Hispanic	23	2016-10-30	gun	M
-1738	Michelle Lee Shirley	Black	39	2016-10-31	vehicle	F
-1739	Jose Armando Cueva	Hispanic	55	2016-10-31	knife	M
-1740	Ashley Sides	White	31	2016-10-31	gun	F
-1741	Henry Simpson	White	76	2016-11-01	gun	M
-1742	Wilton Henry	White	59	2016-11-02	gun	M
-1743	Jesse Jay Taylor	White	40	2016-11-02	unknown	M
-1744	Ferguson Laurent	Black	23	2016-11-03	gun	M
-1745	Abraham Ortiz	Hispanic	26	2016-11-04	unknown	M
-1746	Manuel Rosales	Hispanic	35	2016-11-04	gun	M
-1747	John F. Zemola	White	49	2016-11-05	knife	M
-1748	James Carl Coale	White	36	2016-11-05	unknown	M
-1749	Russell Elswick	White	56	2016-11-05	gun	M
-1750	Patrick Wise	White	34	2016-11-05	gun	M
-1751	Joel B. Keenan	White	43	2016-11-06	gun	M
-1752	Jimmy L. Testa	White	31	2016-11-06	metal pipe	M
-1753	Christian Andrew Redwine	White	17	2016-11-06	unknown	M
-1754	Joseph Newcomb	White	32	2016-11-06	hammer	M
-1755	David Contreras	Hispanic	33	2016-11-06	unknown	M
-1756	Randy J. Clark	White	43	2016-11-06	unknown	M
-1757	Darryl Chisholm	Black	31	2016-11-07	gun	M
-1758	Juan Ramos	Hispanic	23	2016-11-08	gun	M
-1759	Evan Cox	White	26	2016-11-08	unknown	M
-1760	Carlos Mendez	Hispanic	45	2016-11-08	gun	M
 1761	Kenton Kobza	White	19	2016-11-08	unarmed	M
-1762	Daniel Erickson	White	36	2016-11-09	gun	M
-1763	George Delacruz	Hispanic	41	2016-11-10	gun	M
-1764	John Pacuicrk	White	53	2016-11-10	gun	M
-1765	Brian Gaither	White	24	2016-11-11	unknown	M
-1766	Marco Romero	Hispanic	37.11793090137039	2016-11-11	gun	M
 1767	Andrew Depeiza	Black	37.11793090137039	2016-11-11	unarmed	M
-1768	James Dale Ritchie	White	40	2016-11-12	gun	M
-1769	Richard T. Herrera	Hispanic	29	2016-11-12	gun	M
-1770	Juan Carlos Fernandez	Hispanic	22	2016-11-13	gun	M
-1771	Daniel Laguna	Hispanic	21	2016-11-13	gun	M
-1772	Rasheem Singletary	Black	25	2016-11-15	unknown	M
-1773	Robert Daffern	White	37	2016-11-15	gun	M
-1774	Jose George Anthony Franco	Hispanic	37	2016-11-16	machete	M
-1775	Edmund Leighty	White	56	2016-11-16	gun	M
-1776	Dontrell Montrese Carter	Black	25	2016-11-18	gun	M
-1777	Darius Jones	Black	26	2016-11-18	gun	M
-1778	Joseph Leland Fletcher	White	35	2016-11-18	gun	M
-1779	Samson Fleurant	Black	25	2016-11-18	machete	M
-1780	Adalid Flores	Hispanic	29	2016-11-19	unknown	M
-1781	Erickson Brito	Black	21	2016-11-19	baton	M
-1782	Luke Smith	Asian	15	2016-11-19	knife	M
-1783	Andrew Moreno	Hispanic	24	2016-11-20	gun	M
-1784	Jacob C. Stevens	White	18	2016-11-20	gun	M
-1785	George Bush III	Black	19	2016-11-21	gun	M
-1786	Michael Giles	White	27	2016-11-21	knife	M
-1787	Mark Daniel Sly	Hispanic	45	2016-11-22	gun	M
-1788	Ivory C. Pantallion	Black	36	2016-11-22	gun	M
-1789	Frank Nathaniel Clark	Black	34	2016-11-22	unknown	M
-1790	Talif Scudder	Black	23	2016-11-22	gun	M
-1791	William J. Beavers	White	43	2016-11-23	knife	M
-1792	Kajuan Raye	Black	19	2016-11-23	unknown	M
-1793	Cleotha Mitchell	Black	37	2016-11-25	gun	M
-1794	Jerome Chris Harmon	Black	23	2016-11-25	gun	M
 1795	Carlos Valencia	Hispanic	26	2016-11-25	unarmed	M
-1796	Derek Adame	Hispanic	20	2016-11-26	unknown	M
-1797	Norman J. Strobel	White	59	2016-11-27	gun	M
-1798	Richard Grimes	Black	33	2016-11-27	gun	M
-1799	Terrell Walker	Black	48	2016-11-27	gun	M
-1800	Walter R. Echols	White	50	2016-11-27	blunt object	M
-1801	Abdul Razak Ali Artan	Other	18	2016-11-28	knife	M
-1802	Pablo Renato Cartagena	Hispanic	23	2016-11-28	gun	M
-1803	Irecas Valentine	Black	41	2016-11-28	unknown	M
-1804	Michael McInnis	White	41	2016-11-29	gun	M
-1805	Toby Cummins	White	55	2016-11-29	rock	M
-1806	Bradley King	White	29	2016-11-29	knife	M
-1807	Alexander Chance Partain	White	31	2016-11-29	unknown	M
-1808	David K. Crosby-Dowdy	Black	25	2016-11-30	gun	M
-1809	Bruce Randall "Zeus" Johnson	Black	38	2016-12-01	gun	M
-1810	Jose N. Barron Gomez	Hispanic	37.11793090137039	2016-12-01	gun	M
-1811	Quinton Phillips	White	83	2016-12-01	gun	M
-1812	Dylan M. Dalzell	White	22	2016-12-02	crowbar	M
-1813	Derek Lynn Scott	White	33	2016-12-02	gun	M
-1814	Josh Dunne	White	36	2016-12-02	unknown	M
-1815	Saif Nasser Mubarek Alameri	Asian	26	2016-12-04	unknown	M
-1816	Norman Gary	Black	29	2016-12-04	gun	M
-1817	Richard R. Jones	White	55	2016-12-06	gun	M
-1818	Westley Daum	White	47	2016-12-06	gun	M
-1819	Steven Wayne Liffel	White	52	2016-12-06	gun	M
-1820	Wayne Donald Dorsey	White	49	2016-12-06	oar	M
-1821	Keelan Charles Murray	White	37	2016-12-07	unknown	M
-1822	Redrick Jevon Batiste	Black	37	2016-12-07	gun	M
-1823	Daniel Riedmann	White	36	2016-12-07	unknown	M
-1824	Mark Anthony Hicks	Black	31	2016-12-07	knife	M
-1825	Stephen Joshua Whitney	Other	30	2016-12-09	unknown	M
-1826	Brent Quinn	White	37.11793090137039	2016-12-09	gun	M
-1827	Scott MacIntosh	White	35	2016-12-09	machete and gun	M
-1828	Waltki Williams	Black	35	2016-12-10	gun	M
-1829	Samson G. Varner	White	36	2016-12-10	knife	M
-1830	Randy Lee Cumberledge	White	39	2016-12-11	unknown	M
-1831	Jose Angel Vallarta	Hispanic	30	2016-12-11	knife	M
-1832	Amber Lewis	White	44	2016-12-11	toy weapon	F
-1833	Gary Leon Herd	White	24	2016-12-11	gun	M
-1834	Timothy Case	White	53	2016-12-11	knife	M
 1835	Francisco Serna	Hispanic	73	2016-12-12	unarmed	M
-1836	Rainer Tyler Smith	White	31	2016-12-12	gun	M
-1837	Kenneth Robledo	Black	28	2016-12-12	gun	M
-1838	Lavar Montray Douglas	Black	18	2016-12-13	gun	M
-1839	Earl Labon Eubanks	Black	32	2016-12-13	gun	M
-1840	Robert James Hess	White	60	2016-12-15	gun	M
-1841	Jimmy Lee Lawson	White	48	2016-12-17	knife	M
-1842	Fidel Barrios	Hispanic	33	2016-12-17	gun	M
-1843	Chassady LeClair	Native	44	2016-12-17	gun	M
-1844	Ryan Joseph	Black	20	2016-12-18	unknown	M
-1845	Paul Kolar	White	37	2016-12-18	gun	M
-1846	Ronald Roy Massengale	White	72	2016-12-18	gun	M
-1847	Roy Minton	White	52	2016-12-19	unknown	M
-1848	Martin Gomez	Hispanic	46	2016-12-20	knife	M
-1849	Colton Calaway	White	25	2016-12-21	gun	M
-1850	Raymond Salaiz	Hispanic	38	2016-12-21	unknown	M
-1851	Matthew Blake Richardson	White	27	2016-12-21	gun	M
-1852	Anthony Lovell Eddington	Black	24	2016-12-21	gun	M
-1853	Terrence Thomas	Black	19	2016-12-22	gun	M
-1854	Michael Tyler Jacques	White	31	2016-12-23	unknown	M
-1855	Daquan Antonio Westbrook	Black	18	2016-12-24	gun	M
-1856	Miriam Ann Savino	White	53	2016-12-24	knife	F
-1857	Zhonghua Li	Asian	48	2016-12-24	scissors	M
-1858	Gerald Hall	Black	29	2016-12-25	knife	M
-1859	James Tylka	White	30	2016-12-25	gun	M
-1860	Michael Alan Altice	White	61	2016-12-25	gun	M
-1861	Judy Boardman	White	71	2016-12-27	gun	F
-1862	Alfonso Lopez	Hispanic	41	2016-12-27	knife	M
-1863	Jake Childers	White	36	2016-12-27	gun	M
-1864	Christopher Blake Tucker	White	28	2016-12-28	unknown	M
-1865	Jamal Rollins	Black	21	2016-12-30	gun	M
-1866	Ricky Whidden	White	46	2016-12-31	knife	M
-1867	Jason Michael Robison	White	32	2016-12-31	gun	M
 1868	Chase Anthony Tuseth	White	33	2016-12-31	unarmed	M
-1869	John McLaughlin	White	42	2017-01-01	gun	M
-1870	Trevon Johnson	Black	17	2017-01-01	knife	M
-1871	Chad Erik Roberts	White	35	2017-01-01	gun	M
-1872	Juan Carlos Cuadra	Hispanic	23	2017-01-01	gun	M
-1873	Mark Guirguis	Black	21	2017-01-01	unknown	M
-1874	James E. Lewis	Black	44	2017-01-01	gun	M
-1875	Dale Hightower	White	53	2017-01-03	gun	M
-1876	James Owens	Black	63	2017-01-03	knife	M
-1877	Joshua Martino	White	18	2017-01-04	gun	M
-1878	Ruben Randolph	Black	51	2017-01-04	gun	M
-1879	Welby O'Dell Mullins	White	64	2017-01-04	gun	M
-1880	Richard A. Jackson	White	45	2017-01-04	unknown	M
-1881	Luis Vargas	Hispanic	20	2017-01-05	gun	M
-1882	Randy Wayne Cole	White	41	2017-01-05	gun	M
-1883	Sean Ryan Hake	White	23	2017-01-06	knife	M
-1884	Jamal Parks	Black	32	2017-01-06	gun	M
-1885	Daniel Scott Giberson	White	25	2017-01-07	knife	M
-1886	Travis Edward Baker	White	42	2017-01-07	gun	M
 1887	William Tucker Mathis	White	41	2017-01-07	unarmed	M
-1888	Hector Navarrete	Hispanic	31	2017-01-07	unknown	M
-1889	Carlos A. Cruz	Hispanic	50	2017-01-07	gun	M
-1890	Gilbert Zambronio-Lovato	Hispanic	38	2017-01-07	toy weapon	M
-1891	Jason Aldridge	White	44	2017-01-08	knife	M
 1892	JR Williams	Black	38	2017-01-09	unarmed	M
-1893	Davion Henderson	Black	21	2017-01-09	gun	M
-1894	Michael Rogers	White	32	2017-01-10	knife	M
 1895	Darrion Barnhill	Black	23	2017-01-10	unarmed	M
-1896	Ronnie Johnson	White	41	2017-01-11	air conditioner	M
-1897	Hafez Abousamra	Other	41	2017-01-11	gun	M
-1898	Jose A. Fernandez-Ventura	Hispanic	38	2017-01-11	gun	M
-1899	Kevin Ernest Tree	White	54	2017-01-12	gun	M
-1900	Jamison Christopher Anderson	Native	20	2017-01-12	gun	M
-1901	Rodney L. Hoback	White	26	2017-01-12	knife	M
-1902	Cameron Johnson	Other	29	2017-01-13	unknown	M
-1903	Scott Laurance Gilpin	White	47	2017-01-14	gun	M
-1904	Jahlire Nicholson	Black	28	2017-01-14	screwdriver	M
-1905	Eric David Anderson	White	48	2017-01-15	gun	M
-1906	Herbert Johnson	Black	34	2017-01-15	gun	M
-1907	Sinuon Pream	Asian	37	2017-01-15	knife	F
-1908	Dexter Martin Dumarce	White	33	2017-01-15	knife	M
-1909	David Wesley Carroll	White	36	2017-01-16	gun	M
-1910	Charles Christopher McClure	White	43	2017-01-16	pole and knife	M
-1911	Mohammad Azim Doudzai	Asian	32	2017-01-16	gun and knife	M
-1912	Christopher Dalton Sexton	White	29	2017-01-17	gun	M
-1913	Dominic Hodges	Hispanic	39	2017-01-17	gun	M
-1914	Stoney McJunkin	White	40	2017-01-18	metal pipe	M
 1915	Genevive Dawes	White	21	2017-01-18	unarmed	F
-1916	Daniel Darnell Stroughter	White	50	2017-01-18	hatchet	M
-1917	Marquis Thomas	Black	19	2017-01-18	gun	M
-1918	Melvin DeLong	Native	28	2017-01-18	gun	M
-1919	Marlon Joel Rodas-Sanchez	Hispanic	16	2017-01-18	knife	M
-1920	William D. Fisher	White	49	2017-01-19	gun	M
-1921	Christopher Garza	Hispanic	44	2017-01-19	gun	M
-1922	Elijah Smith	White	25	2017-01-19	knife	M
-1923	Gino Martin Palazzolo	White	39	2017-01-20	gun	M
-1924	Ronnie Lee Shorter	Black	44	2017-01-21	gun	M
-1925	Paul Carr Palmer	White	50	2017-01-21	knife	M
-1926	Jon M. Alspaugh	White	57	2017-01-22	gun	M
-1927	Christopher Thompkins	Black	57	2017-01-22	gun	M
-1928	Jorge Victor	Hispanic	33	2017-01-22	gun	M
-1929	Angel Ramos	Hispanic	21	2017-01-23	knife	M
-1930	Gary Mark Wigley	White	52	2017-01-23	gun	M
 1931	Daniel D. Rogers	White	27	2017-01-23	unarmed	M
-1932	Bruce Altenburger	White	60	2017-01-23	gun	M
-1933	Armond Brown	Black	25	2017-01-23	knife	M
-1934	Josue Gallardo	Hispanic	34	2017-01-24	gun	M
 1935	Dakota A. Lukecart	White	22	2017-01-24	unarmed	M
-1936	Arties Manning	Black	26	2017-01-24	gun	M
-1937	Antonio Arturo Perez Garcia	Hispanic	27	2017-01-24	gun	M
-1938	Jeremy Lopez-Robledo	Hispanic	29	2017-01-24	knife	M
 1939	Jonathan David Sper	White	30	2017-01-24	unarmed	M
-1940	Ramon Milanez	Hispanic	32	2017-01-24	gun	M
-1941	Jose Efrain Rodriguez	Hispanic	18	2017-01-24	gun	M
-1942	Micah R. Lambert	White	37	2017-01-25	unknown	M
-1943	Kevin Darnell Washington	Black	54	2017-01-25	gun	M
-1944	Donovan Paul Scheurich	White	50	2017-01-25	gun	M
-1945	Josue Javier Diaz	Hispanic	28	2017-01-26	gun	M
-1946	Kerry Lee Coomer	White	59	2017-01-26	gun	M
-1947	Deaundre Phillips	Black	24	2017-01-26	gun	M
-1948	William Brigham	White	34	2017-01-26	metal pipe	M
-1949	Eduardo Hernandez	Hispanic	25	2017-01-27	gun	M
-1950	Gerardo Coronado	Hispanic	25	2017-01-28	gun	M
-1951	Mi'Chance Dunlap-Gittens	Black	17	2017-01-28	gun	M
-1952	Matthew Zank	White	48	2017-01-28	toy weapon	M
-1953	Bradley Joseph Szacaks	White	45	2017-01-28	gun	M
 1954	Steve Salgado	Hispanic	18	2017-01-29	unarmed	M
-1955	Marvin Washington	Black	50	2017-01-30	gun	M
-1956	Jeremy Dowell	White	36	2017-01-30	knife	M
-1957	Refugio Alvarez	Hispanic	45	2017-01-30	gun and knife	M
-1958	Spencer Herckt	White	42	2017-01-30	beer bottle	M
-1959	TK TK	Black	37.11793090137039	2017-01-31	knife	M
-1960	Tavis Crane	Black	23	2017-02-01	unknown	M
-1961	Michael Russo	Black	31	2017-02-01	unknown	M
-1962	Kris Kristl	White	26	2017-02-02	toy weapon	M
-1963	Michael Sword	White	57	2017-02-02	gun	M
-1964	Miguel Angel Silva	Hispanic	18	2017-02-02	gun	M
-1965	Jose Gonzales Lera	Hispanic	27	2017-02-03	gun	M
-1966	Yia Lee	Asian	41	2017-02-03	gun	M
-1967	William David Whetstone	White	33	2017-02-03	gun	M
-1968	Jamake Cason Thomas	Black	22	2017-02-03	gun	M
-1969	Daniel McMasters	White	38	2017-02-03	gun	M
-1970	Marco A. Gomez	Hispanic	26	2017-02-03	unknown	M
-1971	Daniel Loren Rucker	White	45	2017-02-03	gun	M
-1972	Johnnie J. Harris	Black	68	2017-02-04	gun	M
-1973	Thomas Scott Henry	White	56	2017-02-04	gun	M
 1974	Peter Torres	Hispanic	23	2017-02-04	unarmed	M
 1975	Nana Adomako	Black	45	2017-02-05	unarmed	M
-1976	Shelly Porter	Black	41	2017-02-05	gun	M
-1977	Andrew Byrd	Hispanic	33	2017-02-05	unknown	M
-1978	Jerome Allen	Black	22	2017-02-06	toy weapon	M
-1979	Cole Wooley	Black	50	2017-02-06	gun	M
-1980	Gerardo Vasquez	Hispanic	52	2017-02-06	knife	M
-1981	Bradley Nelson	White	35	2017-02-07	gun	M
-1982	Curtis Jamal Deal	Black	18	2017-02-07	gun	M
-1983	Richard Latimer	White	34	2017-02-07	gun	M
-1984	Kenneth B. Huntzinger	White	51	2017-02-07	unknown	M
-1985	Alex Christopher Davis	White	18	2017-02-07	piece of wood	M
-1986	Donald Parker	White	29	2017-02-08	gun	M
-1987	Henry James Hunter	Native	34	2017-02-08	knife	M
 1988	Chad Robertson	Black	25	2017-02-08	unarmed	M
-1989	Quanice Derrick Hayes	Black	17	2017-02-09	toy weapon	M
 1990	Vincent Palma	White	26	2017-02-09	unarmed	M
-1991	Juan Salinas	Hispanic	33	2017-02-09	knife	M
-1992	Justin Burton	White	25	2017-02-10	knife	M
-1993	Jocques Scott Clemmons	Black	31	2017-02-10	gun	M
-1994	Kadhar Bailey	White	25	2017-02-10	unknown	M
 1995	Ambroshia Fagre	White	18	2017-02-10	unarmed	F
-1996	James Stephen McMullen	White	45	2017-02-10	gun	M
-1997	Carlos Keith Blackman	Black	25	2017-02-10	gun	M
-1998	Darryl L. Fuqua	Black	23	2017-02-10	gun	M
-1999	Michelle Robey	White	55	2017-02-10	knife	F
-2000	Jason Robert Mendez	White	37	2017-02-11	gun	M
-2001	Pekelo Sanchez	Asian	33	2017-02-11	unknown	M
-2002	Alonzo E. Ashley	Black	27	2017-02-11	gun	M
-2003	William A. Young	White	32	2017-02-11	metal stick	M
-2004	Willard Eugene Scott	Black	31	2017-02-12	gun	M
-2005	Bryan Devin Carreno	Hispanic	26	2017-02-12	knife	M
-2006	Brandon S. Lambert	White	32	2017-02-13	unknown	M
-2007	Drey Krause	White	53	2017-02-13	gun	M
 2008	Raynard Burton	Black	19	2017-02-13	unarmed	M
-2009	Michael Lee Morris	White	53	2017-02-14	knife	M
-2010	David Zimmerman	White	35	2017-02-14	unknown	M
-2011	Steven C. Oliger	White	64	2017-02-14	gun	M
-2012	Kenneth Lee Bailey	Black	24	2017-02-15	gun	M
-2013	Andrew McClendon	White	33	2017-02-15	knife	M
-2014	Mauro Garnica	Hispanic	55	2017-02-15	unknown	M
-2015	Kadeem Torres	Black	17	2017-02-16	gun	M
-2016	Joseph Tamayo	Hispanic	48	2017-02-16	gun	M
-2017	Jimmy Briggs	Black	21	2017-02-16	gun	M
-2018	Jonathon  Daniel Simmons	White	22	2017-02-16	gun	M
 2019	Joshua Henry	White	30	2017-02-17	unarmed	M
-2020	David English	White	34	2017-02-17	knife	M
-2021	Jean R. Valescot	Black	35	2017-02-17	gun	M
-2022	Jesse Enjaian	White	32	2017-02-17	gun	M
-2023	Chance David Baker	Black	22	2017-02-18	toy weapon	M
-2024	Keo Crockett	Black	46	2017-02-18	gun	M
-2025	Christopher Carter	Black	27	2017-02-19	knife	M
-2026	Sergio Reyes	Hispanic	18	2017-02-19	toy weapon	M
-2027	Kyle Riggs	White	33	2017-02-19	gun	M
-2028	Manuel Encinas	Hispanic	26	2017-02-19	gun	M
 2029	Jason Fanning	White	27	2017-02-20	unarmed	M
-2030	Taylor Hodge	White	26	2017-02-20	knife	M
-2031	Douglas Michael Smith	White	51	2017-02-21	gun	M
-2032	Don Clark	Black	63	2017-02-21	gun	M
-2033	Nicolas Sanchez	Hispanic	38	2017-02-21	gun	M
-2034	Bartolo Justice Sambrano	Hispanic	25	2017-02-21	gun	M
-2035	Misael Macias Cano	Hispanic	39	2017-02-21	gun	M
-2036	Medger Blake	Black	41	2017-02-22	knife	M
-2037	Kyle Copson	White	26	2017-02-22	knife	M
-2038	Morgan London Rankins	Black	30	2017-02-22	knife	F
-2039	David Lee Montano	Hispanic	33	2017-02-23	gun	M
-2040	Jimmie Patton	White	38	2017-02-23	gun	M
-2041	Steven Valenzuela	Hispanic	24	2017-02-23	gun	M
-2042	Timothy Lionel Williams	Black	47	2017-02-23	gun	M
-2043	Michael T. Stoudt	White	62	2017-02-24	gun	M
-2044	Joey Isgrigg	White	30	2017-02-24	gun	M
-2045	Jacqueline Cheyanne Johnson	White	33	2017-02-24	gun	F
-2046	Lorenzo Antoine Cruz	Black	23	2017-02-25	toy weapon	M
-2047	William Dwayne Darby	White	39	2017-02-25	gun	M
-2048	Jacob Taulbee	White	41	2017-02-26	knife	M
-2049	Evin Sanna Olsen	White	46	2017-02-26	unknown	F
-2050	Barry Michael Zumwalt	White	36	2017-02-26	gun	M
-2051	James Leroy Marker	White	66	2017-02-26	gun	M
-2052	Joey J. Bridges	White	27	2017-02-27	gun	M
-2053	Shawn M. Igers	White	40	2017-02-27	gun	M
-2054	Earl Riley	Black	25	2017-02-28	gun	M
-2055	Christopher Redding	Black	20	2017-02-28	gun	M
-2056	Jose Olivares	Hispanic	43	2017-02-28	gun	M
-2057	Epthen Lamont Johnson	Black	40	2017-03-01	knife	M
-2058	John Hall	White	33	2017-03-02	gun	M
-2059	Isidro Bazan Jr	Hispanic	34	2017-03-02	baseball bat	M
-2060	Michael Cisneros	Hispanic	27	2017-03-02	toy weapon	M
-2061	Rafael Navarro-Garcia	Hispanic	25	2017-03-02	gun	M
-2062	Ramon Andrade	Hispanic	37	2017-03-02	knife	M
-2063	Michael Kocher	White	32	2017-03-03	gun	M
-2064	Dave Phoenix	Native	25	2017-03-03	toy weapon	M
-2065	George Lee Seeton	White	38	2017-03-04	unknown	M
-2066	Joseph Scott Inabinet	White	50	2017-03-04	gun	M
-2067	Edward Manning	White	26	2017-03-04	metal object	M
-2068	Alejandro Valencia Mendez	Hispanic	70	2017-03-04	pipe	M
 2069	Roy Dale Evans	White	38	2017-03-07	unarmed	M
-2070	Dennis Todd Rogers	Black	41	2017-03-07	sharp object	M
-2071	Frank W. Wratny	White	91	2017-03-08	gun	M
-2072	Iaroslav Mosiiuk	White	25	2017-03-08	gun	M
-2073	Steven Schiltz	White	29	2017-03-09	baseball bat and bottle	M
-2074	Jesus Alberto Geney	Hispanic	24	2017-03-09	knife	M
-2075	Damon Seitz	White	40	2017-03-10	gun	M
-2076	Mark Robert Carlberg	White	51	2017-03-11	gun	M
-2077	Brandon Wiley	Black	30	2017-03-11	gun	M
-2078	Manuel Gonzalez	Hispanic	28	2017-03-12	knife	M
-2079	Michael Anthony Perez	Hispanic	33	2017-03-12	knife	M
-2080	Luke O. Stewart	Black	23	2017-03-13	unknown	M
-2081	Noel Aaron Russell	White	23	2017-03-13	knife	M
-2082	Rashad Daquan Opher	Black	20	2017-03-13	unknown	M
 2083	Christopher Apostolos	White	56	2017-03-14	unarmed	M
-2084	Ryan L. Rosa	White	36	2017-03-14	unknown	M
-2085	Alexander Meltz	White	18	2017-03-14	gun	M
-2086	Shawn Anthony Dumitras	White	43	2017-03-14	gun	M
 2087	Elena "Ebbie" Mondragon	Hispanic	16	2017-03-14	unarmed	F
-2088	Cordale Quinn Handy	Black	29	2017-03-15	gun	M
-2089	Todd Munson	White	25	2017-03-15	unknown	M
-2090	Frederick Ricardo Brown	Black	34	2017-03-16	gun	M
-2091	Jermaine Claybrooks	Black	32	2017-03-16	gun	M
-2092	Daniel Donarski	White	58	2017-03-16	gun	M
-2093	Rodney James Hess	Black	36	2017-03-16	unknown	M
-2094	Patrick Earl Gatson	Black	32	2017-03-16	gun	M
-2095	Brentant M. Lahey	White	25	2017-03-17	knife	M
-2096	Nancy Jane Lewellyn	White	59	2017-03-17	toy weapon	F
-2097	Desmond Phillips	Black	25	2017-03-17	knife	M
-2098	Kevin C. Perry	White	25	2017-03-18	gun	M
-2099	Benjamin Christian Barnes	White	42	2017-03-18	gun	M
-2100	Jason Dennis Watkins	White	36	2017-03-18	unknown	M
-2101	Clifton Knickmeyer	White	59	2017-03-19	gun	M
 2102	Alteria Woods	Black	21	2017-03-19	unarmed	F
-2103	Trevor Allen Brice Gingras	White	19	2017-03-19	gun	M
-2104	Mario Simoes	Hispanic	45	2017-03-19	gun	M
-2105	Charles Harris	White	42	2017-03-22	knife	M
-2106	Don Johnson	Black	27	2017-03-22	gun	M
-2107	Nengmy Vang	Asian	45	2017-03-22	gun	M
-2108	William Stokes	Black	51	2017-03-23	machete	M
-2109	Eddie Davis	Black	42	2017-03-23	knife	M
-2110	Francisco Valdez	Hispanic	24	2017-03-23	knife	M
-2111	Reno Joseph Owens	Black	39	2017-03-24	knife	M
-2112	Austin Tyler Macon	White	18	2017-03-24	gun	M
-2113	Matthew Gambaro	Hispanic	26	2017-03-24	gun	M
-2114	Fred Barragan	Hispanic	35	2017-03-25	gun	M
-2115	Paul Parienlla	White	53	2017-03-26	gun	M
-2116	Michael Hornibrook	White	54	2017-03-26	gun	M
-2117	Justin Quincy Smith	White	36	2017-03-26	gun	M
 2118	David Eric Ufferman	White	56	2017-03-26	unarmed	M
-2119	Steven Hopwood	White	51	2017-03-27	gun	M
-2120	Pryor Spencer Bailey	White	45	2017-03-27	gun	M
-2121	Richard Alexander Tilley	White	28	2017-03-27	knife	M
-2122	Peter J. Doffin	White	36	2017-03-28	gun	M
-2123	Lee Pat Milks	White	73	2017-03-28	gun	M
-2124	Daniel Hendrix	White	26	2017-03-29	gun	M
-2125	Troy Boyle	White	41	2017-03-29	gun	M
-2126	Doyle Wayne Johnson	White	59	2017-03-29	gun	M
-2127	Leroy Brown	Black	28	2017-03-29	unknown	M
-2128	Fred Ratliff	White	45	2017-03-29	gun	M
-2129	Dennis Wasson	White	27	2017-03-29	unknown	M
-2130	Christopher Angelo Pizzichetta	White	46	2017-03-30	unknown	M
-2131	Marcus Williams	Black	34	2017-04-01	gun	M
-2132	Phosowath Sengphong	Asian	30	2017-04-01	knife	M
-2133	Jose Antonio Hernandez	Hispanic	46	2017-04-03	gun	M
 2134	Rogelio Vidal Landa	Hispanic	47	2017-04-04	unarmed	M
-2135	Michael Maldonado	Hispanic	32	2017-04-04	unknown	M
-2136	Stephen Connard Ferry	White	65	2017-04-04	gun	M
-2137	Michael Alcaraz	Hispanic	19	2017-04-05	gun	M
-2138	Austin Dakota Snyder	White	22	2017-04-05	unknown	M
-2139	Christopher Wade	Black	39	2017-04-06	toy weapon	M
-2140	Benjamin Ailstock	White	38	2017-04-06	gun	M
-2141	Glenn Watenpool	White	68	2017-04-06	gun	M
-2142	Richard Xavier Summers	Black	49	2017-04-06	gun	M
-2143	Kenneth Francis	Black	37	2017-04-06	gun	M
-2144	Jeffrey Lynn Curry	Asian	33	2017-04-07	gun	M
-2145	Gregory Kever	White	25	2017-04-08	knife	M
-2146	Jose Gonzales Rendon	Hispanic	36	2017-04-09	knife	M
-2147	Jeffrey Findlay	White	30	2017-04-10	gun	M
-2148	TK TK	Black	39	2017-04-10	gun	M
-2149	Zelalem Eshetu Ewnetu	Black	28	2017-04-12	gun	M
-2150	Erik Pamias	White	28	2017-04-13	unknown	M
-2151	Charles Johnston	White	25	2017-04-13	gun	M
-2152	Thomas Gezotis	White	57	2017-04-13	gun	M
-2153	Charles Shands	White	33	2017-04-14	gun	M
-2154	Ivan Wilson	Native	24	2017-04-14	knife	M
-2155	Olugbalah Ridley	Black	33	2017-04-15	gun	M
-2156	David Airth	White	56	2017-04-15	knife	M
-2157	Frederick H. Hall	White	56	2017-04-15	gun	M
 2158	Isaiah Murrietta-Golding	Hispanic	16	2017-04-15	unarmed	M
-2159	Darren Jahnke	White	47	2017-04-16	gun	M
-2160	Michael Zennie Dial II	White	33	2017-04-17	unknown	M
-2161	Casey Desper	White	32	2017-04-18	unknown	M
-2162	Keith Price	Black	21	2017-04-19	gun	M
-2163	Marion Lee Holliday	White	64	2017-04-20	gun	M
-2164	Damarius Butts	Black	19	2017-04-20	gun	M
-2165	Jose Trejo	Hispanic	26	2017-04-20	gun	M
-2166	Brandon Pequeno	Hispanic	25	2017-04-20	unknown	M
 2167	Sariah Marie Lane	White	17	2017-04-20	unarmed	F
-2168	Ray Valdez	Hispanic	55	2017-04-20	knife	M
-2169	Chance Rickie Thompson	White	25	2017-04-21	gun	M
-2170	Joseph Sin	Asian	43	2017-04-22	hatchet and gun	M
-2171	William D. Spates	Black	39	2017-04-22	unknown	M
-2172	Michael Wilson-Salzl	White	24	2017-04-22	knife	M
-2173	Wayne Noel Simard	White	70	2017-04-23	gun	M
-2174	Robert Becker	White	79	2017-04-24	gun	M
-2175	Kendell Wilson	Black	16	2017-04-24	gun	M
 2176	Jacy Kevin McManus	White	35	2017-04-24	unarmed	M
-2177	Daezion Turner	Black	15	2017-04-24	gun	M
-2178	Hakim McNair	Black	23	2017-04-25	gun	M
-2179	Fred Cardenas	Hispanic	53	2017-04-25	gun	M
-2180	Juan Manuel Avilla	Hispanic	20	2017-04-25	unknown	M
-2181	Gavin Williams	Black	27	2017-04-25	knife	M
-2182	Charles Bossinger	White	53	2017-04-26	gun	M
-2183	Jason Thomas Christian	White	32	2017-04-26	unknown	M
-2184	Selwyn Aubrey Hall	Black	57	2017-04-26	Taser	M
-2185	Burgon Sealy	Black	26	2017-04-27	gun	M
-2186	Tim A. Holmgren	White	53	2017-04-27	gun	M
-2187	Avery Richard	Black	32	2017-04-28	gun	M
-2188	Luis Fernando Pacheco	Hispanic	25	2017-04-28	gun	M
 2189	Jordan Edwards	Black	15	2017-04-29	unarmed	M
-2190	Gene Bernhardt	White	59	2017-04-29	crossbow	M
-2191	Caleb Jackson	Black	35	2017-04-29	gun	M
-2192	Andrew James Lucero	Hispanic	33	2017-04-29	unknown	M
-2193	Devin Hawkins	White	32	2017-04-30	gun	M
-2194	Peter Raymond Selis	White	49	2017-04-30	gun	M
-2195	James Edward Ray	Black	46	2017-04-30	gun	M
-2196	Joseph William Alain	White	25	2017-05-01	gun	M
-2197	Jason Sebastian Roque	Hispanic	20	2017-05-02	gun	M
-2198	Rodney Henderson	Black	48	2017-05-02	knife	M
-2199	Mirza Tatlic	White	24	2017-05-03	gun	M
-2200	Malik Carey	Black	18	2017-05-03	gun	M
-2201	William Dean	White	67	2017-05-03	gun	M
-2202	Nicholas Flusche	White	26	2017-05-03	knife	M
-2203	Lucille Espinosa	Hispanic	54	2017-05-04	gun	F
-2204	Jacob Peterson	White	15	2017-05-06	toy weapon	M
-2205	Cedric Jamal Mifflin	Black	27	2017-05-07	unknown	M
-2206	Jose Hernandez-Rossy	Hispanic	26	2017-05-07	gun	M
-2207	Steven Price	White	62	2017-05-07	ax	M
-2208	Landon Nobles	Black	24	2017-05-07	gun	M
-2209	Mikel Laney McIntyre	Black	32	2017-05-08	rock	M
-2210	Anthony David Soderberg	White	29	2017-05-08	gun	M
-2211	Jayson Negron	Hispanic	16	2017-05-09	unknown	M
-2212	Terry Percy Campbell	Black	25	2017-05-09	gun	M
-2213	Joseph Jaster	White	40	2017-05-09	gun	M
 2214	John Bittle	White	39	2017-05-09	unarmed	M
-2215	Scott N. Bloomfield	White	34	2017-05-09	gun	M
-2216	Ian Thomas Little	White	36	2017-05-09	toy weapon	M
-2217	Terrell Kyreem Johnson	Black	24	2017-05-10	knife	M
-2218	Robin White	Black	50	2017-05-10	gun	F
-2219	Jeroen Peter Koornwinder	White	50	2017-05-10	unknown	M
-2220	TK TK	Hispanic	37.11793090137039	2017-05-11	gun	M
-2221	Ryan Lowell	White	30	2017-05-12	gun	M
 2222	Jonathan David Victor	White	35	2017-05-12	unarmed	M
-2223	Phillip O'Shea	White	46	2017-05-12	gun	M
-2224	Ronald Singletary	Black	51	2017-05-12	knife	M
-2225	Maxwell Holt	White	37	2017-05-13	gun	M
-2226	Clarence E. Coats	Black	41	2017-05-13	gun	M
-2227	David Jay Juarez	Hispanic	41	2017-05-14	gun	M
-2228	James A. Burton	White	48	2017-05-14	gun	M
-2229	Jonie Block	Black	27	2017-05-15	gun	F
-2230	Jaison Fitzgerald	Black	29	2017-05-15	gun	M
-2231	Buford Shane Whitson	White	47	2017-05-15	gun	M
-2232	Emmanuel Ibarra	Hispanic	34	2017-05-15	knife	M
-2233	Keith Andrew Chesser	White	48	2017-05-15	crossbow	M
-2234	Isabelle Duval	White	41	2017-05-16	gun	F
-2235	Tristan Long	Black	25	2017-05-16	knife	M
-2236	Edwin Fuentes	Hispanic	24	2017-05-16	gun	M
-2237	Marshall Barrus	White	38	2017-05-16	gun	M
-2238	Daniel George Boak	White	28	2017-05-17	unknown	M
-2239	Anthony Paul Ardo	White	47	2017-05-20	fireworks	M
-2240	Roger Bubar	White	65	2017-05-20	gun	M
-2241	Shannon Edward Estill	White	58	2017-05-20	toy weapon	M
-2242	Jimmie Montel Sanders	Black	33	2017-05-21	gun	M
-2243	Joseph M. Hodgin	White	43	2017-05-21	gun	M
 2244	Ricco Devante Holden	Black	24	2017-05-21	unarmed	M
 2245	Carlos Garcia Petrovich	Hispanic	37	2017-05-21	unarmed	M
-2246	Aaron M. Thompson	White	31	2017-05-22	knife	M
-2247	Michael Anthony Bonini	White	65	2017-05-23	gun	M
-2248	John Eno	White	59	2017-05-23	gun	M
-2249	Albert Gagnier	White	74	2017-05-23	gun	M
-2250	Jorge Alberto Fuentes	Hispanic	21	2017-05-23	gun	M
 2251	Hayden J. Stutz	White	24	2017-05-24	unarmed	M
-2252	TK TK	Hispanic	37.11793090137039	2017-05-24	gun	M
-2253	Shawn Buck	White	23	2017-05-25	gun	M
 2254	Hector Gamboa	Hispanic	59	2017-05-26	unarmed	M
-2255	Jamie J. Robinson	White	33	2017-05-26	gun	M
-2256	Joseph Zimmerman	White	34	2017-05-26	toy weapon	M
-2257	Ron Harlan Lewallen	White	30	2017-05-27	unknown	M
-2258	Shaquian Tyrone Johnson	Black	22	2017-05-28	gun	M
-2259	Chad Dionne	White	37	2017-05-29	gun	M
-2260	Joseph Godinez	Hispanic	20	2017-05-29	unknown	M
-2261	Roman Jade Carrillo	Hispanic	18	2017-05-30	gun	M
-2262	James Gleason	White	24	2017-05-31	unknown	M
-2263	James Daniel Hill	White	17	2017-05-31	gun	M
-2264	Francisco Suarez-Madonado	Hispanic	27	2017-06-01	gun	M
-2265	Edward Everett Courtenay	White	51	2017-06-02	unknown	M
-2266	Charles Darnell Baker	Black	29	2017-06-02	gun	M
 2267	Marc Brandon Davis	Black	34	2017-06-02	unarmed	M
-2268	Naway Willy	Asian	18	2017-06-02	gun	M
-2269	Corsean Lewis	Black	17	2017-06-02	gun	M
-2270	Antonio Gerardo Rodriguez	Hispanic	55	2017-06-02	gun	M
-2271	Donald Lee Cramer	White	44	2017-06-03	gun	M
-2272	Jeremy Austin Lindsey	White	27	2017-06-04	gun	M
-2273	Bruce Dawley	White	66	2017-06-04	gun	M
-2274	Charles Edgar Mullins	White	45	2017-06-05	gun	M
-2275	John Spaulding	Black	47	2017-06-05	gun	M
-2276	Quentin Louis Case	White	34	2017-06-05	gun	M
-2277	Adrian Maurice Hardeman	Black	37	2017-06-05	gun	M
-2278	Mark Ellis	White	54	2017-06-06	gun	M
-2279	Salvadro Alfredo Pablo Lopez	Hispanic	21	2017-06-07	gun	M
-2280	Isaiah M. Hammett	White	21	2017-06-07	gun	M
-2281	Blaine Robert Erb	White	35	2017-06-07	gun	M
-2282	Donald Smith	White	75	2017-06-07	gun	M
-2283	Michele Rice	White	33	2017-06-08	gun	F
-2284	Oscar Junior	Hispanic	45	2017-06-08	gun	M
-2285	Stephen Rich	White	48	2017-06-08	gun	M
-2286	Paul Mashburn	White	58	2017-06-08	gun	M
 2287	David Jones	Black	30	2017-06-08	unarmed	M
-2288	Antonio Juarez	Hispanic	44	2017-06-09	gun	M
-2289	Theodore Brendecke	White	82	2017-06-09	gun	M
-2290	Joshua Barre	Black	29	2017-06-09	knife	M
-2291	Isaiah Obet	Other	25	2017-06-10	knife	M
-2292	Robin Blaylock	White	53	2017-06-10	gun	M
-2293	Emmett Edward Hall	White	60	2017-06-10	knife	M
-2294	Terry Williams	Black	19	2017-06-11	unknown	M
-2295	Eleuterio Amaya-Torres	Hispanic	63	2017-06-12	gun	M
-2296	John Wesley Bays	White	50	2017-06-12	gun	M
-2297	Avery D. Metrejean	White	35	2017-06-12	gun	M
-2298	Johnny Platas	Hispanic	45	2017-06-12	knife	M
-2299	Austin Durham	White	24	2017-06-13	gun	M
-2300	Barry Jones	White	36	2017-06-13	gun	M
-2301	Jordan Frazier	Black	35	2017-06-13	gun	M
-2302	Chazz Brown	Black	33	2017-06-13	gun	M
-2303	James T. Hodgkinson	White	66	2017-06-14	gun	M
-2304	Michael Morris	White	54	2017-06-14	knife	M
-2305	Tommy Le	Asian	20	2017-06-14	pen	M
-2306	Michael Brown	White	40	2017-06-15	gun	M
-2307	Robert J. Berube	White	41	2017-06-16	gun	M
-2308	Hector Cisneros Soria	Hispanic	30	2017-06-16	gun	M
-2309	Sergio Valdovinos	Hispanic	32	2017-06-16	machete	M
 2310	Jamie Dougan	White	24	2017-06-16	unarmed	F
-2311	Nathan Banks	White	37	2017-06-16	gun	M
-2312	Samantha Aguilar	Hispanic	28	2017-06-17	unknown	F
-2313	Joseph Paul Hogan	White	48	2017-06-17	gun	M
-2314	Charleena Lyles	Black	30	2017-06-18	knife	F
-2315	William Webster	White	64	2017-06-18	gun	M
-2316	Matthew Colton Stover	Native	21	2017-06-19	gun	M
-2317	Alton Folmar	White	28	2017-06-19	gun	M
-2318	David Pacas	Hispanic	36	2017-06-20	toy weapon	M
-2319	David Bryan Creson	White	40	2017-06-20	gun	M
-2320	Jacob Faulkner	White	32	2017-06-20	gun	M
-2321	Robb Stewart	White	50	2017-06-20	gun	M
-2322	Pedro Ramirez	Hispanic	28	2017-06-20	knife	M
-2323	Brandon D. Lukenbill	White	33	2017-06-21	unknown	M
-2324	Daniel Francisco Valenzuela	Hispanic	37	2017-06-21	knife	M
 2325	Armando Garcia-Muro	Hispanic	17	2017-06-22	unarmed	M
-2326	Santino Trevino	Hispanic	20	2017-06-23	gun	M
-2327	Jesus Ramon Deltoro	Hispanic	34	2017-06-23	unknown	M
-2328	Cameron Ollman	White	37	2017-06-24	gun	M
-2329	Christopher Michael Murray	White	24	2017-06-24	unknown	M
-2330	Jimmie Bevenue	White	47	2017-06-24	gun	M
-2331	Giovonn Joseph-McDade	Black	20	2017-06-24	unknown	M
-2332	Lawrence Heyward Jr.	Black	56	2017-06-25	gun	M
-2333	Deveonte Johnson	Black	24	2017-06-25	gun	M
-2334	Nicholas Johnston	White	47	2017-06-25	gun	M
-2335	Rip Huntington	Hispanic	36	2017-06-26	gun	M
-2336	Jason Magana Herrera	Hispanic	35	2017-06-27	gun	M
-2337	Rodney L. Cole	Black	37	2017-06-28	screwdriver	M
 2338	Aaron Bailey	Black	45	2017-06-29	unarmed	M
-2339	Marco Cardoza	Hispanic	41	2017-06-29	toy weapon	M
-2340	Joel Gatu Muturi	Black	23	2017-06-29	unknown	M
-2341	Jose Guillermo Flores Colon	Hispanic	37	2017-06-29	Taser	M
 2342	Chet Knuppel	White	23	2017-06-30	unarmed	M
-2343	Brett Rodriguez	Hispanic	33	2017-06-30	gun	M
-2344	Patrick Sanchez	Hispanic	23	2017-07-01	gun	M
-2345	Quintec Locke	Black	37	2017-07-01	gun	M
-2346	Jeremy Holmes	Asian	19	2017-07-01	knife	M
-2347	Tyson Williams	White	39	2017-07-02	gun	M
-2348	Daniel Craven	White	53	2017-07-03	gun	M
-2349	John Donadio	White	51	2017-07-03	gun	M
-2350	Holden Gorka	White	25	2017-07-03	gun	M
-2351	Christopher Henry Cashell	White	45	2017-07-03	gun	M
-2352	Miguel Gonzales	Hispanic	28	2017-07-04	gun	M
-2353	Dana Dubose	Black	36	2017-07-04	knife	M
-2354	Cody Ray McCray	Hispanic	32	2017-07-04	unknown	M
-2355	Donald Martin	White	39	2017-07-04	gun	M
-2356	Douglas West	White	46	2017-07-04	gun	M
-2357	Tyrone Orvy Peabody	Native	53	2017-07-04	gun	M
-2358	Zepp Crouchet	Black	42	2017-07-04	gun	M
-2359	Alexander Bonds	Black	34	2017-07-05	gun	M
-2360	Tiffany Lynn Potter	White	29	2017-07-05	gun	F
-2361	Edwin "Beanie" Esker	White	53	2017-07-05	chainsaw	M
-2362	Jamie Huskey	White	45	2017-07-05	gun	M
 2363	Jonathan Coronel	Hispanic	24	2017-07-05	unarmed	M
-2364	Carroll Tuttle	White	51	2017-07-05	gun	M
-2365	Jesus Cervantes	Hispanic	35	2017-07-06	unknown	M
 2366	Dejuan Guillory	Black	27	2017-07-06	unarmed	M
 2367	Brian Easley	Black	33	2017-07-07	unarmed	M
-2368	TK TK	White	16	2017-07-07	unknown	M
-2369	Kareem Ali Nadir Jones	Black	30	2017-07-07	gun	M
-2370	Michael Anthony Rude	Asian	22	2017-07-08	knife	M
-2371	Cardell Vance III	Black	23	2017-07-08	knife	M
-2372	Tina Medlin	White	50	2017-07-08	gun	F
-2373	Ryan A. Probst	White	28	2017-07-09	gun	M
-2374	Robert Yeiser	White	34	2017-07-09	gun	M
-2375	Brayant Alvarez	Hispanic	24	2017-07-09	gun	M
-2376	Edward Taylor	Black	54	2017-07-09	gun	M
-2377	Cody Ethan Mitchell	White	26	2017-07-10	unknown	M
-2378	Gregory Shawn Thrower	White	39	2017-07-10	gun	M
-2379	Randy Engstrom	White	34	2017-07-11	gun	M
-2380	Caleb Edward Blaylock	White	27	2017-07-11	knife	M
-2381	Steve Scott	White	48	2017-07-11	gun	M
-2382	Antonio Garcia Jr.	Black	47	2017-07-11	knife	M
-2383	Silas Andrew Smith	White	54	2017-07-11	gun	M
-2384	Dorsey Glenn Taulbee Jr.	Native	33	2017-07-12	gun	M
-2385	James Gerald Davis	White	40	2017-07-12	unknown	M
-2386	Keith Alan Eustace	White	58	2017-07-12	blunt object	M
-2387	Chancey Chamblee	White	55	2017-07-13	gun	M
-2388	Stephen Steele	White	47	2017-07-13	knife	M
-2389	Pedro Rubio	Hispanic	42	2017-07-13	knife	M
-2390	Gerber Dieguez	Hispanic	29	2017-07-15	gun	M
 2391	Justine Damond	White	40	2017-07-15	unarmed	F
-2392	Vaughn Shaw	Black	23	2017-07-15	gun	M
-2393	Keith Wade	White	23	2017-07-15	gun	M
-2394	India N. Nelson	Black	25	2017-07-17	gun	F
-2395	Ernesto Sedillo	Hispanic	52	2017-07-17	gun	M
-2396	Eric Wesley Clark	White	43	2017-07-17	gun	M
-2397	Jose Cazares	Hispanic	37	2017-07-17	gun	M
-2398	Daniel Thomas Reid	White	32	2017-07-18	gun	M
-2399	Robert Earl Vaughan	White	70	2017-07-18	gun	M
-2400	Nolan Cornett	White	24	2017-07-19	gun	M
-2401	Anthony Benavidez	Hispanic	24	2017-07-19	knife	M
 2402	Farhad Jabbari	Other	38	2017-07-19	unarmed	M
-2403	Joshua Daniels	White	52	2017-07-20	gun	M
-2404	Isaiah Perkins	Black	27	2017-07-20	gun	M
-2405	Yahir Breito	Hispanic	22	2017-07-21	knife	M
-2406	Vicente Velasquez	Hispanic	42	2017-07-21	gun	M
-2407	Walter Lynde	White	49	2017-07-23	toy weapon	M
-2408	Michael Caponigro	White	59	2017-07-23	gun	M
-2409	Ismael Lopez Rodriguez	Hispanic	41	2017-07-23	gun	M
-2410	Kyle Scott Rushing	White	34	2017-07-23	knife	M
-2411	Jerrod Kershaw	White	31	2017-07-24	gun	M
-2412	Alexander J. Schoessel	White	23	2017-07-25	ax	M
-2413	Michael Joseph Harris	White	28	2017-07-25	gun	M
-2414	Moises Balladares	Hispanic	33	2017-07-25	gun	M
-2415	Aries Clark	Black	16	2017-07-25	toy weapon	M
-2416	Andrew Collins	White	35	2017-07-26	gun	M
-2417	Giovani Casiano	White	26	2017-07-26	gun	M
-2418	Susan Teel	White	62	2017-07-26	knife	F
-2419	Kesharn K. Burney	Black	25	2017-07-26	unknown	M
-2420	Sergio Velasco-Martinez	Hispanic	25	2017-07-27	blunt object	M
-2421	Matthew Folden	White	31	2017-07-27	knife	M
-2422	Alejandro Alvarado	Hispanic	35	2017-07-27	knife	M
-2423	Jerauld Phillip Hammond II	White	46	2017-07-27	gun	M
-2424	Deltra Henderson	Black	39	2017-07-27	gun	M
-2425	Michael Fitzgerald	White	26	2017-07-27	gun	M
-2426	Raymond Cruz	Hispanic	37	2017-07-28	unknown	M
-2427	Brian J. Skinner	White	32	2017-07-28	knife	M
-2428	Rodney E. Jacobs	Black	31	2017-07-28	gun	M
-2429	Dennis W. Robinson	White	48	2017-07-29	gun	M
-2430	Jashod Arthur Carter	Black	29	2017-07-29	gun	M
-2431	Dwayne Jeune	Black	32	2017-07-31	knife	M
 2432	Isaiah Tucker	Black	28	2017-07-31	unarmed	M
-2433	Robert Savelli	White	43	2017-07-31	gun	M
-2434	Norberto Nieblas Reyes	Hispanic	39	2017-07-31	gun	M
-2435	Kerry Bradley	Black	37	2017-08-01	unknown	M
-2436	Franklin Oden	White	39	2017-08-01	gun	M
-2437	Mikle Eugene Dixon	White	42	2017-08-01	knife	M
-2438	Mark Anthony Sanchez	Hispanic	33	2017-08-01	gun	M
-2439	Miguel Salas	Hispanic	25	2017-08-01	gun	M
-2440	Preston Thornton	Black	29	2017-08-02	gun	M
-2441	Jeffrey Barboa	Hispanic	45	2017-08-02	machete	M
-2442	Quintas Harris	Black	27	2017-08-02	gun	M
-2443	Phillip Rhoades	White	28	2017-08-02	unknown	M
-2444	Keith Burkholder	White	57	2017-08-03	gun	M
-2445	Kemonte Cobbs	Black	15	2017-08-03	gun	M
-2446	Aaron Payne	White	33	2017-08-04	gun	M
-2447	Cory Stephens	White	35	2017-08-04	gun	M
-2448	TK TK	Black	47	2017-08-04	gun	M
-2449	Jeremy Gabrial	White	31	2017-08-04	toy weapon	M
-2450	Melissa Wiseman	White	36	2017-08-04	gun	F
-2451	Joseph Miller	White	54	2017-08-04	gun	M
-2452	Timmy Wilson	White	24	2017-08-05	gun	M
-2453	Pablo Garcia	Hispanic	35	2017-08-05	knife	M
-2454	Kyle Andrew Lankford	White	32	2017-08-06	knife	M
-2455	Danatae Franklin	Black	28	2017-08-06	gun	M
-2456	Winston Espino Sanchez	Hispanic	45	2017-08-07	knife	M
-2457	Jose Ortiz	Hispanic	29	2017-08-07	knife	M
 2458	Christopher K. Sales	White	36	2017-08-07	unarmed	M
-2459	Peter James Robbins	White	23	2017-08-08	gun	M
-2460	Darreon Neal	Black	17	2017-08-08	gun	M
-2461	Eugene Nelson	Black	20	2017-08-09	unknown	M
-2462	Mark P. Coffey	White	33	2017-08-10	gun	M
-2463	Eric Bogart	White	49	2017-08-10	gun	M
-2464	Tyrease Carlyle	Black	31	2017-08-11	gun	M
-2465	Eduardo Navarrete	Hispanic	35	2017-08-12	knife	M
-2466	Christopher Collins	White	24	2017-08-13	gun	M
-2467	Roger Burzinski	White	54	2017-08-13	gun	M
-2468	Carmen William Rongione	White	41	2017-08-13	machete	M
-2469	Patrick Harmon	Black	50	2017-08-13	knife	M
-2470	Hussein Hassan	Black	46	2017-08-13	sword	M
-2471	Steven James Young	White	45	2017-08-14	toy weapon	M
-2472	Robert Emmett Bracewell Jr.	White	20	2017-08-14	gun	M
-2473	Herbert Gilbert	Black	37	2017-08-15	unknown	M
-2474	Kenneth Lewis	Black	34	2017-08-16	gun	M
-2475	James Midkiff	White	54	2017-08-16	gun	M
-2476	Peter Daniel Grima	White	65	2017-08-17	unknown	M
-2477	Edgar Ramirez Carreto	Hispanic	28	2017-08-17	knife	M
-2478	Clarence Belsar III	White	26	2017-08-18	gun	M
-2479	Derrick Rashard Brabham	Black	25	2017-08-18	gun	M
-2480	Thomas Justin Walton	White	32	2017-08-19	Taser	M
-2481	Jonathan Bolger	White	44	2017-08-20	gun	M
-2482	Keshawn Wilson	Black	32	2017-08-20	gun	M
-2483	Jeffrey Jacobs	White	42	2017-08-21	toy weapon	M
-2484	Dennia Flowers	White	66	2017-08-21	gun	M
-2485	Tyler Whitmire	White	22	2017-08-21	knife	M
-2486	Nathaniel Richmond	Black	51	2017-08-21	gun	M
-2487	Thomas Selje	White	64	2017-08-21	gun	M
-2488	Kiwi Herring	Black	30	2017-08-22	knife	F
-2489	Henry Rivera Jr.	Hispanic	71	2017-08-22	unknown	M
-2490	Robert Earl Adams	White	30	2017-08-22	knife	M
-2491	Konstantin Morozov	White	48	2017-08-22	gun	M
-2492	Mark Aaron Jensen	White	56	2017-08-22	gun	M
-2493	Ciara Howard	White	26	2017-08-23	gun	F
-2494	Colton Puckett	White	28	2017-08-24	gun	M
-2495	Isaias Raziel Ochoa	Hispanic	19	2017-08-24	gun	M
-2496	Scott Mayfield	Black	24	2017-08-24	gun	M
-2497	Daniel Blyler	White	44	2017-08-25	gun	M
-2498	Kristen Ambury	White	28	2017-08-25	gun	F
 2499	Charles David Robinson	Black	47	2017-08-25	unarmed	M
-2500	Michael Malik Kawon Lee	Black	18	2017-08-26	gun	M
-2501	William Wilson	Hispanic	26	2017-08-27	gun	M
-2502	Jason Hoops	White	33	2017-08-27	gun	M
-2503	Dwayne Martin	White	34	2017-08-27	knife	M
-2504	Kostatinos Sfaelos	White	62	2017-08-28	gun	M
-2505	William Matthew Holmes	Black	24	2017-08-28	unknown	M
-2506	Ricky Ard	Black	55	2017-08-29	baseball bat	M
-2507	Joshua Mark Cloud	White	22	2017-08-29	gun	M
-2508	Brandy Caldwell	White	46	2017-08-29	gun	F
 2509	Anthony Antonio Ford	Black	27	2017-08-30	unarmed	M
-2510	Thomas Daniel Littlecloud	Native	32	2017-08-30	gun	M
-2511	Issac Cervantes	Hispanic	22	2017-08-31	gun	M
-2512	Debi Lynn Thorkelson	White	54	2017-08-31	gun	F
-2513	Michael Battles	White	32	2017-09-01	toy weapon	M
-2514	Roger Helgerson	White	45	2017-09-01	unknown	M
-2515	Daniel Gillis	White	36	2017-09-01	knife	M
-2516	Antwon Springer	Black	37	2017-09-03	gun	M
-2517	Henry Stephen Rakoz	White	47	2017-09-03	gun	M
 2518	William Porubsky	White	30	2017-09-03	unarmed	M
-2519	Jarvis Hayes	Black	31	2017-09-03	unknown	M
-2520	Shane Marsh	White	44	2017-09-04	knife	M
-2521	James Fuller	White	52	2017-09-04	chair	M
-2522	Daniel Wheelock	White	16	2017-09-05	knife	M
-2523	Rueben Galindo	Hispanic	29	2017-09-06	gun	M
 2524	Timothy Elam	White	42	2017-09-06	unarmed	M
-2525	Miguel Richards	Black	31	2017-09-06	knife	M
-2526	Eric Dwan Arnold	Black	41	2017-09-07	gun	M
-2527	Billy Joe Elmore	White	45	2017-09-08	gun	M
-2528	Michael Culhane	White	50	2017-09-08	unknown	M
-2529	Ervin Eugene Sweat Jr.	Black	26	2017-09-09	gun	M
-2530	Erick Perez	Hispanic	22	2017-09-10	gun	M
-2531	Joseph Charles Cook	White	76	2017-09-10	gun	M
-2532	Frankie Santos	Hispanic	58	2017-09-10	gun	M
-2533	Spencer Hight	White	32	2017-09-10	gun	M
-2534	Juan Flores	Hispanic	19	2017-09-10	unknown	M
-2535	Thomas Addison	Native	25	2017-09-11	unknown	M
-2536	Brian Patrick Allen	White	48	2017-09-11	gun	M
-2537	Vincent Edward Hernandez Jr	Hispanic	39	2017-09-11	toy weapon	M
-2538	Rodolfo Ballardo	Hispanic	31	2017-09-13	gun	M
-2539	Gary Joe McCourt	White	50	2017-09-14	knife	M
-2540	Ruben Urbina	Hispanic	15	2017-09-15	crowbar	M
-2541	Matthew Michael McTague	White	48	2017-09-15	unknown	M
+2445	Kemonte Cobbs	Black	15	2017-08-03	armed	M
 2542	Jacob Dominguez	Hispanic	32	2017-09-15	unarmed	M
-2543	Scout Schultz	White	21	2017-09-16	knife	M
-2544	Nicholas K. Perkins	White	37	2017-09-17	gun	M
-2545	Brian Ziro	Black	21	2017-09-17	gun	M
-2546	Eric Alvarez	Hispanic	40	2017-09-17	knife	M
-2547	Jesse VanSipe	White	33	2017-09-18	gun	M
-2548	Joshua Stubbs	White	25	2017-09-19	gun and knife	M
-2549	Jimme Knight Smith	White	55	2017-09-19	gun	M
-2550	Randall Ross	White	53	2017-09-19	unknown	M
-2551	David Scott	White	27	2017-09-19	knife	M
-2552	Magdiel Sanchez	Hispanic	35	2017-09-20	pipe	M
-2553	Eddie Russell Jr.	Black	25	2017-09-20	gun	M
-2554	Haraesheo Rice	Black	31	2017-09-20	gun	M
-2555	Mack Brinkley	White	70	2017-09-21	gun	M
-2556	Matthew Wells	White	40	2017-09-21	knife	M
-2557	Austin Dunsmore	Other	25	2017-09-21	unknown	M
-2558	Jose Felix Reyes	Hispanic	38	2017-09-21	unknown	M
-2559	Alexander Ochoa	Hispanic	26	2017-09-22	gun and knife	M
-2560	Dillan Tabares	Other	27	2017-09-22	gun	M
-2561	TK TK	White	37.11793090137039	2017-09-22	unknown	M
-2562	Scott Farnsworth	White	28	2017-09-22	gun	M
-2563	Bryan Wright	White	40	2017-09-22	gun	M
-2564	Scott Michael Chamberlain	White	44	2017-09-22	unknown	M
-2565	Damien Murray	Black	39	2017-09-24	gun	M
-2566	Jarred Burke	White	24	2017-09-24	gun	M
-2567	Anthony Robinson	Black	32	2017-09-25	gun	M
-2568	Cody O'Bryan	White	31	2017-09-25	Taser	M
-2569	Jeffory Hughes	White	50	2017-09-26	gun	M
-2570	Roger Craig Nielsen	White	31	2017-09-26	gun	M
-2571	Craig A. Johnson	White	50	2017-09-26	gun	M
-2572	Demilo Trayuon Hodge	Black	45	2017-09-27	gun	M
-2573	Anthony Wallace	White	44	2017-09-27	gun	M
-2574	Guy Lynn Scott	White	48	2017-09-27	gun	M
-2575	Michael Bruce Peterson	White	39	2017-09-28	baton	M
-2576	Dominique Tyrell White	Native	30	2017-09-28	gun	M
-2577	Quentin Starke	White	44	2017-09-30	gun	M
-2578	Tyrell Dewayne Pinkston	Black	28	2017-09-30	gun	M
-2579	Lester Jesus Machado	Hispanic	24	2017-10-01	unknown	M
-2580	Marquis "Bubba" Jones	Black	27	2017-10-01	gun	M
-2581	Anthony Gallo	White	34	2017-10-01	knife	M
 2582	Micah McComas	White	41	2017-10-01	unarmed	M
-2583	George Randall Newman	White	26	2017-10-01	gun	M
-2584	Joshua Lanflisi	White	38	2017-10-01	gun and sword	M
-2585	Kevin Anthony Battaglia	White	33	2017-10-02	gun	M
-2586	Marquinton T. Brooks	White	22	2017-10-02	gun	M
-2587	John Loaiza	White	40	2017-10-03	pipe	M
-2588	Chad Cochell	White	34	2017-10-04	unknown	M
-2589	Sandy Guardiola	Black	48	2017-10-04	gun	F
-2590	Jomekia Minter	Black	37	2017-10-04	gun	M
-2591	Michael Ferrell	White	67	2017-10-04	gun	M
 2592	Brandon Lee Bohanon	White	35	2017-10-05	unarmed	M
-2593	Cristino Umana-Garcia	Hispanic	29	2017-10-05	knife	M
-2594	Phumee Lee	Asian	28	2017-10-05	gun	M
-2595	Johnny Ray Leeds	White	40	2017-10-05	gun	M
-2596	German Ornelas	Hispanic	31	2017-10-05	knife	M
-2597	Dale Sisson	White	51	2017-10-06	gun	M
-2598	Garrett Hoose	White	47	2017-10-06	gun	M
-2599	Ernesto Padron	Hispanic	52	2017-10-06	gun	M
-2600	Matthew Jonathan Luis Hurtado	Hispanic	28	2017-10-06	unknown	M
-2601	Roberto Callejas	Hispanic	35	2017-10-06	knife	M
-2602	Samuel David Lanham	White	25	2017-10-07	gun	M
-2603	Roberto Avendano	Hispanic	37.11793090137039	2017-10-08	machete	M
-2604	Sabrina Ann Garcia	Hispanic	34	2017-10-08	gun	F
-2605	Albert Garcia	Hispanic	58	2017-10-08	knife	M
-2606	Corey Boykin	Black	24	2017-10-08	gun	M
-2607	Cariann Hithon	Black	22	2017-10-08	unknown	F
-2608	Glenn Southwood Jr.	White	46	2017-10-08	gun	M
-2609	Vincent Dronet	White	61	2017-10-11	unknown	M
-2610	Brandon Wade Rucker	White	43	2017-10-11	gun	M
 2611	Kristian Martinez	Hispanic	44	2017-10-11	unarmed	M
-2612	John Robert Payne	Black	35	2017-10-12	gun	M
-2613	Sean D. Brady	White	29	2017-10-12	gun	M
-2614	Paul Dolen	White	57	2017-10-13	gun	M
-2615	J.C. Hawkins	Black	42	2017-10-13	gun	M
-2616	Michael David Lopez	Hispanic	44	2017-10-14	unknown	M
-2617	Eric Garrison	Black	20	2017-10-16	gun	M
-2618	James Michael Chappell	White	32	2017-10-16	gun	M
-2619	Luis David Flores	Hispanic	34	2017-10-16	gun	M
-2620	Ezekiel Juan Duran	Hispanic	18	2017-10-16	gun	M
-2621	Joshua Clayton Johnson	White	31	2017-10-16	gun	M
-2622	DeAndre Bethea	Black	24	2017-10-17	unknown	M
-2623	Daniel Spear	White	35	2017-10-18	gun	M
-2624	Mitchell Fox	White	34	2017-10-19	gun	M
-2625	Matthew Whitley	White	26	2017-10-19	gun	M
 2626	Dewboy Lister	Black	55	2017-10-19	unarmed	M
-2627	Steven Wayne Truex	White	38	2017-10-19	gun	M
-2628	Jamarco McShann	Black	23	2017-10-20	gun	M
-2629	Phillip Joel Trammell	White	30	2017-10-20	knife	M
-2630	Victor Gonzalez	Hispanic	44	2017-10-21	hammer	M
-2631	Jason Marble	White	37	2017-10-21	gun	M
 2632	Nicholas Pimentel	Hispanic	27	2017-10-22	unarmed	M
-2633	Johnny Bonta	Native	43	2017-10-22	gun	M
-2634	Samantha Hennard	White	25	2017-10-22	gun	F
 2635	Dexter David Anthony Baxter	Native	30	2017-10-22	unarmed	M
-2636	Matthew David Palaita	Hispanic	35	2017-10-23	gun	M
-2637	Ashleigh Bertucci	White	31	2017-10-23	gun	F
-2638	George Gipp	Native	35	2017-10-23	unknown	M
 2639	Sean Bohinski	White	37	2017-10-24	unarmed	M
-2640	Brandon Uzialko	White	25	2017-10-24	gun	M
-2641	David Campos	Hispanic	34	2017-10-24	screwdriver	M
-2642	Timothy Earl Jackson	Black	33	2017-10-25	gun	M
-2643	Antonio Levison	Black	33	2017-10-25	gun	M
-2644	Sanders Surber	White	32	2017-10-26	gun	M
-2645	James M. Davis	White	34	2017-10-26	gun	M
-2646	Jerry Richardson	Black	46	2017-10-27	machete	M
-2647	Danny Sanchez	Hispanic	40	2017-10-28	gun and car	M
-2648	Lucas DeFord	Native	27	2017-10-28	gun	M
-2649	Baltazar Escalona-Baez	Hispanic	17	2017-10-28	knife	M
-2650	Eric Higgs	Black	46	2017-10-29	gun	M
-2651	Mark Bidon	White	50	2017-10-29	gun	M
-2652	Brandon Lee Flowers	White	41	2017-10-29	knife	M
-2653	Kalin Jackson	Black	23	2017-10-29	unknown	M
-2654	Robert James Lightfeather	Native	33	2017-10-30	gun	M
-2655	Jesus Birelas-Contreras	Hispanic	25	2017-10-31	knife	M
-2656	Luvelle Kennon	Black	27	2017-10-31	unknown	M
-2657	Paul Landis Gorden	White	39	2017-10-31	gun	M
-2658	Vincent Hall	Black	22	2017-10-31	gun	M
-2659	Heather Denean Bubrig	White	37	2017-10-31	ax	F
-2660	Jamee Almarez	Hispanic	27	2017-11-01	gun	M
-2661	Christopher Jacobs	White	28	2017-11-01	unknown	M
-2662	Wallace Jory	White	56	2017-11-02	pitchfork	M
-2663	Jerry Roach	White	71	2017-11-02	gun	M
-2664	Robert Powell	White	53	2017-11-03	gun and car	M
-2665	Christopher Edward Loftis	White	39	2017-11-03	gun and car	M
-2666	Nyung Kyee	Asian	56	2017-11-04	knife	M
-2667	Raymond Davis	Black	24	2017-11-04	gun	M
-2668	Michael Wayne Marin	White	35	2017-11-04	gun	M
-2669	Frank Half	Native	30	2017-11-04	gun	M
-2670	Mason Johnson	White	31	2017-11-04	gun	M
-2671	Augustus Joshua Crawford	Black	20	2017-11-04	gun	M
-2672	John Quincy Grady	White	35	2017-11-05	gun	M
-2673	Marylsa Sanchez	Hispanic	31	2017-11-05	unknown	F
-2674	Eddie Lee Patterson	Black	49	2017-11-05	unknown	M
-2675	Pamela Webber	White	54	2017-11-06	knife	F
-2676	TK TK	White	48	2017-11-06	gun	M
-2677	Talathia Brooks	White	32	2017-11-07	gun	F
-2678	Jarrett Varnado	Black	35	2017-11-07	gun	M
-2679	James Jacob Bailey	White	30	2017-11-08	gun	M
-2680	Roger Raymond York	White	32	2017-11-08	gun	M
-2681	Victor Demetrius Bray	White	31	2017-11-08	gun	M
-2682	Jason Ike Pero	Native	14	2017-11-08	knife	M
-2683	Paul Jones	Black	25	2017-11-09	gun	M
-2684	Joseph Santos	White	32	2017-11-09	unknown	M
-2685	Charles Edwin Nickels	White	35	2017-11-09	gun	M
-2686	Kiser L. Sturgell	White	27	2017-11-09	gun	M
 2687	Ashley Jenkins	White	23	2017-11-09	unarmed	F
-2688	Terry A. Dubois	White	55	2017-11-10	gun	M
-2689	Thomas Aikens	Black	43	2017-11-10	knife	M
-2690	Ronald L. Klitzka	White	62	2017-11-10	gun	M
-2691	John Bazemore III	Black	25	2017-11-10	gun	M
-2692	TK TK	Black	37.11793090137039	2017-11-10	unknown	M
-2693	Matthew Joseph Scudero	White	50	2017-11-10	gun	M
-2694	Shane Jensen	White	19	2017-11-11	gun	M
-2695	Phillip Pitts	Black	41	2017-11-11	gun	M
-2696	Eddy Longoria	White	55	2017-11-11	gun	M
-2697	Larry Ruiz-Barreto	Hispanic	19	2017-11-12	unknown	M
-2698	Cornell Lockhart	Black	67	2017-11-13	knife	M
 2699	Calvin Toney	Black	24	2017-11-13	unarmed	M
-2700	Kevin J. Neal	White	44	2017-11-14	gun	M
 2701	Dustin Robert Pigeon	Asian	29	2017-11-15	unarmed	M
-2702	Thomas Barclay	White	48	2017-11-15	gun	M
-2703	Oscar Anaya	Hispanic	22	2017-11-15	gun	M
-2704	TK TK	Black	37.11793090137039	2017-11-15	knife	M
-2705	Phillip Van Cise	White	59	2017-11-15	gun	M
-2706	Chester Randolph Ward	Black	68	2017-11-16	gun	M
 2707	Martin Jim	White	25	2017-11-17	unarmed	M
 2708	Isaac Padilla	Hispanic	23	2017-11-17	unarmed	M
-2709	Shady Bell	Black	46	2017-11-17	gun	M
 2710	Bijan C. Ghaisar	White	25	2017-11-17	unarmed	M
-2711	Seth Hardwick	White	30	2017-11-17	gun	M
 2712	Lawrence Hawkins	Black	56	2017-11-18	unarmed	M
-2713	Preston Bell	Native	24	2017-11-18	unknown	M
-2714	Brian Calvert	White	18	2017-11-18	unknown	M
-2715	Jacob McCarty	White	27	2017-11-19	gun	M
-2716	Matthew Donald Tobin	White	26	2017-11-19	gun	M
-2717	Seth William Johnson	White	15	2017-11-20	knife	M
-2718	Emilio John Cruz Hernandez	Hispanic	26	2017-11-23	gun	M
-2719	Nikolas Wanner	White	32	2017-11-23	gun	M
-2720	Rehyen Bost-McMurray	Black	17	2017-11-23	gun	M
-2721	Jackie Germaine Ragland	Black	32	2017-11-23	gun	M
-2722	David Leroy Thelen	White	43	2017-11-23	knife	M
-2723	Rocky Miles West	White	26	2017-11-24	gun	M
-2724	Steve Steenhard	White	51	2017-11-24	unknown	M
-2725	Nelson F. Rodarte	Hispanic	39	2017-11-25	gun	M
-2726	Johnny Castro	Hispanic	43	2017-11-26	gun	M
-2727	William Freddy Carter Jr.	White	31	2017-11-26	gun	M
-2728	Daniel Navarro	Hispanic	22	2017-11-26	knife	M
-2729	Christian Chavez	Hispanic	40	2017-11-27	gun	M
-2730	Robert Claude Smith	White	64	2017-11-28	unknown	M
-2731	Lucas Stone	White	30	2017-11-28	gun	M
-2732	James C. Danforth	White	59	2017-11-28	gun	M
-2733	Aquoness Cathery	Black	24	2017-11-29	gun	M
-2734	Rufus Cedric Baker	Black	32	2017-11-30	gun	M
-2735	Juan Andres Barillas	Hispanic	37	2017-11-30	gun	M
-2736	Trent Fondren	White	33	2017-12-01	knife	M
 2737	Keita O'Neil	Black	42	2017-12-01	unarmed	M
-2738	Mario Guevara	Hispanic	37	2017-12-02	knife	M
-2739	Christopher Louis Willard	White	33	2017-12-02	gun	M
-2740	Gregory Ray Ham	White	62	2017-12-03	sword	M
-2741	Jeffrey Scott Cantrell	White	46	2017-12-04	gun	M
-2742	Mario Sanabria	Hispanic	69	2017-12-05	machete	M
-2743	Johnnie D. Carter	Black	24	2017-12-05	gun	M
 2744	Jean Pedro Pierre	Black	42	2017-12-06	unarmed	M
-2745	Scott Addison	White	49	2017-12-06	gun	M
-2746	Jesse Cole Shuping	White	35	2017-12-07	gun	M
-2747	Kyler Grabbingbear	Native	19	2017-12-07	unknown	M
-2748	John Souder	White	40	2017-12-07	gun	M
-2749	Frederick Douglas Wilburn	Black	34	2017-12-07	unknown	M
-2750	Vernchoy Saechao	Asian	22	2017-12-08	gun	M
-2751	Juliun Pitcher	White	16	2017-12-09	gun	M
-2752	James Newman	White	69	2017-12-09	gun	M
-2753	Kyle Zahacefski	White	24	2017-12-10	knife	M
-2754	Kyle Anthony Mihecoby	Native	28	2017-12-10	Taser	M
-2755	Stacy Micheletti	White	51	2017-12-11	unknown	M
-2756	Zoe Dowdell	Black	20	2017-12-14	unknown	M
-2757	Clifford Keller	White	34	2017-12-15	gun	M
 2758	Michael Wilson	Black	27	2017-12-17	unarmed	M
-2759	Todd A. Stone	Black	48	2017-12-18	hatchet	M
-2760	Robert Edwards	White	33	2017-12-20	toy weapon	M
 2761	Kameron Prescott	White	6	2017-12-21	unarmed	M
-2762	Jose Aguero	Hispanic	26	2017-12-21	gun	M
-2763	Jeffrey John Golnick	White	40	2017-12-22	gun	M
-2764	Evilio Gomez	Hispanic	46	2017-12-24	machete	M
-2765	Cody Dalton Eyre	White	20	2017-12-24	gun	M
-2766	Jesse Scarsbrook	Black	28	2017-12-26	gun	M
-2767	Robo Raikoglo	White	30	2017-12-26	gun	M
-2768	Joshua Paul Spottedhorse	Native	36	2017-12-26	gun	M
-2769	Dennis Plowden	Black	25	2017-12-27	unknown	M
 2770	Andrew Finch	White	28	2017-12-27	unarmed	M
-2771	Kenneth J. Perna-Rutsky	White	38	2017-12-27	gun	M
-2772	Corey Bailey	Black	30	2017-12-28	gun	M
-2773	Marco Antonio Carlos	Hispanic	31	2017-12-30	gun	M
-2774	Heath Wayne Hodges	White	36	2017-12-30	unknown	M
-2775	Mark Steven Parkinson	White	65	2018-01-01	gun	M
-2776	Archie Lawhon III	White	42	2018-01-01	gun	M
-2777	Gary Johns	White	65	2018-01-01	gun	M
-2778	Shana Diane Musquiz	White	30	2018-01-02	gun	F
-2779	Ronald Elliot	White	49	2018-01-02	gun	M
-2780	Louis C. Miller	White	66	2018-01-02	knife	M
-2781	Shaleem Tindle	Black	28	2018-01-03	gun	M
-2782	Robert Hansen	White	27	2018-01-04	gun	M
-2783	Brandon O. Cude	White	31	2018-01-04	gun	M
-2784	William B. Oleson	White	46	2018-01-05	gun	M
-2785	Ledarren D. Mixon	Black	28	2018-01-05	gun	M
-2786	Andy Vo	Asian	35	2018-01-05	gun	M
-2787	Daniel Saavedra-Arreola	Hispanic	24	2018-01-06	pole and knife	M
-2788	Charles Smith Jr.	Black	17	2018-01-06	gun	M
-2789	Jonathan William Leroy	White	39	2018-01-06	baseball bat	M
-2790	Richard Rangel	White	21	2018-01-06	gun	M
-2791	Skyler Burnette	Native	21	2018-01-06	knife	M
-2792	Guillermo Mendoza	Hispanic	57	2018-01-06	gun	M
-2793	Gregory Stough	White	27	2018-01-06	vehicle	M
-2794	Jackie Harlan Roberts	White	62	2018-01-06	gun	M
 2795	John Bailon	Black	40	2018-01-06	unarmed	M
-2796	Trayvon Mitchell	Black	38	2018-01-07	gun	M
-2797	Alejandro Valdez	Hispanic	27	2018-01-07	knife	M
-2798	Richard R. Towler	Black	54	2018-01-07	gun	M
-2799	Michael Bender	White	27	2018-01-07	gun	M
 2800	Tyler Miller	White	51	2018-01-07	unarmed	M
-2801	Eugene Loftis	White	25	2018-01-08	gun	M
-2802	Primitivo Macias-Rodriguez	Hispanic	46	2018-01-08	gun	M
-2803	Travis Griffin	Black	20	2018-01-08	gun	M
-2804	Frank William Pawul	White	32	2018-01-08	gun	M
-2805	Thompson Nguyen	Asian	27	2018-01-09	ax	M
-2806	Shalun Dique Smith	Black	21	2018-01-10	vehicle	M
-2807	Jose Arroyo-Rosales	Hispanic	60	2018-01-11	gun	M
-2808	Justin Coy Adkins	White	44	2018-01-11	gun	M
-2809	Jonathan Bennett	Black	23	2018-01-11	gun	M
-2810	Jared S.R. Williams	White	31	2018-01-12	gun	M
-2811	Terry Amons	Black	43	2018-01-12	gun	M
-2812	Jason D. Whittemore	White	39	2018-01-12	gun	M
-2813	Remi Sabbe	White	54	2018-01-12	gun	M
-2814	Amanuel Dagebo	Black	22	2018-01-12	gun	M
-2815	Jeffrey Alan Burleson	White	37	2018-01-12	gun	M
-2816	Joseph Hilton	White	42	2018-01-13	gun	M
-2817	Christian Escobedo	Hispanic	22	2018-01-14	gun	M
-2818	Robert Martinez	Hispanic	42	2018-01-15	gun	M
-2819	Nathan Giffin	White	32	2018-01-16	gun	M
-2820	Victor M. Reyes	Hispanic	30	2018-01-16	unknown	M
-2821	Kerry Lee Nield	White	53	2018-01-16	gun	F
 2822	Bailey Turner	White	27	2018-01-16	unarmed	M
-2823	Geraldine Townsend	Black	72	2018-01-17	pellet gun	F
-2824	Jihad Merrick	Black	29	2018-01-17	gun	M
-2825	Brian Gregory	Black	34	2018-01-17	gun	M
-2826	Donte D. Shannon	Black	26	2018-01-17	gun	M
-2827	Jordan Keckhut	Hispanic	22	2018-01-17	knife	M
 2828	Joseph Edward Haynes	White	16	2018-01-17	unarmed	M
-2829	Kevin Sturgis	Black	31	2018-01-18	gun	M
-2830	Marshall Coleman	White	58	2018-01-19	knife	M
-2831	Nicholas Daniel Moore	White	23	2018-01-20	knife	M
-2832	Jason Lappe	White	44	2018-01-20	gun	M
-2833	Shannon Jason Cables	White	46	2018-01-20	gun	M
 2834	Arther McAfee Jr.	Black	61	2018-01-20	unarmed	M
-2835	John Albers	White	17	2018-01-20	unknown	M
-2836	Ronald Jay Lawson	White	46	2018-01-21	unknown	M
-2837	Ilkka O. Hiironen	White	35	2018-01-21	unknown	M
-2838	Joshua Dale Prough	White	36	2018-01-22	gun	M
-2839	Aaron Olivarez Candanoza	Hispanic	28	2018-01-22	unknown	M
 2840	Jonathan Duane Atchley	White	37	2018-01-22	unarmed	M
-2841	Edward C. Gandy	White	47	2018-01-22	unknown	M
-2842	Joe Delira-Alires	Hispanic	35	2018-01-22	gun	M
-2843	Joseph E. Knight	White	40	2018-01-22	gun	M
-2844	Ricky Jerome Boyd	Black	24	2018-01-23	BB gun	M
-2845	Alvaro Herrera	Hispanic	18	2018-01-23	pipe	M
 2846	Corey Mobley	Black	38	2018-01-23	unarmed	M
-2847	Shane McVey	White	54	2018-01-23	unknown	M
-2848	Humberto Vera-Munoz	Hispanic	27	2018-01-24	unknown	M
-2849	David Byron Kidney	White	62	2018-01-24	gun	M
-2850	William Charles Mackenzie	White	66	2018-01-25	gun	M
 2851	Ulises Valladares	Hispanic	47	2018-01-25	unarmed	M
-2852	Dustin Gonzales Castillo	Hispanic	19	2018-01-25	knife	M
-2853	Steven Hutchins	White	27	2018-01-25	toy weapon	M
-2854	Christopher Eric Giles	White	23	2018-01-26	gun	M
-2855	Axell Vivas	Hispanic	42	2018-01-26	gun	M
-2856	Nathaniel T. Edwards	Black	43	2018-01-26	unknown	M
-2857	Matthew Zimmerman	White	42	2018-01-26	knife	M
-2858	William Pollard	Black	45	2018-01-27	knife	M
-2859	Crystalline Barnes	Black	21	2018-01-27	unknown	F
-2860	Kirsten Kloppe	White	43	2018-01-27	gun	F
-2861	Anthony S. McDaniel	White	45	2018-01-28	gun	M
-2862	Billy Lewis Rucker	Black	33	2018-01-28	gun	M
-2863	Paul David Johnson	White	38	2018-01-28	gun	M
-2864	Gregory Kocian	White	33	2018-01-28	gun	M
-2865	TK TK	Hispanic	46	2018-01-29	knife	M
-2866	Michael Hansford	Black	52	2018-01-29	knife	M
-2867	Mark Renee Flores	Hispanic	46	2018-01-29	knife	M
 2868	Ricky Leon Rusche	White	40	2018-01-30	unarmed	M
-2869	Gilbert Salas	Hispanic	20	2018-01-31	knife	M
-2870	Adrian Valdez	Hispanic	39	2018-01-31	knife	M
 2871	James M. Burks	White	35	2018-02-01	unarmed	M
-2872	Albert E. Morton	Black	31	2018-02-01	unknown	M
-2873	Daniel O. El	Black	32	2018-02-01	gun	M
-2874	William Young	White	56	2018-02-01	gun	M
-2875	Anthony Joe Williams	Black	37	2018-02-01	gun	M
-2876	Alexander W. Simpson	White	32	2018-02-01	gun	M
-2877	Brett Dontae Bush	Black	28	2018-02-01	knife	M
-2878	Taylor Schnortz	White	26	2018-02-01	gun	M
-2879	Charlie Shoupe	White	27	2018-02-02	knife	M
-2880	Mitchell Kitchen	Black	37.11793090137039	2018-02-03	toy weapon	M
 2881	Alan Greenough	White	43	2018-02-03	unarmed	M
-2882	Ernie Lizana	White	49	2018-02-03	gun	M
-2883	Anthony Jacob Weber	Black	16	2018-02-04	gun	M
-2884	Jason Richard Sienze	White	35	2018-02-05	gun	M
-2885	Manuel Zetina	Hispanic	19	2018-02-05	gun	M
 2886	James Benny Hobbs	White	59	2018-02-06	unarmed	M
-2887	Alex Duran	Hispanic	29	2018-02-06	knife	M
-2888	Cesar Bautista	Hispanic	37	2018-02-06	unknown	M
-2889	Hugo Steven Selva	White	22	2018-02-07	unknown	M
-2890	Lloyd Harris	White	40	2018-02-08	BB gun	M
-2891	Ricardo Colon	Hispanic	35	2018-02-08	knife	M
-2892	Tierre Guthrie	Black	39	2018-02-09	gun	M
-2893	David Darden	Black	36	2018-02-09	vehicle	M
-2894	John Hamilton	White	78	2018-02-09	gun	M
-2895	Steven Tyler Reed	White	25	2018-02-10	toy weapon	M
-2896	Troy Jacques	White	41	2018-02-10	gun	M
-2897	Michael Weber	White	63	2018-02-10	gun	M
-2898	Sidney T. Richardson	Black	48	2018-02-10	machete	M
-2899	Benjamin Gregware	White	42	2018-02-11	gun	M
-2900	Mark Daniels	Black	39	2018-02-11	gun	M
-2901	Raymond Bishop	White	84	2018-02-12	gun	M
 2902	Ronnell Foster	Black	33	2018-02-13	unarmed	M
-2903	Peter Le	Asian	52	2018-02-13	gun and knife	M
-2904	Dawn Elika Center	White	48	2018-02-13	gun	F
-2905	Jimmy Terry	Black	30	2018-02-14	knife	M
-2906	Travis D. Tucker	White	29	2018-02-14	gun	M
-2907	Preston Ray Holloway	White	27	2018-02-14	gun	M
-2908	Donald Fulton	White	41	2018-02-14	gun	M
-2909	Arthur Joseph Gonzales	Hispanic	57	2018-02-15	gun	M
-2910	Fordell Hill	Native	27	2018-02-15	gun	M
-2911	Wesley Taylor	White	58	2018-02-15	gun	M
-2912	Tim Berger	White	59	2018-02-16	unknown	M
-2913	Odrey Paul Reed	White	39	2018-02-16	unknown	M
-2914	Lamar Green	Black	28	2018-02-17	gun	M
-2915	Ryan Batchelder	White	28	2018-02-17	unknown	M
-2916	Nathaniel Montoya	Hispanic	23	2018-02-17	unknown	M
-2917	Paul Stanley Strickland	White	55	2018-02-17	gun	M
-2918	Ernest Manuel Montelongo	Hispanic	33	2018-02-18	gun	M
-2919	Thomas Vincent Alvarez	Hispanic	23	2018-02-19	gun	M
-2920	Lawrence Shaw	Black	45	2018-02-19	knife	M
-2921	Glenn Tyndell	Black	37	2018-02-21	gun	M
-2922	Lonnie Smith	Black	21	2018-02-21	gun	M
-2923	Michael Andrew Schieffer	White	27	2018-02-21	gun	M
-2924	Edward Hallinan	Black	39	2018-02-21	gun	M
-2925	Lee Edward Bonner	Black	37	2018-02-21	gun	M
 2926	Darion Baker	Black	22	2018-02-21	unarmed	M
-2927	Joshua D. Babb	Black	26	2018-02-22	gun	M
-2928	Jacob Uptain	White	27	2018-02-22	gun	M
 2929	Mario Dantoni Bass	Black	37	2018-02-23	unarmed	M
-2930	Douglas Kemp	White	58	2018-02-23	toy weapon	M
-2931	Randall Beymer	White	62	2018-02-24	toy weapon	M
-2932	Haydon Taylor	Black	25	2018-02-25	knife	M
-2933	Douglas Oneyear	White	36	2018-02-25	sword	M
-2934	TK TK	Hispanic	37.11793090137039	2018-02-25	gun	M
-2935	Aaron Clifford Fike	White	27	2018-02-26	gun	M
-2936	Joshua Kinnard	White	37	2018-02-26	gun	M
-2937	Ethan Straub	White	25	2018-02-26	gun	M
-2938	William Watson	Black	40	2018-02-26	gun	M
-2939	Orbel Nazarians	White	22	2018-02-26	machete	M
-2940	Marlon Smith	Black	29	2018-02-27	gun	M
-2941	Dustin James Case	White	20	2018-02-27	gun	M
-2942	Curtis Bradley Ware	White	33	2018-02-27	gun	M
-2943	Qawi A. Muhammad	Black	48	2018-02-28	gun	M
-2944	Ernesto Michel	Hispanic	47	2018-02-28	unknown	M
-2945	Timothy M. Gray	Black	40	2018-03-01	machete	M
-2946	Joel Jacobo	Hispanic	29	2018-03-01	unknown	M
-2947	Jose D. Gomez Burgos	Hispanic	29	2018-03-02	unknown	M
-2948	Stephen Hudak	White	44	2018-03-02	gun	M
-2949	Christopher Race	White	36	2018-03-02	knife	M
-2950	Erik Dunham	White	48	2018-03-02	gun	M
-2951	James Vaughn	Black	49	2018-03-02	unknown	M
-2952	Amanda Alvarez	Hispanic	38	2018-03-03	piece of wood	F
-2953	Marvin McMillian	Black	41	2018-03-03	gun	M
-2954	Angel Luis Ortiz	Hispanic	37.11793090137039	2018-03-04	toy weapon	M
-2955	Brandon Kuhlman	White	28	2018-03-05	gun	M
-2956	David Willoughby	White	33	2018-03-05	toy weapon	M
-2957	Ryan L. Smith	White	44	2018-03-05	knife	M
-2958	Robert Lewis Yates	White	65	2018-03-05	gun	M
-2959	Steven Dalton	White	35	2018-03-05	gun	M
-2960	Andrew Rossi	White	25	2018-03-05	knife	M
-2961	Michael Kline	White	40	2018-03-06	gun	M
-2962	Michael Reynolds	White	36	2018-03-06	gun	M
-2963	Steven Peters	White	55	2018-03-06	gun	M
-2964	Jesus Delgado-Duarte	Hispanic	19	2018-03-06	gun	M
-2965	Louis Troy Risinger	White	70	2018-03-06	gun	M
-2966	James E. Waters	Black	37	2018-03-06	gun	M
-2967	Donald McFarlane	White	53	2018-03-07	gun	M
 2968	Amelia Huron-Macias	White	84	2018-03-07	unarmed	F
-2969	Victor Ancira	Hispanic	46	2018-03-07	pick-axe	M
-2970	Jamil Harvey	Black	29	2018-03-08	gun	M
-2971	Dwight Heckman	Native	27	2018-03-08	gun	M
-2972	Alkeeta Allena Walker	White	32	2018-03-09	knife	F
-2973	David Gardea	Hispanic	27	2018-03-09	gun	M
-2974	Hieu Than	Asian	38	2018-03-09	knife	M
-2975	Daniel Stacey Reynolds	Black	20	2018-03-10	gun	M
-2976	Orion Godbout	Hispanic	45	2018-03-10	gun	M
-2977	Joshua Pawlik	White	32	2018-03-11	gun	M
-2978	Andy Lucero	Hispanic	48	2018-03-11	gun	M
-2979	Juan Garcia Alvarez	Hispanic	57	2018-03-11	gun	M
-2980	Decynthia Clements	Black	34	2018-03-12	knife	F
-2981	Jaden Marsh	White	16	2018-03-12	gun	M
-2982	Kenneth Scott Townley	White	47	2018-03-12	gun	M
-2983	Brisco Tim Woodell	White	61	2018-03-12	gun	M
-2984	Justin Lee Dietrich	White	32	2018-03-12	unknown	M
-2985	Corky Lee Oliver	White	31	2018-03-12	gun	M
-2986	Michael Ward	Black	46	2018-03-12	baseball bat	M
-2987	Jontell Reedom	Black	27	2018-03-12	baton	M
-2988	Bryan Liles	White	31	2018-03-13	gun	M
-2989	Ryan Chapman	White	26	2018-03-14	unknown	M
 2990	Shermichael Ezeff	Black	31	2018-03-14	unarmed	M
 2991	Cameron Hall	Black	27	2018-03-15	unarmed	M
-2992	James Alfonso Vaughn	Black	49	2018-03-16	gun	M
-2993	Mark Clinton Harrell	White	26	2018-03-16	knife	M
-2994	William Langfitt	White	28	2018-03-16	knife	M
-2995	Bobby Lovin	White	62	2018-03-16	ax	M
-2996	Osbaldo Jimenez Ramirez	Hispanic	50	2018-03-17	gun	M
 2997	Stephon Clark	Black	23	2018-03-18	unarmed	M
-2998	Manuel Borrego	Hispanic	40	2018-03-18	knife	M
-2999	Quintin J. Horner	Native	50	2018-03-19	gun	M
-3000	Michael Lavelle Holliman	White	50	2018-03-19	crossbow	M
 3001	Steven Nguyen	Asian	27	2018-03-19	unarmed	M
-3002	Jermaine Massey	Black	35	2018-03-19	knife	M
-3003	Joel Pflum	White	32	2018-03-20	gun	M
-3004	Kent Earl Pittman	White	56	2018-03-20	gun	M
-3005	Chance Christopher Haegele	White	20	2018-03-20	gun	M
-3006	Scott Mielentz	White	56	2018-03-20	gun	M
-3007	Duane Preciado	Native	39	2018-03-21	gun	M
-3008	Mark Allen Lunn	White	47	2018-03-21	knife	M
-3009	Jason M. Raffaeli	White	25	2018-03-21	gun	M
-3010	Jehad Eid	Asian	21	2018-03-21	gun	M
-3011	Angel Uolla	Hispanic	18	2018-03-21	knife	M
-3012	Santiago Calderon	Hispanic	36	2018-03-22	gun	M
 3013	Danny Thomas	Black	35	2018-03-22	unarmed	M
-3014	Michael Leroy McGinnis	White	29	2018-03-23	gun	M
-3015	Steven Cortez	Hispanic	20	2018-03-23	gun	M
-3016	Linus F. Phillip	Black	30	2018-03-23	unknown	M
-3017	Kevin Hall	White	40	2018-03-23	unknown	M
-3018	Robert Vega	Hispanic	48	2018-03-23	incendiary device	M
-3019	Kevin Robles	White	23	2018-03-23	knife	M
 3020	Nikolai Yakunin	White	42	2018-03-24	unarmed	M
-3021	Zander M. Clark	Native	20	2018-03-24	knife	M
-3022	Kaitlin Marie Demeo	White	25	2018-03-24	gun	F
-3023	Hugo Alvarez	Hispanic	28	2018-03-25	gun	M
-3024	Nathan C. Castle	White	34	2018-03-26	gun	M
-3025	Juan Carlos Romero	Hispanic	41	2018-03-27	gun	M
 3026	Isaac Michael Scroggie	White	24	2018-03-27	unarmed	M
-3027	Evan Bashir	White	29	2018-03-27	unknown	M
-3028	Holly Knighton	White	33	2018-03-27	vehicle	F
-3029	Jose Aaron Gonzalez	Hispanic	44	2018-03-27	gun	M
-3030	William John Dominguez	White	31	2018-03-28	gun and knife	M
-3031	Aaron Ibrahem	White	26	2018-03-28	gun	M
-3032	Jesse Kilgus	White	51	2018-03-28	gun	M
-3033	Gerald Richard Johns	White	64	2018-03-28	unknown	M
-3034	Robert B. Shaw	White	29	2018-03-28	gun	M
-3035	George Pappas	White	61	2018-03-28	knife	M
-3036	Marco Antonio Saavedra	Hispanic	44	2018-03-29	gun	M
-3037	Rodney Toler	Black	39	2018-03-29	gun	M
-3038	James Decoursey	White	35	2018-03-29	gun	M
-3039	Christopher Gatewood	White	39	2018-03-29	knife	M
-3040	Edward Van McCrae	Black	60	2018-03-30	gun	M
-3041	Timothy Breckenridge	White	42	2018-03-30	toy weapon	M
-3042	Jason Birt	White	27	2018-03-31	machete	M
-3043	Nicolas Sedano	Hispanic	21	2018-03-31	unknown	M
-3044	Cresencio Rodriguez	Hispanic	33	2018-04-01	gun	M
-3045	Bobby Hinton	Black	60	2018-04-01	gun	M
-3046	Joseph Walden Johnson	White	24	2018-04-01	gun	M
-3047	Timothy Wyatt	Black	41	2018-04-01	gun	M
-3048	Brian Bellamy	Black	41	2018-04-01	knife	M
-3049	Christopher Hall	Black	34	2018-04-01	gun	M
-3050	Luis Yair Alvarez	Hispanic	23	2018-04-01	knife	M
-3051	Donald McCarter	White	38	2018-04-01	knife	M
-3052	John Wussler	White	58	2018-04-01	gun	M
-3053	Jeffrey Louis Parker	White	49	2018-04-03	gun	M
-3054	Deshawn Antonio Carswell	Black	27	2018-04-04	knife	M
-3055	Adan Rene Marrero	Hispanic	34	2018-04-04	gun	M
-3056	Saheed Vassell	Black	34	2018-04-04	metal pipe	M
-3057	Alexis Stinson	White	44	2018-04-04	gun	F
-3058	Kelvin Baldwin	White	30	2018-04-04	gun	M
-3059	Robert Litolff	White	81	2018-04-05	gun	M
-3060	William Frazier	White	40	2018-04-05	gun	M
-3061	Terrance Eppenger	Black	27	2018-04-05	knife	M
-3062	Diante Yarber	Black	26	2018-04-05	vehicle	M
-3063	Nathaniel Prasad	Asian	18	2018-04-05	gun	M
-3064	Raymond Lyle Bell	White	59	2018-04-05	gun	M
-3065	Rafael Ramirez	Hispanic	56	2018-04-05	knife	M
-3066	Junior Davis Lopez	Hispanic	22	2018-04-05	gun	M
-3067	Antonio Aquino	Asian	34	2018-04-06	gun	M
-3068	Daniel Allen Yielding	White	23	2018-04-06	knife	M
-3069	Mitchell Nelson	White	36	2018-04-06	gun	M
-3070	John A. Elifritz	White	48	2018-04-07	knife	M
-3071	Larry Siordia	White	33	2018-04-07	gun	M
-3072	Carlos Roman Urias	Hispanic	24	2018-04-08	toy weapon	M
 3073	Juan Markee Jones	Black	25	2018-04-08	unarmed	M
-3074	Elijah James Smith	Black	20	2018-04-08	screwdriver	M
-3075	Russell Bowman	White	45	2018-04-08	screwdriver	M
-3076	Daniel Joseph Carver	White	29	2018-04-09	gun	M
-3077	James Matthew Rogers	White	34	2018-04-09	gun	M
-3078	Robert George Issa	White	23	2018-04-09	knife	M
-3079	Zachary Glen Hoven	White	29	2018-04-09	knife	M
-3080	Shawn Michael Hubbard	White	44	2018-04-10	toy weapon	M
-3081	Grechario Mack	Black	30	2018-04-10	knife	M
-3082	Antonino Thomas Gordon	White	28	2018-04-10	unknown	M
-3083	Betty Lemoine	White	71	2018-04-11	gun	F
-3084	Kenneth Ross	Black	25	2018-04-11	gun	M
-3085	Keith Alan Kent	White	61	2018-04-11	gun	M
-3086	Chad Eric Montgomery	White	39	2018-04-11	machete	M
-3087	Kendall Lemoine	White	50	2018-04-11	gun	M
-3088	Dashaun Shepard	Black	37.11793090137039	2018-04-12	gun	M
-3089	Benjamin Evans	White	23	2018-04-12	gun	M
-3090	Rumondale Jones	Black	39	2018-04-12	knife	M
-3091	Steven Brooks	Black	45	2018-04-12	gun	M
-3092	Kenneth Warren Resendez	White	34	2018-04-13	knife	M
-3093	Bruce Arnold Allee	White	31	2018-04-13	gun	M
-3094	Jose Pietri	Hispanic	55	2018-04-14	gun	M
-3095	Andre Lavance Rippy	Black	39	2018-04-14	gun	M
-3096	Jessie Thedford	White	32	2018-04-14	vehicle	M
-3097	Eduardo Andrade	Hispanic	44	2018-04-14	gun	M
-3098	Petrica Peter Muntean	White	24	2018-04-14	toy weapon	M
-3099	Ruben Stewart	Native	36	2018-04-15	knife	M
-3100	Lonnie Marcel Bowen	Black	41	2018-04-17	screwdriver	M
-3101	Sanchez Lowe	Black	25	2018-04-17	unknown	M
-3102	Justin Monjay	White	39	2018-04-17	vehicle	M
-3103	Charles Whitley	White	40	2018-04-17	unknown	M
-3104	Justin Oakes	White	32	2018-04-18	knife	M
-3105	William Ray Simcoe	White	45	2018-04-18	gun	M
-3106	Dytadious Mobley	Black	31	2018-04-18	gun	M
-3107	Delorean Pikyavit	Native	32	2018-04-18	knife	M
-3108	David Teneyuque	Black	48	2018-04-18	gun	M
-3109	Lockwood Adrian Gibson	White	49	2018-04-20	vehicle	M
 3110	James Bauduy	Black	48	2018-04-20	unarmed	M
-3111	Matthew G. Brown	White	18	2018-04-20	gun	M
-3112	Timothy Wayne Anderson	White	48	2018-04-21	knife	M
-3113	Terrence Carlton	Black	25	2018-04-21	gun	M
-3114	Matthew Hartman	White	27	2018-04-22	gun	M
-3115	Miguel Escalona Vivas	Hispanic	37	2018-04-22	gun	M
-3116	Jesse Pena	Hispanic	44	2018-04-24	gun	M
-3117	Demonjhea Jordan	Black	27	2018-04-24	gun	M
-3118	Jese Paul Schlegel	White	41	2018-04-25	gun	M
-3119	Isaac Jackson	Black	42	2018-04-25	knife	M
-3120	Charles Boeh	White	36	2018-04-25	gun	M
-3121	Carlos Deone High	Black	37	2018-04-25	gun	M
-3122	Myra Lisa Micalizio	White	56	2018-04-26	unknown	F
-3123	Shukri Ali Said	Asian	36	2018-04-28	knife	F
-3124	David Navarro	White	46	2018-04-28	gun	M
-3125	Nolberto Hernandez Leon	Hispanic	26	2018-04-28	gun	M
-3126	Joseph L. Hoffman	White	41	2018-04-28	gun	M
 3127	Brandon Busher	White	38	2018-04-29	unarmed	M
-3129	Michael Scott Knibbs	White	47	2018-04-29	gun	M
-3130	Joshua Lee Ewing	White	26	2018-04-29	gun	M
-3131	Abadi Gebregziber	Black	64	2018-04-30	knife	M
-3132	Roger Fortner	White	49	2018-05-01	samurai sword	M
-3133	Jason Wayne Traversie	White	44	2018-05-02	ax	M
-3134	Billy Carson Pike	White	48	2018-05-02	gun	M
-3135	Manuel G. Palacio	Hispanic	27	2018-05-02	gun	M
-3136	Timothy Raye Mayfield	Black	67	2018-05-02	gun	M
-3137	Damion Collier	Black	24	2018-05-02	gun	M
-3138	Anthony Trujillo	Hispanic	26	2018-05-03	machete	M
-3139	Sean Louis Justin	White	28	2018-05-03	knife	M
-3140	Christopher A. Wolfe	White	21	2018-05-04	gun	M
-3141	Mitchell Simmons	White	24	2018-05-05	gun	M
-3142	Savannah Hill	White	21	2018-05-05	vehicle	F
-3143	Dwight Dearth	White	73	2018-05-06	gun	M
-3144	Franklin Robert Vaughn	White	39	2018-05-06	gun	M
-3145	Terence Leslie	Black	32	2018-05-06	Taser	M
-3146	David P. Wolosin	White	38	2018-05-06	gun	M
-3147	Juan Alberto Silva	Hispanic	32	2018-05-07	unknown	M
-3148	Albert Odom	White	26	2018-05-07	gun	M
-3149	Kimberly McCann	White	55	2018-05-07	gun	F
-3150	David J. Robinson	White	50	2018-05-07	gun	M
-3151	Lisa Rivera	Hispanic	49	2018-05-07	gun	F
-3152	Peter Boden	White	48	2018-05-07	gun	M
-3153	John Simson	White	65	2018-05-08	gun	M
-3154	Phillip Cameron Gibson	White	37	2018-05-08	toy weapon	M
-3155	Thomas Junior Garcia	Hispanic	45	2018-05-08	knife	M
-3156	Elliott Reed	Black	33	2018-05-09	gun	M
-3157	Kenneth Carter	White	46	2018-05-10	vehicle	M
-3158	Michael E. Hutchman	White	33	2018-05-10	gun	M
-3159	Benjamin Lee Sellers	White	33	2018-05-11	knife	M
-3160	Barry Freeman	White	51	2018-05-11	gun	M
-3161	Bradley Daniel Webster	White	52	2018-05-11	gun	M
-3162	Jacob T. Eldridge	Native	24	2018-05-11	knife	M
-3163	Darrell J. Bruffy	White	55	2018-05-12	gun	M
-3164	Willie Rogers Marable	Black	28	2018-05-13	unknown	M
-3165	Philip Steven McMichael	White	36	2018-05-13	gun	M
-3166	Anthony Trice	Black	24	2018-05-14	gun	M
 3167	Cody Reynolds	White	20	2018-05-14	unarmed	M
-3168	William N. Derick	White	54	2018-05-14	gun	M
-3169	Rollie J. Davis	White	53	2018-05-14	gun	M
-3170	Bob Browning Cruz	Hispanic	36	2018-05-14	gun	M
 3171	Marcus-David L. Peters	Black	24	2018-05-14	unarmed	M
-3172	David M. Romansky	White	34	2018-05-15	gun	M
-3173	Kevin Nickle	White	59	2018-05-16	knife	M
-3174	Daniel Timothy Johnson	White	34	2018-05-17	gun	M
-3175	Reynaldo Pena	Hispanic	29	2018-05-18	unknown	M
-3176	Dmitri Bullard	White	24	2018-05-18	hatchet	M
-3177	Jimmy Alan Moss	White	77	2018-05-19	unknown	M
-3178	Corey Cordova	White	30	2018-05-19	gun	M
-3179	Santiago Evans-Valencia	Hispanic	36	2018-05-19	gun	M
-3180	Bradley J. Grant	White	36	2018-05-20	gun	M
-3181	Ray Wyatt	White	58	2018-05-21	gun	M
-3182	Ronald Clinton	Black	47	2018-05-21	unknown	M
-3183	Martin Sandejo	Hispanic	49	2018-05-22	knife	M
-3184	Makell Meyerin	White	31	2018-05-23	gun	F
-3185	Joshua M. Gomoll	White	25	2018-05-23	knife	M
 3186	Claudia Patricia Gomez Gonzalez	Hispanic	37.11793090137039	2018-05-23	unarmed	F
 3187	Dustin D. Odom	White	30	2018-05-24	unarmed	M
 3188	Brett Luengo	White	33	2018-05-24	unarmed	M
-3189	Augustine Oliva	White	29	2018-05-25	vehicle	M
-3190	Dustin Montano	White	31	2018-05-25	knife	M
-3191	Homer Woodroe Tyler	White	51	2018-05-26	gun	M
-3192	Raul Rivera	Hispanic	42	2018-05-27	knife	M
-3193	Eugene Baylis	White	67	2018-05-27	gun	M
-3194	Michael Glad	White	23	2018-05-28	gun	M
-3195	Rabi Brown	Native	34	2018-05-29	gun	M
-3196	Armando Osuna	Hispanic	51	2018-05-29	metal pipe	M
-3197	Zane Anthony James	White	19	2018-05-29	toy weapon	M
-3198	Bryan Rodriguez	Hispanic	29	2018-05-30	pick-axe	M
-3199	Juvan Simon	Black	23	2018-05-30	gun	M
-3200	Katherine Brazeau	White	46	2018-05-31	knife	F
-3201	Jerick Rasheem Gray	Black	42	2018-05-31	knife	M
 3202	Andres Estrada	Hispanic	21	2018-06-01	unarmed	M
-3203	Renie Cablay	Asian	55	2018-06-01	knife	M
-3204	TK TK	White	37.11793090137039	2018-06-01	knife	M
-3205	Gus Tousis	Black	43	2018-06-02	unknown	M
 3206	Julio Eduardo Hernandez Mata	Hispanic	32	2018-06-03	unarmed	M
-3207	Rudy Molina	Hispanic	34	2018-06-03	gun	M
-3208	Joshua S. Stanford	White	40	2018-06-04	gun	M
-3209	Abel Guzman	Hispanic	55	2018-06-05	gun	M
-3210	Joshua Nash Bryant	White	20	2018-06-05	gun	M
-3211	Maurice Granton	Black	24	2018-06-06	gun	M
-3212	Alan Goyano	Hispanic	43	2018-06-06	glass shard	M
-3213	Roger Dale Sims	White	56	2018-06-06	gun	M
-3214	Brian Puskas	White	47	2018-06-06	gun	M
-3215	Wes Allen	White	33	2018-06-07	gun	M
-3216	Leslie Yolanda Salazar	White	20	2018-06-07	knife	F
-3217	Raymon Truitt	Black	28	2018-06-07	gun	M
-3218	Douglas Conner	White	50	2018-06-07	gun	M
 3219	Michael Renfroe	White	36	2018-06-08	unarmed	M
-3220	Todd Gregory	White	47	2018-06-08	gun	M
-3221	LaShanda Anderson	Black	36	2018-06-09	unknown	F
-3222	Timothy Owen	White	49	2018-06-09	gun	M
-3223	Brandon Vieweg	White	34	2018-06-10	unknown	M
 3224	Robert Lawrence White	Black	41	2018-06-11	unarmed	M
-3225	Nicolas Moncada	Hispanic	29	2018-06-11	knife	M
-3226	DeNathe M. Guilliford	Black	34	2018-06-12	gun	M
 3227	Alexandre J. Aldrich	White	34	2018-06-12	unarmed	M
-3228	Marqueese Alston	Black	22	2018-06-12	gun	M
-3229	Chavius Hollis	Black	26	2018-06-12	gun	M
-3230	Stephen Cogelia	White	32	2018-06-12	knife	M
-3231	David Arthur	White	44	2018-06-13	gun	M
-3232	Dillan Shane Ezell	White	21	2018-06-13	toy weapon	M
-3233	Joseph Villanueva	Hispanic	29	2018-06-14	gun	M
-3234	Terrence White	Black	18	2018-06-14	gun and car	M
-3235	Timothy Mosley	Black	33	2018-06-14	gun	M
-3236	Ashley Dean Fulkerson	White	28	2018-06-14	sword	F
-3237	Robert A. White	White	37.11793090137039	2018-06-14	gun	M
-3238	Marcelo Castellano	Hispanic	40	2018-06-14	gun	M
 3239	David L. Hicks	White	40	2018-06-15	unarmed	M
-3240	Dwayne Clyburn	Black	37	2018-06-16	knife	M
 3241	Richard Rivera	Hispanic	47	2018-06-16	unarmed	M
-3242	Tahaji Wells	Black	33	2018-06-17	gun	M
-3243	Abe Martinez	Hispanic	44	2018-06-17	gun	M
-3244	Charles Spillers	White	65	2018-06-19	gun	M
-3245	Jonathan Buckley	Black	20	2018-06-19	gun	M
 3246	Antwon Rose	Black	17	2018-06-19	unarmed	M
-3247	Robert Roybal	White	55	2018-06-19	knife	M
 3248	Anthony Marcell Green	Black	33	2018-06-20	unarmed	M
-3249	Jesse Wade Powell	White	44	2018-06-20	metal pole	M
-3250	Logan Williamson	White	37	2018-06-22	knife	M
-3251	Timothy Deal	Black	32	2018-06-22	knife	M
-3252	Thomas Albun Beall	White	31	2018-06-22	knife	M
-3253	Schuyler Lake	White	20	2018-06-22	knife	M
-3254	Thurman Blevins	Black	30	2018-06-23	gun	M
-3255	Detandel Pickens Devon	Black	25	2018-06-23	knife	M
-3256	Eric Sweet	White	47	2018-06-23	gun	M
-3257	Robert L. Barton	White	48	2018-06-23	gun and knife	M
-3258	Steven Allan Kaluahinui Hyer Jr.	Other	32	2018-06-23	bow and arrow	M
-3259	Luis Argueta	Hispanic	18	2018-06-25	unknown	M
-3260	Bobby Blade	White	29	2018-06-25	gun	M
-3261	William Shawn Mann	White	30	2018-06-25	gun	M
-3262	Joey Bronson	White	39	2018-06-27	gun	M
-3263	Anthony Sanchez	Hispanic	36	2018-06-29	gun	M
-3264	Joshua Cartwright	White	36	2018-06-29	gun	M
-3265	James Palmquist	White	54	2018-06-29	gun	M
-3266	Rodney Lee Hunter	Black	27	2018-06-29	unknown	M
-3267	Jason Washington	White	45	2018-06-29	gun	M
-3268	Chukwumankpam Mbegbu	Black	19	2018-06-29	gun	M
-3269	Garry Glenn Lawrence	White	36	2018-06-29	ax	M
-3270	Randy Thomas Groom	White	33	2018-06-29	knife	M
-3271	Steve Ballard	White	56	2018-06-29	gun	M
-3272	Daniel Norris	White	33	2018-07-01	gun	M
-3273	Larry San Nicolas	Asian	60	2018-07-01	sword	M
-3274	Joshua B. Reed	White	26	2018-07-01	knife	M
-3275	Frank Dripps	White	52	2018-07-03	gun	M
-3276	Lemuel Bunn	Black	40	2018-07-03	knife	M
-3277	Terrell Eason	Black	33	2018-07-03	gun	M
-3278	Millard Clark	White	41	2018-07-03	knife	M
-3279	Emmanuel Bitsuie	Native	32	2018-07-04	knife	M
-3280	Abraham Noe Flores	Hispanic	34	2018-07-04	gun	M
 3281	Daniel A. Fuller	White	26	2018-07-05	unarmed	M
-3282	Raad Fakhri Salman	Asian	62	2018-07-05	knife	M
-3283	Sylvia Marie Bejarano	Hispanic	33	2018-07-05	gun	F
-3284	Tracy A. Richards	White	55	2018-07-05	gun	M
-3285	John James Corrigan	White	38	2018-07-05	toy weapon	M
-3286	Charles Webb	Black	43	2018-07-06	gun	M
-3287	Eric Hash	Asian	38	2018-07-06	incendiary device	M
 3288	Kelly Kenneth Sutton	White	27	2018-07-07	unarmed	M
-3289	Harold Kraai	White	52	2018-07-07	knife	M
 3290	Rashaun Washington	Black	37	2018-07-07	unarmed	M
-3291	Craig Yelton	White	34	2018-07-08	gun	M
-3292	John Francis Murphy	White	41	2018-07-08	gun	M
-3293	Shaun Gates	White	40	2018-07-10	knife	M
-3294	Leonardo Cano	Hispanic	53	2018-07-10	gun	M
-3295	William T. McCollum	White	21	2018-07-10	gun	M
-3296	Salome Ramirez	Hispanic	34	2018-07-11	toy weapon	M
-3297	Fidel Miranda	Hispanic	22	2018-07-11	gun	M
-3298	Juan Luna	Hispanic	25	2018-07-13	gun	M
-3299	Archer Amorosi	White	16	2018-07-13	knife	M
-3300	Harith Augustus	Black	37	2018-07-14	gun	M
-3301	Jethro Benjamin	Black	68	2018-07-14	gun	M
-3302	Marlin Mack	Black	25	2018-07-15	gun	M
-3303	Isaac Chapa	White	34	2018-07-15	gun	M
-3304	Jonathan Molina	Hispanic	23	2018-07-15	gun	M
-3305	Isaiah Hayes	White	25	2018-07-17	unknown	M
-3306	Rolando Brizuela	Hispanic	57	2018-07-17	gun	M
-3307	Juan Manuel Correa-Leyva	Hispanic	27	2018-07-17	gun	M
-3308	Kerry Edwin Townsend	White	51	2018-07-17	gun	M
-3309	Arthur Lujan	Hispanic	30	2018-07-18	gun	M
-3310	Wesley Shelton	White	33	2018-07-18	gun	M
-3311	Mickey Coy	White	37.11793090137039	2018-07-18	gun	M
-3312	Luis Cruz	Hispanic	19	2018-07-19	gun	M
-3313	Carmen Pizarro	Hispanic	22	2018-07-19	gun	M
-3314	Ruben Maya	Hispanic	37	2018-07-20	toy weapon	M
-3315	Javier Lopez	White	19	2018-07-20	gun	M
-3316	Justin Waiki	Other	33	2018-07-20	gun	M
-3317	Anthony Coleman	White	38	2018-07-20	gun	M
-3318	Arthur Levario	Hispanic	45	2018-07-20	gun	M
-3319	Vincent James Ewer	White	39	2018-07-21	gun and car	M
-3320	Anthony C. Lopez	Hispanic	21	2018-07-21	vehicle	M
-3321	Dale Slocum	White	56	2018-07-21	knife	M
 3322	Melyda Marciela Corado	Hispanic	27	2018-07-21	unarmed	F
-3323	Eliuth Penaloza Nava	Hispanic	50	2018-07-21	toy weapon	M
-3324	Logan Simpson	White	16	2018-07-22	vehicle	M
-3325	William Bacorn	White	18	2018-07-22	gun	M
-3326	Juan Garcia	Hispanic	38	2018-07-22	unknown	M
-3327	Juan Ramon Ramos	Hispanic	32	2018-07-22	box cutter	M
-3328	Rosalio Hernandez Ortega	Hispanic	33	2018-07-23	machete	M
-3329	Paul Meade	White	71	2018-07-23	gun	M
-3330	John Carlos Natera-Perez	Hispanic	30	2018-07-23	knife	M
-3331	Donna Lynn Allen	White	39	2018-07-24	vehicle	F
-3332	Devaughdre Delsha Rogers	Black	19	2018-07-24	gun	M
-3333	Cashus Dean Case	White	44	2018-07-24	gun	M
-3334	Richard R. Bahr	White	54	2018-07-25	vehicle	M
-3335	DMario Perkins	Black	29	2018-07-25	gun	M
-3336	Jose Luis Rodriguez	Hispanic	37.11793090137039	2018-07-25	gun	M
 3337	Brent C. Bowdon	White	56	2018-07-25	unarmed	M
-3338	Michael Heatherly	White	64	2018-07-25	gun	M
-3339	Daniel Hambrick	Black	25	2018-07-26	gun	M
-3340	Jesus Hernandez Murillo	Hispanic	18	2018-07-26	gun	M
-3341	Kenneth Edwin Martell	White	36	2018-07-26	gun	M
-3342	Sergio Acosta	Hispanic	24	2018-07-26	toy weapon	M
-3343	Iman Joseph Buford	White	30	2018-07-26	gun	M
-3344	Gavalynn Mahuka	Asian	53	2018-07-26	gun	M
 3345	Cynthia Fields	Black	60	2018-07-27	unarmed	F
-3346	Richard Mendoza	Hispanic	32	2018-07-27	gun	M
-3347	Lamar C. Richardson	Black	25	2018-07-28	gun	M
 3348	Joseph Santos	Hispanic	44	2018-07-28	unarmed	M
-3349	Michael Neal	White	32	2018-07-28	unknown	M
-3350	Arthur Kenzie Garner	White	33	2018-07-28	gun	M
-3351	Richard Gary Black	White	37.11793090137039	2018-07-30	gun	M
-3352	James Edward Blackmon	Black	35	2018-07-31	gun	M
-3353	Skyler Martin	Hispanic	23	2018-07-31	gun	M
-3354	David Edward Hall	Black	27	2018-08-01	gun	M
-3355	David Judge	White	53	2018-08-01	gun	M
-3356	Jonathan Joey Mendoza	Hispanic	35	2018-08-01	gun	M
-3357	Tramaine Marquese Poole	Black	41	2018-08-01	gun	M
-3358	Landon Christopher Wooten	White	18	2018-08-02	toy weapon	M
-3359	Danny Lee	Black	34	2018-08-03	gun	M
-3360	Johnny Kelley	White	49	2018-08-03	gun	M
-3361	Josh Martin	White	31	2018-08-03	gun	M
-3362	Emmanuel Alquisiras	Hispanic	29	2018-08-03	Taser	M
-3363	Eric Benjamen Richards	White	33	2018-08-04	gun	M
-3364	John Randolph	White	38	2018-08-04	gun	M
-3365	William "Billy" James Hughes	Native	43	2018-08-05	gun	M
-3366	James Bishop	White	29	2018-08-05	baseball bat	M
-3367	Johnny Fisher	White	68	2018-08-05	gun	M
-3368	Spurgeon Daniels	Black	62	2018-08-06	knife	M
-3369	Levester Taylor	Black	39	2018-08-06	metal pipe	M
-3370	Ricardo Giddings	Black	59	2018-08-06	gun	M
-3371	Daniel Boyer	White	24	2018-08-07	gun	M
-3372	Daniel Valdez	Hispanic	70	2018-08-07	gun	M
-3373	Pedro Lucero	Hispanic	42	2018-08-07	gun	M
-3374	Michael Ducote	White	26	2018-08-07	vehicle	M
-3375	Joseph Robbins	White	24	2018-08-08	vehicle	M
-3376	Vaughn Denham	Black	48	2018-08-08	chain	M
-3377	Stephen L. Caldwell	Black	54	2018-08-08	knife	M
-3378	Charles Meadows	Black	48	2018-08-09	gun	M
-3379	Shaun Jeffery Christy	White	37	2018-08-09	gun	M
-3380	Gregory Campfield	Black	40	2018-08-09	gun	M
-3381	Montae Shackleford	Black	28	2018-08-09	gun	M
-3382	Jackey Sampson	White	43	2018-08-10	gun	M
-3383	Adam Knowlton	White	35	2018-08-12	knife	M
-3384	Anthony Daniel Vargas	Hispanic	21	2018-08-12	gun	M
-3385	Anthony Makai Hutchinson	Black	40	2018-08-12	gun	M
-3386	Christopher Anthony Stone	Black	32	2018-08-13	gun	M
-3387	Mario Hobson	Black	48	2018-08-13	gun	M
-3388	Chris Cameron	White	31	2018-08-13	gun	M
-3389	TK TK	Hispanic	37.11793090137039	2018-08-14	gun and knife	M
-3390	Charlie "Lee" Hodges	White	58	2018-08-16	gun	M
-3391	Adrian Herron	Black	30	2018-08-16	knife	M
-3392	Aquantis Givens	Black	21	2018-08-17	gun	M
-3393	Spencer Mendez	Hispanic	15	2018-08-18	gun	M
-3394	Michael Harrison	White	30	2018-08-18	knife	M
-3395	Andres Arteaga	Hispanic	28	2018-08-18	gun	M
-3396	Christopher Alexander Okamoto	Black	21	2018-08-19	toy weapon	M
-3397	Jeremiah Perdue	Black	33	2018-08-19	gun	M
-3398	Charles Marcotte	White	37.11793090137039	2018-08-19	gun	M
-3399	Jeffrey Dennis	Black	36	2018-08-20	vehicle	M
-3400	Douglas Heath	White	38	2018-08-20	gun	M
-3401	Virginia Romero	Hispanic	34	2018-08-23	vehicle	F
-3402	Donna Castleberry	White	23	2018-08-23	sharp object	F
-3403	Jeffery Paul Fabio	White	44	2018-08-24	crossbow	M
-3404	James Clay	Black	20	2018-08-24	toy weapon	M
-3405	Felipe Perez Casas	Hispanic	41	2018-08-24	knife	M
-3406	Taylor K.E. Tincher	White	18	2018-08-25	gun	M
-3407	Logan Montgomery	White	29	2018-08-25	gun	M
-3408	Jennifer Sharp	White	37	2018-08-25	gun	F
-3409	Stephanie B. Owens	White	41	2018-08-26	gun	F
-3410	Fabian Ortiz Adame	White	25	2018-08-27	gun and vehicle	M
-3411	Bryce Schenkenberg	White	20	2018-08-27	gun	M
-3412	Eric Jay Hames	White	34	2018-08-27	knife	M
-3413	Sebastian Siney Chamale	Hispanic	37	2018-08-28	unknown	M
-3414	Tyler Hodge	White	18	2018-08-28	gun	M
-3415	Randall McKenzie	White	72	2018-08-29	gun	M
-3416	Jalon Johnson	Black	17	2018-08-29	vehicle	M
-3417	Jessica Cribbs	White	45	2018-08-30	gun	F
-3418	Vanessa Marquez	Hispanic	49	2018-08-30	toy weapon	F
-3419	Dennis Ray Blalock	White	64	2018-08-31	gun	M
-3420	Chase Sullivan	White	36	2018-08-31	knife	M
-3421	Paul Askins	White	61	2018-08-31	gun	M
-3422	Oshae Terry	Black	24	2018-09-01	vehicle	M
-3423	Fernand "Fred" Lete	Hispanic	70	2018-09-03	gun	M
-3424	Steve L. Anderson	White	40	2018-09-03	knife	M
-3425	Aaron Demonta Fleming	Black	21	2018-09-03	gun	M
-3426	Timmy Henley	White	27	2018-09-04	knife	M
 3427	James Leatherwood	Black	23	2018-09-05	unarmed	M
-3428	Mitchell Owen Buel	White	33	2018-09-05	unknown	M
-3429	Christopher Sage	White	45	2018-09-05	gun	M
-3430	Darell Richards	Black	19	2018-09-06	toy weapon	M
-3431	DaShawn Cole	Black	28	2018-09-07	gun	M
-3432	Elman Jerald Roberts	White	63	2018-09-08	gun	M
-3433	Brandon Joyner	Black	37.11793090137039	2018-09-09	gun	M
-3434	Dereshia Blackwell	Black	39	2018-09-09	gun and knife	F
-3435	Edward Reynolds	White	57	2018-09-11	gun	M
-3436	Rafael Rivera	Hispanic	32	2018-09-12	gun	M
-3437	Thomas Watkins	Black	38	2018-09-12	gun	M
-3438	Detric Driver	Black	46	2018-09-14	gun	M
-3439	Garrett Finley Mitchell	White	31	2018-09-14	gun	M
-3440	David Huffines	White	40	2018-09-14	gun	M
-3441	Christopher Lee Leonard	White	31	2018-09-15	gun	M
-3442	Stephen Dove	White	50	2018-09-15	knife	M
-3443	Ricardo Avenia	Hispanic	29	2018-09-16	gun	M
-3444	Bruce Smith	White	25	2018-09-16	unknown	M
-3445	Jerry Foster	Black	31	2018-09-16	gun	M
-3446	Jose Alvarez	Hispanic	23	2018-09-17	gun	M
-3447	Susan Muller	White	54	2018-09-17	knife	F
-3448	Damon Christopher Gayheart	White	44	2018-09-17	vehicle	M
-3449	Michael James Murphy	White	43	2018-09-18	gun	M
-3450	Jeffrey Sims	White	37	2018-09-18	knife	M
-3451	Freddie Joe Whitmore	White	55	2018-09-20	gun	M
-3452	Alexander Carballido	Hispanic	40	2018-09-20	gun	M
-3453	Joshua Works	White	26	2018-09-22	gun	M
-3454	Nathaniel Sassafras	Black	29	2018-09-23	gun	M
-3455	Ronald W. Leach	White	29	2018-09-24	box cutter	M
-3456	Ivan Pena	Hispanic	42	2018-09-24	gun	M
-3457	Michael Stout	White	20	2018-09-24	gun	M
-3458	Dravious Burch	Black	34	2018-09-25	gun	M
-3459	Jaime Lopez	Hispanic	41	2018-09-25	knife	M
-3460	Paul Braswell	Black	29	2018-09-26	vehicle	M
-3461	Joey Leon Nelson	White	19	2018-09-27	gun and knife	M
-3462	Juan Angel Pinedo	Hispanic	32	2018-09-27	gun	M
-3463	Coltin Brennan Leblanc	White	23	2018-09-27	vehicle	M
-3464	Datwan Keyo Lewis	Black	41	2018-09-27	gun	M
-3465	Michael Perez	Hispanic	37	2018-09-27	knife	M
-3466	Joseph Dawson	White	24	2018-09-28	gun	M
-3467	Justin Snelson	White	54	2018-09-29	unknown	M
-3468	Thomas Howard Luedtke	White	58	2018-09-29	crossbow	M
-3469	Walter Welch	White	40	2018-09-29	gun	M
-3470	Patrick K. Kimmons	Black	27	2018-09-30	gun	M
-3471	Brian Lee Rogers	White	40	2018-09-30	ax	M
-3472	Keagan Johnson	White	23	2018-10-01	knife	M
 3473	Brian Baker	White	33	2018-10-01	unarmed	M
-3474	James "Cody" Martin	White	26	2018-10-02	gun	M
-3475	LaJuana Philips	Black	36	2018-10-02	vehicle	F
-3476	Toby Bailey	Black	38	2018-10-03	gun	M
-3477	Arthur Harbison	White	25	2018-10-04	knife	M
-3478	Sershawn Martez Dillon	Black	31	2018-10-05	gun	M
-3479	Phillip Samuel Moskios	White	48	2018-10-05	gun	M
-3480	Venson Kee Yazzie	Native	43	2018-10-05	knife	M
-3481	Nicholas Salisbury	White	36	2018-10-07	toy weapon	M
-3482	Anthony Lee Hodges	White	39	2018-10-07	gun	M
-3483	Aaron Joseph Chavez	Hispanic	22	2018-10-08	knife	M
-3484	Alexander G. Lindahl	White	24	2018-10-08	vehicle	M
-3485	Isaiah Ramirez	White	36	2018-10-08	vehicle	M
-3486	Travis N. Craven	White	25	2018-10-08	gun	M
-3487	Samuel E. Rice	White	30	2018-10-10	knife	M
-3488	Richard Palafox	White	76	2018-10-10	gun	M
-3489	Terrell Blake	Black	39	2018-10-10	gun	M
-3490	Leslie Shayne Miller	White	49	2018-10-10	gun	F
-3491	Kenneth Ryan Busse	White	21	2018-10-10	gun	M
-3492	Alonzo L. Smith	Black	31	2018-10-10	gun	M
-3493	Diamonte Riviore	Black	22	2018-10-11	knife	M
-3494	Samuel Morris	Black	27	2018-10-12	knife	M
-3495	Ashley Elisna Grammer	Other	26	2018-10-12	vehicle	F
-3496	Kay Kenniker	White	84	2018-10-12	gun	M
-3497	Jacob E. Albrethsen	White	17	2018-10-12	knife	M
-3498	Umberto Sanchez Ramoz	Hispanic	17	2018-10-14	knife	M
-3499	Eric Jamar Lupain Stromer	Black	22	2018-10-14	gun	M
-3500	James Christopher Manus	White	41	2018-10-14	gun	M
-3501	Hustes Davila	Hispanic	58	2018-10-15	gun	M
-3502	Weston Willow Well Cole	White	29	2018-10-17	gun	M
-3503	Keyshon Parham	Black	19	2018-10-17	gun	M
 3504	Charles Roundtree	Black	18	2018-10-17	unarmed	M
-3505	James Lyle Kuehn	White	61	2018-10-17	knife	M
-3506	Bailey Greek	White	18	2018-10-18	gun	M
-3507	Andrey Tkachenko	White	23	2018-10-18	gun	M
-3508	Sean Dutcher	White	38	2018-10-18	vehicle	M
 3509	Jacob Servais	Black	19	2018-10-18	unarmed	M
-3510	Mahlon Edward Summerour	Black	63	2018-10-18	toy weapon	M
-3511	Neico Crooks, Jr	Black	21	2018-10-19	vehicle	M
-3512	Christopher Calabro	White	25	2018-10-19	knife	M
-3513	Edward Paul Zumski	White	35	2018-10-20	gun	M
-3514	Robert Smith	White	50	2018-10-20	gun	M
-3515	Kimberly Norris	White	34	2018-10-20	gun	F
-3516	Cedric Pritchard	Black	37.11793090137039	2018-10-21	gun	M
-3517	Jason Whittle	White	26	2018-10-22	knife	M
-3518	William David Williamson	White	61	2018-10-22	unknown	M
-3519	Tafahree Maynard	Black	18	2018-10-22	lawn mower blade	M
-3520	Shaunday Mullins	Native	37	2018-10-23	gun	M
-3521	Robert Mitchell	White	27	2018-10-23	unknown	M
 3522	Nickolas Michael Peters	White	24	2018-10-23	unarmed	M
-3523	Salvador Morales	Hispanic	37	2018-10-23	gun	M
-3524	Armond Beckwith-Bell	Black	28	2018-10-25	vehicle and gun	M
-3525	Lloyd Gerald Napouk	Asian	44	2018-10-27	unknown	M
-3526	Christopher Carroll	Black	30	2018-10-27	gun	M
-3527	Albert Ramon Dorsey	Black	30	2018-10-29	Taser	M
-3528	Billy Jo Johnson	White	34	2018-10-29	gun	M
-3529	Arnaldo Caraveo	Hispanic	27	2018-10-29	gun	M
-3530	Derrick Alexander Sellman	Black	28	2018-10-29	vehicle	M
-3531	Ida Christy Stiles	White	42	2018-10-29	toy weapon	F
-3532	John Wurms	White	32	2018-10-31	gun	M
-3533	Tony Bernard Smith	Black	24	2018-10-31	gun	M
-3534	Jose Centeno, Jr.	Hispanic	17	2018-10-31	toy weapon	M
-3535	Gonzalo Rico-Jimenez	Hispanic	26	2018-10-31	vehicle	M
 3536	Jesse J. Quinton	Black	35	2018-11-02	unarmed	M
-3537	Andrew Moore	White	25	2018-11-02	knife	M
-3538	Laudemer Arboleda	Black	33	2018-11-03	vehicle	M
-3539	Kanwarbir Malhi	Asian	25	2018-11-03	unknown	M
-3540	Theoddeus Gray	Black	29	2018-11-04	gun	M
-3541	Anthony David Chavez	Hispanic	18	2018-11-04	gun	M
-3542	Ryan Millsap	White	19	2018-11-04	vehicle	M
 3543	Robbie Ramirez	Hispanic	39	2018-11-04	unarmed	M
-3544	Gary J. Willis	White	61	2018-11-05	gun	M
-3545	Henry Gregory Stroud	White	36	2018-11-05	gun	M
-3546	George Smith	White	72	2018-11-05	gun	M
-3547	Anovath Troy Kongvongxay	Asian	48	2018-11-05	ax	M
-3548	Jesus "Chuy" Guzman	Hispanic	34	2018-11-08	gun	M
-3549	Travis Jordan	Black	36	2018-11-09	unknown	M
-3550	Christopher William Parrish	White	33	2018-11-09	rock	M
 3551	Cody Paris Belgard	White	30	2018-11-09	unarmed	M
-3552	James Hanchett	White	61	2018-11-09	gun	M
-3553	Patrick Bryant	Black	41	2018-11-10	gun	M
 3554	Elisha Edward Kelley	White	52	2018-11-11	unarmed	M
-3555	Jemel Roberson	Black	26	2018-11-11	gun	M
-3556	TK TK	Hispanic	37.11793090137039	2018-11-11	gun	M
-3557	Edward M. Walsh	White	39	2018-11-12	knife	M
-3558	Andrew Kana	Asian	36	2018-11-12	gun	M
-3559	Tony Mathis	Black	47	2018-11-12	gun	M
-3560	Danny Ayala	Hispanic	37.11793090137039	2018-11-12	knife	M
-3561	Cesar Alehandro Ramos	Hispanic	25	2018-11-12	gun	M
-3562	Marty West	White	63	2018-11-12	knife	M
-3563	Timothy Leon	Black	24	2018-11-13	unknown	M
-3564	Rene Prieto	Hispanic	38	2018-11-13	gun	M
-3565	Olajuwon Murphy	Black	22	2018-11-14	gun	M
-3566	Joseph Loughery	White	59	2018-11-14	gun	M
-3567	John David Manning	White	29	2018-11-14	knife	M
-3568	Allen Fanning	Black	18	2018-11-15	gun	M
-3569	Agustin Gonsalez	Hispanic	29	2018-11-15	straight edge razor	M
-3570	Jack Fields, Jr.	Black	25	2018-11-15	knife	M
-3571	GD Hendrix	White	48	2018-11-15	metal pipe	M
-3572	Steven Smith	White	60	2018-11-15	gun	M
-3573	Rio Antwuan Thomas	Black	27	2018-11-17	vehicle	M
-3574	Daniel Cedars	White	65	2018-11-19	gun	M
-3575	Christopher Williams	White	41	2018-11-19	vehicle	M
-3576	Roderick McDaniel	Black	33	2018-11-19	gun	M
-3577	Roderick McDaniel	Black	33	2018-11-20	vehicle	M
-3578	Keaton James Larson	White	22	2018-11-21	knife	M
-3579	Billy G. Heeter	White	52	2018-11-21	gun	M
-3580	Robert William Reid	White	42	2018-11-21	gun	M
-3581	Eugene Benjamin Weathers	Black	48	2018-11-21	gun	M
-3582	Martin Lopez	Hispanic	24	2018-11-21	knife	M
-3583	Emantic Fitzgerald Bradford	Black	21	2018-11-22	gun	M
-3584	Cameron McCarthy	White	20	2018-11-22	machete	M
-3585	Patrick Michael Langhoff	White	59	2018-11-22	gun	M
-3586	Christopher L. Anderson	White	46	2018-11-23	gun	M
-3587	Martez Webb	Black	23	2018-11-23	gun	M
-3588	Felix Anthony Calata	Hispanic	32	2018-11-24	vehicle	M
-3589	Nicholas Charles Ryan	White	19	2018-11-27	gun	M
-3590	Allen Scott Culpepper	White	64	2018-11-27	gun	M
-3591	Jarmane Logan	Black	35	2018-11-27	vehicle	M
-3592	J Scot Alan Widmark	White	41	2018-11-27	knife	M
-3593	Bert E. Mercado	Asian	42	2018-11-27	gun	M
-3594	Benjamin Kennedy	White	35	2018-11-28	gun	M
-3595	David Villagran	Hispanic	33	2018-11-28	vehicle	M
-3596	Vernon May	Native	32	2018-11-29	gun	M
-3597	Adrian Bunker	White	37	2018-11-29	unknown	M
-3598	Ricardo Galvan	Hispanic	37	2018-11-30	gun	M
-3599	John Young	Black	65	2018-12-01	meat cleaver	M
-3600	Jarvis Randall	Black	30	2018-12-01	straight edge razor	M
-3601	Demontry Floytra Boyd	Black	43	2018-12-01	knife	M
-3602	Anthony Ray Borden-Cortez	Hispanic	18	2018-12-04	toy weapon	M
-3603	David Alejandro Molina	Hispanic	27	2018-12-05	gun	M
-3604	Justin Smith	White	41	2018-12-05	knife	M
-3605	Paul Ridgeway	White	41	2018-12-05	gun	M
-3606	Anthony M. Edwards	Black	33	2018-12-05	knife	M
-3607	Dimaggio McNelly	Black	53	2018-12-06	gun	M
-3608	Benjamin David Larson	White	42	2018-12-06	gun	M
-3609	Jason O'Bannon	White	46	2018-12-06	gun	M
-3610	Jesus Lainez	Hispanic	51	2018-12-07	unknown	M
-3611	Julius Ervin Tate	Black	16	2018-12-07	gun	M
-3612	James N. Robertson	White	41	2018-12-08	knife	M
-3613	Joshua Boyd	Black	24	2018-12-09	gun	M
-3614	Christopher Deandre Mitchell	Black	23	2018-12-09	gun	M
-3615	Terry Don King	White	50	2018-12-09	gun	M
-3616	Shane Wentling	White	41	2018-12-10	gun	M
-3617	George Penev	White	23	2018-12-10	knife	M
-3618	Kyle Hart	White	33	2018-12-10	knife	M
-3619	Kaley Gay	White	25	2018-12-11	gun	F
-3620	Tori Kaneshiro	Asian	30	2018-12-11	gun	F
-3621	Daniel Pierce	White	58	2018-12-11	gun	M
-3622	Marcus Neal	Black	47	2018-12-11	knife	M
-3623	Haze Connor Martin	White	22	2018-12-11	knife	M
-3624	Tameka LaShay Simpson	Black	27	2018-12-11	gun	F
-3625	Demario Bass	Black	29	2018-12-12	vehicle	M
-3626	Jason Emerson Connell	White	43	2018-12-12	gun	M
-3627	Dylan Parker Thomas	White	18	2018-12-12	toy weapon	M
-3628	Gabriel Romero	Hispanic	19	2018-12-12	gun	M
-3629	Joshua Myers	White	37	2018-12-13	gun	M
-3630	Andre Horton	Black	42	2018-12-13	gun	M
-3631	Edgar Espinoza	Hispanic	35	2018-12-15	knife	M
-3632	Edward Rudhman	White	50	2018-12-16	gun	M
-3633	Rodney J. Geiser	White	60	2018-12-16	gun	M
-3634	Jacob Mohow	White	35	2018-12-16	knife	M
-3635	April Webster	Black	47	2018-12-16	knife	F
-3636	TK TK	White	37.11793090137039	2018-12-17	gun	M
-3637	Angel Viola Decarlo	Black	31	2018-12-18	gun	F
-3638	David Frederick	White	24	2018-12-18	gun	M
 3639	Danny Washington	Black	27	2018-12-18	unarmed	M
-3640	Keith A. Hawley	White	27	2018-12-18	gun	M
-3641	Damon Barstad	White	23	2018-12-20	Taser	M
-3642	Jose Lemus	Hispanic	57	2018-12-21	gun	M
-3643	David MacAdams	White	56	2018-12-21	knife	M
-3644	Jason Delgado Perez	Hispanic	36	2018-12-23	gun	M
-3645	Kaulana "Toji" Reinhardt	Other	37.11793090137039	2018-12-23	gun	M
-3646	Abdias Flores	Hispanic	37.11793090137039	2018-12-24	gun	M
-3647	Jennifer Vasquez	Hispanic	24	2018-12-25	vehicle	F
-3648	Antonio A. Ramos	Hispanic	34	2018-12-25	gun	M
-3649	Michael Jerome Taylor	Black	17	2018-12-26	vehicle	M
-3650	Gary Warbritton	White	21	2018-12-26	gun	M
-3651	Wayne Falana	Black	35	2018-12-26	gun	M
-3652	Mark Wade "Cornbread" Luttrell	White	34	2018-12-28	gun	M
-3653	Glenn A. Rightsell	White	56	2018-12-28	gun	M
-3654	Shane Lyons	Black	35	2018-12-28	machete	M
-3655	Edwin C. Bundy	White	46	2018-12-28	gun	M
-3656	TK TK	White	42	2018-12-29	gun	M
-3657	Warren Jay Beaubien	White	49	2018-12-30	machete	M
-3658	Kerry D. Blake	Black	44	2018-12-30	pole	M
-3659	Paul Arbitelle	White	45	2018-12-30	knife	M
-3660	Iosia Faletogo	Asian	36	2018-12-31	gun	M
-3661	Matthew Hurley	White	45	2018-12-31	gun	M
-3662	Jesus Ramos	Hispanic	34	2018-12-31	unknown	M
-3663	Dylan Michael Smith	White	26	2019-01-01	gun	M
-3664	Brandon Lovell Webster	Black	28	2019-01-01	vehicle	M
-3665	Matthew Burroughs	Black	35	2019-01-02	vehicle	M
-3666	Abdoulaye Thiam	Black	20	2019-01-02	knife	M
-3667	Arron Thomas Lambert	White	33	2019-01-02	Taser	M
-3668	Samuel Garcia	Hispanic	39	2019-01-03	gun	M
-3669	Robert Myers	White	63	2019-01-03	gun	M
-3670	Joseph Roberts	White	27	2019-01-03	knife	M
-3671	Abiel Innis De Joel Rios	Hispanic	33	2019-01-03	gun	M
-3672	Jae Wesley Hardy	Black	27	2019-01-03	gun	M
-3673	Eric David Sauerhagen	White	31	2019-01-03	gun	M
-3674	Zonell Williams	Black	33	2019-01-04	gun	M
-3675	Jeremy Dean Duncan	White	39	2019-01-04	vehicle	M
-3676	John Richard Camacho	White	27	2019-01-04	toy weapon	M
-3677	Lawrence Thompson III	Black	32	2019-01-04	gun	M
-3678	Oliver Hernandez	Hispanic	29	2019-01-05	ax	M
-3679	Adolfo Gonzalez	Hispanic	28	2019-01-05	gun	M
-3680	David John Engebretson	White	50	2019-01-05	gun	M
-3681	Shaun Kennedy	White	55	2019-01-05	gun	M
-3682	Kevin Shawn Hanson	Black	42	2019-01-06	gun	M
-3683	Andre C. Gladen	Black	36	2019-01-06	knife	M
-3684	Nil Houer	Asian	38	2019-01-06	gun	M
-3685	Miguel Barraza-Lugo	Hispanic	38	2019-01-07	gun	M
-3686	David Novak	White	35	2019-01-07	baseball bat	M
-3687	Jeremy Dale Edmonds	White	42	2019-01-07	knife	M
-3688	Johnny Lee Burney	Black	70	2019-01-10	gun	M
-3689	Geoffrey Morris	White	29	2019-01-10	gun and vehicle	M
-3690	Juston Landry	Black	26	2019-01-11	gun	M
-3691	Treshun Symone Miller	Black	20	2019-01-11	gun	M
-3692	Charles Frederick Landeros	Hispanic	30	2019-01-11	gun	M
-3693	Jacob Michael Harris	Black	19	2019-01-11	gun	M
-3694	Bill Akes	White	48	2019-01-12	hatchet	M
-3695	Christopher A. Schmitt	White	58	2019-01-12	toy weapon	M
 3696	Dimas Diaz	Hispanic	38	2019-01-13	unarmed	M
-3697	Roberto Tapia	Hispanic	28	2019-01-13	gun	M
-3698	Nathan Thoe	White	34	2019-01-13	gun	M
-3699	Jahmal Derrick Stewart	Black	45	2019-01-14	gun	M
 3700	Amiliano Antonio Apodaca	Hispanic	18	2019-01-14	unarmed	M
-3701	Louis Jose Burrus	Hispanic	25	2019-01-14	gun	M
-3702	Nathaniel Holland	Black	38	2019-01-14	knife	M
-3703	Damon Murad Asad	White	33	2019-01-14	gun	M
-3704	William Owens	Black	39	2019-01-14	gun	M
-3705	Dean Heerdt	White	58	2019-01-15	gun	M
-3706	Stanley Stepanski III	White	48	2019-01-15	gun	M
-3707	Antonio Arce	Hispanic	14	2019-01-15	toy weapon	M
-3708	D'ettrick Griffin	Black	18	2019-01-15	vehicle	M
-3709	Quency Chavez Floyd	Black	22	2019-01-15	gun	M
 3710	Shawn Joseph Billinger	White	46	2019-01-16	unarmed	M
-3711	D'Angelo Brown	Black	37.11793090137039	2019-01-16	vehicle	M
-3712	Megan Rivera	White	37.11793090137039	2019-01-16	vehicle	F
-3713	Terry Lee Cockrell	White	57	2019-01-16	gun	M
-3714	Danny Kelley	White	32	2019-01-16	knife	M
-3715	Mikyas Mehary Tegegne	Black	31	2019-01-16	gun	M
-3716	Dale Weich	White	64	2019-01-18	gun	M
 3717	Matthew Neil Tuhkanen	White	35	2019-01-19	unarmed	M
-3718	Mark Leo Gregory Gago	White	42	2019-01-19	ax	M
-3719	Jason C. Minnick	White	30	2019-01-19	vehicle	M
-3720	Chance Mavity	White	26	2019-01-20	gun	M
 3721	Horacio Ruiz-Rodriguez	Hispanic	37	2019-01-21	unarmed	M
 3722	Jimmy Atchison	Black	21	2019-01-22	unarmed	M
 3723	Preston Oszust	White	20	2019-01-23	unarmed	M
-3724	Dwight Steward	Black	46	2019-01-23	knife	M
-3725	TK TK	Native	37.11793090137039	2019-01-23	unknown	M
-3726	Marcus Gishal	Hispanic	20	2019-01-23	gun	M
-3727	Kevin Grant Vawter	White	46	2019-01-23	knife	M
 3728	Katlyn Alix	White	24	2019-01-24	unarmed	F
 3729	Christian Albarran	Hispanic	26	2019-01-24	unarmed	M
-3730	Jeffrey Lynn Jones	White	60	2019-01-25	gun	M
-3731	Jacob Archambault	Native	25	2019-01-27	vehicle	M
-3732	Joey Duane Ramirez	Hispanic	29	2019-01-28	gun	M
 3733	Rhogena Nicholas	White	58	2019-01-28	unarmed	F
-3734	Dennis Tuttle	White	59	2019-01-28	gun	M
 3735	Gregory Griffin	Black	46	2019-01-28	unarmed	M
-3736	David Michael Bosiljevac	White	55	2019-01-28	toy weapon	M
-3737	Nekiylo Dawayne Graves	Black	27	2019-01-28	unknown	M
-3738	Nicholas Philhower	White	30	2019-01-28	gun	M
-3739	Carl Thayer	White	45	2019-01-28	knife	M
-3740	Siatu'u Tauai	Other	51	2019-01-29	vehicle	M
-3741	Paul Cantu	Hispanic	27	2019-01-29	gun	M
-3742	Michael Joe Jolls	White	47	2019-01-30	gun	M
-3743	Anthony Patrick Pellissier	White	52	2019-01-30	unknown	M
-3744	Robert Martinez	Hispanic	45	2019-02-01	vehicle	M
-3745	Henry Harold Russell	White	47	2019-02-02	knife	M
-3746	Johnny Weeks	Black	68	2019-02-02	gun	M
-3747	Isaiah Thomas	Black	40	2019-02-02	knife	M
-3748	Dylan Joseph-Mark Cross	White	18	2019-02-03	gun	M
-3749	Asuncion J. Gomez-Guerrero	Hispanic	35	2019-02-03	vehicle	M
-3750	Robert Matz	White	80	2019-02-04	gun	M
-3751	Corey Johnson	Black	44	2019-02-04	gun	M
-3752	Anthony Dewayne Childs	Black	31	2019-02-05	gun	M
-3753	Seth Keo Mallard	White	20	2019-02-06	gun	M
-3754	Allon Jones	Black	43	2019-02-06	gun	M
-3755	Miles Dylan Cooper	White	25	2019-02-06	gun	M
-3756	Bruce Carter	Black	38	2019-02-06	box cutter	M
-3757	Danny Rodriguez	Hispanic	34	2019-02-07	knife	M
-3758	Michael Robert Novak	White	58	2019-02-07	knife	M
 3759	Morgan Shane West	White	38	2019-02-07	unarmed	M
-3760	Nolan Hurtzig	White	29	2019-02-07	unknown	M
-3761	Jason Matthew Hill	White	40	2019-02-07	gun	M
-3762	Charles L. Cook	White	49	2019-02-07	gun	M
 3763	Aaron Allen Przekop	White	25	2019-02-08	unarmed	M
-3764	Willie Bo McCoy	Black	21	2019-02-09	gun	M
-3765	Jeffrey D. Tyree	White	57	2019-02-09	knife	M
-3766	Jonathan Ramirez	Hispanic	28	2019-02-09	gun	M
-3767	Gabriel Carter	White	25	2019-02-09	gun	M
-3768	Ted Schmitz	White	58	2019-02-10	knife	M
-3769	Willie Jermaine Robinson	Black	34	2019-02-10	gun	M
 3770	Eric Young	White	34	2019-02-11	unarmed	M
-3771	Ty'rell Pounds	Black	24	2019-02-11	gun	M
-3772	Phayvanh Inthavong	Asian	32	2019-02-11	gun	M
-3773	Alex Johnson	Black	58	2019-02-12	knife	M
-3774	Christopher Brimsey	Black	20	2019-02-12	gun	M
-3775	Patrick Reed	Black	19	2019-02-12	gun	M
-3776	Johnny Mathis	White	46	2019-02-12	gun	M
-3777	Garrett James Ebenal	White	28	2019-02-13	gun	M
-3778	Greg Alyn Carlson	White	47	2019-02-13	gun	M
-3779	Wilfredo Hernandez	Hispanic	47	2019-02-14	knife	M
-3780	Michael Drayer	White	34	2019-02-14	knife	M
-3781	Mark Morasky	White	37.11793090137039	2019-02-14	gun	M
-3782	Gary Marin	Black	45	2019-02-15	gun	M
-3783	Michael Elam	Black	17	2019-02-16	gun	M
-3784	Nam Quang Le	Asian	34	2019-02-16	gun	M
-3785	Javier Hernandez Morales	Hispanic	48	2019-02-17	gun	M
-3786	Reginald Romero Bursey	Black	32	2019-02-17	gun	M
 3787	Delmar Espejo	Asian	20	2019-02-18	unarmed	M
-3788	Pierre Woods	Black	31	2019-02-18	gun	M
-3789	Clayton Joseph	Asian	16	2019-02-19	knife	M
-3790	Emanuel David Joshua Oates	Black	24	2019-02-19	machete	M
-3791	Kyron Marcell Sands	Black	39	2019-02-20	gun	M
-3792	Kyle Thomas	White	26	2019-02-20	vehicle	M
-3793	Bradley Blackshire	Black	30	2019-02-22	vehicle	M
-3794	Kasim Kahrim	Other	36	2019-02-22	gun	M
-3795	Timothy Rhodes	White	28	2019-02-22	gun	M
-3796	Neico Crooks	Black	21	2019-02-22	vehicle	M
-3797	Felipe Martinez	Hispanic	36	2019-02-22	knife	M
-3798	Sterling Durant Humbert	White	28	2019-02-23	gun	M
-3799	Daniel David Messmer	White	24	2019-02-23	gun	M
-3800	Angel Burke	White	29	2019-02-23	gun	M
-3801	Jackie Scott Pendergrass	White	44	2019-02-23	gun	M
-3802	Tommy Kirby	White	41	2019-02-24	unknown	M
-3803	Bryan A. Ryder	White	38	2019-02-25	knife	M
-3804	David Litton	White	40	2019-02-25	gun	M
-3805	Sasha Ann Pishko	White	20	2019-02-26	vehicle	F
-3806	Tyler Schmidtbauer	White	27	2019-02-26	gun	M
-3807	Joseph Hart	White	51	2019-02-26	gun	M
-3808	Brandon Schmitt	White	48	2019-02-26	gun	M
-3809	James Scott Reed	Black	40	2019-02-27	gun	M
-3810	Michael Pierce	White	29	2019-02-28	gun	M
-3811	Kenneth Joseph Sisneros	Hispanic	34	2019-02-28	gun	M
-3812	Brenda Rodriguez Mendoza	Hispanic	20	2019-03-01	gun	F
 3813	Maurice Arrisgado	Asian	47	2019-03-01	unarmed	M
 3814	Eduardo Munoz	Hispanic	29	2019-03-01	unarmed	M
-3815	Larry Todd Hoover	White	33	2019-03-02	sword	M
 3816	Tyler J. Meier	White	46	2019-03-02	unarmed	M
-3817	Clair Jewell	White	35	2019-03-02	unknown	F
-3818	Luke Anthony Swann	Black	36	2019-03-04	gun	M
-3819	Stephen Kaylor	White	63	2019-03-04	gun	M
-3820	Daniel Moncada	Hispanic	27	2019-03-04	gun	M
-3821	Jeremy Ponce	Hispanic	17	2019-03-04	gun	M
-3822	Shamikle Jackson	Black	22	2019-03-04	machete	M
 3823	Stephanie Areanda Quiroz	Hispanic	21	2019-03-05	unarmed	F
-3824	Joshua Worth	White	31	2019-03-05	unknown	M
-3825	Danny Brogdon	White	56	2019-03-05	knife	M
-3826	Antonio Joseph Valentine	Black	32	2019-03-05	gun	M
-3827	Donqaule Maurice Gray	Black	25	2019-03-06	gun	M
-3828	Rodney Fisher	White	47	2019-03-07	gun	M
-3829	Carlos Hunter	Hispanic	37.11793090137039	2019-03-07	gun	M
-3830	Dylan Aikey	White	23	2019-03-07	gun	M
-3831	Thomas Wayne Swinford	White	34	2019-03-08	toy weapon	M
-3832	Beth Plant	White	51	2019-03-09	knife	F
-3833	Eric Hagstrom	White	35	2019-03-09	gun	M
-3834	Joel David Kellay	White	46	2019-03-09	gun	M
-3835	Tommy Wayne Welch	White	59	2019-03-09	knife	M
-3836	Rodney Lassiter	Black	30	2019-03-09	gun	M
-3837	Brandon Robertson	Native	34	2019-03-10	gun	M
-3838	Phillip Wayne Outland	White	44	2019-03-10	gun	M
-3839	Sokhom Hon	Asian	31	2019-03-10	unknown	M
-3840	Anthony Lee Montoya	Hispanic	51	2019-03-10	gun	M
-3841	Michael J. D'Angelo	White	34	2019-03-11	knife	M
-3842	Robert Mark Frady	White	45	2019-03-12	gun	M
-3843	Latasha Nicole Walton	Black	32	2019-03-12	vehicle	F
-3844	Brandon Stacey	White	31	2019-03-12	gun	M
-3845	Charles Ballard	Black	41	2019-03-13	vehicle	M
-3846	Benjamin Melendez	Hispanic	29	2019-03-13	knife	M
-3847	Nina Adams	Black	47	2019-03-13	gun	F
 3848	Henry Wayne Rivera	Hispanic	30	2019-03-13	unarmed	M
-3849	Shawn Taylor Waite	Native	27	2019-03-14	knife	M
-3850	Jerry Marrero	Hispanic	38	2019-03-14	knife	M
-3851	George Wayne McCallum	White	33	2019-03-14	gun	M
-3852	Victor J. Morales Zavala	White	25	2019-03-14	gun	M
-3853	Michael Cohen	White	47	2019-03-15	gun	M
-3854	Timothy John Beckwith	White	49	2019-03-16	gun	M
-3855	Jorge Luis Rivera-Melendez	Hispanic	33	2019-03-17	gun	M
-3856	Kenneth Cherry	White	36	2019-03-18	sharp object	M
-3857	Thomas Johnson	Black	22	2019-03-19	gun	M
-3858	Juan Manuel Flores Del Toro	Hispanic	29	2019-03-19	gun	M
-3859	Jesus Calderon	Hispanic	52	2019-03-19	knife	M
-3860	James Hunn	White	61	2019-03-19	gun	M
-3861	Osaze Osagie	Black	29	2019-03-20	knife	M
-3862	Stevie Garcia	Hispanic	37	2019-03-20	gun	M
-3863	Hannah Westall	White	26	2019-03-20	toy weapon	F
-3864	Daishawn Brown	Black	19	2019-03-21	gun	M
-3865	Bruce Puchel	White	45	2019-03-22	gun	M
-3866	Derek Smith	Black	22	2019-03-22	knife	M
 3867	Kevin Bruce Mason	Black	57	2019-03-24	unarmed	M
-3868	Joseph David Durman	White	46	2019-03-24	gun	M
-3869	Danquirs Napoleon Franklin	Black	27	2019-03-25	gun	M
-3870	Abraham Arellano	Hispanic	26	2019-03-25	gun	M
-3871	Brandon Coty Elliott	White	30	2019-03-25	gun	M
-3872	Kaylon Robinson	Black	18	2019-03-25	gun	M
-3873	Brandon Michael Jacque	White	25	2019-03-27	vehicle	M
-3874	Stephen Marshall	White	51	2019-03-27	gun	M
-3875	Leonardo Gallegos	Hispanic	40	2019-03-27	gun	M
-3876	Kevin Samuel Capers	White	47	2019-03-27	knife	M
-3877	Chris Joseph	Black	38	2019-03-27	vehicle	M
-3878	Daviri Robertson	Black	39	2019-03-27	vehicle	M
-3879	Brian Leslie Statler	Black	30	2019-03-27	sword	M
-3880	Augustine Gutierrez	Hispanic	42	2019-03-28	gun	M
-3881	Pierre J. Cher Frere	Black	25	2019-03-30	gun	M
 3882	Andrew John Mason	White	22	2019-03-30	unarmed	M
-3883	Ondrae Levado Hutchinson	Black	30	2019-03-30	gun	M
-3884	Stacy William Kenny	White	33	2019-03-31	vehicle	F
-3885	Juan Padilla	Hispanic	24	2019-03-31	knife	M
-3886	Oscar Cain	Black	31	2019-03-31	gun	M
-3887	Kevin Ray McEnulty	Native	25	2019-03-31	gun	M
-3888	Lianna Renee London	White	28	2019-04-01	gun	F
-3889	Veltavious Griggs	Black	19	2019-04-01	gun	M
-3890	Bishar Hassan	Black	31	2019-04-01	BB gun	M
 3891	Donnell James Lang	White	48	2019-04-02	unarmed	M
-3892	Barry A. Rucker	White	53	2019-04-03	gun	M
-3893	Alfonso Cervantes	Hispanic	50	2019-04-03	gun	M
-3894	Jeffrey Garner	Hispanic	55	2019-04-03	gun	M
-3895	Zachary Kinard	White	37.11793090137039	2019-04-03	gun	M
 3896	Thomas Verile	White	37	2019-04-04	unarmed	M
-3897	Daniel Robert Ramirez	Hispanic	30	2019-04-04	gun	M
-3898	Benjamin B. Lucas	White	36	2019-04-06	gun	M
-3899	Anthony Orlando Bowers	Black	24	2019-04-07	gun	M
 3900	Marzeus Scott	Black	35	2019-04-07	unarmed	M
-3901	Charles Bradley Payne	White	42	2019-04-07	knife	M
-3902	Harold Vincent Robinson	Black	37	2019-04-08	gun	M
-3903	Michael Wray Hensley	White	28	2019-04-09	gun	M
-3904	Michael Gulley	White	32	2019-04-09	gun	M
-3905	Terry Davis	Black	33	2019-04-09	gun	M
-3906	Trivenskey O. Odom	Black	27	2019-04-10	gun	M
-3907	Anthony Santana	Hispanic	21	2019-04-10	gun	M
-3908	David Wittman	White	47	2019-04-10	gun	M
-3909	John Darlington	White	57	2019-04-10	gun	M
-3910	Demetrious Brooks	Black	34	2019-04-11	gun	M
 3911	Marcus McVae	Black	34	2019-04-11	unarmed	M
-3912	Phillip Thomas Marsh	White	30	2019-04-11	gun	M
-3913	Theresa Medina-Thomas	Hispanic	29	2019-04-11	vehicle	F
-3914	Myron Flowers	Black	28	2019-04-12	gun	M
-3915	Juan Torres	Hispanic	39	2019-04-12	wrench	M
-3916	Luc Ciel	Asian	54	2019-04-12	knife	M
-3917	Augustus Combs	White	27	2019-04-14	gun	M
-3918	Kawaski Trawick	Black	32	2019-04-14	knife	M
-3919	Clarence Leading Fighter	Native	32	2019-04-14	knife	M
-3920	William Crawford	White	47	2019-04-14	gun	M
-3921	Brian Dellaann Butts	White	33	2019-04-14	gun	M
-3922	Henry Lane	Native	42	2019-04-14	walking stick	M
-3923	Samuel Charles Talbott	White	37.11793090137039	2019-04-15	knife	M
-3924	Chadwick Dale Martin	White	24	2019-04-16	vehicle	M
-3925	Patrick West	White	42	2019-04-16	sword	M
-3926	Akeen Brown	Black	34	2019-04-17	gun	M
-3927	John Stewart, Jr.	White	46	2019-04-17	knife	M
-3928	John Duane Fairbanks	Native	40	2019-04-18	gun	M
-3929	Michael Allen Felch	White	30	2019-04-18	gun	M
-3930	Luiz Leizado	Hispanic	42	2019-04-18	gun	M
-3931	Soheil Antonio Mojarrad	White	30	2019-04-20	knife	M
-3932	Carlton Steve Brooks	White	63	2019-04-20	gun	M
-3933	Anthony Jose Vega Cruz	Hispanic	18	2019-04-20	vehicle	M
-3934	Sean Michael Collins	Hispanic	29	2019-04-20	gun	M
-3935	Michael St. Clair	White	42	2019-04-21	gun	M
-3936	David Flores Ramos	Hispanic	32	2019-04-22	gun	M
-3937	Richard Allen Moench	White	50	2019-04-22	gun	M
-3938	Emory Moore	White	29	2019-04-24	unknown	M
-3939	Jonathan Patzel	White	29	2019-04-24	knife	M
-3940	Stanley Edward Thompson	White	51	2019-04-25	gun	M
-3941	Kevin Leroy Beasley	Black	23	2019-04-26	rock	M
-3942	Jose Dominguez	Hispanic	47	2019-04-28	gun	M
-3943	Carlos Manuel Dodero	Hispanic	45	2019-04-28	gun	M
-3944	Jeb Colin Brock	White	42	2019-04-29	knife	M
-3945	Alejandro Hernandez	Hispanic	26	2019-04-29	toy weapon	M
-3946	Lawrence Bottoms	White	29	2019-04-29	gun	M
-3947	Shawna Widemann	Asian	49	2019-04-29	hammer	F
 3948	Isaiah Lewis	Black	17	2019-04-29	unarmed	M
-3949	TK TK	Hispanic	37.11793090137039	2019-04-30	gun	M
-3950	April Robertson	White	45	2019-04-30	knife	F
-3951	Reinaldo Gonzalez	Hispanic	51	2019-05-01	knife	M
-3952	Isaac Pineda	Hispanic	37	2019-05-01	gun	M
-3953	Timothy Manuel	White	28	2019-05-01	gun	M
 3954	David Wayne West	White	52	2019-05-02	unarmed	M
-3955	Jorge Albert Merino	Hispanic	37	2019-05-02	gun	M
-3956	Timothy Russell Majchrzak	White	37	2019-05-04	gun	M
 3957	Ethan Austin Murray	White	25	2019-05-04	unarmed	M
-3958	Saoun Pol	Asian	35	2019-05-04	baseball bat	M
-3959	Jason Demarcus Larkin	White	35	2019-05-04	knife	M
-3960	George Herrera	Hispanic	61	2019-05-05	knife	M
-3961	Pedro Colazo-villa	Hispanic	33	2019-05-06	gun	M
-3962	Cesar Tomix Sarmiento-Molina	Hispanic	34	2019-05-07	gun	M
-3963	Aubrey Manning	White	59	2019-05-07	gun	M
-3964	Francisco Anthony Alcaraz	Hispanic	32	2019-05-07	gun	M
-3965	Eddie Herrera	Hispanic	49	2019-05-09	gun	M
-3966	Ryan Smith	Black	31	2019-05-09	knife	M
-3967	Hector Lopez	Hispanic	29	2019-05-09	gun	M
-3968	Derrec Jamal Shaw	Black	25	2019-05-10	gun	M
-3969	Sharell Brown	Black	26	2019-05-11	gun	M
-3970	Edward Fuller	Black	37.11793090137039	2019-05-11	gun	M
-3971	Jeremy Potwin	White	39	2019-05-11	gun	M
-3972	Luis Quinones Rosa	Hispanic	26	2019-05-11	gun	M
-3973	Malik Ali Gresham	Black	36	2019-05-13	knife	M
-3974	Pamela Shantay Turner	Black	45	2019-05-13	Taser	F
-3975	James Douglas Meadows	White	45	2019-05-13	gun	M
-3976	Alex Steward Underdown	White	54	2019-05-14	gun	M
-3977	Ronny Rodriguez	Hispanic	43	2019-05-15	knife	M
-3978	Ruben Houston	Black	37.11793090137039	2019-05-15	gun	M
-3979	Djuantez Anthony Mitchell	Black	30	2019-05-15	vehicle	M
-3980	Michael Nieto	Hispanic	37.11793090137039	2019-05-16	gun	M
-3981	Elizabeth Harris	White	58	2019-05-16	gun	F
-3982	Luis Lomante	Hispanic	39	2019-05-17	knife	M
-3983	Donald Davis, Jr.	Black	40	2019-05-17	gun	M
-3984	Daniel Warren	Black	36	2019-05-17	gun	M
-3985	Dion Grey Hat	Native	27	2019-05-18	unknown	M
-3986	Andrew Giovanni Meza	Hispanic	20	2019-05-18	knife	M
-3987	Robert Rabago	Hispanic	17	2019-05-19	gun	M
-3988	Esteban Martinez	Hispanic	59	2019-05-19	unknown	M
-3989	Lori Markham	White	47	2019-05-19	gun	F
-3990	Ronnie Churches	Other	45	2019-05-19	gun	M
-3991	Michael Ann Godsey	White	34	2019-05-20	gun	F
-3992	Carlos Javier Roman Santiago	Hispanic	46	2019-05-20	knife	M
-3993	Enosa Strickland	Black	26	2019-05-20	knife	M
-3994	Juan Antonio Sillas	Hispanic	21	2019-05-21	hammer	M
-3995	Steven Case	White	29	2019-05-21	gun	M
-3996	Joseph M. Tedrick	White	33	2019-05-22	gun	M
-3997	David Marcus Reece	White	47	2019-05-22	gun	M
-3998	Myles Frazier	Black	22	2019-05-22	gun	M
 3999	Luke H. Patterson	White	41	2019-05-23	unarmed	M
-4000	Adam Michael McCoy	White	28	2019-05-23	gun	M
-4001	Fred Burton	White	56	2019-05-23	gun	M
-4002	Ryan Brett Thomas	White	41	2019-05-24	gun	M
-4003	Carlvon Mayo	Hispanic	35	2019-05-24	gun	M
-4004	Hamid Ould-Rouis	Other	59	2019-05-24	unknown	M
-4005	Terrance Bridges	Black	30	2019-05-26	gun	M
-4006	Robert Sabater	White	49	2019-05-27	gun	M
-4007	Nakia Smith	Black	41	2019-05-27	gun	M
-4008	Curtis Stagger	Black	21	2019-05-28	gun	M
-4009	Gerald Tremblay	White	62	2019-05-29	gun	M
-4010	Crystal Danielle Ragland	Black	32	2019-05-30	gun	F
-4011	Isaac Ray Ruiz	Hispanic	22	2019-05-30	gun	M
-4012	Steve Huff	White	58	2019-05-30	gun	M
-4013	Kyle Needham	White	32	2019-05-31	vehicle	M
 4014	Jesse Sarey	Asian	26	2019-05-31	unarmed	M
 4015	Thomas Goodeyes Gay	Native	35	2019-06-01	unarmed	M
-4016	Nikolai Landry	White	27	2019-06-01	gun	M
-4017	Marcus Boles	Black	35	2019-06-01	knife	M
-4018	Miles Hall	Black	23	2019-06-02	crowbar	M
-4019	David Hoal	White	59	2019-06-03	gun	M
-4020	Travis James Eckstein	White	23	2019-06-03	gun	M
-4021	Samuel Galberth	Black	43	2019-06-03	gun	M
 4022	Kevin Pudlik	Black	41	2019-06-03	unarmed	M
-4023	Martin Allen Goodier	White	56	2019-06-04	knife	M
-4024	Erik Gebauer	White	45	2019-06-04	gun	M
-4025	Fabian Rivera	Hispanic	28	2019-06-05	gun	M
-4026	Jay Clem	White	37.11793090137039	2019-06-05	gun	M
-4027	Scott Hedgecock	White	54	2019-06-05	knife	M
-4028	Matthew Freeseha	White	39	2019-06-05	gun	M
 4029	Ryan Twyman	Black	37.11793090137039	2019-06-06	unarmed	M
-4030	Jose De Santiago Media	Hispanic	41	2019-06-06	sharp object	M
-4031	Edtwon Stamps	Black	27	2019-06-06	gun	M
-4032	Harry Gipson	White	70	2019-06-06	gun	M
-4033	Jose Jesus Astorga	Hispanic	37.11793090137039	2019-06-06	gun	M
-4034	Jose Salvador Meza	Hispanic	35	2019-06-06	gun	M
-4035	Rodnell Cotton	Black	26	2019-06-06	gun	M
-4036	Zendall Noble	White	58	2019-06-06	gun	M
-4037	Jason Nash	White	46	2019-06-07	gun	M
-4038	Bryan Bernard Wallace	Black	39	2019-06-08	gun	M
-4039	Krystal Arvizu	Hispanic	33	2019-06-08	ax	F
-4040	JaQuavion Slaton	Black	20	2019-06-09	gun	M
-4041	David Wayne Downs	White	38	2019-06-09	knife	M
-4042	William James Back	White	41	2019-06-09	gun	M
-4043	Ysidro Osornio-Velasquez	Hispanic	32	2019-06-09	gun	M
-4044	Terry Frost	White	37.11793090137039	2019-06-10	vehicle	M
-4045	Vincense Williams, Jr.	Black	24	2019-06-10	gun	M
-4046	Brent Durbin-Daniel	Black	19	2019-06-10	gun	M
-4047	Jaquan Derrick Diijon Thompson	Black	27	2019-06-11	knife	M
-4048	Eddie Humberto Segura	Hispanic	40	2019-06-11	barstool	M
-4049	Jimmy De Odell	White	61	2019-06-11	unknown	M
-4050	Brandon Webber	Black	20	2019-06-12	vehicle	M
 4051	Juan Manuel Moreno	Hispanic	35	2019-06-12	unarmed	M
-4052	Marquis Weems	Black	17	2019-06-13	vehicle	M
-4053	Tramon Savage	Black	22	2019-06-13	vehicle	M
-4054	Michael Sheehan	White	45	2019-06-15	gun	M
-4055	Mantry Norris	Black	20	2019-06-15	knife	M
-4056	Ty'Rese West	Black	18	2019-06-15	unknown	M
-4057	Jamarcus Dejun Moore	Black	28	2019-06-15	gun	M
-4058	Alfredo Chino	Hispanic	38	2019-06-15	knife	M
-4059	Eric Jack Logan	Black	53	2019-06-16	knife	M
-4060	Carlos Vale	Hispanic	31	2019-06-16	gun	M
-4061	Shawn Ray Wilson	White	48	2019-06-16	gun	M
-4062	Mark Anthony Galvan	Hispanic	20	2019-06-17	vehicle	M
-4063	Francisco Tarin	Hispanic	35	2019-06-17	gun	M
-4064	Brian Isaack Clyde	White	22	2019-06-17	gun	M
-4065	Josh Flores	Hispanic	18	2019-06-18	knife	M
-4066	DeWayne Watkins	Black	74	2019-06-18	toy weapon	M
-4067	Juan Carlos Chapa	Hispanic	33	2019-06-20	gun	M
-4068	Dewayne Tackett	White	38	2019-06-20	gun	M
-4069	Kevin Anthony Alaniz	Hispanic	26	2019-06-22	gun	M
-4070	Scott William Robertson	White	41	2019-06-22	gun	M
-4071	Michael Spencer	White	29	2019-06-23	knife	M
-4072	Jaymil Ellerbe	Black	19	2019-06-24	gun	M
-4073	Bradley Rundle	Black	61	2019-06-24	gun	M
-4074	Peter Alexander Bohning	White	34	2019-06-24	knife	M
-4075	Tomas Hernandez	Hispanic	35	2019-06-25	knife	M
-4076	Shawn D. Blowers	White	43	2019-06-25	knife	M
-4077	Michael Norquest	White	50	2019-06-26	sword	M
-4078	Elijah Collins III	Black	32	2019-06-26	sharp object	M
-4079	Marvin Green	Black	50	2019-06-27	gun	M
-4080	Benjamin Ray Smith	Black	54	2019-06-27	unknown	M
-4081	Stephen D. Sloan	White	35	2019-06-27	gun	M
-4082	Matthew Christian Smith	White	33	2019-06-27	gun	M
 4083	Paul David Rea	Hispanic	18	2019-06-27	unarmed	M
-4084	William Aubrey Martin	White	50	2019-06-27	vehicle	M
-4085	Erik Sandoval	Hispanic	41	2019-06-27	gun	M
-4086	Gene Pool	Black	37	2019-06-28	gun	M
-4087	William Lamb	White	76	2019-06-28	gun	M
-4088	Ryan Moody	White	19	2019-06-28	gun	M
-4089	Zackary Ryan Hoppe	White	40	2019-06-28	gun	M
-4090	TK TK	White	61	2019-06-29	gun	M
-4091	Jack Daniel West	White	61	2019-06-29	gun	M
-4092	Christopher Barela	Hispanic	22	2019-07-01	gun	M
-4093	Terry Allen "Bubba" Payne	White	52	2019-07-01	gun	M
-4094	Aaron Hong	Asian	23	2019-07-01	knife	M
-4095	Ben Fields	Black	67	2019-07-01	knife	M
-4096	Chad Williams	White	44	2019-07-02	ax	M
-4097	Isak Abdirahman Aden	Other	23	2019-07-02	gun	M
-4098	Isaiah Robinson	Black	39	2019-07-02	gun	M
-4099	Mark A. Naugle	White	53	2019-07-03	hammer	M
-4100	Stonechild Chiefstick	Native	39	2019-07-03	screwdriver	M
-4101	Jonathan Pingel	White	26	2019-07-03	knife	M
-4102	Christine Soto Venegas	Hispanic	38	2019-07-03	toy weapon	F
 4103	Li Xi Wang	Asian	49	2019-07-03	unarmed	M
-4104	Leonel Mendez	Hispanic	34	2019-07-04	gun	M
-4105	Olivio Sandoval Diaz	Hispanic	47	2019-07-04	piece of wood	M
-4106	Jose Martinez	Hispanic	34	2019-07-05	scissors	M
-4107	James C. Pinkston	White	58	2019-07-05	gun	M
-4108	Hannah Williams	White	17	2019-07-05	toy weapon	F
 4109	Joshua Ortiz	White	21	2019-07-05	unarmed	M
-4110	Angel Ramos Otero	Hispanic	37	2019-07-05	knife	M
-4111	Kareem Omar Morgan	Black	43	2019-07-06	gun	M
-4112	Thomas Graham	White	61	2019-07-07	knife	M
-4113	Tymar Crawford	Black	28	2019-07-07	gun	M
-4114	Johnny W. Dellinger	White	41	2019-07-07	gun	M
-4115	Shawn Toney	White	23	2019-07-08	gun	M
-4116	Anthony James Gonzales	Hispanic	36	2019-07-09	unknown	M
-4117	Sean Rambert	Black	23	2019-07-09	gun	M
-4118	Grayson Schuessler	White	26	2019-07-09	gun	M
-4119	Darrell Allen	Black	32	2019-07-10	knife	M
-4120	Dennis Edwards	White	62	2019-07-10	gun	M
-4121	Frankie Feliciano	Hispanic	33	2019-07-11	knife	M
-4122	Logan O. Johnsrud	White	32	2019-07-11	knife	M
-4123	Willem Van Spronsen	White	69	2019-07-13	gun	M
 4124	Derek Antonio-Sanchez	Hispanic	35	2019-07-13	unarmed	M
-4125	Brian H. Benfield	White	46	2019-07-13	gun	M
-4126	Jamahl Smith	Black	46	2019-07-13	knife	M
-4127	Blige Sean Christopher Cypress	Black	22	2019-07-14	gun	M
-4128	Onaje Dickinson	Black	20	2019-07-14	gun	M
-4129	Dijon D. Watkins	Black	30	2019-07-14	gun	M
-4130	Ashanti Pinkney	Black	49	2019-07-15	gun	M
-4131	Michael Anthony Brand	White	43	2019-07-15	toy weapon	M
-4132	Jose Javier Gonzalez	Hispanic	52	2019-07-16	knife	M
-4133	Daryl Johannesson	White	56	2019-07-16	gun	M
-4134	Brandon Ray Stansel	White	36	2019-07-16	gun	M
-4135	Kelly Danielle Brumley	White	40	2019-07-16	gun	F
-4136	Stephen Murray	Black	52	2019-07-17	toy weapon	M
-4137	Mark Anson Schoggins	White	35	2019-07-17	gun	M
-4138	Roderick Wilson	Black	35	2019-07-17	gun	M
-4139	Patrick Martinez	Hispanic	53	2019-07-18	knife	M
-4140	Leo Brooks	Black	23	2019-07-18	gun	M
-4141	Makeyvion Devonte Cannon	Black	19	2019-07-18	gun	M
-4142	Witney Rivera	Hispanic	41	2019-07-19	garden tool	M
-4143	Jeffrey Bodie	White	39	2019-07-19	gun	M
-4144	Elisha Lucero	Hispanic	28	2019-07-21	knife	F
-4145	Hashim Jibiri Wilson	Black	28	2019-07-21	gun	M
-4146	Shawan F. Allen	Black	37.11793090137039	2019-07-22	gun	M
-4147	John David Brown	White	53	2019-07-22	gun	M
-4148	James Manzo	White	27	2019-07-23	scissors	M
-4149	Omari Thompson	Black	31	2019-07-23	gun	M
-4150	Joshua Vigil	Hispanic	38	2019-07-23	gun	M
 4151	Josef Delon Richardson	Black	38	2019-07-25	unarmed	M
-4152	Alphonso Zaporta	Hispanic	41	2019-07-26	gun	M
-4153	Todd Messner	White	49	2019-07-26	gun	M
-4154	Donald Williams Allamong	White	56	2019-07-26	gun	M
-4155	Adalberto Wolmar Rodriguez	Hispanic	62	2019-07-28	gun	M
-4156	Lane Christopher Martin	White	31	2019-07-30	ax	M
-4157	Donald Lee Joseph	White	37	2019-07-31	unknown	M
-4158	Jose Baca-Olivares	Hispanic	37.11793090137039	2019-07-31	gun	M
-4159	Troy Petersen	White	28	2019-07-31	gun	M
-4160	Mauris Nishanga DeSilva	Asian	46	2019-07-31	knife	M
-4161	Jamaal Simpson	Black	21	2019-08-01	gun	M
 4162	Margarita Victoria Brooks	White	30	2019-08-01	unarmed	F
-4163	Eric Toon	White	36	2019-08-01	gun	M
-4164	Lenny Blaine Griffin	White	48	2019-08-01	knife	M
-4165	Mario Benjamin	Black	34	2019-08-02	gun	M
-4166	Deshon Downing	Black	45	2019-08-02	gun	M
-4167	De'Von Bailey	Black	19	2019-08-03	gun	M
-4168	Oscar Ventura-Gonzalez	Hispanic	32	2019-08-03	gun	M
-4169	Cortney Ronald Staley	White	32	2019-08-03	gun	M
-4170	Connor Betts	White	24	2019-08-04	gun	M
-4171	Robert Clay Wilsford	White	65	2019-08-04	gun	M
-4172	Riche Antonio Santiago	Hispanic	29	2019-08-05	gun	M
-4173	James Lee Kirkwood	Black	49	2019-08-05	knife	M
-4174	Marvin Alexis Urbina	Hispanic	19	2019-08-05	vehicle	M
-4175	Derrick Davidson	White	56	2019-08-05	gun	M
-4176	Kaizen Crossen	Black	39	2019-08-05	gun	M
-4177	William Biggs	White	43	2019-08-05	gun	M
-4178	Allan George	White	57	2019-08-05	gun	M
-4179	Donald Babbit	White	49	2019-08-06	gun	M
-4180	Detravian Allison	Black	18	2019-08-07	gun	M
-4181	Toussaint Diamon Sims	Black	27	2019-08-08	gun	M
-4182	Jason Xavier Salas	Hispanic	52	2019-08-09	machete	M
-4183	Jose Mendez	Hispanic	37	2019-08-09	gun and vehicle	M
-4184	Freddrick Andrews Hadden	White	45	2019-08-10	gun	M
-4185	Aaron Luther	White	49	2019-08-12	gun	M
-4186	Scott Souders	White	38	2019-08-12	gun	M
 4187	David Ingle	White	31	2019-08-13	unarmed	M
-4188	Jerry Orlando Weaver	Black	51	2019-08-13	gun	M
-4189	Anthony Wayne French	White	37.11793090137039	2019-08-13	gun	M
-4190	Charles Roy Pearson	Black	51	2019-08-13	gun	M
-4191	Cole Steele Jessup	White	20	2019-08-13	vehicle	M
-4192	Jovany Mercado-Bedolla	Hispanic	26	2019-08-16	knife	M
-4193	Rashad Cunningham	Black	25	2019-08-17	gun	M
-4194	Uzzle Jerome	Black	37.11793090137039	2019-08-17	gun	M
-4195	Mike Parsley	White	62	2019-08-17	gun	M
-4196	Schaston Theodore Lamarr Hodge	Black	27	2019-08-17	gun	M
-4197	Roberto Rene Gabriel	Hispanic	33	2019-08-18	gun	M
-4198	Carlos Torres	Hispanic	39	2019-08-19	gun	M
-4199	Amari Malone	Black	18	2019-08-21	gun	M
-4200	James Crowe	White	27	2019-08-21	unknown	M
-4201	TK TK	Hispanic	50	2019-08-21	unknown	M
-4202	Roger Schafer	White	57	2019-08-22	toy weapon	M
-4203	Michael Tuck	Black	29	2019-08-22	Taser	M
 4204	Riley Eugene Peay	White	39	2019-08-22	unarmed	M
 4205	Chad Michael Breinholt	White	31	2019-08-23	unarmed	M
-4206	Larry Leonard Lowry	White	34	2019-08-23	knife	M
-4207	Dennis Carolino	Hispanic	52	2019-08-24	shovel	M
 4208	Channara Tom Pheap	Black	33	2019-08-26	unarmed	M
-4209	Raymond Lewis Williams	Black	37	2019-08-27	gun	M
-4210	Keith Carter	Black	52	2019-08-27	gun	M
-4211	Wallace Wilder	Black	62	2019-08-28	knife	M
-4212	Tyrone Domingo Banks	Black	30	2019-08-28	gun and car	M
-4213	Jeremy Connolly	White	28	2019-08-28	knife	M
-4214	Rene Enrique Ruiz	Hispanic	51	2019-08-30	gun and vehicle	M
-4215	Terry Tillman	Black	23	2019-08-31	gun	M
-4216	Seth Aaron Ator	White	36	2019-08-31	gun	M
-4217	Juan Carlos Macias	Hispanic	37	2019-08-31	gun	M
-4218	Robert Desjarlais	White	49	2019-09-01	vehicle	M
-4219	Sidney J. Holst	White	49	2019-09-01	gun	M
-4220	Steven Cole Gill	White	35	2019-09-02	grenade	M
-4221	Tommy Luke Hranicky	White	17	2019-09-02	knife	M
-4222	Attillio Gilmartin	White	30	2019-09-03	gun	M
-4223	Eduard Alexis Lopez-Ucles	Hispanic	34	2019-09-03	vehicle	M
-4224	Terry Pierce	White	46	2019-09-03	vehicle	M
-4225	Fares J. Al-Samno	White	29	2019-09-04	knife	M
-4226	Cortez Shepherd	Black	28	2019-09-05	gun	M
 4227	John Carras	White	43	2019-09-05	unarmed	M
-4228	Vondarrow Dewayne Fisher	Black	42	2019-09-06	gun	M
-4229	Brian Quinones	Hispanic	30	2019-09-07	knife	M
-4230	Bennie Branch	Black	24	2019-09-08	toy weapon	M
-4231	Quentin Broadus	Black	27	2019-09-09	gun	M
-4232	Kristopher Fitzpatrick	White	41	2019-09-09	gun	M
-4233	Hector Miranda	Hispanic	47	2019-09-09	gun and knife	M
-4234	Bobby Ray Duckworth	Black	26	2019-09-10	knife	M
-4235	Caleb Daniel Peterson	White	20	2019-09-11	gun	M
-4236	Tasjon Tyreek Osbourne	Black	18	2019-09-11	gun	M
-4237	TK TK	Black	37.11793090137039	2019-09-12	gun	M
-4238	Allen Cates	White	29	2019-09-12	unknown	M
-4239	Alvaro Duran Venegas	Hispanic	35	2019-09-12	piece of wood	M
-4240	Robert E. Domine	White	77	2019-09-13	gun	M
-4241	Nicholas Walker	Black	31	2019-09-14	toy weapon	M
 4242	Melvin Watkins	Black	54	2019-09-14	unarmed	M
-4243	Jose Orona	Hispanic	33	2019-09-14	gun	M
-4244	James Hilton Glaze	White	76	2019-09-14	gun	M
-4245	Brian Dryer	White	28	2019-09-15	knife	M
-4246	Ronald Davis	Black	31	2019-09-15	knife	M
-4247	Eric Carter	Black	53	2019-09-16	gun	M
-4248	Jeffrey Michael Gibble	White	33	2019-09-16	gun	M
-4249	Kristopher Adams	White	37	2019-09-16	gun	M
-4250	Gay Ellen Plack	White	57	2019-09-17	hatchet	F
-4251	Brian Rodden	White	36	2019-09-17	samurai sword	M
-4252	Gregory Edwards	Black	39	2019-09-17	gun	M
-4253	Scott Gabriel Spangler	White	43	2019-09-18	gun	M
-4254	Gabriel Rouse	White	44	2019-09-18	gun	M
-4255	Willie Hudson	Black	33	2019-09-18	gun	M
-4256	Shawn Stevens	Black	49	2019-09-18	knife	M
-4257	Jordan Michael Griffin	Black	18	2019-09-19	pellet gun	M
-4258	Adam Paul English	White	21	2019-09-20	gun	M
-4259	Scott Johnson	White	57	2019-09-20	gun	M
-4260	Jeffrey Peterson	White	29	2019-09-21	gun	M
-4261	Anderson Antelope	Native	58	2019-09-21	knife	M
-4262	TK TK	White	74	2019-09-22	gun	M
-4263	Raymond Hernandez	Hispanic	63	2019-09-23	gun	M
-4264	Jeffery Tyler Aycock	White	28	2019-09-23	gun	M
-4265	Haywood Cannon	White	67	2019-09-24	gun	M
-4266	Daryl Strickland	White	64	2019-09-25	gun	M
-4267	Kevin Dudenhefer	White	32	2019-09-25	gun	M
-4268	Leonard Shand	Black	49	2019-09-26	knife	M
-4269	Chad Willis Huggins	White	28	2019-09-26	gun	M
-4270	Jamaal Ramone Taylor	Black	31	2019-09-28	knife	M
-4271	David Page	White	20	2019-09-29	toy weapon	M
-4272	Antonio Williams	Black	27	2019-09-29	gun	M
-4273	Angela Louise Perkins	White	38	2019-09-29	vehicle	F
 4274	Dewayne Morgan	White	37	2019-09-29	unarmed	M
-4275	Anthony Watkins	White	36	2019-09-30	gun and car	M
-4276	Raphael Michael Torres	Hispanic	35	2019-09-30	knife	M
-4277	Jack Thomas Naylor	White	50	2019-10-01	gun	M
-4278	Roy Tucker	White	75	2019-10-01	gun	M
-4279	Joseph Jesk	White	32	2019-10-01	BB gun and vehicle	M
-4280	Christopher G. Louras	White	34	2019-10-01	gun	M
-4281	Michael John	Black	24	2019-10-03	gun	M
-4282	Bruce William Clark	White	37	2019-10-04	wasp spray	M
-4283	Christopher Massey	White	33	2019-10-05	air pistol	M
-4284	Antonio Vasquez	Hispanic	37	2019-10-06	knife	M
-4285	Maurice Holley	Black	55	2019-10-06	gun	M
-4286	Joshua Chase Conner	White	31	2019-10-07	knife	M
-4287	Bobby Lee Vaughn	White	54	2019-10-07	gun	M
-4288	Crederick Joseph	Black	37	2019-10-08	baton	M
-4289	Joseph Cimino	White	48	2019-10-08	vehicle	M
-4290	Zachary Aldrige Hall	White	28	2019-10-08	vehicle	M
-4291	Leo Craig	Black	31	2019-10-09	gun	M
-4292	Michael Uccello	White	48	2019-10-10	vehicle	M
-4293	Norbert Beyet	White	58	2019-10-10	gun	M
-4294	Sayven Lane Rowland	White	19	2019-10-11	gun	M
 4295	Atatiana Jefferson	Black	28	2019-10-12	unarmed	F
-4296	Sawandi Asad Toussaint	Black	21	2019-10-12	gun	M
-4297	Fernando Mora	Hispanic	57	2019-10-12	machete	M
-4298	Levy Isacc Madueno Santibanez	Hispanic	17	2019-10-13	gun	M
-4299	Emilio Mojica	Hispanic	22	2019-10-13	baseball bat	M
-4300	Jose Eduardo Flores	Hispanic	26	2019-10-13	gun	M
+4237	TK TK	Black	37.11793090137039	2019-09-12	armed	M
 4301	Christopher Whitfield	Black	31	2019-10-14	unarmed	M
-4302	Victor Jarvis	Black	61	2019-10-14	gun	M
-4303	Bonny Thomas	White	54	2019-10-14	knife	F
-4304	Dennis Patrick	White	28	2019-10-15	gun	M
 4305	Cameron Ely	White	30	2019-10-15	unarmed	M
-4306	Nasheem Prioleau	Black	30	2019-10-15	gun	M
-4307	David James Bamber	White	28	2019-10-15	gun	M
-4308	Akinyia Malik Jerome Gray	Black	26	2019-10-15	gun	M
-4309	Chase Andrew Austin	White	28	2019-10-16	gun	M
-4310	Lazzeri James Frazier	Black	21	2019-10-16	gun	M
-4311	Allan Feliz	Black	31	2019-10-17	vehicle	M
-4312	Marcus Hartsfield	White	27	2019-10-17	straight edge razor	M
-4313	Christopher DeQuan Crosby	Black	34	2019-10-17	gun	M
-4314	Cameron Bennett	Black	22	2019-10-17	gun and vehicle	M
-4315	Malachi Crane	White	29	2019-10-18	gun	M
-4316	Charles Tsakiris	White	38	2019-10-18	knife	M
-4317	McLemore Ronald	White	51	2019-10-19	baseball bat and knife	M
-4318	Terry Countryman	White	34	2019-10-19	gun and vehicle	M
-4319	Steven Day	Black	30	2019-10-20	gun	M
-4320	Amber Lea Dewitt	White	33	2019-10-20	toy weapon	F
-4321	Joseph Bernhard-Williams Kisar	White	21	2019-10-21	gun	M
-4322	Jason Livegood	White	39	2019-10-21	gun	M
-4323	Claudia Nadia Rodriguez	Hispanic	37	2019-10-21	gun	F
-4324	Jordan Wade Waldrop	White	34	2019-10-23	gun	M
-4325	Matthew Wayne Sutton	White	47	2019-10-23	vehicle	M
-4326	Victor Hernandez	Black	29	2019-10-23	gun	M
-4327	Vincent Michael Smith	White	29	2019-10-23	gun	M
-4328	Delfon Kinney	Black	44	2019-10-23	gun	M
-4329	Michael Babcock	White	53	2019-10-24	gun	M
-4330	Shannon Gail Rupert	White	45	2019-10-25	scissors	F
-4331	Anthony John Michael Zapier	White	19	2019-10-25	vehicle	M
-4332	Clayton Andrews	White	40	2019-10-25	gun	M
-4333	Kwesi Ashun	Black	33	2019-10-25	chair	M
-4334	Nan Zhao	Asian	45	2019-10-26	gun	M
-4335	Clayton Andrews	White	40	2019-10-26	gun	M
-4336	Johnathan Wayne Slattery	White	27	2019-10-26	gun	M
-4337	Dean Thomas	White	63	2019-10-27	gun	M
-4338	Luis Arreguin-Lara	Hispanic	50	2019-10-27	gun	M
-4339	Earnest Easterling	Black	25	2019-10-27	gun	M
-4340	Dana Sherrod Fletcher	Black	39	2019-10-27	gun	M
-4341	Arturo Moreno	Hispanic	42	2019-10-27	crowbar	M
-4342	Terry W. Chanley	White	25	2019-10-28	hammer	M
-4343	John Feggins	Black	24	2019-10-30	gun	M
-4344	Michael Pinkerman	White	37.11793090137039	2019-10-30	gun	M
-4345	Billy Kongphouthakhoun	Asian	37.11793090137039	2019-10-30	gun	M
-4346	Ricardo Myers	White	62	2019-10-30	ax	M
-4347	Danny James Hall	White	34	2019-10-31	gun	M
-4348	Francis Calonge	White	33	2019-10-31	toy weapon	M
-4349	Edward Roe	White	56	2019-10-31	gun	M
-4350	Benjamin Diaz	Hispanic	22	2019-11-01	sharp object	M
-4351	Anthony Pena	Hispanic	46	2019-11-01	gun	M
-4352	Luis Morales-Camacho	Hispanic	41	2019-11-01	gun	M
-4353	Luis Fino Nabarrette	Hispanic	38	2019-11-01	gun	M
-4354	Benjamin Diaz	Hispanic	22	2019-11-01	box cutter	M
-4355	John Hale	White	42	2019-11-02	unknown	M
-4356	Michael Kifer	White	29	2019-11-02	sword	M
-4357	Curtis French	White	56	2019-11-03	knife	M
-4358	Michael Austin	Black	32	2019-11-03	gun	M
-4359	Matthew Rasmussen	White	31	2019-11-04	sharp object	M
-4360	Daniel M. Munoz	Hispanic	21	2019-11-04	gun	M
-4361	Nash Fiske	White	31	2019-11-04	gun	M
-4362	Maurice Brown	Black	48	2019-11-05	gun	M
-4363	Jay P. Messer	White	58	2019-11-05	gun	M
-4364	Michael Lee Nguyen	Asian	32	2019-11-05	gun	M
-4365	Christopher Alan Noe	White	45	2019-11-05	knife	M
-4366	Eddie Ray Maxwell	Black	37	2019-11-06	gun	M
-4367	Corben Hunter Jones	White	20	2019-11-06	unknown	M
-4368	Raul Casas Campo	Hispanic	34	2019-11-06	gun	M
-4369	Treva Smutherman	Black	31	2019-11-06	gun	M
-4370	Guy Thomas Barnard	White	26	2019-11-07	BB gun	M
-4371	Shelby Gazaway	Black	32	2019-11-07	gun	M
-4372	Gerald Newton Allen	White	66	2019-11-07	gun	M
-4373	Christopher Mills	White	37	2019-11-07	gun	M
-4374	Ray Correll	White	38	2019-11-08	gun	M
-4375	Ryan D. Hemmingson	White	44	2019-11-09	knife	M
-4376	Daniel Thomas Childers	White	28	2019-11-09	knife	M
-4377	John Luce	White	22	2019-11-11	gun	M
-4378	Tammy Pierce	White	59	2019-11-11	gun	F
-4379	Sidney Alexis Renew	White	20	2019-11-11	vehicle	F
-4380	Justin Anderson	White	39	2019-11-12	gun	M
-4381	Michael Kahalehoe	Other	30	2019-11-12	vehicle and gun	M
-4382	Roy McAllister	Black	27	2019-11-13	gun	M
-4383	Chris Ervie	White	37.11793090137039	2019-11-13	knife	M
-4384	Omar Enrique Garcia	Hispanic	37	2019-11-13	sword	M
-4385	Kennith Waynon Hooker	White	52	2019-11-14	screwdriver	M
-4386	Michael  A. Jolly	White	35	2019-11-14	gun	M
-4387	Treon McCoy	Black	33	2019-11-15	gun	M
-4388	Mark Sheppard	Black	27	2019-11-15	gun	M
-4389	Garrett Ryberg	White	27	2019-11-16	gun	M
 4390	Robert Sikon	White	41	2019-11-16	unarmed	M
-4391	Dante Redmond Jones	Black	28	2019-11-18	gun	M
-4392	Cody McClintick	White	26	2019-11-18	gun	M
-4393	Joel Avery	White	37.11793090137039	2019-11-19	gun	M
-4394	Alex Flores	Hispanic	34	2019-11-19	knife	M
-4395	Jacob Cato	White	34	2019-11-19	gun	M
-4396	Luis A. Cardona	Hispanic	38	2019-11-19	gun	M
-4397	Christopher Terrell Willis	Black	32	2019-11-19	gun	M
-4398	Raul Antonio Menjivar Saabedra	Hispanic	50	2019-11-19	knife	M
-4399	Paul Cheek	White	55	2019-11-20	knife	M
-4400	William Harris	White	51	2019-11-20	gun	M
-4401	Kenneth Simeus	Black	18	2019-11-20	gun	M
-4402	Jessica Ann Beedles	White	42	2019-11-20	gun	F
-4403	Anthony Chilcott	White	36	2019-11-22	vehicle	M
-4404	Lance Edward Smith	Black	37	2019-11-22	gun	M
-4405	Ariane Lamont McCree	Black	28	2019-11-23	gun	M
-4406	Estevon Cruz	Hispanic	24	2019-11-23	toy weapon	M
-4407	Steven Forrest Saucier	White	34	2019-11-24	gun	M
-4408	Nathaniel Pinnock	Black	22	2019-11-25	vehicle and machete	M
-4409	Jason Quincey Niccum	White	42	2019-11-25	gun	M
-4410	Eric Sopp	White	48	2019-11-26	ice pick	M
-4411	Hollis Lewis	White	51	2019-11-26	gun	M
-4412	Micduff Lamarco Robinson	Black	40	2019-11-27	sword	M
-4413	Jeremy Pelican	White	34	2019-11-28	gun	M
-4414	Derrick Everett	Black	30	2019-11-28	gun	M
-4415	Nicholas Cantelmi	White	31	2019-11-28	gun and vehicle	M
-4416	Raymond Lee	White	54	2019-11-29	toy weapon	M
-4417	Kenneth Layton	White	60	2019-11-29	gun	M
-4418	Keith Alan Bruce	White	40	2019-11-29	gun	M
-4419	TK TK	White	37.11793090137039	2019-11-29	unknown	M
 4420	Eliborio Rodriguez	Hispanic	40	2019-11-30	unarmed	M
-4421	Anthony Rosso	White	68	2019-12-01	gun	M
-4422	Jimmie Phillips	Black	68	2019-12-01	gun	M
-4423	Donald James Eversen	White	60	2019-12-01	knife	M
-4424	Yemerson Melendez	Hispanic	16	2019-12-01	gun and vehicle	M
-4425	Steven Kerr	White	25	2019-12-01	vehicle	M
-4426	Jordan Oliver	White	20	2019-12-01	car, knife and mace	M
-4427	Jerric Harris	Black	21	2019-12-02	gun	M
-4428	Dai Phuoc Nguyen	Asian	38	2019-12-02	knife	M
 4429	Michael Dean	Black	28	2019-12-02	unarmed	M
-4430	Neil Chiago	Native	18	2019-12-02	gun	M
-4431	Thomas Cole Thompson	White	37.11793090137039	2019-12-03	gun	M
-4432	Cameron Lamb	Black	26	2019-12-03	gun	M
-4433	Miguel Russo	Black	31	2019-12-03	gun	M
-4434	Alvern Donnell Walker	Black	58	2019-12-05	gun	M
-4435	Demetrius Williams	Black	31	2019-12-05	vehicle	M
-4436	Lamar Alexander	Black	41	2019-12-05	gun	M
-4437	Ronnie Jerome Hill	Black	41	2019-12-05	gun	M
-4438	Chad James Green	White	41	2019-12-05	gun	M
-4439	Hunter Steven James Lowry	White	23	2019-12-06	gun	M
-4440	Dominick Matt	Black	17	2019-12-06	gun	M
-4441	London T. Phillips	White	35	2019-12-07	gun	M
-4442	Mark Richard Coleman	White	65	2019-12-07	gun	M
-4443	Koben S. Henriksen	White	51	2019-12-08	knife	M
-4444	Antonio Nichols	Black	47	2019-12-09	gun	M
-4445	Robert Allen Elfgen	White	42	2019-12-10	gun	M
-4446	Mauro Carrillo	Hispanic	42	2019-12-10	baseball bat	M
-4447	Kreed Cornell Bateman	Black	31	2019-12-10	gun	M
-4448	Montay Steven Penning	Black	23	2019-12-10	gun	M
-4449	Francine Graham	Black	50	2019-12-10	gun	F
-4450	David N. Anderson	Black	47	2019-12-10	gun	M
-4451	Terrence Edward White	White	66	2019-12-10	gun	M
-4452	Daniel E. Condon	White	55	2019-12-10	hatchet	M
-4453	Delos P. Lowe	White	68	2019-12-11	gun	M
 4454	Matthew Jonathan Krupar	White	31	2019-12-11	unarmed	M
-4455	Cortez Bufford	Black	24	2019-12-12	gun	M
-4456	Cade Humphrey	White	30	2019-12-12	knife	M
-4457	Taveonte Art Emmanuel	Black	34	2019-12-12	gun	M
-4458	Bradley Cutchens	White	23	2019-12-12	gun	M
-4459	Anthony Tovar	White	43	2019-12-12	toy weapon	M
-4460	Romello Barnes	Black	22	2019-12-12	knife	M
-4461	Jamee Christopher Deonte Johnson	Black	22	2019-12-14	gun and car	M
-4462	Victor A. Parsons	White	42	2019-12-14	gun	M
-4463	Louis Patrick Veal	Black	65	2019-12-14	gun	M
-4464	Alejandro Betancourt-Mendoza	Hispanic	18	2019-12-14	knife	M
-4465	Kean Walker	White	23	2019-12-15	gun	M
-4466	Chiasher Fong Vue	Asian	52	2019-12-15	gun	M
-4467	Mohammad Jamal Isaifan	Other	40	2019-12-15	gun	M
-4468	Mario Alberto Torres	Hispanic	27	2019-12-15	gun	M
-4469	Dustin Spencer	Other	34	2019-12-16	gun	M
-4470	Jorge Serrano	Hispanic	25	2019-12-16	gun	M
-4471	Bernie Rascon	Hispanic	28	2019-12-16	unknown	M
-4472	Kyle Horton	White	37.11793090137039	2019-12-17	gun	M
-4473	Clyde Jacob Sullivan	White	27	2019-12-17	gun	M
-4474	Ricky Lee Gardipee	White	41	2019-12-17	gun	M
-4475	Dana Brown	Other	27	2019-12-17	knife	M
-4476	Gary Wayne Madewell	White	38	2019-12-19	knife	M
-4477	Christopher Gray	White	29	2019-12-19	knife	M
-4478	Jason Elliot Waterhouse	White	47	2019-12-19	unknown	M
-4479	Kentrey Marquis Witherspoon	Black	28	2019-12-19	gun	M
-4480	Jayson Arron Colvin	White	38	2019-12-19	gun	M
-4481	Emanuel Johnson	Black	21	2019-12-19	gun	M
-4482	John Resetar	White	44	2019-12-20	gun	M
-4483	Steven DeWayne Haizlip	Black	61	2019-12-20	gun	M
-4484	Mohamed Ahemed Al-Hashemi	Black	25	2019-12-20	Taser	M
-4485	Mark Stoddard	White	40	2019-12-21	gun	M
-4486	Marc Denver Thompson	White	26	2019-12-21	shovel	M
-4487	Michael DeCastro	White	57	2019-12-21	knife	M
-4488	Brian Lee Mullen	White	57	2019-12-21	gun	M
-4489	Romir Talley	Black	24	2019-12-22	gun	M
-4490	Kenneth Collins	Black	46	2019-12-22	unknown	M
-4491	Richard Ruiz	Hispanic	38	2019-12-23	gun and vehicle	M
-4492	Austin Chase Swindle	White	24	2019-12-23	gun	M
-4493	Macario Hernandez	Hispanic	34	2019-12-23	gun	M
-4494	Harvey Cantrell	White	65	2019-12-24	gun	M
-4495	Elray Barber	Black	60	2019-12-24	gun	M
-4496	Lori Jean Canada	White	59	2019-12-25	gun	F
-4497	Deangelo Rashad Martin	Black	23	2019-12-25	vehicle	M
-4498	Antonio Smith	Black	35	2019-12-26	unknown	M
-4499	Juan Rosa	Hispanic	35	2019-12-26	gun	M
-4500	Christopher Camacho	Hispanic	16	2019-12-27	gun and knife	M
-4501	John Lowell Dollen	White	37.11793090137039	2019-12-27	gun	M
-4502	Frederick Jeremy Atkin	White	42	2019-12-27	unknown	M
-4503	Henry Kistler Berry	White	43	2019-12-27	Taser	M
-4504	Albert Benjamin Simon	White	52	2019-12-28	gun	M
-4505	A.B. Carr	White	31	2019-12-28	unknown	M
-4506	Heriberto Rodriguez	Hispanic	27	2019-12-28	unknown	M
-4507	Troy Kirk	White	31	2019-12-28	knife	M
-4508	Craig Ellis See	White	34	2019-12-28	knife	M
-4509	Patrick Alden	White	29	2019-12-29	gun	M
-4510	Kelly Michael Stephens	White	34	2019-12-29	chain	M
-4511	Manuel Gonzales Verdugo	Hispanic	37.11793090137039	2019-12-29	knife	M
-4512	TK TK	Black	18	2019-12-30	gun	M
-4513	Debra D. Arbuckle	White	51	2019-12-30	vehicle	F
-4514	Cody McCaulou	White	25	2019-12-30	vehicle	M
-4515	Eric M. Tellez	White	28	2019-12-31	knife	M
-4516	Frederick Perkins	Black	37	2019-12-31	vehicle	M
-4517	Dedrick Thomas	Black	37.11793090137039	2019-12-31	gun	M
-4518	Malik Williams	Black	23	2019-12-31	gun	M
-4519	Terry Hudson	Black	57	2019-12-31	gun	M
-4520	Michael Vincent Davis	White	49	2019-12-31	gun	M
-4521	Derrick A. Elseth	White	24	2020-01-01	gun	M
-4522	Gerardo Antonio Conchas-Bustas	Other	20	2020-01-01	knife	M
-4523	Gabriel Strickland	White	25	2020-01-01	toy weapon	M
-4524	Jeffery Dale Millsap	White	26	2020-01-02	gun	M
-4525	Jamari Daiwon Tarver	Black	26	2020-01-02	vehicle	M
-4526	Troy Sullenger	White	41	2020-01-02	gun	M
-4527	Mariano Ocon	Hispanic	31	2020-01-02	gun	M
-4528	Michael Gregory	Hispanic	30	2020-01-02	knife	M
-4529	Tyree Davis	Black	25	2020-01-04	knife	M
-4530	George Dison	White	57	2020-01-05	gun	M
-4531	Kwamae Jones	Black	17	2020-01-05	gun	M
-4532	Brandon D. Roberts	Black	27	2020-01-05	knife	M
-4533	Drew Nichols Wallas-Flores	Hispanic	30	2020-01-05	gun	M
-4534	Miciah Lee	Black	18	2020-01-05	gun	M
-4535	Samuel Lanham	White	50	2020-01-05	knife	M
-4536	Troy Chase Caster	White	21	2020-01-06	gun	M
-4537	Xavier Jaime Rovie	Hispanic	28	2020-01-06	gun	M
-4538	Orlando Abeyta	Hispanic	28	2020-01-06	gun	M
-4539	Dallas Pearce	Asian	33	2020-01-06	toy weapon	M
-4540	Daniel Duane Jensen	White	59	2020-01-07	gun	M
-4541	Dustin M. Eaton	White	34	2020-01-08	gun	M
-4542	Earl Facey	Black	37	2020-01-09	gun	M
-4543	Cody Carnes	White	30	2020-01-09	gun	M
-4544	Claude Fain	Black	47	2020-01-09	gun	M
-4545	Bernie Wade Johnson	White	34	2020-01-09	hammer	M
-4546	Juan Ayon-Ruiz	Hispanic	24	2020-01-10	vehicle	M
+4393	Joel Avery	White	37.11793090137039	2019-11-19	armed	M
 4547	Clando Anitok	Asian	25	2020-01-10	unarmed	M
-4548	Eric Reynolds	White	37.11793090137039	2020-01-11	unknown	M
-4549	Henry Isaac Jones	Black	47	2020-01-11	gun	M
-4550	Ryan O. Simms	Black	49	2020-01-11	knife	M
-4551	Victor Valencia	Hispanic	31	2020-01-12	toy weapon	M
-4552	Brad Stirewalt	White	47	2020-01-12	gun	M
-4553	Thomas Charles Snyder	White	52	2020-01-12	gun	M
-4554	Keenan McCain	Black	29	2020-01-13	gun	M
-4555	Randy Glen Goodale	White	45	2020-01-13	vehicle	M
-4556	Eliezer Perez	Hispanic	51	2020-01-14	knife	M
-4557	Renard Antonio Daniels	Black	55	2020-01-15	knife	M
-4558	Frank Cogar	White	35	2020-01-15	gun	M
-4559	Landwell Vance McCall	White	50	2020-01-15	gun	M
-4560	Aaron Phillips	White	31	2020-01-15	gun	M
-4561	Albert Lee Hughes	Black	47	2020-01-15	chair	M
-4562	Jack Bolinger	White	35	2020-01-16	gun	M
-4563	Owen Barton	White	66	2020-01-16	gun	M
-4564	Murbarak Soulemane	Black	19	2020-01-16	knife	M
-4565	Samuel David Mallard	Black	19	2020-01-17	unknown	M
-4566	Dustin Alexander Nealis	White	43	2020-01-19	unknown	M
-4567	Edward Gendron	White	57	2020-01-20	gun	M
-4568	Miguel Mercado Segura	Hispanic	31	2020-01-20	gun	M
-4569	Jonathan David Messare	White	41	2020-01-20	machete	M
-4570	Dustin Furr	White	39	2020-01-20	gun	M
-4571	Anthony Langley	White	24	2020-01-21	gun	M
-4572	Reginald Leon Boston	Black	20	2020-01-21	gun	M
-4573	Rory Behling	White	32	2020-01-21	gun	M
-4574	Miguel Mercado Segura	Hispanic	31	2020-01-21	gun	M
-4575	Darius J. Tarver	Black	22	2020-01-21	meat cleaver	M
-4576	Sok Chin Son	Asian	60	2020-01-21	knife	M
-4577	Jon Phillip Bryant	White	40	2020-01-22	knife	M
-4578	Armando Moreno Garcia	Hispanic	37	2020-01-22	gun	M
-4579	Adam Ray Hernandez	White	34	2020-01-22	unknown	M
-4580	Deandre Lee Seaborough-Patterson	Black	22	2020-01-23	gun	M
-4581	James Lewis Mathis	White	30	2020-01-23	knife	M
-4582	Gage Scott Southard	White	26	2020-01-23	gun	M
-4583	Marquis Golden	Black	29	2020-01-23	gun	M
-4584	Andrew Smyrna	Black	32	2020-01-23	vehicle	M
-4585	Michael Rivera	Black	32	2020-01-23	vehicle	M
-4586	Scott Joseph Weber	White	27	2020-01-24	gun	M
-4587	Toby Diller	Hispanic	31	2020-01-24	gun	M
-4588	Rebecca Angel Alexander	White	35	2020-01-24	gun	F
-4589	D'ovion Semaj Perkins	Black	19	2020-01-25	gun	M
-4590	Joshua James Brown	Black	34	2020-01-25	gun	M
-4591	Kevin Alan Smallman	White	32	2020-01-27	vehicle	M
 4592	William Howard Green	Black	43	2020-01-27	unarmed	M
-4593	Aaron T. Booker	Black	22	2020-01-27	gun	M
-4594	John Francis Tippett	White	43	2020-01-27	gun	M
-4595	Joshua Greenleaf	White	27	2020-01-28	knife	M
-4596	Robert Cocio	Hispanic	39	2020-01-28	gun	M
-4597	Jonathan Bentley	White	37	2020-01-28	vehicle	M
-4598	Jaquyn Oneill Light	Black	20	2020-01-29	unknown	M
-4599	Clint Stevens	White	34	2020-01-29	gun	M
-4600	Justin Leman	White	32	2020-01-29	gun	M
-4601	Abdirahman Salad	Black	15	2020-01-30	gun	M
-4602	Keith Dutree Collins	Black	52	2020-01-30	toy weapon	M
-4603	Leonard Parker	Black	53	2020-02-01	vehicle	M
-4604	Vincent Conti	White	24	2020-02-01	gun	M
-4605	Ronnell Mouzon	Black	41	2020-02-01	gun	M
-4606	Alvin Cole	Black	17	2020-02-02	gun	M
-4607	Jason Gora	White	44	2020-02-02	vehicle and gun	M
-4608	Marc Dominic Neal	Black	56	2020-02-03	gun	M
-4609	Darius Tarver	Black	23	2020-02-04	meat cleaver	M
-4610	Shawn Michael Taylor	White	32	2020-02-04	gun	M
-4611	Dominique Antwon Anderson	Black	26	2020-02-04	machete	M
-4612	Thomas Barbosa	White	41	2020-02-04	knife	M
-4613	Daniel Murillo	White	56	2020-02-05	knife	M
-4614	Gaston A. Nava-Saucedo	Hispanic	33	2020-02-05	vehicle	M
-4615	Sean Patrick Constance	White	37	2020-02-06	gun	M
-4616	Juston Root	White	41	2020-02-07	gun	M
-4617	Michael Collins	White	38	2020-02-07	knife	M
-4618	Douglas Harold Hart	White	67	2020-02-08	gun	M
-4619	Gordon Whitaker	White	45	2020-02-09	gun	M
-4620	Zane Blaisdell	White	48	2020-02-09	knife	M
-4621	Jeremy Grayson	Black	31	2020-02-09	gun	M
-4622	Michael Leatherwood	White	47	2020-02-09	gun	M
-4623	Bobby Gibbs	Black	40	2020-02-10	gun	M
-4624	Jeremy Todd Baham	White	40	2020-02-10	gun	M
-4625	Thomas Ray Chamblee	White	34	2020-02-10	gun	M
-4626	Hans Alejandro Huitz	Native	51	2020-02-12	gun	M
-4627	Michael Marullo	White	33	2020-02-12	gun	M
-4628	Dakota Lee Chlarson	Native	25	2020-02-13	scissors	M
-4629	Brian Francis Filion	White	41	2020-02-13	gun	M
-4630	Aaron Marcos Valdez	Hispanic	19	2020-02-13	gun	M
-4631	William Bluestone	Hispanic	21	2020-02-14	gun	M
-4632	Timothy Leroy Harrington	White	58	2020-02-14	gun	M
-4633	David Kent Heeke	White	63	2020-02-14	gun	M
-4634	Christopher Gutierrez	Hispanic	37.11793090137039	2020-02-14	knife	M
-4635	Timothy Leroy Harrington	White	58	2020-02-14	gun	M
-4636	Daelyn Polu	Asian	16	2020-02-15	gun	M
-4637	Thomas Murray	White	31	2020-02-16	vehicle	M
-4638	Kerry Michael Bounsom	Asian	33	2020-02-16	gun	M
-4639	Rudy Arenas	Hispanic	40	2020-02-16	gun	M
-4640	Brandon Lewis	White	34	2020-02-16	gun	M
-4641	Travis Mullins	White	29	2020-02-17	gun	M
-4642	Jeremy Dewey	Native	27	2020-02-17	gun	M
-4643	Kevin Adolphe	Black	23	2020-02-18	gun	M
-4644	Alex Francisco Vazquez	Hispanic	38	2020-02-19	gun	M
-4645	Joseph Jewell	Black	17	2020-02-20	gun	M
-4646	John Daniel Dixon	White	75	2020-02-20	gun	M
-4647	Manuel Arebalo	Hispanic	40	2020-02-21	sharp object	M
-4648	Rodrigo Ivan Aguirre	Hispanic	36	2020-02-22	gun	M
-4649	Lucas Alvarado	White	27	2020-02-24	gun	M
-4650	Print Zutavern	White	28	2020-02-24	gun	M
 4651	Stephen O'Brien	White	20	2020-02-24	unarmed	M
-4652	Kenneth Sashington	Black	38	2020-02-25	gun	M
-4653	Dylan Olmeda	White	16	2020-02-25	gun	M
-4654	Justin Lee Stackhouse	Black	30	2020-02-26	vehicle	M
-4655	Ramiro Carrasco	Hispanic	30	2020-02-26	gun	M
-4656	James Thomson	White	30	2020-02-26	gun	M
-4657	Kent Richard Kruger	White	36	2020-02-27	gun	M
-4658	Joshua David Hernandez Lord	White	33	2020-02-27	knife	M
-4659	Dorgel Cisnero-Mesa	Hispanic	39	2020-02-27	gun	M
-4660	Jose L. Rivera	Hispanic	22	2020-02-28	gun	M
-4661	Anthony Taylor	Black	49	2020-02-29	gun	M
-4662	Richard Rodriguez	Hispanic	45	2020-02-29	gun	M
-4663	Stephen Douris	White	45	2020-02-29	knife	M
-4664	Joshua Russell	White	30	2020-03-01	gun	M
-4665	Raymundo Aaron Ceja	Hispanic	30	2020-03-01	gun	M
-4666	Ian Austin Wilson	White	31	2020-03-01	gun	M
-4667	Terry Cagle	White	73	2020-03-02	BB gun	M
-4668	Ryan Bass	White	39	2020-03-03	gun	M
 4669	Christopher Palmer	White	37	2020-03-04	unarmed	M
-4670	Gene Beasley	White	37.11793090137039	2020-03-05	gun	M
-4671	Ajay Kamil Ayseli	Other	31	2020-03-05	knife	M
-4672	Elijah Jamaal Brewer	Black	25	2020-03-05	gun	M
-4673	Tyler M. Jones	Black	24	2020-03-06	gun	M
 4674	Barry Gedeus	Black	27	2020-03-06	unarmed	M
-4675	Jerry Gaghins	White	37.11793090137039	2020-03-06	knife	M
 4676	Kenneth Mullins	White	32	2020-03-06	unarmed	M
-4677	Gary Brown	White	43	2020-03-07	vehicle	M
-4678	Lawson Edward Schaber	White	84	2020-03-08	gun	M
-4679	Desiree Nicole Garza	Hispanic	29	2020-03-08	knife	F
 4680	Brian Marksberry	White	31	2020-03-08	unarmed	M
-4681	Keith P. Haux	White	57	2020-03-08	gun	M
 4682	Aaron Tolen	White	37	2020-03-08	unarmed	M
-4683	Jennifer Taylor	White	29	2020-03-09	gun	F
-4684	Jesus Bonito Garcia	Hispanic	47	2020-03-09	screwdriver	M
 4685	Pablo Elias	Hispanic	44	2020-03-10	unarmed	M
-4686	Joshua Christopher Noles	White	38	2020-03-11	gun	M
-4687	Mary Kate Field	White	32	2020-03-11	gun	F
 4688	Breonna Taylor	Black	26	2020-03-12	unarmed	F
-4689	Duncan Socrates Lemp	White	21	2020-03-12	gun	M
 4690	Donnie Sanders	Black	47	2020-03-12	unarmed	M
-4691	Jorge Martinez	Hispanic	30	2020-03-13	unknown	M
-4692	Marc Morgan	White	62	2020-03-13	gun	M
-4693	Rosario Angel Alvarado	Hispanic	41	2020-03-13	toy weapon	M
-4694	Dung Nguyen	Asian	50	2020-03-13	gun	M
-4695	Christopher Mullins	White	37.11793090137039	2020-03-13	knife	M
-4696	Jeremiah Medina	Hispanic	31	2020-03-14	gun	M
-4697	Justin Griggs	White	30	2020-03-14	gun	M
-4698	Chase Brooks	White	32	2020-03-14	unknown	M
-4699	Jesse Cadillo	White	20	2020-03-14	gun	M
-4700	Michael Brandon Potter	White	38	2020-03-15	gun	M
-4701	Catherine Gomez	Hispanic	25	2020-03-15	knife	F
-4702	Douglas J. Foster	White	47	2020-03-15	gun	M
-4703	Dakota Yancey	White	19	2020-03-15	gun	M
-4704	Darwin Foy	Black	35	2020-03-16	gun	M
-4705	Juanito Ovalle	Hispanic	58	2020-03-16	machete	M
-4706	Dakota Wayne Yancey	White	18	2020-03-16	gun	M
-4707	Charity Thorne	White	42	2020-03-16	vehicle	F
-4708	William Simpkins	Black	39	2020-03-17	gun	M
-4709	Harold Spencer	Black	61	2020-03-18	gun	M
-4710	Steven Alire	White	51	2020-03-18	gun	M
-4711	Lebarron Ballard	Black	28	2020-03-18	knife	M
-4712	Kyle Anthony Eichler	White	33	2020-03-19	unknown	M
-4713	Charles Parker	White	47	2020-03-19	knife	M
-4714	Larry Millraney	White	39	2020-03-20	gun	M
 4715	Mycael Johnson	Black	31	2020-03-20	unarmed	M
-4716	Kamall Koby Edwards	Black	18	2020-03-20	gun	M
-4717	Alvin Lamont Baum	Black	23	2020-03-20	gun	M
-4718	Carlos Delgado	Hispanic	46	2020-03-23	pick-axe	M
-4719	Charles Edward Marsh	White	50	2020-03-23	gun	M
-4720	Michael Wallace	White	34	2020-03-24	gun	M
-4721	Kathryn R. Hale	White	32	2020-03-24	vehicle	F
-4722	Christopher Joel Mock	White	45	2020-03-24	gun	M
-4723	Maurico Hernandez	Hispanic	31	2020-03-24	gun	M
-4724	Matthew Moore	White	19	2020-03-25	gun	M
-4725	Glenn A. White	White	53	2020-03-25	knife	M
-4726	Deanna Marie Owsianiak	White	55	2020-03-26	gun	F
 4727	John Mark Hendrick	White	32	2020-03-26	unarmed	M
-4728	Robert Harman Sword	White	46	2020-03-27	gun	M
-4729	Tyrell Fincher	Black	26	2020-03-27	gun	M
-4730	Shane Farwell	White	46	2020-03-28	gun	M
-4731	Jacob  Emry Mcilveen	White	22	2020-03-29	gun	M
-4732	Etonne Tanzymore	Black	38	2020-03-30	gun	M
-4733	Jessie Stringfield	White	44	2020-03-30	gun	M
-4734	Anthony Eduardo Pacheco	Hispanic	37	2020-03-31	sword	M
-4735	Valente Acosta-Bustillos	Hispanic	52	2020-03-31	shovel	M
-4736	Shane Tilman Kent	White	29	2020-03-31	gun	M
-4737	Austin Hines	White	19	2020-04-01	gun and vehicle	M
-4738	Nathan R. Hodge	Black	66	2020-04-02	gun	M
-4739	David A. Xanatos	White	40	2020-04-02	knife	M
-4740	Jose Moreno	Hispanic	30	2020-04-02	Taser	M
-4741	Joseph Zahaczewski	White	69	2020-04-02	gun	M
 4742	Jose Soto	Hispanic	27	2020-04-02	unarmed	M
-4743	Carl Manning	White	62	2020-04-05	unknown	M
-4744	Michael Leon Hammett	White	37.11793090137039	2020-04-05	knife	M
-4745	Philip Castonguay	White	39	2020-04-05	metal pipe	M
-4746	Richard Lee Kampstra	White	67	2020-04-05	gun	M
-4747	Kelvin Parks	White	54	2020-04-06	gun	M
-4748	Yamil Acevedo	Hispanic	29	2020-04-06	vehicle	M
-4749	Idris Abdus-Salaam	Black	33	2020-04-07	knife	M
-4750	Joshua Bacco	White	31	2020-04-07	knife	M
-4751	Jacob Matthew Dau	White	38	2020-04-07	vehicle	M
-4752	Derek T. Swanson	White	28	2020-04-07	gun	M
-4753	Dewayne Curtis Lafond	Black	45	2020-04-07	gun	M
-4754	Rick Howell	White	59	2020-04-08	gun	M
-4755	Joshua Dariandre Ruffin	Black	17	2020-04-08	gun	M
-4756	Zyon Romeir Wyche	Black	19	2020-04-09	gun	M
-4757	Kenneth Jeremy Blair	White	36	2020-04-09	Taser	M
 4758	Zachary Shane Gifford	White	39	2020-04-09	unarmed	M
-4759	Matt Goff	White	37.11793090137039	2020-04-10	gun	M
 4760	Giuseppe Particianone	White	33	2020-04-10	unarmed	M
-4761	Jonathan Lee Adams	Black	31	2020-04-11	gun	M
-4762	Leah Baker	White	29	2020-04-11	knife	F
-4763	Errol Bolin	White	51	2020-04-11	gun	M
-4764	Justin Silvernale	White	35	2020-04-12	knife	M
-4765	Javier Vidal	Hispanic	36	2020-04-13	gun	M
-4766	Thomas A. Powell	White	31	2020-04-14	gun	M
-4767	Leslie Flynn	White	39	2020-04-15	gun	M
-4768	Randy Ashland	White	58	2020-04-15	gun	M
-4769	Goldie Bellinger	Black	39	2020-04-15	gun	M
-4770	Juan Ayon-Barraza	Hispanic	24	2020-04-16	gun and car	M
-4771	Salvatore Friscia	White	48	2020-04-16	vehicle	M
-4772	Jasman Washington	Black	31	2020-04-16	vehicle	M
-4773	Derick L. Powe	Black	37.11793090137039	2020-04-17	gun	M
-4774	Marcus Eugene Epps	White	43	2020-04-17	knife	M
-4775	Steven Taylor	Black	33	2020-04-18	baseball bat	M
-4776	Austin Dean Heights	White	24	2020-04-18	gun	M
-4777	Mason Workman	White	40	2020-04-19	gun	M
-4778	Virgill Thrope	Black	28	2020-04-19	gun	M
-4779	Chase Rosa	Black	24	2020-04-21	gun	M
-4780	Nicholas Chavez	Hispanic	27	2020-04-21	sharp object	M
-4781	Elmer L. Mack	Black	40	2020-04-22	gun	M
-4782	Joshua Johnson	Black	35	2020-04-22	toy weapon	M
-4783	Luan Agolli	White	42	2020-04-23	gun	M
 4784	Michael Ramos	Hispanic	42	2020-04-24	unarmed	M
-4785	Brandan Reid Nylander	White	24	2020-04-24	gun	M
-4786	Reed Rickabaugh	White	59	2020-04-24	gun	M
-4787	Farron Morris Hammond	White	61	2020-04-25	gun	M
-4788	De Quang Tran	Asian	26	2020-04-26	gun	M
-4789	Robert Musser	White	32	2020-04-28	gun	M
-4790	William E. Abbe	White	50	2020-04-28	sharp object	M
-4791	Jesus Caballero	Hispanic	38	2020-04-29	gun	M
-4792	Artemio Mondragon Alfaro	White	29	2020-04-29	vehicle	M
-4793	Malcolm Xavier Ray Williams	Black	27	2020-04-29	gun	M
-4794	Timothy Alan Gilbert	White	43	2020-04-30	gun	M
-4795	William Debose	Black	21	2020-05-01	gun	M
 4796	Nicholas Bils	White	36	2020-05-01	unarmed	M
 4797	Shaun Lee Fuhr	Black	24	2020-05-01	unarmed	M
-4798	Brent Martin	Black	32	2020-05-01	gun	M
-4799	Said Joquin	Black	26	2020-05-01	gun	M
-4800	Michael Ferguson	White	54	2020-05-03	gun	M
-4801	Kortney Shawn Price	White	44	2020-05-03	gun	M
-4802	Michael Faries	White	69	2020-05-03	gun	M
-4803	Filipe Periera	White	45	2020-05-03	gun	M
-4804	Armando Salvatierra	Hispanic	26	2020-05-03	knife	M
-4805	Chad Adams	White	43	2020-05-03	gun	M
-4806	Phillip Michael Carney	White	38	2020-05-03	gun	M
-4807	Demontre Bruner	Black	21	2020-05-04	gun	M
-4808	Qavon Webb	Black	23	2020-05-05	gun	M
-4809	Sandra Lee Harmon	White	56	2020-05-05	gun	F
-4810	William Shimp	White	33	2020-05-05	gun	M
-4811	Justin Charland	White	40	2020-05-05	samurai sword	M
-4812	Jah'Sean Iandie Hodge	Black	21	2020-05-05	knife	M
-4813	Alfredo Delarosa	Hispanic	20	2020-05-05	Taser	M
-4814	Dreasjon Reed	Black	21	2020-05-06	gun	M
-4815	James Joseph James	White	47	2020-05-06	knife	M
-4816	Vincent Ralph Pena	Hispanic	38	2020-05-06	gun	M
-4817	Ruben Escarrega	Hispanic	31	2020-05-07	knife	M
-4818	James Pease	White	51	2020-05-07	gun	M
-4819	McHale Rose	Black	19	2020-05-07	gun	M
-4820	Daniel Gomez	Hispanic	21	2020-05-07	knife	M
-4821	Adrian Medearis	Black	48	2020-05-08	Taser	M
-4822	Edgar Melgar	Hispanic	42	2020-05-09	gun	M
-4823	Finan H. Berhe	Black	30	2020-05-09	knife	M
-4824	Yassin Mohamed	Black	47	2020-05-09	rock	M
-4825	Darrin Jon Patterson	White	57	2020-05-09	gun	M
-4826	Jonathan Carter	White	27	2020-05-09	unknown	M
-4827	David Urrea	White	50	2020-05-10	knife	M
-4828	Gregory Howe	White	37	2020-05-12	gun	M
-4829	David Tylek Atkinson	Black	24	2020-05-13	gun	M
-4830	David Tylek Atkinson	Black	24	2020-05-13	gun	M
-4831	Rayshard Scales	Black	30	2020-05-14	toy weapon	M
-4832	Robert Tincher	White	49	2020-05-14	knife	M
-4833	Donny Leek	White	47	2020-05-14	gun	M
-4834	Robert Avila	White	31	2020-05-15	vehicle	M
-4835	Hunter Carlstrom	White	33	2020-05-15	gun	M
-4836	Robert Johnson	Black	29	2020-05-16	gun	M
-4837	Wallace Dean Staples	White	42	2020-05-16	gun	M
-4838	Randy Roszell Lewis	Black	38	2020-05-16	knife	M
-4839	Juan M. Montalvo	Hispanic	25	2020-05-17	gun	M
-4840	Bernard Ledlow	White	39	2020-05-17	gun	M
-4841	Robert Wayne Lawson	White	64	2020-05-18	gun	M
-4842	Jacob Bubb	White	28	2020-05-18	gun	M
-4843	Levi Morse	White	32	2020-05-19	gun	M
-4844	Wilbon Cleveland Woodard	White	69	2020-05-19	unknown	M
 4845	Tyler Hays	White	29	2020-05-19	unarmed	M
-4846	Tobby Wiggins	Black	45	2020-05-20	unknown	M
-4847	Ryan Whitaker	White	40	2020-05-21	gun	M
-4848	Willie Lee Quarles	Black	60	2020-05-21	gun	M
-4849	Bernardo Palacios-Carbajal	Hispanic	22	2020-05-23	gun	M
 4850	Maurice S. Gordon	Black	28	2020-05-23	unarmed	M
-4851	Joe Louis Castillanos	Hispanic	38	2020-05-25	gun	M
-4852	Dion Johnson	Black	28	2020-05-25	unknown	M
-4853	Jason Jesse Gallegos	White	37	2020-05-26	gun	M
-4854	John Alvarado	Hispanic	22	2020-05-26	gun	M
-4855	Tracy Drowne	White	42	2020-05-26	gun	F
-4856	Robert Avitia	Hispanic	18	2020-05-26	gun	M
-4857	Tony McDade	Black	38	2020-05-27	gun	M
-4858	Joshua Blessed	White	58	2020-05-27	vehicle and gun	M
-4859	Rommel Mendoza	Hispanic	50	2020-05-27	sword	M
-4860	Hector Hernandez	Hispanic	31	2020-05-27	knife	M
-4861	Modesto Reyes	Black	35	2020-05-27	gun	M
-4862	John Benedict Coleman	White	53	2020-05-28	gun	M
-4863	Steven Edward Ferguson	White	31	2020-05-28	vehicle	M
-4864	Ruben Smith	Black	35	2020-05-28	gun	M
-4865	Heba Momtaz Al-Azhari	Other	22	2020-05-29	knife	F
-4866	TK TK	White	37.11793090137039	2020-05-29	toy weapon	M
-4867	TK TK	Asian	32	2020-05-29	gun	M
-4868	Momodou Lamin Sisay	Black	39	2020-05-29	gun	M
-4869	Jarvis Sullivan	Black	44	2020-05-29	vehicle	M
-4870	Derrick Thompson	Black	46	2020-05-30	gun	M
-4871	Israel Berry	White	49	2020-05-31	unknown	M
-4872	Thomas Sutherlin	White	32	2020-05-31	gun	M
-4873	David McAtee	Black	53	2020-06-01	gun	M
-4874	Jorge Gomez	Hispanic	25	2020-06-01	gun	M
-4875	Ryan Emblem Moore	White	36	2020-06-01	unknown	M
-4876	Sean Monterrosa	Hispanic	22	2020-06-02	hammer	M
-4877	Tyquarn Graves	Black	33	2020-06-02	gun	M
-4878	Mary Lawrence	White	39	2020-06-03	knife	F
-4879	Gregory W. Hallback	White	44	2020-06-03	gun	M
-4880	Eric A. Galvan	Hispanic	25	2020-06-03	gun	M
-4881	Scott Anderson Hutton	White	36	2020-06-03	unknown	M
-4882	Benjamin Ballard	White	42	2020-06-05	gun	M
-4883	Kamal Flowers	Black	24	2020-06-06	gun	M
-4884	Erik Salgado	Hispanic	22	2020-06-06	unknown	M
-4885	Jarrid Hurst	White	35	2020-06-07	knife	M
-4886	Lewis Ruffin	Black	38	2020-06-09	gun	M
-4887	Gregorio Cruz Vanloo	White	28	2020-06-11	gun	M
-4888	Mason James Lira	White	26	2020-06-11	gun	M
-4889	Michael Thomas	Black	62	2020-06-11	unknown	M
-4890	Rayshard Brooks	Black	27	2020-06-12	Taser	M
-4891	Caine Van Pelt	Black	23	2020-06-12	gun	M
 4892	Hannah Fizer	White	25	2020-06-13	unarmed	F
-4893	William Slyter	White	22	2020-06-13	gun	M
-4894	Nicholas Hirsh	White	31	2020-06-15	gun	M
+0	Tim Elliot	Asian	53	2015-01-02	armed	M
+1	Lewis Lee Lembke	White	47	2015-01-02	armed	M
+3	Matthew Hoffman	White	32	2015-01-04	armed	M
+4	Michael Rodriguez	Hispanic	39	2015-01-04	armed	M
+5	Kenneth Joe Brown	White	18	2015-01-04	armed	M
+6	Kenneth Arnold Buck	Hispanic	22	2015-01-05	armed	M
+7	Brock Nichols	White	35	2015-01-06	armed	M
+9	Leslie Sapp III	Black	47	2015-01-06	armed	M
+10	Patrick Wetter	White	25	2015-01-06	armed	M
+11	Ron Sneed	Black	31	2015-01-07	armed	M
+12	Hashim Hanif Ibn Abdul-Rasheed	Black	41	2015-01-07	armed	M
+13	Nicholas Ryan Brickman	White	30	2015-01-07	armed	M
+14	Omarr Julian Maximillian Jackson	Black	37	2015-01-07	armed	M
+15	Loren Simpson	White	28	2015-01-08	armed	M
+16	James Dudley Barker	White	42	2015-01-08	armed	M
+18	Thomas Hamby	White	49	2015-01-08	armed	M
+19	Jimmy Foreman	White	71	2015-01-09	armed	M
+20	Andy Martinez	Hispanic	33	2015-01-09	armed	M
+21	Tommy Smith	White	39	2015-01-11	armed	M
+22	Brian  Barbosa	Hispanic	23	2015-01-11	armed	M
+23	Salvador Figueroa	Hispanic	29	2015-01-11	armed	M
+24	John Edward O'Keefe	White	34	2015-01-13	armed	M
+25	Richard McClendon	White	43	2015-01-13	armed	M
+26	Marcus Golden	Black	24	2015-01-14	armed	M
+27	Michael Goebel	White	29	2015-01-14	armed	M
+28	Mario Jordan	Black	34	2015-01-14	armed	M
+29	Talbot Schroeder	White	75	2015-01-14	armed	M
+30	Robert Edwards	White	68	2015-01-14	armed	M
+31	Jeffrey R. Nielson	White	34	2015-01-14	armed	M
+32	Donte Sowell	Black	27	2015-01-15	armed	M
+33	Kavonda Earl Payton	Black	39	2015-01-15	armed	M
+34	Quincy Reed Reindl	White	24	2015-01-15	armed	M
+35	Jose Ceja	Hispanic	36	2015-01-15	armed	M
+36	Nathan Massey	White	33	2015-01-15	armed	M
+37	Scott Hall	White	41	2015-01-16	armed	M
+38	Zaki Shinwary	Other	48	2015-01-16	armed	M
+39	Terence Walker	Black	21	2015-01-17	armed	M
+40	Pablo Meza	Hispanic	24	2015-01-17	armed	M
+41	Daniel Brumley	Hispanic	27	2015-01-17	armed	M
+42	Jonathan Guillory	White	32	2015-01-18	armed	M
+43	Carter Castle	White	67	2015-01-18	armed	M
+44	Paul Campbell	White	49	2015-01-19	armed	M
+45	Dewayne Carr	Black	42	2015-01-20	armed	M
+46	Todd Allen Hodge	White	36	2015-01-21	armed	M
+47	Miguel Angel de Santos-Rodriguez	Hispanic	36	2015-01-21	armed	M
+48	Isaac Holmes	Black	19	2015-01-21	armed	M
+49	Andrew Toto	White	54	2015-01-21	armed	M
+50	Tiano Meton	Black	25	2015-01-22	armed	M
+51	Kristiana Coignard	White	17	2015-01-22	armed	F
+52	Demaris Turner	Black	29	2015-01-23	armed	M
+53	Jose Antonio Espinoza Ruiz	Hispanic	56	2015-01-23	armed	M
+54	Robert Francis Mesch	White	61	2015-01-23	armed	M
+55	Daryl Myler	White	45	2015-01-24	armed	M
+56	Darin Hutchins	Black	26	2015-01-24	armed	M
+57	Wendell King	White	40	2015-01-24	armed	M
+58	Orlando Jude Lopez	Hispanic	26	2015-01-25	armed	M
+59	Jessie Hernandez	Hispanic	17	2015-01-26	armed	F
+60	Raymond Kmetz	White	68	2015-01-26	armed	M
+62	David Garcia	Hispanic	34	2015-01-26	armed	M
+63	Tiffany Terry	White	39	2015-01-27	armed	F
+64	Nicolas Leland Tewa	Native	26	2015-01-27	armed	M
+65	Chris Ingram	White	29	2015-01-27	armed	M
+66	Jermonte Fletcher	Black	33	2015-01-27	armed	M
+67	Alan Lance Alverson	White	45	2015-01-28	armed	M
+68	Cody Karasek	White	26	2015-01-28	armed	M
+69	Matautu Nuu	Asian	35	2015-01-28	armed	M
+70	Alan James	White	31	2015-01-29	armed	M
+72	John Barry Marshall	White	48	2015-01-30	armed	M
+73	Victor Manuel Reyes	Hispanic	31	2015-01-31	armed	M
+74	Edward Donnell Bright	Black	54	2015-01-31	armed	M
+76	Francis Murphy Rose III	White	42	2015-02-02	armed	M
+77	Jacob Haglund	White	17	2015-02-02	armed	M
+78	Ledarius D. Williams	Black	23	2015-02-03	armed	M
+79	Yuvette Henderson	Black	38	2015-02-03	armed	F
+80	Dewayne Deshawn Ward	Black	29	2015-02-03	armed	M
+81	Anthony Purvis	White	45	2015-02-03	armed	M
+83	Izzy Colon	Hispanic	37	2015-02-04	armed	M
+84	Salvador Muna	Hispanic	28	2015-02-04	armed	M
+86	Jimmy Ray Robinson Jr.	Black	51	2015-02-04	armed	M
+87	Markell Atkins	Black	36	2015-02-04	armed	M
+88	Paul Alfred Eugene Johnson	White	59	2015-02-05	armed	M
+89	Herbert Hill	Black	25	2015-02-06	armed	M
+90	John  Sawyer	White	26	2015-02-07	armed	M
+91	James Allen	Black	74	2015-02-07	armed	M
+92	John Martin Whittaker	White	33	2015-02-08	armed	M
+93	Sawyer Flache	White	27	2015-02-08	armed	M
+94	Vincent Cordaro	White	57	2015-02-08	armed	M
+95	Joseph Paffen	White	46	2015-02-08	armed	M
+96	Larry Hostetter	White	41	2015-02-08	armed	M
+97	Kenneth Kreyssig	White	61	2015-02-09	armed	M
+98	Desmond Luster	Black	45	2015-02-09	armed	M
+99	Anthony Bess	Black	49	2015-02-10	armed	M
+100	Brian Fritze	White	45	2015-02-10	armed	M
+102	Phillip Watkins	Black	23	2015-02-11	armed	M
+103	Fletcher Ray Stewart	White	46	2015-02-11	armed	M
+104	Jonathan Larry Harden	White	23	2015-02-13	armed	M
+105	Andres Lara-Rodriguez	Hispanic	21	2015-02-13	armed	M
+107	Matthew D. Belk	White	27	2015-02-13	armed	M
+108	Daniel Mejia	Hispanic	37	2015-02-13	armed	M
+109	Jason C. Hendrix	White	16	2015-02-14	armed	M
+110	Roy Joy Day	White	51	2015-02-14	armed	M
+111	Howard Brent Means Jr.	White	34	2015-02-15	armed	M
+112	Bruce Steward	White	34	2015-02-15	armed	M
+114	Lawrence Caldwell	White	56	2015-02-16	armed	M
+115	Michael K. Casper	White	26	2015-02-16	armed	M
+116	Cody Evans	White	24	2015-02-16	armed	M
+117	Betty Sexton	White	43	2015-02-17	armed	F
+119	Matthew Lundy	White	32	2015-02-17	armed	M
+120	Douglas Sparks	White	30	2015-02-17	armed	M
+121	Pedro Juan Saldivar	Hispanic	50	2015-02-17	armed	M
+122	Janisha Fonville	Black	20	2015-02-18	armed	F
+124	Stanley Lamar Grant	Black	38	2015-02-20	armed	M
+125	Douglas Harris	Black	77	2015-02-20	armed	M
+126	Alejandro Salazar	Hispanic	37.11793090137039	2015-02-20	armed	M
+127	Jason Moncrief Carter	White	41	2015-02-21	armed	M
+128	Kent Norman	White	51	2015-02-21	armed	M
+129	Bradford Leonard	White	50	2015-02-22	armed	M
+130	Robert Kohl	White	47	2015-02-23	armed	M
+131	Michael Wayne Smashey	White	37	2015-02-23	armed	M
+132	Anthony Giaquinta	White	41	2015-02-23	armed	M
+133	A'Donte Washington	Black	16	2015-02-23	armed	M
+134	Jerome Nichols	White	42	2015-02-23	armed	M
+136	Joseph Biegert	White	30	2015-02-24	armed	M
+137	Glenn Lewis	Black	27	2015-02-25	armed	M
+138	Francis Spivey	White	43	2015-02-25	armed	M
+139	David Cuevas	Hispanic	42	2015-02-26	armed	M
+140	Amilcar Perez-Lopez	Hispanic	21	2015-02-26	armed	M
+142	Crystal Lee Miley Harry	White	34	2015-02-26	armed	F
+145	Chazsten Freeman	White	24	2015-02-28	armed	M
+147	Jessica Uribe	Hispanic	28	2015-02-28	armed	F
+148	Cornelius J. Parker	Black	28	2015-02-28	armed	M
+149	Ian Sherrod	Black	40	2015-02-28	armed	M
+150	Stephanie Hill	White	37	2015-02-28	armed	F
+152	Hung Trieu	Asian	35	2015-03-01	armed	M
+153	Donald Lewis Matkins	White	49	2015-03-01	armed	M
+155	Shaquille Barrow	Black	20	2015-03-02	armed	M
+156	Fednel Rhinvil	Black	25	2015-03-03	armed	M
+157	Matthew Metz	White	25	2015-03-03	armed	M
+159	Carl Lao	Asian	28	2015-03-04	armed	M
+160	Tyrone Ryerson Lawrence	Black	45	2015-03-05	armed	M
+162	Tyson Hubbard	White	34	2015-03-05	armed	M
+165	Andrew Anthony Williams	Black	48	2015-03-06	armed	M
+166	Adam Reinhart	White	29	2015-03-07	armed	M
+167	Monique Jenee Deckard	Black	43	2015-03-08	armed	F
+168	Aurelio Duarte	Hispanic	40	2015-03-08	armed	M
+169	Michael McKillop	White	35	2015-03-08	armed	M
+171	Lester Brown	White	58	2015-03-09	armed	M
+172	James Brent Damon	White	46	2015-03-09	armed	M
+173	Cedrick Lamont Bishop	Black	30	2015-03-09	armed	M
+174	Theodore Johnson	Black	64	2015-03-10	armed	M
+175	Jamie Croom	Black	31	2015-03-10	armed	M
+176	Christopher Mitchell	White	23	2015-03-10	armed	M
+177	Edixon  Franco	Hispanic	37	2015-03-10	armed	M
+178	Terry Garnett Jr.	Black	37	2015-03-11	armed	M
+179	James Greenwell	White	31	2015-03-11	armed	M
+180	Benito Osorio	Hispanic	39	2015-03-11	armed	M
+181	Ryan Dean Burgess	White	31	2015-03-11	armed	M
+182	Gilbert Fleury	White	54	2015-03-11	armed	M
+183	William Russell  Smith	White	53	2015-03-11	armed	M
+184	Aaron Valdez	Hispanic	25	2015-03-11	armed	M
+186	James Richard Jimenez	Hispanic	41	2015-03-13	armed	M
+187	Fred  Liggett	White	59	2015-03-13	armed	M
+188	Andrew Driver	White	36	2015-03-13	armed	M
+190	Clifton Reintzel	White	53	2015-03-14	armed	M
+191	Aaron Siler	White	26	2015-03-14	armed	M
+192	Richard Castilleja	Hispanic	29	2015-03-14	armed	M
+193	Troy Ray Boyd	White	27	2015-03-15	armed	M
+194	Justin Tolkinen	White	28	2015-03-16	armed	M
+195	William Dean Poole	White	52	2015-03-16	armed	M
+196	Andrew Charles Shipley	White	49	2015-03-17	armed	M
+197	Declan Owen	White	24	2015-03-17	armed	M
+198	Alice Brown	White	24	2015-03-17	armed	F
+199	Eugene Smith	White	20	2015-03-17	armed	M
+201	Kaylene Stone	White	49	2015-03-18	armed	F
+202	Garland Lee Wingo	White	64	2015-03-18	armed	M
+203	Jeff Alexander	White	47	2015-03-18	armed	M
+204	Shane Watkins	White	39	2015-03-19	armed	M
+206	Brandon Rapp	White	31	2015-03-19	armed	M
+207	Kendre Alston	Black	16	2015-03-19	armed	M
+209	Robert Burdge	White	36	2015-03-19	armed	M
+210	Richard White	Black	63	2015-03-20	armed	M
+211	Tyrel Vick	White	34	2015-03-20	armed	M
+212	Justin Fowler	Native	24	2015-03-20	armed	M
+213	Enoch Gaver	White	21	2015-03-21	armed	M
+214	James Ellis	White	44	2015-03-21	armed	M
+215	Gary Page	White	60	2015-03-21	armed	M
+216	Jason Smith	White	42	2015-03-21	armed	M
+217	Phillip Conley	White	37	2015-03-22	armed	M
+218	Christopher Ryan Healy	White	36	2015-03-22	armed	M
+219	Denzel Brown	Black	21	2015-03-22	armed	M
+220	Devin Gates	Black	24	2015-03-23	armed	M
+221	Walter J. Brown III	Black	29	2015-03-24	armed	M
+222	Scott Dunham	White	57	2015-03-24	armed	M
+223	Stephen Snyder	White	38	2015-03-24	armed	M
+224	Nicholas Thomas	Black	23	2015-03-25	armed	M
+225	Jeremy Lorenza Kelly	Black	27	2015-03-25	armed	M
+226	Victor Terrazas	Hispanic	28	2015-03-25	armed	M
+227	Joseph Tassinari	White	63	2015-03-25	armed	M
+228	Deanne Choate	White	53	2015-03-26	armed	F
+229	Adrian Solis	Hispanic	35	2015-03-26	armed	M
+230	Megan Hockaday	Black	26	2015-03-27	armed	F
+231	Harvey Oates	White	42	2015-03-27	armed	M
+232	Angelo West	Black	41	2015-03-27	armed	M
+233	Gary Kendrick	White	56	2015-03-27	armed	M
+234	Jamalis Hall	Black	39	2015-03-27	armed	M
+235	Adrian Hernandez	Hispanic	23	2015-03-27	armed	M
+236	Neil Seifert	White	40	2015-03-27	armed	M
+237	Byron Herbert	Black	29	2015-03-29	armed	M
+238	Robert Rooker	White	26	2015-03-29	armed	M
+239	Brian Babb	White	49	2015-03-30	armed	M
+240	Jeremy Anderson	White	36	2015-03-31	armed	M
+241	Benjamin Quezada	Hispanic	21	2015-03-31	armed	M
+242	Mya Hall	Black	27	2015-03-31	armed	F
+243	Robert Washington	Black	37	2015-04-01	armed	M
+244	Shawn Clyde	White	36	2015-04-01	armed	M
+245	Darrin Langford	Black	32	2015-04-02	armed	M
+247	Aaron Rutledge	White	27	2015-04-02	armed	M
+248	Donald Hicks	White	63	2015-04-02	armed	M
+249	Christopher Prevatt	White	38	2015-04-03	armed	M
+250	Justus Howell	Black	17	2015-04-04	armed	M
+251	Paul Anderson	Black	31	2015-04-04	armed	M
+252	Ethan Noll	White	34	2015-04-04	armed	M
+254	Ken Cockerel	White	51	2015-04-05	armed	M
+255	Richard Hanna	White	56	2015-04-05	armed	M
+256	Alexander Myers	White	23	2015-04-06	armed	M
+257	Desmond Willis	Black	25	2015-04-06	armed	M
+258	Tyrell J. Larsen	White	31	2015-04-06	armed	M
+259	Erick Rose	White	32	2015-04-07	armed	M
+260	Douglas Faith	White	60	2015-04-08	armed	M
+261	Dexter Pernell Bethea	Black	42	2015-04-08	armed	M
+262	Roberto Rodriguez	Hispanic	39	2015-04-08	armed	M
+263	Joseph Jeremy Weber	Asian	28	2015-04-08	armed	M
+264	Gordon Kimbrell	White	22	2015-04-09	armed	M
+265	Don Smith	Black	29	2015-04-09	armed	M
+266	Jess Leipold	White	31	2015-04-09	armed	M
+267	Phillip Burgess	White	28	2015-04-09	armed	M
+268	Angel Cresencio Corona	Hispanic	21	2015-04-10	armed	M
+269	Richard Reed	White	38	2015-04-10	armed	M
+270	Donald Allen	White	66	2015-04-11	armed	M
+271	Mack Long	Black	36	2015-04-12	armed	M
+272	Richard Dale Weaver	White	83	2015-04-12	armed	M
+273	Jason Lee Evans	White	32	2015-04-12	armed	M
+274	Isaac Jimenez	Hispanic	27	2015-04-13	armed	M
+275	Colby Robinson	Black	26	2015-04-14	armed	M
+276	Christopher Grant Finley	White	31	2015-04-14	armed	M
+277	Tevin Barkley	Black	22	2015-04-15	armed	M
+278	Dante Noble	Black	41	2015-04-15	armed	M
+280	Mark W. Adair	White	51	2015-04-15	armed	M
+281	Stanley Watson	White	72	2015-04-15	armed	M
+282	Ernesto Flores	Hispanic	52	2015-04-15	armed	M
+283	Rodolfo Velazquez	Hispanic	47	2015-04-16	armed	M
+284	Jeffrey Kemp	Black	18	2015-04-17	armed	M
+285	Elias Cavazos	Hispanic	29	2015-04-17	armed	M
+286	Thaddeus McCarroll	Black	23	2015-04-17	armed	M
+287	Erik Tellez	Hispanic	43	2015-04-18	armed	M
+288	Grover Sapp	White	45	2015-04-18	armed	M
+289	Michael Foster	White	40	2015-04-19	armed	M
+290	Dana Hlavinka	White	44	2015-04-19	armed	M
+291	Santos Cortez Hernandez	Hispanic	25	2015-04-20	armed	M
+293	Kimber Key	White	59	2015-04-21	armed	M
+294	Luis Martinez	Hispanic	35	2015-04-21	armed	M
+295	Daniel Wolfe	Black	35	2015-04-21	armed	M
+297	Carlos Saavedra Ramirez	Hispanic	51	2015-04-22	armed	M
+298	Jonathan Efraim	White	30	2015-04-22	armed	M
+299	Reginald McGregor	Black	31	2015-04-22	armed	M
+300	Lue Vang	Asian	39	2015-04-22	armed	M
+301	Andrew Valadez	White	26	2015-04-23	armed	M
+302	Joseph Potts	White	51	2015-04-23	armed	M
+304	Karen Janks	White	46	2015-04-24	armed	F
+305	Mark Cecil Hawkins	White	49	2015-04-24	armed	M
+306	Gary Timmie  Collins	White	63	2015-04-24	armed	M
+307	Todd Jamal Dye	Black	20	2015-04-24	armed	M
+308	Brandon Lawrence	White	25	2015-04-25	armed	M
+310	Daniel Davis	White	58	2015-04-25	armed	M
+312	Albert Hanson	White	76	2015-04-26	armed	M
+313	Dean Genova	White	45	2015-04-26	armed	M
+314	Terrance  Kellom	Black	20	2015-04-27	armed	M
+315	David Parker	White	58	2015-04-28	armed	M
+316	Jared Johnson	Black	21	2015-04-28	armed	M
+317	Joshua Green	White	27	2015-04-28	armed	M
+318	Andrew Jackson	White	26	2015-04-29	armed	M
+319	Joshua Deysie	Hispanic	33	2015-04-29	armed	M
+320	Luis Chavez-Diaz	Hispanic	27	2015-04-29	armed	M
+321	Alexia Christian	Black	25	2015-04-29	armed	F
+322	Jeffrey Adkins	Black	53	2015-04-29	armed	M
+323	John Acree	White	53	2015-04-29	armed	M
+325	Erick Emmanuel Sanchez	Hispanic	22	2015-04-30	armed	M
+326	Kenneth Mathena	White	52	2015-05-02	armed	M
+327	Kevin Vance Norton	White	36	2015-05-03	armed	M
+328	Elton Simpson	Black	30	2015-05-03	armed	M
+329	Nadir Soofi	Other	34	2015-05-03	armed	M
+330	Billy Grimm	Hispanic	44	2015-05-03	armed	M
+331	Michael Asher	White	53	2015-05-03	armed	M
+332	Roark Cook	White	36	2015-05-04	armed	M
+334	Thong Kien Ma	Asian	32	2015-05-05	armed	M
+335	Robert A. Frost	White	46	2015-05-05	armed	M
+336	David William Johnson	White	18	2015-05-06	armed	M
+337	Michael Murphy	White	38	2015-05-07	armed	M
+338	Nephi Arriguin	Black	21	2015-05-07	armed	M
+339	Shaun Johnson	White	35	2015-05-08	armed	M
+340	David Schwalm	White	58	2015-05-08	armed	M
+341	Dedrick Marshall	Black	48	2015-05-08	armed	M
+342	Sam Holmes	Black	31	2015-05-08	armed	M
+343	Stephen  Cunningham	White	47	2015-05-10	armed	M
+344	Lionel Lorenzo Young	Black	34	2015-05-10	armed	M
+345	Kelvin Goldston	Black	30	2015-05-11	armed	M
+346	Justin Way	White	28	2015-05-11	armed	M
+347	D'Angelo Stallworth	Black	28	2015-05-12	armed	M
+348	Alec Ouzounian	White	40	2015-05-12	armed	M
+349	Bruce Zalonka	Other	46	2015-05-12	armed	M
+350	Sean Michael Pelletier	White	37	2015-05-14	armed	M
+351	Cary Martin	White	53	2015-05-14	armed	M
+352	Mark Farrar	White	41	2015-05-15	armed	M
+353	Matt Coates	White	42	2015-05-15	armed	M
+354	Ronell Wade	Black	45	2015-05-16	armed	M
+355	Dennis  Fiel	White	34	2015-05-17	armed	M
+356	Austin Goodner	White	18	2015-05-17	armed	M
+357	Timothy Jones	White	27	2015-05-17	armed	M
+359	Jonathan McIntosh	White	35	2015-05-19	armed	M
+360	David  Gaines	White	17	2015-05-19	armed	M
+361	Anthony Gomez	Black	29	2015-05-20	armed	M
+362	Chrislon Talbott	Black	38	2015-05-20	armed	M
+363	Marcus Wheeler	Black	26	2015-05-20	armed	M
+364	Jonathan  Colley	White	52	2015-05-20	armed	M
+365	Nikki Jo Burtsfield	White	39	2015-05-20	armed	F
+366	David Alejandro Gandara	Hispanic	22	2015-05-21	armed	M
+367	Javoris Washington	Black	29	2015-05-21	armed	M
+368	James Anthony Cooper	White	43	2015-05-21	armed	M
+369	Elvin Diaz	Hispanic	24	2015-05-21	armed	M
+370	Jerome Caldwell	Black	32	2015-05-21	armed	M
+371	Michael Lowery	White	40	2015-05-22	armed	M
+372	James Horn	White	47	2015-05-23	armed	M
+373	Eric Robinson	White	40	2015-05-23	armed	M
+374	Caso Jackson	Black	25	2015-05-23	armed	M
+375	Cassandra Bolin	White	31	2015-05-25	armed	F
+376	Anthony Briggs	Black	36	2015-05-25	armed	M
+377	Dalton Branch	Black	51	2015-05-26	armed	M
+378	Jessie  Williams	White	24	2015-05-26	armed	M
+379	Millard Tallant III	White	62	2015-05-26	armed	M
+380	Scott McAllister	White	39	2015-05-27	armed	M
+381	Garrett  Sandeno	White	24	2015-05-27	armed	M
+382	Harry Davis	White	57	2015-05-27	armed	M
+384	Simon Hubble	White	33	2015-05-27	armed	M
+385	Darrell Morgan	White	60	2015-05-28	armed	M
+386	James Strong	Black	32	2015-05-28	armed	M
+387	Kenneth Dothard	Black	40	2015-05-28	armed	M
+388	Kyle Baker	White	18	2015-05-28	armed	M
+389	Kevin Allen	Black	36	2015-05-29	armed	M
+390	Nehemiah Fischer	White	35	2015-05-29	armed	M
+391	Robert Box	White	55	2015-05-29	armed	M
+393	Alexander Tirado Rivera	Hispanic	39	2015-05-30	armed	M
+394	James Bushey	White	47	2015-05-31	armed	M
+395	Joseph Ladd	White	23	2015-06-01	armed	M
+396	Usaamah Rahim	Black	26	2015-06-02	armed	M
+397	Kamal Dajani	White	26	2015-06-02	armed	M
+398	Miguel Martinez	Hispanic	18	2015-06-03	armed	M
+399	Edelmiro Hernandez	Hispanic	33	2015-06-03	armed	M
+400	Ronald Neal	White	56	2015-06-03	armed	M
+401	Lorenzo Garza	Hispanic	46	2015-06-03	armed	M
+403	Jesus Quezada Gomez	Hispanic	50	2015-06-05	armed	M
+404	Christie Cathers	White	45	2015-06-05	armed	F
+405	James Smillie	White	53	2015-06-06	armed	M
+406	Alejandro Campos Fernandez	Hispanic	45	2015-06-06	armed	M
+407	Joe Nevels	White	42	2015-06-06	armed	M
+408	Damien Ramirez	Hispanic	27	2015-06-06	armed	M
+409	Demouria Hogg	Black	30	2015-06-06	armed	M
+410	Matthew Wayne McDaniel	White	36	2015-06-07	armed	M
+411	Gene Marshall	White	58	2015-06-07	armed	M
+412	Rene Garcia	Hispanic	30	2015-06-08	armed	M
+413	Richard Warolf	White	69	2015-06-08	armed	M
+415	Greg  Hartley	White	45	2015-06-09	armed	M
+416	QuanDavier Hicks	Black	22	2015-06-09	armed	M
+418	Isiah Hampton	Black	19	2015-06-10	armed	M
+419	Charles Ziegler	Black	40	2015-06-11	armed	M
+420	Fritz Severe	Black	46	2015-06-11	armed	M
+421	Mark Flores	Hispanic	28	2015-06-11	armed	M
+422	Raymond Peralta-Lantigua	Hispanic	22	2015-06-11	armed	M
+423	Shelly Haendiges	White	17	2015-06-12	armed	F
+424	Anthony Hodge	White	46	2015-06-13	armed	M
+425	Deng Manyoun	Black	35	2015-06-13	armed	M
+426	James Boulware	White	35	2015-06-13	armed	M
+427	Kenneth Garcia	Hispanic	28	2015-06-14	armed	M
+428	Zane Terryn	White	15	2015-06-14	armed	M
+430	Christopher DeLeon	Hispanic	28	2015-06-16	armed	M
+431	Joe Charboneau	Native	31	2015-06-16	armed	M
+432	Wendy Chappell	White	40	2015-06-17	armed	F
+433	Kenneth Lanphier	White	48	2015-06-17	armed	M
+434	Oleg Tcherniak	White	58	2015-06-18	armed	M
+435	Santos Laboy	Hispanic	44	2015-06-19	armed	M
+436	Trepierre Hummons	Black	21	2015-06-19	armed	M
+437	Louis Atencio	Hispanic	50	2015-06-19	armed	M
+438	Alfontish Cockerham	Black	23	2015-06-20	armed	M
+440	Charles  Marshall	White	49	2015-06-21	armed	M
+441	James Monroe Barrett	White	60	2015-06-22	armed	M
+442	Eduardo Reyes	Hispanic	35	2015-06-22	armed	M
+443	Tyler Wicks	White	29	2015-06-22	armed	M
+444	Tyrone Harris	Black	20	2015-06-22	armed	M
+446	Jonathan Wilson	White	22	2015-06-23	armed	M
+447	Randall Waddel	White	49	2015-06-23	armed	M
+448	Taylor Culbertson	White	32	2015-06-23	armed	M
+449	Damien A. Harrell	Black	26	2015-06-24	armed	M
+451	Gilbert Jake Vanderburgh	White	61	2015-06-25	armed	M
+452	Richard Matt	White	49	2015-06-26	armed	M
+453	Joe Angel Cisneros	Hispanic	28	2015-06-26	armed	M
+454	Joshua Crittenden	White	35	2015-06-27	armed	M
+455	Alan  Bellew	White	29	2015-06-28	armed	M
+456	Richard LaPort	White	51	2015-06-29	armed	M
+457	Clay Alan  Lickteig	White	52	2015-06-30	armed	M
+458	Kevin Lamont Judson	Black	24	2015-07-01	armed	M
+459	Kaleb Landon	White	32	2015-07-01	armed	M
+460	Douglas Buckley	White	45	2015-07-02	armed	M
+461	Ton Nguyen	Asian	60	2015-07-02	armed	M
+463	Arturo Lopez	Hispanic	46	2015-07-03	armed	M
+464	Oscar Camacho	Hispanic	33	2015-07-03	armed	M
+465	Joseph Julian	White	40	2015-07-03	armed	M
+466	Cesar A. Limon Juarez	Hispanic	27	2015-07-03	armed	M
+467	Robert Elando Malone	Black	42	2015-07-04	armed	M
+468	Michael Shannon Gaby	White	37	2015-07-04	armed	M
+469	Kawanza Beaty	Black	23	2015-07-04	armed	M
+470	Bryan David Bauer	White	36	2015-07-04	armed	M
+472	Michael Holt	White	35	2015-07-05	armed	M
+474	Richard Munroe	White	25	2015-07-05	armed	M
+475	Tyler Rogers	White	20	2015-07-06	armed	M
+476	Hagen Esty-Lennon	White	42	2015-07-06	armed	M
+477	Jason Hendley	Black	29	2015-07-06	armed	M
+478	David Oliva Sarabia	Hispanic	42	2015-07-06	armed	M
+479	John Leonard Berry	White	31	2015-07-06	armed	M
+480	Marcellus Jamarcus Burley	Black	18	2015-07-07	armed	M
+481	Adam Dujanovic	White	33	2015-07-07	armed	M
+482	Joe Cody	White	59	2015-07-07	armed	M
+483	Daniel Hernandez	Hispanic	47	2015-07-07	armed	M
+484	Jose Graciano Lopez	Hispanic	39	2015-07-07	armed	M
+485	Tremaine Dantzler	Black	37	2015-07-07	armed	M
+486	Nicholas Booth	White	35	2015-07-07	armed	M
+487	Joshua Blough	White	28	2015-07-07	armed	M
+488	Michael Terence Westrich	White	59	2015-07-08	armed	M
+489	Dallas Shatley	White	62	2015-07-08	armed	M
+490	Rocco Joseph Palmisano	White	50	2015-07-09	armed	M
+491	Robert Hammonds	White	68	2015-07-09	armed	M
+492	Martice Milliner	Black	27	2015-07-09	armed	M
+493	Cyrus Hurtado	White	17	2015-07-09	armed	M
+494	Javon Hawkins	Black	21	2015-07-09	armed	M
+495	Neil White	White	38	2015-07-09	armed	M
+496	James Michael Todora	White	54	2015-07-10	armed	M
+497	Freddie Blue	Black	20	2015-07-10	armed	M
+498	Eugene McSwain	Black	25	2015-07-10	armed	M
+499	Billy Maine	White	31	2015-07-11	armed	M
+500	Paul Castaway	Native	35	2015-07-12	armed	M
+501	David Lepine	White	60	2015-07-12	armed	M
+502	Matthew Watson	White	24	2015-07-12	armed	M
+503	Christopher Benton	White	27	2015-07-12	armed	M
+505	Frederick Farmer	Black	20	2015-07-13	armed	M
+506	Matthew Ryan Graham	White	24	2015-07-13	armed	M
+507	Rafael Suazo	Hispanic	23	2015-07-13	armed	M
+508	Jason Davis	White	41	2015-07-13	armed	M
+509	Chacarion Avant	Black	20	2015-07-14	armed	M
+510	Eugene Kailing	White	43	2015-07-15	armed	M
+511	Antonio Gonzalez	Hispanic	29	2015-07-16	armed	M
+512	Edward Foster III	Black	35	2015-07-16	armed	M
+513	Patrick Stephen Pippin	White	30	2015-07-16	armed	M
+514	Mohammad Youssef Abdulazeez	Other	24	2015-07-16	armed	M
+515	Saige Hack	Native	23	2015-07-16	armed	M
+516	Pierre Gabriel Koellner	White	29	2015-07-16	armed	M
+517	Anthonie Smith	Black	25	2015-07-16	armed	M
+518	Samuel Smith	White	27	2015-07-17	armed	M
+519	Jackie Brand	White	50	2015-07-17	armed	M
+521	Jose Roman Rodriguez	Hispanic	24	2015-07-17	armed	M
+523	David  Wheat Jr.	White	22	2015-07-18	armed	M
+524	Kevin Thomas Snyder	White	46	2015-07-18	armed	M
+525	Charles Edward Dewey	White	65	2015-07-18	armed	M
+527	Joshua LeBoeuf	White	35	2015-07-20	armed	M
+529	Joseph Fuller	White	24	2015-07-21	armed	M
+530	Jerrod Tyre	White	35	2015-07-21	armed	M
+531	Francisco Benitez-Santiago	Hispanic	25	2015-07-22	armed	M
+532	Devon Guisherd	Black	27	2015-07-22	armed	M
+533	Andre Dontrell Williams	Black	26	2015-07-22	armed	M
+534	Dontae L. Martin	Black	34	2015-07-23	armed	M
+535	Brian Stortzum	White	32	2015-07-23	armed	M
+536	Robbie Lee Edison	White	47	2015-07-23	armed	M
+537	Tamala Satre	White	44	2015-07-23	armed	F
+539	Seth Raines	White	44	2015-07-24	armed	M
+540	Lee Aaron Gerston	White	30	2015-07-24	armed	M
+541	Christopher Olmstead	White	60	2015-07-25	armed	M
+542	Roger Braswell	White	50	2015-07-25	armed	M
+543	Bryan Keith  Day	Black	36	2015-07-25	armed	M
+544	Earl Jackson	Black	59	2015-07-25	armed	M
+545	Khari Westly	Black	33	2015-07-26	armed	M
+546	Zachary Hammond	White	19	2015-07-26	armed	M
+547	Timothy Milliken	White	56	2015-07-27	armed	M
+548	Jean Paul Falgout	White	45	2015-07-27	armed	M
+549	Samuel Forgy	White	22	2015-07-27	armed	M
+550	Michael Malone	Hispanic	34	2015-07-29	armed	M
+551	Roger Darrin Barker	White	53	2015-07-29	armed	M
+552	Mark Perkins	White	48	2015-07-30	armed	M
+553	Ryan Daniel Vrenon	White	25	2015-07-30	armed	M
+554	Philip Vallejo	Hispanic	30	2015-07-30	armed	M
+555	Oscar Lotari Romero	Hispanic	47	2015-07-30	armed	M
+556	Rafael Molina	Hispanic	33	2015-07-31	armed	M
+557	Jeremy  Hatch	White	34	2015-07-31	armed	M
+558	Armando Serrano	Hispanic	29	2015-08-01	armed	M
+559	Virgil Reynolds	White	63	2015-08-02	armed	M
+560	Antonio Clements	Black	49	2015-08-03	armed	M
+561	Joshua Malave	White	18	2015-08-03	armed	M
+562	Franklin Short	White	71	2015-08-03	armed	M
+563	Shawn Ruble	White	35	2015-08-03	armed	M
+564	Daniel Robert Avila	Hispanic	55	2015-08-04	armed	M
+565	Darius D. Graves	Black	31	2015-08-04	armed	M
+566	Tyler Alexander Dattilo	White	18	2015-08-05	armed	M
+567	John Dieringer	White	51	2015-08-05	armed	M
+568	Raymond Hodge	Black	39	2015-08-05	armed	M
+569	Keshawn Dominique Hargrove	Black	20	2015-08-05	armed	M
+570	Vincente Montano	White	29	2015-08-05	armed	M
+571	Jason Galaviz	White	40	2015-08-05	armed	M
+572	Gustavo Ponce-Galon	Hispanic	42	2015-08-06	armed	M
+573	Charles Bertram	Black	22	2015-08-06	armed	M
+575	Abel Correa	Hispanic	24	2015-08-07	armed	M
+576	Aaron Marchese	White	30	2015-08-07	armed	M
+577	Mark Keckhafer	White	53	2015-08-07	armed	M
+578	Tsombe Clark	Black	25	2015-08-07	armed	M
+579	Derrick Lee Hunt	Black	28	2015-08-07	armed	M
+580	Shamir Terrel Palmer	Black	24	2015-08-08	armed	M
+581	Jeffrey Clyde Wilkes	White	59	2015-08-08	armed	M
+582	Kevin McDaniel	White	46	2015-08-08	armed	M
+583	Andre Green	Black	15	2015-08-09	armed	M
+584	Eric Tompkins	White	41	2015-08-09	armed	M
+585	Edrian Rivera	Hispanic	22	2015-08-09	armed	M
+586	Richard Tyler Young	White	24	2015-08-10	armed	M
+587	Casey George Alarcon	White	34	2015-08-11	armed	M
+588	Randall Lance Hughes	White	48	2015-08-11	armed	M
+589	Richard Dean Shull Jr.	White	24	2015-08-12	armed	M
+590	Nathaniel Wilks	Black	27	2015-08-12	armed	M
+591	Anthony Lorenzo Vallejo	Hispanic	27	2015-08-12	armed	M
+592	Reginald Marshall	Black	27	2015-08-12	armed	M
+593	William Smith	White	49	2015-08-12	armed	M
+594	Redel Jones	Black	30	2015-08-12	armed	F
+595	Garland Tyree	Black	38	2015-08-14	armed	M
+596	Hector Rene Sorriano Gonzalez	Hispanic	26	2015-08-14	armed	M
+598	Christopher Anderson	White	53	2015-08-14	armed	M
+599	Allen Matthew Baker	Black	23	2015-08-15	armed	M
+600	Benjamin Peter Ashley	Black	34	2015-08-15	armed	M
+601	Jonathon  Pope	White	30	2015-08-15	armed	M
+603	Matthew Castillo	Hispanic	29	2015-08-16	armed	M
+604	Steven B. Norton	White	47	2015-08-16	armed	M
+605	Frederick Roy	Black	35	2015-08-17	armed	M
+607	Mansur Ball-Bey	Black	18	2015-08-19	armed	M
+608	Deviere Ernel Ransom	Black	24	2015-08-19	armed	M
+609	Jason Hale	White	29	2015-08-19	armed	M
+610	Wade Allen Baker	White	44	2015-08-19	armed	M
+611	Raul Herrera	Hispanic	17	2015-08-20	armed	M
+612	Tyler Gerken	White	19	2015-08-20	armed	M
+614	Timmy Walling	White	57	2015-08-21	armed	M
+615	Charles S. Hall	White	30	2015-08-21	armed	M
+616	Alan Joseph Rushton	White	38	2015-08-21	armed	M
+617	Adam Schneider	White	31	2015-08-22	armed	M
+618	Jason Lee Alderman	White	29	2015-08-22	armed	M
+619	Nicholas Garner	White	26	2015-08-22	armed	M
+620	Kenneth Henry Morgan	White	64	2015-08-22	armed	M
+621	Thaddeus Faison	Black	39	2015-08-22	armed	M
+622	William Lee Snider	White	57	2015-08-23	armed	M
+623	Richard Francis Compo	White	36	2015-08-23	armed	M
+624	Christopher Ray Tompkins	White	36	2015-08-23	armed	M
+625	Julian Hoffman	White	21	2015-08-23	armed	M
+626	Bobby Troledge Norris	Black	53	2015-08-23	armed	M
+627	Marvin Maestas	Hispanic	30	2015-08-25	armed	M
+628	Curtis Smith	Black	34	2015-08-25	armed	M
+629	Todd Tomlinson	White	53	2015-08-25	armed	M
+630	Shane Rudolph	White	45	2015-08-25	armed	M
+631	Marvin Arroliga	Hispanic	22	2015-08-25	armed	M
+632	Steven Dodd	White	22	2015-08-26	armed	M
+633	Brent Pickard	White	46	2015-08-26	armed	M
+634	Kyle Lambrose	White	27	2015-08-26	armed	M
+635	Yonas Alehegne	Black	30	2015-08-27	armed	M
+636	Robert Hober	White	54	2015-08-27	armed	M
+637	Manuel Soriano	Hispanic	29	2015-08-27	armed	M
+638	Bertrand Davis	Black	42	2015-08-27	armed	M
+639	Gilbert Flores	Hispanic	41	2015-08-28	armed	M
+640	William Evans	White	28	2015-08-28	armed	M
+642	Devin Brian Dial	White	23	2015-08-28	armed	M
+643	James Marcus Brown	Black	25	2015-08-29	armed	M
+644	Roger Albrecht	White	37.11793090137039	2015-08-29	armed	M
+646	Shawn Hall	White	20	2015-08-30	armed	M
+647	David M.  Leon	Hispanic	40	2015-08-30	armed	M
+648	William Rippley	White	45	2015-08-31	armed	M
+649	Cedric Maurice Williams	Black	33	2015-09-01	armed	M
+650	Charles Robert Shaw	White	76	2015-09-01	armed	M
+651	Michael Todd Evans	White	47	2015-09-01	armed	M
+652	Arthur Bates	White	45	2015-09-02	armed	M
+654	Curtis James Meyer	White	37	2015-09-04	armed	M
+655	Richard Keith Kelley	White	27	2015-09-04	armed	M
+656	Sully Lanier	White	36	2015-09-04	armed	M
+657	Harrison Lambert	White	23	2015-09-04	armed	M
+658	Jose Ramon Damiani Jr	Hispanic	49	2015-09-04	armed	M
+659	La'vante Trevon Biggs	Black	21	2015-09-05	armed	M
+660	Luis Wenceslao	Hispanic	32	2015-09-05	armed	M
+661	Angelo Delano Perry	Black	35	2015-09-05	armed	M
+663	Carlos Yero	Hispanic	59	2015-09-06	armed	M
+664	Mohamed Ibrahim	Black	28	2015-09-06	armed	M
+665	William Verrett	White	45	2015-09-06	armed	M
+666	Casimero Carlos Casillas	Hispanic	45	2015-09-07	armed	M
+667	Tristan Vent	Native	19	2015-09-08	armed	M
+668	Dustin Kuik	White	25	2015-09-09	armed	M
+669	Tyrone Holman	Black	37	2015-09-09	armed	M
+670	Vincent J. Perdue	Native	33	2015-09-09	armed	M
+671	William Chau	Asian	59	2015-09-09	armed	M
+672	Tian Ma	Asian	31	2015-09-10	armed	M
+673	Brandon Foy	Black	29	2015-09-10	armed	M
+674	 Austin Wilburly  Reid	White	32	2015-09-10	armed	M
+675	Eddie Tapia	Hispanic	41	2015-09-10	armed	M
+676	Robert T. Edwards	White	31	2015-09-11	armed	M
+677	Phillip Pfleghardt	White	44	2015-09-11	armed	M
+678	Derick Davis	White	23	2015-09-12	armed	M
+679	Jack Stevens Jr.	White	45	2015-09-12	armed	M
+680	Martin Francis Hammen	White	39	2015-09-13	armed	M
+681	Clifford Butler	Black	67	2015-09-13	armed	M
+682	Jeffrey Eugene Brooks	White	29	2015-09-13	armed	M
+683	Joseph Thompson Johnson-Shanks	Black	25	2015-09-14	armed	M
+685	Tyrone Bass	Black	21	2015-09-15	armed	M
+686	Florencio Chaidez	Hispanic	32	2015-09-15	armed	M
+687	Jorge  Suarez-Ruiz	Hispanic	51	2015-09-15	armed	M
+688	Carlos Wilhelm	Hispanic	39	2015-09-15	armed	M
+689	Bobby R. Anderson	Black	27	2015-09-15	armed	M
+690	Rory Lynn Gunderman	White	31	2015-09-16	armed	M
+691	Mark Gary	White	50	2015-09-17	armed	M
+692	Lawrence Price	White	37.11793090137039	2015-09-17	armed	M
+693	Nicholas Alan Johnson	White	32	2015-09-18	armed	M
+694	Gregory Herrell	White	47	2015-09-18	armed	M
+695	Lucien Rolland	White	46	2015-09-19	armed	M
+696	Scott Beech	White	57	2015-09-19	armed	M
+697	Michael Thomas Pierce	White	23	2015-09-20	armed	M
+698	Jerrald Wright	White	56	2015-09-20	armed	M
+699	Gerardo Ramirez	Hispanic	24	2015-09-21	armed	M
+700	William Spaits	White	27	2015-09-21	armed	M
+701	Tina Money	White	23	2015-09-21	armed	F
+702	Timothy Wagner	White	26	2015-09-21	armed	M
+703	Dominic Fuller	Hispanic	34	2015-09-21	armed	M
+705	Dante Osborne	Black	32	2015-09-22	armed	M
+706	Joel Dixon Smith	White	33	2015-09-22	armed	M
+707	Tim Kyle Torngren	White	55	2015-09-22	armed	M
+708	Robert Berger	Other	48	2015-09-23	armed	M
+709	Joseph Khammash	White	35	2015-09-23	armed	M
+711	Kenneth Ray Pinter	White	45	2015-09-23	armed	M
+712	Jeremy McDole	Black	28	2015-09-23	armed	M
+713	Ernesto Medina Lopez	Hispanic	42	2015-09-24	armed	M
+714	Patrick O'Grady	White	17	2015-09-24	armed	M
+715	Philip Quinn	Other	30	2015-09-24	armed	M
+717	Jeffrey Blood	White	45	2015-09-25	armed	M
+718	James Anderson	Black	33	2015-09-25	armed	M
+719	Anthony McKinney	Black	46	2015-09-26	armed	M
+720	Alejandro Lerma	Hispanic	23	2015-09-26	armed	M
+721	Norma Angelica Guzman	Hispanic	37	2015-09-27	armed	F
+722	Christopher Shell	White	43	2015-09-27	armed	M
+723	Victor Oswaldo Coronado-Martinez	Hispanic	40	2015-09-27	armed	M
+724	Alberto Hernandez	Hispanic	59	2015-09-28	armed	M
+726	Patrick Stephen Lundstrom	Native	46	2015-09-29	armed	M
+728	Brandon Lamar Johnson	Black	28	2015-09-30	armed	M
+729	David M. Diaz	Hispanic	28	2015-10-02	armed	M
+730	Phyllis Ilene Jepsen	White	55	2015-10-02	armed	F
+732	Christian Pena	Hispanic	26	2015-10-02	armed	M
+733	Eric Edgell	White	27	2015-10-04	armed	M
+734	Jeffery McCallum	Black	31	2015-10-04	armed	M
+735	James  Dunaway	White	51	2015-10-05	armed	M
+736	Rodney Jencsik	White	50	2015-10-05	armed	M
+738	Charles A. Pettit	Black	18	2015-10-05	armed	M
+739	Amado Lago	Hispanic	46	2015-10-07	armed	M
+740	Gary Carmona Boitano	Black	19	2015-10-09	armed	M
+741	Christopher Whitmarsh	White	49	2015-10-10	armed	M
+742	Richard Love	White	31	2015-10-10	armed	M
+743	William Combs	White	38	2015-10-10	armed	M
+744	Travis Quay	White	40	2015-10-10	armed	M
+745	Anthony Aguilar	Hispanic	35	2015-10-10	armed	M
+746	Joe Pasquez Ortiz	Hispanic	34	2015-10-11	armed	M
+747	Kevin Lau	Asian	44	2015-10-11	armed	M
+748	Bernard Brandon Powers	Black	23	2015-10-11	armed	M
+749	Robert Humberto Medellin	Hispanic	43	2015-10-11	armed	M
+750	Jason Day	Black	37.11793090137039	2015-10-12	armed	M
+751	Rudolph Smith	White	31	2015-10-12	armed	M
+752	Brent Brannon	White	27	2015-10-14	armed	M
+753	Michelle Marie Burg	White	46	2015-10-14	armed	F
+754	Samuel Villarreal	Hispanic	18	2015-10-14	armed	M
+755	Leslie Portis	Black	57	2015-10-14	armed	M
+756	Jorge Santiago Tapia	Hispanic	15	2015-10-15	armed	M
+757	Kaleb Alexander	Black	25	2015-10-15	armed	M
+758	Linda Lee Lush	White	50	2015-10-15	armed	F
+759	Michael J. Brennan	White	31	2015-10-15	armed	M
+760	Robert Burgess	White	35	2015-10-15	armed	M
+761	Herbert Benitez	Hispanic	27	2015-10-15	armed	M
+762	Martin  Ryans Jr.	Black	20	2015-10-15	armed	M
+764	Ricky Javenta Ball	Black	33	2015-10-16	armed	M
+765	Jeffrey Womack	White	27	2015-10-16	armed	M
+766	Gino Paredes	Hispanic	22	2015-10-17	armed	M
+767	Dequan Williams	Black	28	2015-10-17	armed	M
+768	Corey Jones	Black	31	2015-10-18	armed	M
+769	Krikor Ekizian	White	28	2015-10-18	armed	M
+770	Dion Lamont Ramirez	Black	53	2015-10-19	armed	M
+771	Roger D.  Hall	White	30	2015-10-20	armed	M
+772	Lamontez Jones	Black	39	2015-10-20	armed	M
+773	Joel Lopes	Hispanic	40	2015-10-20	armed	M
+774	Darien Greenwood	White	30	2015-10-20	armed	M
+775	Jonathan Tyler Gossman	White	21	2015-10-20	armed	M
+776	Miguel Angel Marin Galena	Hispanic	35	2015-10-21	armed	M
+778	Timothy Arnold	White	47	2015-10-21	armed	M
+779	Lawrence Green	Black	38	2015-10-22	armed	M
+780	Adriene Jamarr Ludd	Black	36	2015-10-22	armed	M
+781	Stephen H. Brock	White	53	2015-10-22	armed	M
+782	Juan Ulloa	Hispanic	34	2015-10-24	armed	M
+783	Rolly Thomas	Black	34	2015-10-24	armed	M
+784	Dominic Hutchinson	Black	30	2015-10-24	armed	M
+785	Arthur West	White	28	2015-10-24	armed	M
+786	Darren Myron Fude	White	47	2015-10-24	armed	M
+787	Jon Ployhar	White	49	2015-10-24	armed	M
+788	John Harley Turner	White	36	2015-10-25	armed	M
+789	Kevin Brunson	Black	45	2015-10-26	armed	M
+790	Marquesha McMillan	Black	21	2015-10-26	armed	F
+792	Tyrie Cuyler	Black	25	2015-10-27	armed	M
+794	Ricky Keith Keeton	White	57	2015-10-28	armed	M
+795	Jerry Michael Graham Jr.	Black	34	2015-10-28	armed	M
+796	Jasper Levi Adams	White	35	2015-10-28	armed	M
+797	Deaunte Lamar Bell	Black	37.11793090137039	2015-10-29	armed	M
+798	Allen Quintez Swader	White	18	2015-10-29	armed	M
+799	Floyd Ray Cook	White	62	2015-10-30	armed	M
+800	Mario Martinez	Hispanic	29	2015-10-30	armed	M
+801	Tony Berry	Black	25	2015-10-30	armed	M
+802	Daniel Nole	White	30	2015-10-30	armed	M
+803	Brian Crawford	Black	24	2015-10-30	armed	M
+804	Larry Busby	White	52	2015-10-30	armed	M
+805	Noah Harpham	White	33	2015-10-31	armed	M
+807	Luverne Roy Christensen	White	49	2015-11-01	armed	M
+808	Killian O'Quinn	White	20	2015-11-01	armed	M
+809	Jack Yantis	White	62	2015-11-01	armed	M
+810	James Covington	Black	62	2015-11-02	armed	M
+812	Joseph Tyndall	White	30	2015-11-04	armed	M
+813	John Allen	Black	57	2015-11-04	armed	M
+814	Faisal Mohammad	Other	18	2015-11-04	armed	M
+816	David  Romanoski	White	48	2015-11-05	armed	M
+817	James Bigley	White	20	2015-11-05	armed	M
+818	Jacob Hohman	White	30	2015-11-05	armed	M
+819	Laura Lemieux	White	36	2015-11-05	armed	F
+820	Michael  Johnson	White	51	2015-11-06	armed	M
+821	James Francis Smyth	White	55	2015-11-06	armed	M
+822	Kim Lee Long	White	48	2015-11-06	armed	M
+823	Delvin Simmons	Black	20	2015-11-09	armed	M
+824	Cesar Cuellar	Hispanic	25	2015-11-09	armed	M
+825	Dale Maverick Hudson	White	26	2015-11-09	armed	M
+826	Leonel Acevedo	Hispanic	45	2015-11-09	armed	M
+827	Miguel Cano	Hispanic	35	2015-11-09	armed	M
+828	Eddie Gabriel Sanchez	Hispanic	34	2015-11-10	armed	M
+829	Jason Leanard Mesaros	Hispanic	36	2015-11-10	armed	M
+830	Andrew Blake	White	22	2015-11-10	armed	M
+831	Dana Bruce Ott	White	63	2015-11-10	armed	M
+832	Joseph Jaramillo	Hispanic	31	2015-11-11	armed	M
+833	Javier Lopez Garcia	Hispanic	25	2015-11-11	armed	M
+834	Brian Gavin	White	57	2015-11-11	armed	M
+835	Ryan Quinn Martin	Black	32	2015-11-11	armed	M
+836	Moises Nero	Black	42	2015-11-12	armed	M
+837	Michael Joseph Bartkiewicz	White	52	2015-11-13	armed	M
+838	Ernesto Gamino	Hispanic	25	2015-11-13	armed	M
+839	Matthew Coleman	White	25	2015-11-13	armed	M
+840	Ramon Salazar	Hispanic	31	2015-11-14	armed	M
+841	Richard Perkins	Black	39	2015-11-15	armed	M
+842	Shane Whitehead	Black	16	2015-11-15	armed	M
+844	John David Livingston	White	32	2015-11-15	armed	M
+845	Brent Noblitt	White	25	2015-11-16	armed	M
+846	Cameron Davis Long	White	28	2015-11-16	armed	M
+847	Yohans Leon	Black	28	2015-11-17	armed	M
+848	Demetrius Bryant	Black	21	2015-11-17	armed	M
+849	Jeray Chatham	Black	30	2015-11-17	armed	M
+851	Francis Hartnett	White	47	2015-11-17	armed	M
+852	Michael Tindall	White	41	2015-11-17	armed	M
+853	Cornelius Brown	Black	25	2015-11-18	armed	M
+854	Marcus Meridy	Black	44	2015-11-18	armed	M
+855	Randy Allen Smith	Black	34	2015-11-19	armed	M
+856	Steve Dormil	Black	27	2015-11-19	armed	M
+857	Darick Napper	Black	34	2015-11-19	armed	M
+859	William Tarrant	White	39	2015-11-20	armed	M
+861	James Daniel Hall	White	47	2015-11-22	armed	M
+862	Matthew Grows	White	45	2015-11-22	armed	M
+863	Miguel Angel Martinez	Hispanic	28	2015-11-22	armed	M
+864	Barry Kirk	White	50	2015-11-23	armed	M
+865	Henry Reyna	Hispanic	49	2015-11-23	armed	M
+866	Michael Kirvelay	White	45	2015-11-24	armed	M
+867	Freddy Baez	Black	24	2015-11-24	armed	M
+868	Thomas Joseph Mceniry	White	32	2015-11-24	armed	M
+869	Magnum Edgar Phillips	White	23	2015-11-25	armed	M
+870	Douglas R. Slade	White	52	2015-11-25	armed	M
+871	Somer Speer	White	37	2015-11-25	armed	F
+873	Rick Gullickson	White	58	2015-11-27	armed	M
+874	Kevin Close	White	50	2015-11-28	armed	M
+875	Justin D. McHenry	White	22	2015-11-29	armed	M
+876	Lionel Kerns	White	53	2015-11-29	armed	M
+877	Ralph Aguilar	Hispanic	69	2015-11-29	armed	M
+878	Hugo Fernando Celio	Hispanic	23	2015-11-29	armed	M
+879	Zachary Grigsby	White	29	2015-11-29	armed	M
+880	Tuan Hoang	Asian	25	2015-11-30	armed	M
+881	Darius Smith	Black	18	2015-11-30	armed	M
+882	Fernando Sauceda	Hispanic	31	2015-11-30	armed	M
+883	Joshua  Jozefowicz 	White	23	2015-12-01	armed	M
+884	John Anthony Gonzalez	Hispanic	18	2015-12-01	armed	M
+885	Phillip Munoz	Hispanic	35	2015-12-02	armed	M
+886	Tashfeen Malik	Other	27	2015-12-02	armed	F
+887	Syed Farook	Other	28	2015-12-02	armed	M
+888	Mario Woods	Black	26	2015-12-02	armed	M
+889	Allen Pacheco	Hispanic	32	2015-12-02	armed	M
+890	Florencio Lucero	Hispanic	36	2015-12-02	armed	M
+891	Neil Scott Stretesky	White	66	2015-12-03	armed	M
+892	Raymone M. Davis	Black	21	2015-12-04	armed	M
+893	Ivan Krstic	White	47	2015-12-04	armed	M
+894	Colten Price Marcellus	White	24	2015-12-05	armed	M
+895	Michael L. Funk	White	60	2015-12-05	armed	M
+896	Sheilah Huck	White	61	2015-12-05	armed	F
+897	Juan Perez	Hispanic	38	2015-12-05	armed	M
+898	David  Winesett	White	51	2015-12-05	armed	M
+899	Raymond Azevedo	White	35	2015-12-06	armed	M
+900	Carlumandarlo Zaramo	Black	46	2015-12-06	armed	M
+901	John Alan Britton	White	48	2015-12-06	armed	M
+903	Derek Stokes	Black	33	2015-12-08	armed	M
+904	Christopher Higdon	White	66	2015-12-09	armed	M
+905	Jason Bryant	White	34	2015-12-10	armed	M
+906	Charles Edward Rosemond	Black	55	2015-12-10	armed	M
+907	Thomas Arthur Gendreau	White	54	2015-12-10	armed	M
+909	Christopher Goodlow	Black	25	2015-12-12	armed	M
+910	Javario Shante Eagle	Black	24	2015-12-12	armed	M
+911	Nicholas Robertson	Black	28	2015-12-12	armed	M
+912	Jonathan Wardlow	White	36	2015-12-12	armed	M
+913	Andrew Jospeh Todd	White	20	2015-12-12	armed	M
+914	Roy Carreon	Hispanic	49	2015-12-12	armed	M
+915	Shirley  Weis	White	51	2015-12-13	armed	F
+916	Ryan McMillan	White	21	2015-12-13	armed	M
+917	Nephi  Leiataua	Other	30	2015-12-13	armed	M
+918	Enrique Gonzalez	Hispanic	32	2015-12-13	armed	M
+919	Calvin McKinnis	Black	33	2015-12-14	armed	M
+920	Michael  Thomason	White	56	2015-12-14	armed	M
+921	Brenda Dean Kimberling	White	48	2015-12-14	armed	F
+922	Mharloun Verdejo  Saycon	Asian	39	2015-12-14	armed	M
+923	Hector Alvarez	Hispanic	19	2015-12-14	armed	M
+924	Roberto Sanchez	Hispanic	45	2015-12-14	armed	M
+925	Mark Toney	White	33	2015-12-14	armed	M
+926	Jeffrey Gene Evans	White	52	2015-12-14	armed	M
+927	Ronnie Dubose Carter	Black	51	2015-12-15	armed	M
+928	Bryant Neil Duncan	White	37.11793090137039	2015-12-16	armed	M
+929	Douglas Yon	White	25	2015-12-17	armed	M
+930	Christopher Fletcher	White	24	2015-12-17	armed	M
+931	Erica Lauro	White	22	2015-12-18	armed	F
+932	Amos Frerichs	White	32	2015-12-18	armed	M
+933	Robert L. Martinez	Hispanic	58	2015-12-18	armed	M
+934	Trayvon Scruggs	Black	24	2015-12-19	armed	M
+935	Ruben Jose Herrera	Hispanic	26	2015-12-19	armed	M
+936	Leroy Browning	Black	30	2015-12-20	armed	M
+937	Mark  Ramirez	Hispanic	31	2015-12-20	armed	M
+938	Guadalupe Quiroz	Hispanic	34	2015-12-21	armed	M
+939	Bobby Daniels	Black	48	2015-12-21	armed	M
+941	Derek DeGroat	White	21	2015-12-21	armed	M
+942	Robert L. Teter	White	39	2015-12-21	armed	M
+943	Chan Leith	Black	25	2015-12-21	armed	M
+944	Brandon Barsnick	White	30	2015-12-21	armed	M
+945	Kenneth Stephens	White	56	2015-12-22	armed	M
+946	Michael Hilber	White	29	2015-12-22	armed	M
+947	Jose  Rodriguez	Hispanic	19	2015-12-22	armed	M
+949	Schuylar Gunning	White	36	2015-12-24	armed	M
+950	Terrozza Tyree Griffin	Black	24	2015-12-24	armed	M
+951	Omar Ventura	Hispanic	23	2015-12-24	armed	M
+952	William David Raff	White	31	2015-12-25	armed	M
+953	Lonnie Niesen	White	41	2015-12-26	armed	M
+955	Quintonio LeGrier	Black	19	2015-12-26	armed	M
+956	Gilbert Heredia	Hispanic	38	2015-12-26	armed	M
+957	Michael Parker	White	36	2015-12-27	armed	M
+958	Sean Mould	White	34	2015-12-27	armed	M
+959	Gayneaux Paul Trahan	White	52	2015-12-27	armed	M
+960	Corey Jason Achstein	White	28	2015-12-28	armed	M
+961	Siolosega Velega-Nuufolau	Other	50	2015-12-29	armed	F
+962	Tien Hua	Asian	37.11793090137039	2015-12-29	armed	M
+963	Fred Perez	Hispanic	55	2015-12-30	armed	M
+965	Joshua Sisson	White	30	2016-01-01	armed	M
+966	Lance Light	White	54	2016-01-02	armed	M
+967	Lonnie Haskell Powers	White	37	2016-01-02	armed	M
+968	Sean O'Brien	White	37	2016-01-02	armed	M
+969	Germonta Wallace	Black	30	2016-01-03	armed	M
+970	Eric John Senegal	Black	27	2016-01-04	armed	M
+971	Rodney Turner	Black	22	2016-01-04	armed	M
+972	Joel Anthony Nelson	White	29	2016-01-05	armed	M
+973	James K. Maher	White	39	2016-01-05	armed	M
+974	Carlton Antonio Murphy	Black	33	2016-01-05	armed	M
+975	Stephen Bukwich	White	52	2016-01-05	armed	M
+976	Albert Thompson	Hispanic	28	2016-01-05	armed	M
+977	David Zollo	White	54	2016-01-05	armed	M
+978	Charles Hollstein	White	38	2016-01-06	armed	M
+979	Alan Huberth Franco-Armenta	Hispanic	32	2016-01-06	armed	M
+980	Kenneth Clay	White	34	2016-01-06	armed	M
+981	Eric C. Olsen	White	26	2016-01-08	armed	M
+982	Andrew Earl Abernathy	White	50	2016-01-08	armed	M
+983	David Jay Kent	White	37	2016-01-10	armed	M
+984	Christine A. Lucas	White	45	2016-01-10	armed	F
+985	Alan Paul Bartley	White	56	2016-01-11	armed	M
+986	Robert Tenbrink	White	45	2016-01-11	armed	M
+987	Ramone Lonergan	White	32	2016-01-11	armed	M
+989	Herman Bean	Native	49	2016-01-12	armed	M
+990	Keith Richardson	White	58	2016-01-12	armed	M
+991	Brandon Bearden	White	29	2016-01-13	armed	M
+992	Timothy Meehan	White	60	2016-01-13	armed	M
+993	Willie Holderfield	White	40	2016-01-14	armed	M
+994	Miguel Hernandez	Hispanic	39	2016-01-14	armed	M
+995	William Keith Waldron	White	26	2016-01-15	armed	M
+996	Rakeem Bentley	Black	24	2016-01-15	armed	M
+997	Alfred Longoria	Hispanic	34	2016-01-16	armed	M
+998	Ashton Lane Morris	White	27	2016-01-16	armed	M
+999	Adam Karjalainen	White	44	2016-01-16	armed	M
+1001	Clarence Layfield	White	55	2016-01-16	armed	M
+1002	Henry Bennett	Black	19	2016-01-16	armed	M
+1003	Crayton West	Black	52	2016-01-17	armed	M
+1004	Corey Lee Henderson	White	31	2016-01-17	armed	M
+1006	Efrain Herrera	Hispanic	24	2016-01-17	armed	M
+1007	Joshua Tate Fielding	White	38	2016-01-17	armed	M
+1008	Jordan Szymanski	White	33	2016-01-18	armed	M
+1009	Eric Provost	White	28	2016-01-18	armed	M
+1010	Timothy Caruthers	White	27	2016-01-18	armed	M
+1011	Levi Gene Wilson	White	39	2016-01-18	armed	M
+1012	Vasilios Alexander Katsouras	White	29	2016-01-18	armed	M
+1013	Gary Wayne Jones	White	36	2016-01-19	armed	M
+1014	Samuel Grady	White	55	2016-01-19	armed	M
+1015	Jim Redmond	White	28	2016-01-19	armed	M
+1016	Timothy Albert	Black	40	2016-01-20	armed	M
+1017	Randy Joe Sanders	White	33	2016-01-20	armed	M
+1018	Michael Clyde Lynch	White	37	2016-01-20	armed	M
+1019	Cedric Norris	Black	39	2016-01-21	armed	M
+1020	Michael Lamar Robinson	White	43	2016-01-23	armed	M
+1021	Sergio Alvarado-Morales	Hispanic	38	2016-01-25	armed	M
+1022	Robert "LaVoy" Finicum	White	55	2016-01-26	armed	M
+1023	Scott Scanlon	White	52	2016-01-27	armed	M
+1024	Johnathan Bratcher	Black	32	2016-01-27	armed	M
+1025	Herman Flores	Hispanic	31	2016-01-27	armed	M
+1026	John Wesley Smith	White	27	2016-01-27	armed	M
+1027	Thongsavanh Vandarack	Asian	40	2016-01-27	armed	M
+1028	Janet Wilson	Black	31	2016-01-27	armed	F
+1029	Nathan Lee Bailey	White	30	2016-01-27	armed	M
+1030	Israel Vladimir Rodriguez	Hispanic	26	2016-01-27	armed	M
+1031	Jacqueline D. Salyers	Native	32	2016-01-28	armed	F
+1032	William A. Adams	White	33	2016-01-28	armed	M
+1033	Christopher Kalonji	Black	19	2016-01-28	armed	M
+1034	Randolph McClain	Black	33	2016-01-29	armed	M
+1035	Christopher Michael Dew	Black	29	2016-01-29	armed	M
+1036	Angela Hiatt	White	41	2016-01-29	armed	F
+1037	Charles M. Smith	Black	29	2016-01-30	armed	M
+1038	Philip B. Salazar	Hispanic	38	2016-01-30	armed	M
+1039	Jose Alegre	Hispanic	64	2016-01-30	armed	M
+1040	Jeremy J. Sinclair	White	42	2016-01-30	armed	M
+1041	Juan A. Ruiz	Hispanic	46	2016-01-31	armed	M
+1042	Joshua Shane Bispo	White	42	2016-01-31	armed	M
+1043	Bruce Kelley	Black	37	2016-01-31	armed	M
+1045	Peter John	Black	36	2016-02-01	armed	M
+1046	Edgar Rene Alvarado	Hispanic	21	2016-02-01	armed	M
+1047	Justin Prescott	White	30	2016-02-02	armed	M
+1048	John Henry Neuman	White	53	2016-02-03	armed	M
+1049	Cristiaan Oliver Dubrino	Hispanic	31	2016-02-03	armed	M
+1050	Raymond Gassman	Native	22	2016-02-03	armed	M
+1051	Kayden Clarke	White	24	2016-02-04	armed	M
+1053	Scott Harless	White	47	2016-02-04	armed	M
+1054	Thomas Hirko	White	54	2016-02-04	armed	M
+1055	Hector Leroy	Hispanic	43	2016-02-04	armed	M
+1056	Ronald Barawis	Other	38	2016-02-05	armed	M
+1057	Blake Edward Fitzgerald	White	30	2016-02-05	armed	M
+1058	Vinson Ray Strickland	White	51	2016-02-05	armed	M
+1059	Phillip Ferry	White	55	2016-02-05	armed	M
+1060	Jose Mendez	Hispanic	16	2016-02-06	armed	M
+1061	Marese V. Collins	Black	23	2016-02-07	armed	M
+1062	Phillip Luchsinger	White	36	2016-02-07	armed	M
+1063	Shalamar Longer	Black	33	2016-02-08	armed	M
+1065	Eric Harris	Black	22	2016-02-08	armed	M
+1067	Scottie Yanagawa	Other	29	2016-02-09	armed	M
+1068	Timothy Vessels	White	41	2016-02-10	armed	M
+1069	David Brian Evans	White	67	2016-02-10	armed	M
+1070	Vincent Nageak	Native	36	2016-02-10	armed	M
+1071	John Birkeland	White	52	2016-02-10	armed	M
+1072	Anthony Bertoni	Other	56	2016-02-10	armed	M
+1073	Alijah Jackson	White	35	2016-02-11	armed	M
+1074	Matthew Quinn	White	45	2016-02-11	armed	M
+1075	Mohamed Barry	Black	30	2016-02-11	armed	M
+1076	Peter Fanfan	Black	29	2016-02-12	armed	M
+1077	David Glen Watson	White	53	2016-02-12	armed	M
+1078	Sahlah Ridgeway	Black	32	2016-02-12	armed	F
+1079	Calvin Smith	Black	22	2016-02-13	armed	M
+1082	Ali Eisa Abdalla Yahia	Black	29	2016-02-13	armed	M
+1083	Marc Stoddart	White	50	2016-02-14	armed	M
+1084	Eduardo Rodriguez	Hispanic	29	2016-02-14	armed	M
+1085	Rammy Jaradat	White	26	2016-02-14	armed	M
+1086	Brandon Lee Witt	White	39	2016-02-15	armed	M
+1087	Guadalupe Sauceda	Hispanic	52	2016-02-15	armed	M
+1088	Christopher Andrews	White	51	2016-02-16	armed	M
+1089	Destry Meikle	White	48	2016-02-16	armed	M
+1090	Shawn Henry Allen Dickens	White	30	2016-02-16	armed	M
+1091	Paul Gaston	Black	37	2016-02-17	armed	M
+1092	Jose Quintanilla	Hispanic	30	2016-02-18	armed	M
+1093	Oscar Reyes	Hispanic	35	2016-02-18	armed	M
+1094	Ronnie Padron	Hispanic	32	2016-02-18	armed	M
+1095	Joseph Noel	White	25	2016-02-18	armed	M
+1096	Justin Patrick Moses	White	35	2016-02-19	armed	M
+1097	Curtis James Dugger	White	31	2016-02-19	armed	M
+1098	Danny Rendon	Hispanic	30	2016-02-20	armed	M
+1099	Edgar Camacho-Alvarado	Hispanic	23	2016-02-20	armed	M
+1100	Marcos Perea	Black	41	2016-02-20	armed	M
+1101	Charles Lee Lambert	White	45	2016-02-20	armed	M
+1102	Che Taylor	Black	46	2016-02-21	armed	M
+1103	Sherrisa Homer	Native	36	2016-02-21	armed	F
+1104	Kisha Michael	Black	31	2016-02-21	armed	F
+1105	Marquintan Sandlin	Black	32	2016-02-21	armed	M
+1106	Patricia Kruger	Native	38	2016-02-21	armed	F
+1107	Gerardino Cayetano Gonzalez	Hispanic	33	2016-02-22	armed	M
+1108	Jamie Clark Long	White	45	2016-02-22	armed	M
+1109	David Michael Green	White	38	2016-02-22	armed	M
+1110	Rouven Loch	White	22	2016-02-22	armed	M
+1111	Travis Stevenson	Black	48	2016-02-23	armed	M
+1112	Angel Alan Gleason	Hispanic	36	2016-02-23	armed	M
+1113	Alex Buckner	White	26	2016-02-23	armed	M
+1114	Baltazar Ramos	Hispanic	39	2016-02-23	armed	M
+1115	Robert Keil	White	16	2016-02-24	armed	M
+1116	Martin Wirth	White	58	2016-02-24	armed	M
+1117	Victor Rivera	Hispanic	27	2016-02-24	armed	M
+1118	Francisco Garcia	Hispanic	26	2016-02-24	armed	M
+1120	Luke Miller	White	37	2016-02-25	armed	M
+1121	Greg Gunn	Black	56	2016-02-25	armed	M
+1122	Tristan Conti	White	19	2016-02-25	armed	M
+1123	Cedric Ford	Black	38	2016-02-25	armed	M
+1124	Kionte Desean Spencer	Black	18	2016-02-26	armed	M
+1126	Fernando Hernandez	Hispanic	23	2016-02-27	armed	M
+1127	Nathan Grissom	White	41	2016-02-28	armed	M
+1128	Earl Hicks	White	44	2016-02-28	armed	M
+1129	Akiel Denkins	Black	24	2016-02-29	armed	M
+1130	Dimitri Corcino	Hispanic	39	2016-03-01	armed	M
+1131	Jorge Brian Gonzalez	Hispanic	22	2016-03-01	armed	M
+1132	Mickey Dewayne Sweatt	White	37	2016-03-01	armed	M
+1134	Daniel Burkhardt	White	41	2016-03-02	armed	M
+1135	Sergio Ochoa	Hispanic	27	2016-03-03	armed	M
+1137	Darrell Bosell	White	34	2016-03-05	armed	M
+1138	Herbert Ballance	White	22	2016-03-05	armed	M
+1139	Mark Minnick	White	51	2016-03-06	armed	M
+1141	Osvaldo Torres	Hispanic	41	2016-03-06	armed	M
+1142	Philip Vitullo	White	49	2016-03-07	armed	M
+1143	Bryon Rosas	White	45	2016-03-07	armed	M
+1144	Randall J. Selsor	White	45	2016-03-07	armed	M
+1145	John Charles "JC" Graham	White	42	2016-03-07	armed	M
+1146	Daniel H. Chavez	Hispanic	41	2016-03-07	armed	M
+1147	Jeffrey Glen Casale	White	27	2016-03-08	armed	M
+1148	Wesley Sheppard	White	37	2016-03-10	armed	M
+1149	Arteair Porter Jr.	Black	22	2016-03-10	armed	M
+1150	Martin Hurtado	Hispanic	21	2016-03-10	armed	M
+1151	Jason Meador	White	50	2016-03-10	armed	M
+1152	German Gonzalez	Hispanic	23	2016-03-10	armed	M
+1153	Tyre Privott	Black	25	2016-03-11	armed	M
+1154	Manford "Butch" Moore Jr.	White	51	2016-03-11	armed	M
+1155	Jack Goodman	White	46	2016-03-11	armed	M
+1156	Teodoro Valencia	Hispanic	23	2016-03-11	armed	M
+1157	Christopher Michael Tokazowski	White	43	2016-03-12	armed	M
+1159	Marco Loud	Black	20	2016-03-12	armed	M
+1160	Gevork Alachadzhyan	White	45	2016-03-13	armed	M
+1163	Wesley Chad Deerman	White	26	2016-03-13	armed	M
+1164	Keith Montgomery Jr.	Black	24	2016-03-13	armed	M
+1165	Amy Jean McCoy	White	38	2016-03-13	armed	F
+1166	Jacai Colson	Black	28	2016-03-13	armed	M
+1167	Lamar Harris	Black	29	2016-03-14	armed	M
+1168	Joseph Harris	White	34	2016-03-15	armed	M
+1169	Daniel J. Wooters	White	38	2016-03-15	armed	M
+1170	Ed Russell McIver	White	43	2016-03-15	armed	M
+1172	Eric Hernandez	Hispanic	33	2016-03-16	armed	M
+1173	Dennis Penny	White	40	2016-03-16	armed	M
+1174	Map Kong	Asian	38	2016-03-17	armed	M
+1175	Sunny Chin	Asian	53	2016-03-17	armed	M
+1176	Scott Bennett	Black	29	2016-03-17	armed	M
+1177	Christopher Nelms	Black	30	2016-03-17	armed	M
+1178	David Alma Giles	White	60	2016-03-18	armed	M
+1179	India Beaty	Black	25	2016-03-19	armed	F
+1180	Joshua Douglas	White	24	2016-03-19	armed	M
+1181	Thurman Reynolds	Black	21	2016-03-19	armed	M
+1182	Dylan R. Whitaker	White	23	2016-03-19	armed	M
+1183	Boyd Keith Ballard	White	61	2016-03-20	armed	M
+1184	Clarence Briggs	White	54	2016-03-20	armed	M
+1185	Abraham Martinez	Hispanic	62	2016-03-20	armed	M
+1186	Robert Dentmond	Black	16	2016-03-20	armed	M
+1187	Dylan Pape	White	25	2016-03-21	armed	M
+1188	Edward J. Gorinski	White	28	2016-03-21	armed	M
+1189	Ralph "Phil" Grenon	White	76	2016-03-21	armed	M
+1190	Ethan James Rincon	Hispanic	25	2016-03-22	armed	M
+1191	Travis J. Blair	White	33	2016-03-22	armed	M
+1192	Daven Scott Hannu	White	51	2016-03-23	armed	M
+1193	Raymond Gonzalez	Hispanic	34	2016-03-23	armed	M
+1194	Alexio Allen	Black	30	2016-03-23	armed	M
+1195	Robert L. Dussourd	White	44	2016-03-24	armed	M
+1196	Dominique Silva	Black	24	2016-03-24	armed	M
+1197	Andrew Mike	White	29	2016-03-24	armed	M
+1198	Joel A. Gonzales	Hispanic	48	2016-03-24	armed	M
+1199	Mario Sandoval	Hispanic	19	2016-03-24	armed	M
+1200	Jermon Seals	Black	22	2016-03-24	armed	M
+1201	Jose Perez	Hispanic	39	2016-03-26	armed	M
+1202	Terrence Shane Blackburn	White	36	2016-03-26	armed	M
+1203	Donald Andrew White	White	55	2016-03-26	armed	M
+1204	Patrick Matthew McManamon	White	46	2016-03-26	armed	M
+1205	Jeffrey Lanahan	White	34	2016-03-27	armed	M
+1206	Loreal Tsingine	Native	27	2016-03-27	armed	F
+1207	Robert D. Guerin	White	33	2016-03-27	armed	M
+1208	Deriante Deon Miller	Black	18	2016-03-27	armed	M
+1209	Earl Ashby	White	33	2016-03-27	armed	M
+1210	Robert Morgan Garrison Jr.	White	51	2016-03-29	armed	M
+1211	Denise Fairchild	White	50	2016-03-29	armed	F
+1212	Joseph Louis Melvin	White	46	2016-03-29	armed	M
+1213	Angel Montion	White	33	2016-03-30	armed	M
+1214	Ruben Cossyleon	Hispanic	25	2016-03-30	armed	M
+1215	Thomas Lagano	White	52	2016-03-30	armed	M
+1216	Kimani Johnson	Black	18	2016-03-31	armed	M
+1217	Matthew Vincent Wood	Black	43	2016-03-31	armed	M
+1218	James Brown III	Black	34	2016-03-31	armed	M
+1219	James Craig Simpson	Black	31	2016-03-31	armed	M
+1220	Jesus Juarez	Hispanic	65	2016-04-01	armed	M
+1221	Joel Fabela	Hispanic	37	2016-04-01	armed	M
+1222	Cameron Gover	Black	30	2016-04-02	armed	M
+1223	Melissa Boarts	White	36	2016-04-03	armed	F
+1224	Darrin Andrew Martin	White	25	2016-04-03	armed	M
+1225	David Mack	White	69	2016-04-03	armed	M
+1226	Preston Paul Perez	White	48	2016-04-03	armed	M
+1227	Raul Salvador Marquez Heraldes	Hispanic	50	2016-04-04	armed	M
+1228	Peter J. Doherty	White	52	2016-04-05	armed	M
+1230	Marvin Cremeans	White	60	2016-04-06	armed	M
+1231	Laronda Sweatt	Black	40	2016-04-06	armed	F
+1232	Cesar Frias	Hispanic	20	2016-04-06	armed	M
+1233	Luis Gongora	Hispanic	45	2016-04-07	armed	M
+1234	Lance C. McIntire	White	44	2016-04-07	armed	M
+1235	Dazion Flenaugh	Black	40	2016-04-08	armed	M
+1236	Melissa M. Abbott	White	25	2016-04-08	armed	F
+1237	Lamont Gulley	Black	43	2016-04-08	armed	M
+1238	Diahlo Grant	Black	27	2016-04-09	armed	M
+1239	Quron Williams	Black	19	2016-04-09	armed	M
+1240	Lonnie Ball	White	39	2016-04-10	armed	M
+1241	William Clark	White	30	2016-04-10	armed	M
+1242	Arturo Yobani-Torrez Valdez	Hispanic	28	2016-04-10	armed	M
+1243	Efren Eloy Trujillo	Hispanic	22	2016-04-11	armed	M
+1244	Pierre Loury	Black	16	2016-04-11	armed	M
+1246	Joshua Moreno	Hispanic	38	2016-04-12	armed	M
+1247	Travis Wood	White	20	2016-04-12	armed	M
+1248	Rodney Watts	Black	35	2016-04-13	armed	M
+1249	Jeffrey Gray Wise	White	52	2016-04-13	armed	M
+1250	Koltlee Whitson	White	26	2016-04-13	armed	M
+1252	Clemente Najera	Hispanic	38	2016-04-15	armed	M
+1253	David Swatsky	White	52	2016-04-15	armed	M
+1254	Storm Allen Smith	White	26	2016-04-15	armed	M
+1255	Gerald Robert Boyes	White	53	2016-04-16	armed	M
+1256	Kisha Arrone	Black	35	2016-04-17	armed	F
+1258	Richard Bard Jr.	Black	31	2016-04-17	armed	M
+1259	George Tillman	Black	32	2016-04-17	armed	M
+1260	Edson Thevenin	Black	37	2016-04-17	armed	M
+1261	Rico Don Rae Johnson	Black	28	2016-04-18	armed	M
+1262	Demetrius Dorsey	Black	18	2016-04-18	armed	M
+1263	Sylasone Ackhavong	Asian	41	2016-04-19	armed	M
+1264	Jorevis Scruggs	Black	15	2016-04-19	armed	M
+1265	Daniel Eric Blackmon	White	38	2016-04-19	armed	M
+1266	Francis Scot Dufore	White	41	2016-04-20	armed	M
+1267	Jackie Lee Kirkham	White	52	2016-04-20	armed	M
+1268	Mario Mejia Martinez	Hispanic	48	2016-04-21	armed	M
+1269	Tyler Hunkin	White	29	2016-04-22	armed	M
+1270	Carl Baranishyn	White	51	2016-04-22	armed	M
+1271	Demarcus Semer	Black	21	2016-04-23	armed	M
+1272	Mitchell Oakley	White	24	2016-04-23	armed	M
+1273	Jakob E. Wagner	White	18	2016-04-23	armed	M
+1274	Eric C. Wakup	White	30	2016-04-23	armed	M
+3128	TK TK	White	42	2018-04-29	armed	M
+1275	Willie Tillman	Black	33	2016-04-23	armed	M
+1276	Kay Frances Campbell	White	60	2016-04-25	armed	F
+1277	Robin Barber	White	28	2016-04-26	armed	M
+1278	Joshua Brooks	Black	26	2016-04-26	armed	M
+1279	Jacquelyn Burke	White	24	2016-04-26	armed	F
+1280	Darrel S. Machemehl	White	44	2016-04-26	armed	M
+1281	Cin Lam Mung	Asian	34	2016-04-27	armed	M
+1282	Damon Blair	White	21	2016-04-27	armed	M
+1283	David Shane Anderson	White	36	2016-04-27	armed	M
+1284	Kendar del Rosario	Black	37	2016-04-28	armed	M
+1285	Lee Easter	White	53	2016-04-28	armed	M
+1286	Ashtian Barnes	Black	24	2016-04-28	armed	M
+1287	Michael Kurtz	White	45	2016-04-28	armed	M
+1288	Jeffrey Darrell Hobbs	White	48	2016-04-29	armed	M
+1289	Oswald Mattner	White	42	2016-04-30	armed	M
+1290	Mark Daniel Bess	White	33	2016-04-30	armed	M
+1291	Bender Dass	White	55	2016-04-30	armed	M
+1292	Marion Habana	Asian	28	2016-04-30	armed	M
+1293	Charlin Charles	Black	25	2016-05-01	armed	M
+1294	Ronald Branch	White	28	2016-05-01	armed	M
+1295	Reginald Darnell Dogan	Black	52	2016-05-02	armed	M
+1296	Raymond Hopper	White	59	2016-05-03	armed	M
+1297	Richard Ferretti	White	52	2016-05-04	armed	M
+1298	Cayce A. DiTullio	White	39	2016-05-04	armed	M
+1299	Gerry J. Thompson	White	40	2016-05-04	armed	M
+1300	Corey DiGiovanni	White	36	2016-05-05	armed	M
+1301	Burt Johnson	Black	38	2016-05-05	armed	M
+1302	Deresha Armstrong	Black	26	2016-05-05	armed	F
+1303	Ronald D. Williams	Black	37.11793090137039	2016-05-06	armed	M
+1304	Nathan Q. Cates	White	29	2016-05-07	armed	M
+1305	Alton Fitzgerald Witchard	Black	37	2016-05-07	armed	M
+1306	Derek J. Sam	Other	29	2016-05-07	armed	M
+1307	Lionel Gibson	Black	21	2016-05-08	armed	M
+1308	Jaffort Smith	Black	33	2016-05-09	armed	M
+1310	Michael Johnson	White	26	2016-05-09	armed	M
+1311	Jamie Stotts	White	29	2016-05-09	armed	M
+1312	Arthur R. Williams	Black	33	2016-05-09	armed	M
+1313	Arthur DaRosa	Black	28	2016-05-10	armed	M
+1314	Stephen Schuster	White	35	2016-05-11	armed	M
+1315	Thongsoune Vilaysane	Asian	33	2016-05-11	armed	M
+1316	Sean Ryan Mondragon	Black	24	2016-05-11	armed	M
+1317	Steve Godfrey	White	37.11793090137039	2016-05-11	armed	M
+1318	Robert Mark Diaz	Hispanic	28	2016-05-13	armed	M
+1319	Cody Marsh	White	19	2016-05-14	armed	M
+1320	Francis Clark	Native	43	2016-05-14	armed	M
+1321	Jeffrey Sims	White	59	2016-05-14	armed	M
+1322	Ryan Johnson	White	34	2016-05-14	armed	M
+1323	Dracy "Clint" Pendleton	White	35	2016-05-15	armed	M
+1324	Jabril Robinson	Black	23	2016-05-16	armed	M
+1325	Luke Sanders	White	36	2016-05-17	armed	M
+1326	Garry Conrad	White	46	2016-05-18	armed	M
+1327	Joseph Weatherby	White	44	2016-05-18	armed	M
+1328	Israel Santos-Banos	Hispanic	20	2016-05-18	armed	M
+1331	Jaime Ide	Hispanic	35	2016-05-19	armed	M
+1332	Timothy Brandon Stacy	White	36	2016-05-19	armed	M
+1333	Kentrill William Carraway	Black	22	2016-05-19	armed	M
+1334	Joshua Beebee	Black	31	2016-05-20	armed	M
+1335	Norman Campbell	White	63	2016-05-21	armed	M
+1337	Mark Nelson	Native	31	2016-05-21	armed	M
+1339	Jorge Zambrano	Hispanic	35	2016-05-22	armed	M
+1341	Bryson Fischer	White	28	2016-05-22	armed	M
+1342	Verl Bedonie	Native	26	2016-05-23	armed	M
+1343	Bodhi Wilson Dean Phelps	White	22	2016-05-24	armed	M
+1344	Mario Montoya	Hispanic	31	2016-05-24	armed	M
+1345	Derek Prophet	White	43	2016-05-25	armed	M
+1346	Doll Pierre-Louis	Black	24	2016-05-25	armed	M
+1347	Eugene "Geno" Francis Smith	White	29	2016-05-26	armed	M
+1348	Warren Christian	White	43	2016-05-26	armed	M
+1349	Devonte Gates	Black	21	2016-05-26	armed	M
+1350	Fernando Castro	Hispanic	19	2016-05-26	armed	M
+1351	Angel Daniel Navarro	Hispanic	25	2016-05-26	armed	M
+1352	Terry Edwards	White	59	2016-05-27	armed	M
+1353	Dennis Hudson	Black	50	2016-05-28	armed	M
+1354	Dennis Humphrey	White	58	2016-05-28	armed	M
+1355	Dionisio Augustine Garza III	Hispanic	25	2016-05-29	armed	M
+1356	Donald Edward Brown III	White	32	2016-05-29	armed	M
+1357	John Mark Coffey	White	53	2016-05-29	armed	M
+1359	Robert Wickizer	White	70	2016-05-30	armed	M
+1360	Osee Calix	Black	33	2016-05-30	armed	M
+1361	Nicholas Berger	White	36	2016-05-31	armed	M
+1362	Michael Johnson	Black	21	2016-06-01	armed	M
+1363	Daniel Pigg	White	51	2016-06-01	armed	M
+1364	Willie Demetrius James	Black	43	2016-06-02	armed	M
+1365	Rodney Rodriguez Smith	Black	18	2016-06-02	armed	M
+1366	Joshua Smith	White	33	2016-06-03	armed	M
+1367	Hubert Thomas Burns, Jr.	Native	34	2016-06-03	armed	M
+1368	Daniel Jonathan Shaham	White	31	2016-06-04	armed	M
+1369	Demarco Rhymes	Black	35	2016-06-04	armed	M
+1370	Larry Dustin Stepp	White	31	2016-06-04	armed	M
+1371	Christopher Michael Moran	White	31	2016-06-05	armed	M
+1372	Henry Green	Black	23	2016-06-06	armed	M
+1373	Kalyp Allen Rapoza	Other	25	2016-06-06	armed	M
+1375	Omar Villagomez	Hispanic	21	2016-06-07	armed	M
+1376	Willis N. Walker	Black	49	2016-06-07	armed	M
+1377	William David Powell	White	63	2016-06-07	armed	M
+1378	Carlos Garcia	Hispanic	43	2016-06-08	armed	M
+1379	William Michael Hollis	White	34	2016-06-09	armed	M
+1380	James Allen Nickol	White	38	2016-06-09	armed	M
+1381	John Michael Brisco	Black	52	2016-06-09	armed	M
+1382	Clifford Tucker	White	68	2016-06-09	armed	M
+1383	Clayton Millsaps	White	29	2016-06-10	armed	M
+1384	Bobby Sanchez	Hispanic	32	2016-06-10	armed	M
+1385	J. Juan Briseno-Ortega	Hispanic	50	2016-06-10	armed	M
+1386	Keith Bursey	Black	31	2016-06-10	armed	M
+1387	Lyndarius Cortez Witherspoon	Black	27	2016-06-11	armed	M
+1388	Jesus Duran	Hispanic	31	2016-06-11	armed	M
+1389	Omar Mateen	Other	29	2016-06-12	armed	M
+1390	Daniel Bennett Edwards	White	23	2016-06-12	armed	M
+1391	John Williams	Black	61	2016-06-12	armed	M
+1392	Joshua Sciscm	White	33	2016-06-13	armed	M
+1393	Michael Moore	Black	18	2016-06-13	armed	M
+1394	Edward Acquisto	Hispanic	80	2016-06-13	armed	M
+1395	Kenneth Allen Pointer	White	43	2016-06-13	armed	M
+1396	Noel Rodriguez	Hispanic	50	2016-06-14	armed	M
+1397	Nicholas Ferro	White	47	2016-06-14	armed	M
+1398	Mohammad Moghaddam	Other	54	2016-06-14	armed	M
+1399	Fernando Geovanni Llanez	Hispanic	22	2016-06-14	armed	M
+1400	Russell Rosser	White	43	2016-06-15	armed	M
+1401	Michael Rasmussen	White	38	2016-06-15	armed	M
+1402	Peter Grandpre	White	36	2016-06-16	armed	M
+1403	Nicholas Damon	Hispanic	30	2016-06-16	armed	M
+1404	John Anderson	White	59	2016-06-16	armed	M
+1405	Ronald Delfino	Hispanic	21	2016-06-16	armed	M
+1406	William Thomas Hennessey	White	34	2016-06-18	armed	M
+1407	Sergey Makarenko	White	17	2016-06-18	armed	M
+1409	Rashaun Lloyd	Black	25	2016-06-19	armed	M
+1410	Raufeal M. Bostick	Black	23	2016-06-20	armed	M
+1411	Devin Christopher Scott	White	20	2016-06-20	armed	M
+1412	Lane Lesko	White	19	2016-06-21	armed	M
+1413	Jeff Hyde	White	50	2016-06-21	armed	M
+1414	Pedro Cruz-Amado	Hispanic	24	2016-06-21	armed	M
+1415	Josiah Williams	White	25	2016-06-22	armed	M
+1416	Isaiah Core	Black	20	2016-06-22	armed	M
+1417	Roger Ponce	White	37	2016-06-22	armed	M
+1418	Quencezola Maurice Splunge	Black	44	2016-06-22	armed	M
+1420	Shaun Trevor Walke	White	31	2016-06-22	armed	M
+1421	Jay Anderson	Black	25	2016-06-23	armed	M
+1422	Angelo Brown	Black	37.11793090137039	2016-06-23	armed	M
+1423	Ismael Miranda	Black	36	2016-06-24	armed	M
+1424	Randy Blecher	White	50	2016-06-24	armed	M
+1425	Christy Sheats	White	42	2016-06-24	armed	F
+1426	Miguel Angel Chavez-Angles	Hispanic	42	2016-06-24	armed	M
+1427	Jamil Alejandro Valladares	Hispanic	26	2016-06-24	armed	M
+1429	Waldemar Bogusiewicz	White	59	2016-06-25	armed	M
+1431	Terry Lynn Maurer	White	51	2016-06-26	armed	M
+1432	Daniel Reyes	Hispanic	27	2016-06-26	armed	M
+1433	Germichael Kennedy	Black	22	2016-06-26	armed	M
+1434	Donte L. Johnson	Black	30	2016-06-26	armed	M
+1435	Michael Disbrowe	White	28	2016-06-27	armed	M
+1436	Sherman Evans	Black	63	2016-06-27	armed	M
+1437	Blake Peacock	White	32	2016-06-27	armed	M
+1438	Travis Vierra	White	26	2016-06-27	armed	M
+1439	Raymond Hutson	White	25	2016-06-27	armed	M
+1440	Barry Prak	Asian	27	2016-06-28	armed	M
+1441	Walden Dang	Asian	61	2016-06-28	armed	M
+1442	Jessie J. Mills	White	30	2016-06-29	armed	M
+1443	Tyrone Reado	Black	37.11793090137039	2016-06-29	armed	M
+1444	Lafayette Evans	Black	37	2016-06-29	armed	M
+1445	Michael William Schumacher	White	41	2016-06-29	armed	M
+1446	Kawme Dejuan Patrick	Black	25	2016-06-30	armed	M
+1447	Tristan Vilters	White	24	2016-06-30	armed	M
+1448	Jasen Scott Ramirez	Hispanic	44	2016-06-30	armed	M
+1449	Alexis George Mishtowt	White	63	2016-07-01	armed	M
+1450	Helmut Wihowski	White	58	2016-07-01	armed	M
+1451	Steven McQueen	White	30	2016-07-01	armed	M
+1452	Jai Lateef Solveig Williams	Black	35	2016-07-02	armed	M
+1453	Jonathan Lane Justiss	White	50	2016-07-02	armed	M
+1454	Shannon Labit	White	40	2016-07-03	armed	M
+1455	Raul Saavedra-Vargas	Hispanic	37.11793090137039	2016-07-03	armed	M
+1456	Pedro Villanueva	Hispanic	19	2016-07-03	armed	M
+1457	William Tracy Patterson	White	34	2016-07-04	armed	M
+1458	Anthony Nunez	Hispanic	18	2016-07-04	armed	M
+1459	Sidney Washington	Black	21	2016-07-04	armed	M
+1460	Joshua Bolster	White	29	2016-07-05	armed	M
+1461	Sam Newby	White	49	2016-07-05	armed	M
+1462	Melissa Ventura	Hispanic	24	2016-07-05	armed	F
+1463	Alton Sterling	Black	37	2016-07-05	armed	M
+1464	Philando Castile	Black	32	2016-07-06	armed	M
+1465	Thomas Vandemark	White	65	2016-07-06	armed	M
+1466	Vinson Lee Ramos	Hispanic	37	2016-07-07	armed	M
+1467	Adam Smith	White	33	2016-07-07	armed	M
+1468	Earnest Fells	Black	63	2016-07-07	armed	M
+1469	Abraham Smith	White	30	2016-07-08	armed	M
+1470	Andre Johnson	Black	40	2016-07-09	armed	M
+1471	Alva Burnett Braziel	Black	38	2016-07-10	armed	M
+1472	Joseph Mann	Black	50	2016-07-11	armed	M
+1473	Jason Brooks	Black	41	2016-07-11	armed	M
+1474	Pablo Medina	Hispanic	41	2016-07-11	armed	M
+1475	Orville Edwards	Black	39	2016-07-11	armed	M
+1476	Larry Darnell Gordon	White	44	2016-07-11	armed	M
+1477	Benjamin Zeckovic	White	23	2016-07-12	armed	M
+1478	Donald S. Myers	White	32	2016-07-13	armed	M
+1479	Richard G. Dinneny	White	56	2016-07-13	armed	M
+1480	Dayten Ernest Harper	Black	33	2016-07-14	armed	M
+1481	Bobby Horne	White	63	2016-07-15	armed	M
+1482	Billy D. Smith	White	31	2016-07-16	armed	M
+1483	Patrick Fennell	White	57	2016-07-16	armed	M
+1484	Cody Wayne Jarrett	White	26	2016-07-16	armed	M
+1485	Kevin Higgins	White	39	2016-07-17	armed	M
+1486	Jermaine Johnson	Black	42	2016-07-17	armed	M
+1487	Gavin Eugene Long	Black	29	2016-07-17	armed	M
+1488	Michael Ray Ramsey	White	43	2016-07-17	armed	M
+1489	Jerry Brimer	White	56	2016-07-18	armed	M
+1490	Javier Garcia Gaona	Hispanic	31	2016-07-20	armed	M
+1491	Derek Love	Black	50	2016-07-21	armed	M
+1492	BJ Medeiros	Other	36	2016-07-21	armed	M
+1493	Paul Edward Yacabitis	White	50	2016-07-22	armed	M
+1494	Austin Jerry Lee Howard	Black	49	2016-07-23	armed	M
+1495	Bernard Wells	Black	31	2016-07-23	armed	M
+1496	Steven Alfred Longoria	Hispanic	34	2016-07-23	armed	M
+1497	Robert Lee Lourenco	White	36	2016-07-24	armed	M
+1498	Alvin R. Sylversmythe	Native	29	2016-07-24	armed	M
+1499	Jeff Cornell Tyson	Black	32	2016-07-25	armed	M
+1500	Richard Risher	Black	18	2016-07-25	armed	M
+1501	Scot Minard	White	50	2016-07-26	armed	M
+1502	Juan Reynaldo Duran	Hispanic	36	2016-07-26	armed	M
+1503	Devon Martes	Black	17	2016-07-27	armed	M
+1505	Dylan Liberti	White	24	2016-07-27	armed	M
+1506	Saddam Trejeda-Campos	Hispanic	24	2016-07-27	armed	M
+1507	Emil Ambrose Mecklenburg	White	20	2016-07-27	armed	M
+1508	Michael Adams	White	33	2016-07-27	armed	M
+1509	Jorge Moreno-Aguirre	Hispanic	41	2016-07-28	armed	M
+1510	Jeffrey Smith	Black	47	2016-07-28	armed	M
+1511	Paul O'Neal	Black	18	2016-07-28	armed	M
+1512	Jesus Rael	Hispanic	31	2016-07-28	armed	M
+1514	Omar Gonzalez	Hispanic	36	2016-07-28	armed	M
+1515	Amanda Page Bivens	White	40	2016-07-29	armed	F
+1516	Melvin Faison	White	59	2016-07-29	armed	M
+1517	John Casey	White	32	2016-07-31	armed	M
+1518	Mario Martinez Torres	Hispanic	38	2016-07-31	armed	M
+1519	Limichael Shine	Asian	18	2016-07-31	armed	M
+1520	Korryn Gaines	Black	23	2016-08-01	armed	F
+1521	Bryan N. Byrd	White	43	2016-08-01	armed	M
+1522	Kenneth Eugene Bonanno	White	67	2016-08-01	armed	M
+1523	Richard Swihart	White	32	2016-08-01	armed	M
+1524	Richard Lance London	White	22	2016-08-02	armed	M
+1525	Adam Jo Klimek	White	31	2016-08-02	armed	M
+1526	DeMarco Newman	Black	43	2016-08-02	armed	M
+1527	Matthew David Conrad	White	34	2016-08-02	armed	M
+1528	William Bowers	White	51	2016-08-02	armed	M
+1529	Benjamin William Heaton	White	31	2016-08-03	armed	M
+1530	Bradley Carey	White	54	2016-08-03	armed	M
+1531	E.J. Walters	White	69	2016-08-03	armed	M
+1532	Johannes Wood	White	58	2016-08-05	armed	M
+1533	Jamarion Rashad Robinson	Black	26	2016-08-05	armed	M
+1534	James Quealy	White	59	2016-08-05	armed	M
+1535	Jawari Porter	Black	25	2016-08-07	armed	M
+1536	Earl Pinckney	Black	20	2016-08-07	armed	M
+1537	Darnell Wicker	Black	57	2016-08-08	armed	M
+1538	Michael McClurg	White	56	2016-08-08	armed	M
+1539	James Eugene Burgess	White	64	2016-08-08	armed	M
+1540	Juan J. Godines	Hispanic	34	2016-08-08	armed	M
+1541	James W. Jennings	White	69	2016-08-08	armed	M
+1542	Ronald Smith	White	45	2016-08-09	armed	M
+1543	Jesse James Romero	Hispanic	14	2016-08-09	armed	M
+1544	Jeffrey Allen Morris	White	44	2016-08-09	armed	M
+1545	Jeff Martelli	White	59	2016-08-11	armed	M
+1546	Sergio Daniel Weick	Hispanic	33	2016-08-11	armed	M
+1547	Tommy Seneca	White	54	2016-08-11	armed	M
+1548	Jesus Armando Carillo	Hispanic	22	2016-08-12	armed	M
+1549	Dominic Rollice	White	49	2016-08-12	armed	M
+1550	Sylville Smith	Black	23	2016-08-13	armed	M
+1551	Ruben Horacio Strand Alvear	Hispanic	38	2016-08-13	armed	M
+1552	Perry Lee Heitman	White	53	2016-08-13	armed	M
+1553	Eric Ortega Soto	Hispanic	36	2016-08-13	armed	M
+1554	Jovany Martinez	Hispanic	29	2016-08-15	armed	M
+1555	Danny Pirtle	White	42	2016-08-15	armed	M
+1556	Michael S. Martin	White	36	2016-08-16	armed	M
+1557	Carl Nivens	White	32	2016-08-16	armed	M
+1558	Larry Eugene Kurtley	White	53	2016-08-16	armed	M
+1559	Colby Friday	Black	30	2016-08-16	armed	M
+1561	Kenney Watkins	Black	18	2016-08-16	armed	M
+1562	John O'Handley	White	55	2016-08-16	armed	M
+1563	Omer Ismail Ali	Black	27	2016-08-17	armed	M
+1564	Francisco Villarreal	Hispanic	37	2016-08-18	armed	M
+1566	Chad Irwin	White	40	2016-08-18	armed	M
+1567	Joseph Weber	White	36	2016-08-18	armed	M
+1568	Trenton Lohman	White	38	2016-08-18	armed	M
+1569	David Klassen	White	29	2016-08-18	armed	M
+1570	David Fulton	White	59	2016-08-18	armed	M
+1571	Marcelo Luna	Hispanic	47	2016-08-19	armed	M
+1572	Jorge Ceniceros	Hispanic	22	2016-08-19	armed	M
+1573	Kole B. Knight	White	31	2016-08-19	armed	M
+1574	Kyle Zimbelman	White	29	2016-08-19	armed	M
+1575	Todd P. Browning	White	54	2016-08-19	armed	M
+1576	Pedro Montanez	Hispanic	71	2016-08-20	armed	M
+1577	Juan Gabriel Torres	Hispanic	36	2016-08-21	armed	M
+1578	Kelley Brandon Forte	Black	34	2016-08-22	armed	M
+1579	Bobby Lyn Buck	White	49	2016-08-23	armed	M
+1580	Elias Portillo	Hispanic	36	2016-08-24	armed	M
+1581	William Charbonneau	White	43	2016-08-24	armed	M
+1582	Jeffrey Darren Hosea	White	53	2016-08-24	armed	M
+1583	Donta Taylor	Black	31	2016-08-25	armed	M
+1584	David Coborubio	Hispanic	32	2016-08-25	armed	M
+1585	Matthew Gibbon	White	41	2016-08-26	armed	M
+1586	Angel Torres Jr.	Hispanic	26	2016-08-27	armed	M
+1587	Darrel Hetrick	White	82	2016-08-27	armed	M
+1588	Justin Kulhanek-Derks	White	37	2016-08-28	armed	M
+1589	Jaqwan Julius Terry	Black	24	2016-08-29	armed	M
+1590	Paula Dell Phillips	White	35	2016-08-29	armed	F
+1591	Michael Peacor	White	56	2016-08-29	armed	M
+1593	Lyle Patrick Blanchard	White	59	2016-08-30	armed	M
+1594	Gregory Mathis	White	36	2016-08-30	armed	M
+1595	Michael Ferguson	White	21	2016-08-31	armed	M
+1596	Thomas E. Sekscinski	White	38	2016-08-31	armed	M
+1597	Ed Holup	White	60	2016-09-01	armed	M
+1598	Caleb J. Douglas	White	18	2016-09-01	armed	M
+1599	Joshua Quintero	Hispanic	23	2016-09-01	armed	M
+1600	TK TK	Hispanic	37.11793090137039	2016-09-01	armed	M
+1601	Joseph Moreno	Hispanic	38	2016-09-02	armed	M
+1602	Michael Robert Musson	White	22	2016-09-02	armed	M
+1603	Michael Thompson	Black	38	2016-09-02	armed	M
+1604	Jerome Damon	Black	25	2016-09-03	armed	M
+1605	Cameron Ayers	White	25	2016-09-03	armed	M
+1606	Donny Max Daugherty	White	36	2016-09-03	armed	M
+1607	Jose Romero	Hispanic	37.11793090137039	2016-09-04	armed	M
+1608	Simon Gomez	Hispanic	44	2016-09-04	armed	M
+1609	Moses Ruben	Black	36	2016-09-05	armed	M
+1610	Cesar Garcia	Hispanic	35	2016-09-05	armed	M
+1611	David L. Anderson	White	25	2016-09-06	armed	M
+1612	Steven Del Rio	Hispanic	31	2016-09-06	armed	M
+1613	Larry Grant Whitehead	White	70	2016-09-06	armed	M
+1614	Dylan Papa	White	25	2016-09-06	armed	M
+1615	Robert Lee Brown	Black	55	2016-09-07	armed	M
+1616	Jesse Daniel Joynt	White	35	2016-09-07	armed	M
+1617	Sadiq Bishara-Abaker Idris	Black	25	2016-09-07	armed	M
+1618	Francis Perry	White	32	2016-09-08	armed	M
+1619	Jose Torres	Hispanic	38	2016-09-08	armed	M
+1620	Ricardo Tenorio	Hispanic	32	2016-09-09	armed	M
+1621	Travis Ell	White	64	2016-09-09	armed	M
+1622	Gregory Frazier	Black	55	2016-09-09	armed	M
+1623	Dennis Claude Stanley	White	69	2016-09-10	armed	M
+1624	Adrian Joseph Shaffer	White	37	2016-09-10	armed	M
+1625	Terrence Sterling	Black	31	2016-09-11	armed	M
+1626	Markell Bivins	Black	25	2016-09-12	armed	M
+1628	Tyre King	Black	13	2016-09-14	armed	M
+1629	Robert Carrillo	Hispanic	32	2016-09-15	armed	M
+1630	Joseph Allen Schlosser	White	69	2016-09-15	armed	M
+1631	Morgan Wayne Crocker	White	34	2016-09-15	armed	M
+1633	Lucas Anderson	White	29	2016-09-16	armed	M
+1635	Robert Duh	White	42	2016-09-17	armed	M
+1636	Nicholas Glenn	Black	25	2016-09-17	armed	M
+1637	Robert Young	White	45	2016-09-17	armed	M
+1638	William Joseph Ryan	White	55	2016-09-17	armed	M
+1639	Dahir Adan	Other	22	2016-09-17	armed	M
+1640	Philip Hasan	Black	61	2016-09-18	armed	M
+1641	Michelle Miller	White	46	2016-09-19	armed	F
+1642	Jeremy Ray Swenson	White	30	2016-09-19	armed	M
+1643	Gary Don Lafon	White	56	2016-09-19	armed	M
+1644	Charles Dove	White	35	2016-09-20	armed	M
+1645	Joshua Scott	White	22	2016-09-20	armed	M
+1646	Michael Goodale	White	23	2016-09-20	armed	M
+1647	Keith Lamont Scott	Black	43	2016-09-20	armed	M
+1648	Sandy Joe Duke	White	43	2016-09-20	armed	M
+1649	Thomas Tucker	White	49	2016-09-20	armed	M
+1651	Jesse Ataway	White	41	2016-09-23	armed	M
+1652	Oddis Bernard Colvin	Black	33	2016-09-23	armed	M
+1653	Christopher Contreras	Hispanic	30	2016-09-23	armed	M
+1654	Cody Lafont	White	25	2016-09-25	armed	M
+1655	Anthony Ray Bauer	White	52	2016-09-26	armed	M
+1656	Leeland White	White	32	2016-09-26	armed	M
+1657	Nathan DeSai	White	46	2016-09-26	armed	M
+1658	Jamie Joseph Lewis	White	48	2016-09-26	armed	M
+1660	John Ethan Carpentier	White	26	2016-09-27	armed	M
+1662	Johnathan Lozano-Murillo	Hispanic	28	2016-09-28	armed	M
+1663	Jeffrey Clair Cave	White	53	2016-09-29	armed	M
+1664	Clayton Eugene Baker	White	38	2016-09-30	armed	M
+1665	George Richards-Meyers	Black	18	2016-09-30	armed	M
+1666	Douglas Marrickus Rainey	Black	32	2016-09-30	armed	M
+1667	Richard Parent	White	37	2016-09-30	armed	M
+1668	Najier Salaam	Black	18	2016-09-30	armed	M
+1669	Jacquarius M. Robinson	Black	20	2016-09-30	armed	M
+1670	Joshua Allen Perry	White	28	2016-10-01	armed	M
+1671	Carnell Snell	Black	18	2016-10-01	armed	M
+1672	Daniel Perez	Hispanic	16	2016-10-02	armed	M
+1673	Donte T. Jones	Black	36	2016-10-02	armed	M
+1674	Robert Dapkus	White	57	2016-10-03	armed	M
+1675	John H. Fetter	White	49	2016-10-03	armed	M
+1676	Isaias Salgado	Hispanic	31	2016-10-04	armed	M
+1677	Zachary Sutton	White	26	2016-10-04	armed	M
+1678	Dean Bruning	White	51	2016-10-04	armed	M
+1679	Brandon Simmons	White	28	2016-10-05	armed	M
+1680	Lucas M. Felkel	White	35	2016-10-05	armed	M
+1681	Larry Daniel Matthews	Black	57	2016-10-07	armed	M
+1682	Joseph S. Schroeder	White	36	2016-10-07	armed	M
+1683	Eddie Collins	White	42	2016-10-07	armed	M
+1684	Christopher Darnell Shackleford	Black	37.11793090137039	2016-10-07	armed	M
+1685	Thomas Jeffery Burns	White	49	2016-10-07	armed	M
+1686	Ricardo Hernandez	Hispanic	21	2016-10-08	armed	M
+1687	Kim Jackson	White	53	2016-10-08	armed	F
+1688	Charles Antrup	White	62	2016-10-08	armed	M
+1689	Deric J. Brown	Black	41	2016-10-09	armed	M
+1690	Luis Michael Hoff	White	40	2016-10-09	armed	M
+1691	Maurico Barron	Hispanic	27	2016-10-10	armed	M
+1692	Kheyanev Littledog	Native	19	2016-10-10	armed	M
+1693	Devan Desnoyers	White	26	2016-10-10	armed	M
+1694	Michael L. Taylor	Asian	44	2016-10-11	armed	M
+1695	Dominick Musulman	White	30	2016-10-11	armed	M
+1696	Blaine J. Beason	White	31	2016-10-12	armed	M
+1697	Kirk Figueroa	Black	33	2016-10-12	armed	M
+1698	Matthew Brewer	White	22	2016-10-12	armed	M
+1699	Patrick D. Reddeck	White	38	2016-10-13	armed	M
+1700	Shawn Pappe	White	46	2016-10-13	armed	M
+1701	Chaz Logan York	White	23	2016-10-14	armed	M
+1702	George Zapata	Hispanic	24	2016-10-14	armed	M
+1703	Nicholas McWherter	White	26	2016-10-14	armed	M
+1704	Micah Dsheigh Jester	White	26	2016-10-16	armed	F
+1705	Sean Arlt	White	32	2016-10-16	armed	M
+1706	Rolando Delgado	Hispanic	50	2016-10-17	armed	M
+1707	Keegan Schweikle	White	17	2016-10-17	armed	M
+1708	Eric St. Germain	White	39	2016-10-17	armed	M
+1709	Darius Wimberly	Black	28	2016-10-18	armed	M
+1710	Deborah Danner	Black	66	2016-10-18	armed	F
+1711	Salvador Reyes	Hispanic	42	2016-10-18	armed	M
+1712	Charles Stidham	White	34	2016-10-18	armed	M
+1713	Frank J. Sandor	White	38	2016-10-19	armed	M
+1714	Javier Munoz	Hispanic	28	2016-10-19	armed	M
+1715	Jacob DePetris	White	29	2016-10-20	armed	M
+1716	Renee Davis	Native	23	2016-10-21	armed	F
+1717	William Frost	White	58	2016-10-21	armed	M
+1718	Nathaniel B. Dorough	White	21	2016-10-22	armed	M
+1719	Kristofer Daniel Youngquist	White	45	2016-10-23	armed	M
+1720	Kenny Tomblin	White	38	2016-10-23	armed	M
+1721	Demetrius Mac Moore	Black	40	2016-10-23	armed	M
+1722	Aaron Marquis Ballard	Black	19	2016-10-24	armed	M
+1723	Roy Lee Richards	Black	46	2016-10-25	armed	M
+1724	Brandon Jones	White	25	2016-10-25	armed	M
+1725	Chelsea M. Porter	White	25	2016-10-25	armed	F
+1726	Brandon Millard	White	37	2016-10-25	armed	M
+1727	Malcolm Loren Hickson	Black	25	2016-10-26	armed	M
+1729	Kyle Killough	White	32	2016-10-27	armed	M
+1730	Thad Demarco Hale	Black	33	2016-10-27	armed	M
+1731	Edwin Amaya Maldonado	Hispanic	24	2016-10-27	armed	M
+1732	Jay Johannes Holmgren	White	37	2016-10-28	armed	M
+1733	Jason King	Black	38	2016-10-28	armed	M
+1734	Jun Wang	Asian	45	2016-10-28	armed	M
+1735	Terrence Coleman	Black	31	2016-10-30	armed	M
+1736	Kenneth Jack Kennedy	White	34	2016-10-30	armed	M
+1737	Jordan Gonzales	Hispanic	23	2016-10-30	armed	M
+1738	Michelle Lee Shirley	Black	39	2016-10-31	armed	F
+1739	Jose Armando Cueva	Hispanic	55	2016-10-31	armed	M
+1740	Ashley Sides	White	31	2016-10-31	armed	F
+1741	Henry Simpson	White	76	2016-11-01	armed	M
+1742	Wilton Henry	White	59	2016-11-02	armed	M
+1743	Jesse Jay Taylor	White	40	2016-11-02	armed	M
+1744	Ferguson Laurent	Black	23	2016-11-03	armed	M
+1745	Abraham Ortiz	Hispanic	26	2016-11-04	armed	M
+1746	Manuel Rosales	Hispanic	35	2016-11-04	armed	M
+1747	John F. Zemola	White	49	2016-11-05	armed	M
+1748	James Carl Coale	White	36	2016-11-05	armed	M
+1749	Russell Elswick	White	56	2016-11-05	armed	M
+1750	Patrick Wise	White	34	2016-11-05	armed	M
+1751	Joel B. Keenan	White	43	2016-11-06	armed	M
+1752	Jimmy L. Testa	White	31	2016-11-06	armed	M
+1753	Christian Andrew Redwine	White	17	2016-11-06	armed	M
+1754	Joseph Newcomb	White	32	2016-11-06	armed	M
+1755	David Contreras	Hispanic	33	2016-11-06	armed	M
+1756	Randy J. Clark	White	43	2016-11-06	armed	M
+1757	Darryl Chisholm	Black	31	2016-11-07	armed	M
+1758	Juan Ramos	Hispanic	23	2016-11-08	armed	M
+1759	Evan Cox	White	26	2016-11-08	armed	M
+1760	Carlos Mendez	Hispanic	45	2016-11-08	armed	M
+1762	Daniel Erickson	White	36	2016-11-09	armed	M
+1763	George Delacruz	Hispanic	41	2016-11-10	armed	M
+1764	John Pacuicrk	White	53	2016-11-10	armed	M
+1765	Brian Gaither	White	24	2016-11-11	armed	M
+1766	Marco Romero	Hispanic	37.11793090137039	2016-11-11	armed	M
+1768	James Dale Ritchie	White	40	2016-11-12	armed	M
+1769	Richard T. Herrera	Hispanic	29	2016-11-12	armed	M
+1770	Juan Carlos Fernandez	Hispanic	22	2016-11-13	armed	M
+1771	Daniel Laguna	Hispanic	21	2016-11-13	armed	M
+1772	Rasheem Singletary	Black	25	2016-11-15	armed	M
+1773	Robert Daffern	White	37	2016-11-15	armed	M
+1774	Jose George Anthony Franco	Hispanic	37	2016-11-16	armed	M
+1775	Edmund Leighty	White	56	2016-11-16	armed	M
+1776	Dontrell Montrese Carter	Black	25	2016-11-18	armed	M
+1777	Darius Jones	Black	26	2016-11-18	armed	M
+1778	Joseph Leland Fletcher	White	35	2016-11-18	armed	M
+1779	Samson Fleurant	Black	25	2016-11-18	armed	M
+1780	Adalid Flores	Hispanic	29	2016-11-19	armed	M
+1781	Erickson Brito	Black	21	2016-11-19	armed	M
+1782	Luke Smith	Asian	15	2016-11-19	armed	M
+1783	Andrew Moreno	Hispanic	24	2016-11-20	armed	M
+1784	Jacob C. Stevens	White	18	2016-11-20	armed	M
+1785	George Bush III	Black	19	2016-11-21	armed	M
+1786	Michael Giles	White	27	2016-11-21	armed	M
+1787	Mark Daniel Sly	Hispanic	45	2016-11-22	armed	M
+1788	Ivory C. Pantallion	Black	36	2016-11-22	armed	M
+1789	Frank Nathaniel Clark	Black	34	2016-11-22	armed	M
+1790	Talif Scudder	Black	23	2016-11-22	armed	M
+1791	William J. Beavers	White	43	2016-11-23	armed	M
+1792	Kajuan Raye	Black	19	2016-11-23	armed	M
+1793	Cleotha Mitchell	Black	37	2016-11-25	armed	M
+1794	Jerome Chris Harmon	Black	23	2016-11-25	armed	M
+1796	Derek Adame	Hispanic	20	2016-11-26	armed	M
+1797	Norman J. Strobel	White	59	2016-11-27	armed	M
+1798	Richard Grimes	Black	33	2016-11-27	armed	M
+1799	Terrell Walker	Black	48	2016-11-27	armed	M
+1800	Walter R. Echols	White	50	2016-11-27	armed	M
+1801	Abdul Razak Ali Artan	Other	18	2016-11-28	armed	M
+1802	Pablo Renato Cartagena	Hispanic	23	2016-11-28	armed	M
+1803	Irecas Valentine	Black	41	2016-11-28	armed	M
+1804	Michael McInnis	White	41	2016-11-29	armed	M
+1805	Toby Cummins	White	55	2016-11-29	armed	M
+1806	Bradley King	White	29	2016-11-29	armed	M
+1807	Alexander Chance Partain	White	31	2016-11-29	armed	M
+1808	David K. Crosby-Dowdy	Black	25	2016-11-30	armed	M
+1809	Bruce Randall "Zeus" Johnson	Black	38	2016-12-01	armed	M
+1810	Jose N. Barron Gomez	Hispanic	37.11793090137039	2016-12-01	armed	M
+1811	Quinton Phillips	White	83	2016-12-01	armed	M
+1812	Dylan M. Dalzell	White	22	2016-12-02	armed	M
+1813	Derek Lynn Scott	White	33	2016-12-02	armed	M
+1814	Josh Dunne	White	36	2016-12-02	armed	M
+1815	Saif Nasser Mubarek Alameri	Asian	26	2016-12-04	armed	M
+1816	Norman Gary	Black	29	2016-12-04	armed	M
+1817	Richard R. Jones	White	55	2016-12-06	armed	M
+1818	Westley Daum	White	47	2016-12-06	armed	M
+1819	Steven Wayne Liffel	White	52	2016-12-06	armed	M
+1820	Wayne Donald Dorsey	White	49	2016-12-06	armed	M
+1821	Keelan Charles Murray	White	37	2016-12-07	armed	M
+1822	Redrick Jevon Batiste	Black	37	2016-12-07	armed	M
+1823	Daniel Riedmann	White	36	2016-12-07	armed	M
+1824	Mark Anthony Hicks	Black	31	2016-12-07	armed	M
+1825	Stephen Joshua Whitney	Other	30	2016-12-09	armed	M
+1826	Brent Quinn	White	37.11793090137039	2016-12-09	armed	M
+1827	Scott MacIntosh	White	35	2016-12-09	armed	M
+1828	Waltki Williams	Black	35	2016-12-10	armed	M
+1829	Samson G. Varner	White	36	2016-12-10	armed	M
+1830	Randy Lee Cumberledge	White	39	2016-12-11	armed	M
+1831	Jose Angel Vallarta	Hispanic	30	2016-12-11	armed	M
+1832	Amber Lewis	White	44	2016-12-11	armed	F
+1833	Gary Leon Herd	White	24	2016-12-11	armed	M
+1834	Timothy Case	White	53	2016-12-11	armed	M
+1836	Rainer Tyler Smith	White	31	2016-12-12	armed	M
+1837	Kenneth Robledo	Black	28	2016-12-12	armed	M
+1838	Lavar Montray Douglas	Black	18	2016-12-13	armed	M
+1839	Earl Labon Eubanks	Black	32	2016-12-13	armed	M
+1840	Robert James Hess	White	60	2016-12-15	armed	M
+1841	Jimmy Lee Lawson	White	48	2016-12-17	armed	M
+1842	Fidel Barrios	Hispanic	33	2016-12-17	armed	M
+1843	Chassady LeClair	Native	44	2016-12-17	armed	M
+1844	Ryan Joseph	Black	20	2016-12-18	armed	M
+1845	Paul Kolar	White	37	2016-12-18	armed	M
+1846	Ronald Roy Massengale	White	72	2016-12-18	armed	M
+1847	Roy Minton	White	52	2016-12-19	armed	M
+1848	Martin Gomez	Hispanic	46	2016-12-20	armed	M
+1849	Colton Calaway	White	25	2016-12-21	armed	M
+1850	Raymond Salaiz	Hispanic	38	2016-12-21	armed	M
+1851	Matthew Blake Richardson	White	27	2016-12-21	armed	M
+1852	Anthony Lovell Eddington	Black	24	2016-12-21	armed	M
+1853	Terrence Thomas	Black	19	2016-12-22	armed	M
+1854	Michael Tyler Jacques	White	31	2016-12-23	armed	M
+1855	Daquan Antonio Westbrook	Black	18	2016-12-24	armed	M
+1856	Miriam Ann Savino	White	53	2016-12-24	armed	F
+1857	Zhonghua Li	Asian	48	2016-12-24	armed	M
+1858	Gerald Hall	Black	29	2016-12-25	armed	M
+1859	James Tylka	White	30	2016-12-25	armed	M
+1860	Michael Alan Altice	White	61	2016-12-25	armed	M
+1861	Judy Boardman	White	71	2016-12-27	armed	F
+1862	Alfonso Lopez	Hispanic	41	2016-12-27	armed	M
+1863	Jake Childers	White	36	2016-12-27	armed	M
+1864	Christopher Blake Tucker	White	28	2016-12-28	armed	M
+1865	Jamal Rollins	Black	21	2016-12-30	armed	M
+1866	Ricky Whidden	White	46	2016-12-31	armed	M
+1867	Jason Michael Robison	White	32	2016-12-31	armed	M
+1869	John McLaughlin	White	42	2017-01-01	armed	M
+1870	Trevon Johnson	Black	17	2017-01-01	armed	M
+1871	Chad Erik Roberts	White	35	2017-01-01	armed	M
+1872	Juan Carlos Cuadra	Hispanic	23	2017-01-01	armed	M
+1873	Mark Guirguis	Black	21	2017-01-01	armed	M
+1874	James E. Lewis	Black	44	2017-01-01	armed	M
+1875	Dale Hightower	White	53	2017-01-03	armed	M
+1876	James Owens	Black	63	2017-01-03	armed	M
+1877	Joshua Martino	White	18	2017-01-04	armed	M
+1878	Ruben Randolph	Black	51	2017-01-04	armed	M
+1879	Welby O'Dell Mullins	White	64	2017-01-04	armed	M
+1880	Richard A. Jackson	White	45	2017-01-04	armed	M
+1881	Luis Vargas	Hispanic	20	2017-01-05	armed	M
+1882	Randy Wayne Cole	White	41	2017-01-05	armed	M
+1883	Sean Ryan Hake	White	23	2017-01-06	armed	M
+1884	Jamal Parks	Black	32	2017-01-06	armed	M
+1885	Daniel Scott Giberson	White	25	2017-01-07	armed	M
+1886	Travis Edward Baker	White	42	2017-01-07	armed	M
+1888	Hector Navarrete	Hispanic	31	2017-01-07	armed	M
+1889	Carlos A. Cruz	Hispanic	50	2017-01-07	armed	M
+1890	Gilbert Zambronio-Lovato	Hispanic	38	2017-01-07	armed	M
+1891	Jason Aldridge	White	44	2017-01-08	armed	M
+1893	Davion Henderson	Black	21	2017-01-09	armed	M
+1894	Michael Rogers	White	32	2017-01-10	armed	M
+1896	Ronnie Johnson	White	41	2017-01-11	armed	M
+1897	Hafez Abousamra	Other	41	2017-01-11	armed	M
+1898	Jose A. Fernandez-Ventura	Hispanic	38	2017-01-11	armed	M
+1899	Kevin Ernest Tree	White	54	2017-01-12	armed	M
+1900	Jamison Christopher Anderson	Native	20	2017-01-12	armed	M
+1901	Rodney L. Hoback	White	26	2017-01-12	armed	M
+1902	Cameron Johnson	Other	29	2017-01-13	armed	M
+1903	Scott Laurance Gilpin	White	47	2017-01-14	armed	M
+1904	Jahlire Nicholson	Black	28	2017-01-14	armed	M
+1905	Eric David Anderson	White	48	2017-01-15	armed	M
+1906	Herbert Johnson	Black	34	2017-01-15	armed	M
+1907	Sinuon Pream	Asian	37	2017-01-15	armed	F
+1908	Dexter Martin Dumarce	White	33	2017-01-15	armed	M
+1909	David Wesley Carroll	White	36	2017-01-16	armed	M
+1910	Charles Christopher McClure	White	43	2017-01-16	armed	M
+1911	Mohammad Azim Doudzai	Asian	32	2017-01-16	armed	M
+1912	Christopher Dalton Sexton	White	29	2017-01-17	armed	M
+1913	Dominic Hodges	Hispanic	39	2017-01-17	armed	M
+1914	Stoney McJunkin	White	40	2017-01-18	armed	M
+1916	Daniel Darnell Stroughter	White	50	2017-01-18	armed	M
+1917	Marquis Thomas	Black	19	2017-01-18	armed	M
+1918	Melvin DeLong	Native	28	2017-01-18	armed	M
+1919	Marlon Joel Rodas-Sanchez	Hispanic	16	2017-01-18	armed	M
+1920	William D. Fisher	White	49	2017-01-19	armed	M
+1921	Christopher Garza	Hispanic	44	2017-01-19	armed	M
+1922	Elijah Smith	White	25	2017-01-19	armed	M
+1923	Gino Martin Palazzolo	White	39	2017-01-20	armed	M
+1924	Ronnie Lee Shorter	Black	44	2017-01-21	armed	M
+1925	Paul Carr Palmer	White	50	2017-01-21	armed	M
+1926	Jon M. Alspaugh	White	57	2017-01-22	armed	M
+1927	Christopher Thompkins	Black	57	2017-01-22	armed	M
+1928	Jorge Victor	Hispanic	33	2017-01-22	armed	M
+1929	Angel Ramos	Hispanic	21	2017-01-23	armed	M
+1930	Gary Mark Wigley	White	52	2017-01-23	armed	M
+1932	Bruce Altenburger	White	60	2017-01-23	armed	M
+1933	Armond Brown	Black	25	2017-01-23	armed	M
+1934	Josue Gallardo	Hispanic	34	2017-01-24	armed	M
+1936	Arties Manning	Black	26	2017-01-24	armed	M
+1937	Antonio Arturo Perez Garcia	Hispanic	27	2017-01-24	armed	M
+1938	Jeremy Lopez-Robledo	Hispanic	29	2017-01-24	armed	M
+1940	Ramon Milanez	Hispanic	32	2017-01-24	armed	M
+1941	Jose Efrain Rodriguez	Hispanic	18	2017-01-24	armed	M
+1942	Micah R. Lambert	White	37	2017-01-25	armed	M
+1943	Kevin Darnell Washington	Black	54	2017-01-25	armed	M
+1944	Donovan Paul Scheurich	White	50	2017-01-25	armed	M
+1945	Josue Javier Diaz	Hispanic	28	2017-01-26	armed	M
+1946	Kerry Lee Coomer	White	59	2017-01-26	armed	M
+1947	Deaundre Phillips	Black	24	2017-01-26	armed	M
+1948	William Brigham	White	34	2017-01-26	armed	M
+1949	Eduardo Hernandez	Hispanic	25	2017-01-27	armed	M
+1950	Gerardo Coronado	Hispanic	25	2017-01-28	armed	M
+1951	Mi'Chance Dunlap-Gittens	Black	17	2017-01-28	armed	M
+1952	Matthew Zank	White	48	2017-01-28	armed	M
+1953	Bradley Joseph Szacaks	White	45	2017-01-28	armed	M
+1955	Marvin Washington	Black	50	2017-01-30	armed	M
+1956	Jeremy Dowell	White	36	2017-01-30	armed	M
+1957	Refugio Alvarez	Hispanic	45	2017-01-30	armed	M
+1958	Spencer Herckt	White	42	2017-01-30	armed	M
+1959	TK TK	Black	37.11793090137039	2017-01-31	armed	M
+1960	Tavis Crane	Black	23	2017-02-01	armed	M
+1961	Michael Russo	Black	31	2017-02-01	armed	M
+1962	Kris Kristl	White	26	2017-02-02	armed	M
+1963	Michael Sword	White	57	2017-02-02	armed	M
+1964	Miguel Angel Silva	Hispanic	18	2017-02-02	armed	M
+1965	Jose Gonzales Lera	Hispanic	27	2017-02-03	armed	M
+1966	Yia Lee	Asian	41	2017-02-03	armed	M
+1967	William David Whetstone	White	33	2017-02-03	armed	M
+1968	Jamake Cason Thomas	Black	22	2017-02-03	armed	M
+1969	Daniel McMasters	White	38	2017-02-03	armed	M
+1970	Marco A. Gomez	Hispanic	26	2017-02-03	armed	M
+1971	Daniel Loren Rucker	White	45	2017-02-03	armed	M
+1972	Johnnie J. Harris	Black	68	2017-02-04	armed	M
+1973	Thomas Scott Henry	White	56	2017-02-04	armed	M
+1976	Shelly Porter	Black	41	2017-02-05	armed	M
+1977	Andrew Byrd	Hispanic	33	2017-02-05	armed	M
+1978	Jerome Allen	Black	22	2017-02-06	armed	M
+1979	Cole Wooley	Black	50	2017-02-06	armed	M
+1980	Gerardo Vasquez	Hispanic	52	2017-02-06	armed	M
+1981	Bradley Nelson	White	35	2017-02-07	armed	M
+1982	Curtis Jamal Deal	Black	18	2017-02-07	armed	M
+1983	Richard Latimer	White	34	2017-02-07	armed	M
+1984	Kenneth B. Huntzinger	White	51	2017-02-07	armed	M
+1985	Alex Christopher Davis	White	18	2017-02-07	armed	M
+1986	Donald Parker	White	29	2017-02-08	armed	M
+1987	Henry James Hunter	Native	34	2017-02-08	armed	M
+1989	Quanice Derrick Hayes	Black	17	2017-02-09	armed	M
+1991	Juan Salinas	Hispanic	33	2017-02-09	armed	M
+1992	Justin Burton	White	25	2017-02-10	armed	M
+1993	Jocques Scott Clemmons	Black	31	2017-02-10	armed	M
+1994	Kadhar Bailey	White	25	2017-02-10	armed	M
+1996	James Stephen McMullen	White	45	2017-02-10	armed	M
+1997	Carlos Keith Blackman	Black	25	2017-02-10	armed	M
+1998	Darryl L. Fuqua	Black	23	2017-02-10	armed	M
+1999	Michelle Robey	White	55	2017-02-10	armed	F
+2000	Jason Robert Mendez	White	37	2017-02-11	armed	M
+2001	Pekelo Sanchez	Asian	33	2017-02-11	armed	M
+2002	Alonzo E. Ashley	Black	27	2017-02-11	armed	M
+2003	William A. Young	White	32	2017-02-11	armed	M
+2004	Willard Eugene Scott	Black	31	2017-02-12	armed	M
+2005	Bryan Devin Carreno	Hispanic	26	2017-02-12	armed	M
+2006	Brandon S. Lambert	White	32	2017-02-13	armed	M
+2007	Drey Krause	White	53	2017-02-13	armed	M
+2009	Michael Lee Morris	White	53	2017-02-14	armed	M
+2010	David Zimmerman	White	35	2017-02-14	armed	M
+2011	Steven C. Oliger	White	64	2017-02-14	armed	M
+2012	Kenneth Lee Bailey	Black	24	2017-02-15	armed	M
+2013	Andrew McClendon	White	33	2017-02-15	armed	M
+2014	Mauro Garnica	Hispanic	55	2017-02-15	armed	M
+2015	Kadeem Torres	Black	17	2017-02-16	armed	M
+2016	Joseph Tamayo	Hispanic	48	2017-02-16	armed	M
+2017	Jimmy Briggs	Black	21	2017-02-16	armed	M
+2018	Jonathon  Daniel Simmons	White	22	2017-02-16	armed	M
+2020	David English	White	34	2017-02-17	armed	M
+2021	Jean R. Valescot	Black	35	2017-02-17	armed	M
+2022	Jesse Enjaian	White	32	2017-02-17	armed	M
+2023	Chance David Baker	Black	22	2017-02-18	armed	M
+2024	Keo Crockett	Black	46	2017-02-18	armed	M
+2025	Christopher Carter	Black	27	2017-02-19	armed	M
+2026	Sergio Reyes	Hispanic	18	2017-02-19	armed	M
+2027	Kyle Riggs	White	33	2017-02-19	armed	M
+2028	Manuel Encinas	Hispanic	26	2017-02-19	armed	M
+2030	Taylor Hodge	White	26	2017-02-20	armed	M
+2031	Douglas Michael Smith	White	51	2017-02-21	armed	M
+2032	Don Clark	Black	63	2017-02-21	armed	M
+2033	Nicolas Sanchez	Hispanic	38	2017-02-21	armed	M
+2034	Bartolo Justice Sambrano	Hispanic	25	2017-02-21	armed	M
+2035	Misael Macias Cano	Hispanic	39	2017-02-21	armed	M
+2036	Medger Blake	Black	41	2017-02-22	armed	M
+2037	Kyle Copson	White	26	2017-02-22	armed	M
+2038	Morgan London Rankins	Black	30	2017-02-22	armed	F
+2039	David Lee Montano	Hispanic	33	2017-02-23	armed	M
+2040	Jimmie Patton	White	38	2017-02-23	armed	M
+2041	Steven Valenzuela	Hispanic	24	2017-02-23	armed	M
+2042	Timothy Lionel Williams	Black	47	2017-02-23	armed	M
+2043	Michael T. Stoudt	White	62	2017-02-24	armed	M
+2044	Joey Isgrigg	White	30	2017-02-24	armed	M
+2045	Jacqueline Cheyanne Johnson	White	33	2017-02-24	armed	F
+2046	Lorenzo Antoine Cruz	Black	23	2017-02-25	armed	M
+2047	William Dwayne Darby	White	39	2017-02-25	armed	M
+2048	Jacob Taulbee	White	41	2017-02-26	armed	M
+2049	Evin Sanna Olsen	White	46	2017-02-26	armed	F
+2050	Barry Michael Zumwalt	White	36	2017-02-26	armed	M
+2051	James Leroy Marker	White	66	2017-02-26	armed	M
+2052	Joey J. Bridges	White	27	2017-02-27	armed	M
+2053	Shawn M. Igers	White	40	2017-02-27	armed	M
+2054	Earl Riley	Black	25	2017-02-28	armed	M
+2055	Christopher Redding	Black	20	2017-02-28	armed	M
+2056	Jose Olivares	Hispanic	43	2017-02-28	armed	M
+2057	Epthen Lamont Johnson	Black	40	2017-03-01	armed	M
+2058	John Hall	White	33	2017-03-02	armed	M
+2059	Isidro Bazan Jr	Hispanic	34	2017-03-02	armed	M
+2060	Michael Cisneros	Hispanic	27	2017-03-02	armed	M
+2061	Rafael Navarro-Garcia	Hispanic	25	2017-03-02	armed	M
+2062	Ramon Andrade	Hispanic	37	2017-03-02	armed	M
+2063	Michael Kocher	White	32	2017-03-03	armed	M
+2064	Dave Phoenix	Native	25	2017-03-03	armed	M
+2065	George Lee Seeton	White	38	2017-03-04	armed	M
+2066	Joseph Scott Inabinet	White	50	2017-03-04	armed	M
+2067	Edward Manning	White	26	2017-03-04	armed	M
+2068	Alejandro Valencia Mendez	Hispanic	70	2017-03-04	armed	M
+2070	Dennis Todd Rogers	Black	41	2017-03-07	armed	M
+2071	Frank W. Wratny	White	91	2017-03-08	armed	M
+2072	Iaroslav Mosiiuk	White	25	2017-03-08	armed	M
+2073	Steven Schiltz	White	29	2017-03-09	armed	M
+2074	Jesus Alberto Geney	Hispanic	24	2017-03-09	armed	M
+2075	Damon Seitz	White	40	2017-03-10	armed	M
+2076	Mark Robert Carlberg	White	51	2017-03-11	armed	M
+2077	Brandon Wiley	Black	30	2017-03-11	armed	M
+2078	Manuel Gonzalez	Hispanic	28	2017-03-12	armed	M
+2079	Michael Anthony Perez	Hispanic	33	2017-03-12	armed	M
+2080	Luke O. Stewart	Black	23	2017-03-13	armed	M
+2081	Noel Aaron Russell	White	23	2017-03-13	armed	M
+2082	Rashad Daquan Opher	Black	20	2017-03-13	armed	M
+2084	Ryan L. Rosa	White	36	2017-03-14	armed	M
+2085	Alexander Meltz	White	18	2017-03-14	armed	M
+2086	Shawn Anthony Dumitras	White	43	2017-03-14	armed	M
+2088	Cordale Quinn Handy	Black	29	2017-03-15	armed	M
+2089	Todd Munson	White	25	2017-03-15	armed	M
+2090	Frederick Ricardo Brown	Black	34	2017-03-16	armed	M
+2091	Jermaine Claybrooks	Black	32	2017-03-16	armed	M
+2092	Daniel Donarski	White	58	2017-03-16	armed	M
+2093	Rodney James Hess	Black	36	2017-03-16	armed	M
+2094	Patrick Earl Gatson	Black	32	2017-03-16	armed	M
+2095	Brentant M. Lahey	White	25	2017-03-17	armed	M
+2096	Nancy Jane Lewellyn	White	59	2017-03-17	armed	F
+2097	Desmond Phillips	Black	25	2017-03-17	armed	M
+2098	Kevin C. Perry	White	25	2017-03-18	armed	M
+2099	Benjamin Christian Barnes	White	42	2017-03-18	armed	M
+2100	Jason Dennis Watkins	White	36	2017-03-18	armed	M
+2101	Clifton Knickmeyer	White	59	2017-03-19	armed	M
+2103	Trevor Allen Brice Gingras	White	19	2017-03-19	armed	M
+2104	Mario Simoes	Hispanic	45	2017-03-19	armed	M
+2105	Charles Harris	White	42	2017-03-22	armed	M
+2106	Don Johnson	Black	27	2017-03-22	armed	M
+2107	Nengmy Vang	Asian	45	2017-03-22	armed	M
+2108	William Stokes	Black	51	2017-03-23	armed	M
+2109	Eddie Davis	Black	42	2017-03-23	armed	M
+2110	Francisco Valdez	Hispanic	24	2017-03-23	armed	M
+2111	Reno Joseph Owens	Black	39	2017-03-24	armed	M
+2112	Austin Tyler Macon	White	18	2017-03-24	armed	M
+2113	Matthew Gambaro	Hispanic	26	2017-03-24	armed	M
+2114	Fred Barragan	Hispanic	35	2017-03-25	armed	M
+2115	Paul Parienlla	White	53	2017-03-26	armed	M
+2116	Michael Hornibrook	White	54	2017-03-26	armed	M
+2117	Justin Quincy Smith	White	36	2017-03-26	armed	M
+2119	Steven Hopwood	White	51	2017-03-27	armed	M
+2120	Pryor Spencer Bailey	White	45	2017-03-27	armed	M
+2121	Richard Alexander Tilley	White	28	2017-03-27	armed	M
+2122	Peter J. Doffin	White	36	2017-03-28	armed	M
+2123	Lee Pat Milks	White	73	2017-03-28	armed	M
+2124	Daniel Hendrix	White	26	2017-03-29	armed	M
+2125	Troy Boyle	White	41	2017-03-29	armed	M
+2126	Doyle Wayne Johnson	White	59	2017-03-29	armed	M
+2127	Leroy Brown	Black	28	2017-03-29	armed	M
+2128	Fred Ratliff	White	45	2017-03-29	armed	M
+2129	Dennis Wasson	White	27	2017-03-29	armed	M
+2130	Christopher Angelo Pizzichetta	White	46	2017-03-30	armed	M
+2131	Marcus Williams	Black	34	2017-04-01	armed	M
+2132	Phosowath Sengphong	Asian	30	2017-04-01	armed	M
+2133	Jose Antonio Hernandez	Hispanic	46	2017-04-03	armed	M
+2135	Michael Maldonado	Hispanic	32	2017-04-04	armed	M
+2136	Stephen Connard Ferry	White	65	2017-04-04	armed	M
+2137	Michael Alcaraz	Hispanic	19	2017-04-05	armed	M
+2138	Austin Dakota Snyder	White	22	2017-04-05	armed	M
+2139	Christopher Wade	Black	39	2017-04-06	armed	M
+2140	Benjamin Ailstock	White	38	2017-04-06	armed	M
+2141	Glenn Watenpool	White	68	2017-04-06	armed	M
+2142	Richard Xavier Summers	Black	49	2017-04-06	armed	M
+2143	Kenneth Francis	Black	37	2017-04-06	armed	M
+2144	Jeffrey Lynn Curry	Asian	33	2017-04-07	armed	M
+2145	Gregory Kever	White	25	2017-04-08	armed	M
+2146	Jose Gonzales Rendon	Hispanic	36	2017-04-09	armed	M
+2147	Jeffrey Findlay	White	30	2017-04-10	armed	M
+2148	TK TK	Black	39	2017-04-10	armed	M
+2149	Zelalem Eshetu Ewnetu	Black	28	2017-04-12	armed	M
+2150	Erik Pamias	White	28	2017-04-13	armed	M
+2151	Charles Johnston	White	25	2017-04-13	armed	M
+2152	Thomas Gezotis	White	57	2017-04-13	armed	M
+2153	Charles Shands	White	33	2017-04-14	armed	M
+2154	Ivan Wilson	Native	24	2017-04-14	armed	M
+2155	Olugbalah Ridley	Black	33	2017-04-15	armed	M
+2156	David Airth	White	56	2017-04-15	armed	M
+2157	Frederick H. Hall	White	56	2017-04-15	armed	M
+2159	Darren Jahnke	White	47	2017-04-16	armed	M
+2160	Michael Zennie Dial II	White	33	2017-04-17	armed	M
+2161	Casey Desper	White	32	2017-04-18	armed	M
+2162	Keith Price	Black	21	2017-04-19	armed	M
+2163	Marion Lee Holliday	White	64	2017-04-20	armed	M
+2164	Damarius Butts	Black	19	2017-04-20	armed	M
+2165	Jose Trejo	Hispanic	26	2017-04-20	armed	M
+2166	Brandon Pequeno	Hispanic	25	2017-04-20	armed	M
+2168	Ray Valdez	Hispanic	55	2017-04-20	armed	M
+2169	Chance Rickie Thompson	White	25	2017-04-21	armed	M
+2170	Joseph Sin	Asian	43	2017-04-22	armed	M
+2171	William D. Spates	Black	39	2017-04-22	armed	M
+2172	Michael Wilson-Salzl	White	24	2017-04-22	armed	M
+2173	Wayne Noel Simard	White	70	2017-04-23	armed	M
+2174	Robert Becker	White	79	2017-04-24	armed	M
+2175	Kendell Wilson	Black	16	2017-04-24	armed	M
+2177	Daezion Turner	Black	15	2017-04-24	armed	M
+2178	Hakim McNair	Black	23	2017-04-25	armed	M
+2179	Fred Cardenas	Hispanic	53	2017-04-25	armed	M
+2180	Juan Manuel Avilla	Hispanic	20	2017-04-25	armed	M
+2181	Gavin Williams	Black	27	2017-04-25	armed	M
+2182	Charles Bossinger	White	53	2017-04-26	armed	M
+2183	Jason Thomas Christian	White	32	2017-04-26	armed	M
+2184	Selwyn Aubrey Hall	Black	57	2017-04-26	armed	M
+2185	Burgon Sealy	Black	26	2017-04-27	armed	M
+2186	Tim A. Holmgren	White	53	2017-04-27	armed	M
+2187	Avery Richard	Black	32	2017-04-28	armed	M
+2188	Luis Fernando Pacheco	Hispanic	25	2017-04-28	armed	M
+2190	Gene Bernhardt	White	59	2017-04-29	armed	M
+2191	Caleb Jackson	Black	35	2017-04-29	armed	M
+2192	Andrew James Lucero	Hispanic	33	2017-04-29	armed	M
+2193	Devin Hawkins	White	32	2017-04-30	armed	M
+2194	Peter Raymond Selis	White	49	2017-04-30	armed	M
+2195	James Edward Ray	Black	46	2017-04-30	armed	M
+2196	Joseph William Alain	White	25	2017-05-01	armed	M
+2197	Jason Sebastian Roque	Hispanic	20	2017-05-02	armed	M
+2198	Rodney Henderson	Black	48	2017-05-02	armed	M
+2199	Mirza Tatlic	White	24	2017-05-03	armed	M
+2200	Malik Carey	Black	18	2017-05-03	armed	M
+2201	William Dean	White	67	2017-05-03	armed	M
+2202	Nicholas Flusche	White	26	2017-05-03	armed	M
+2203	Lucille Espinosa	Hispanic	54	2017-05-04	armed	F
+2204	Jacob Peterson	White	15	2017-05-06	armed	M
+2205	Cedric Jamal Mifflin	Black	27	2017-05-07	armed	M
+2206	Jose Hernandez-Rossy	Hispanic	26	2017-05-07	armed	M
+2207	Steven Price	White	62	2017-05-07	armed	M
+2208	Landon Nobles	Black	24	2017-05-07	armed	M
+2209	Mikel Laney McIntyre	Black	32	2017-05-08	armed	M
+2210	Anthony David Soderberg	White	29	2017-05-08	armed	M
+2211	Jayson Negron	Hispanic	16	2017-05-09	armed	M
+2212	Terry Percy Campbell	Black	25	2017-05-09	armed	M
+2213	Joseph Jaster	White	40	2017-05-09	armed	M
+2215	Scott N. Bloomfield	White	34	2017-05-09	armed	M
+2216	Ian Thomas Little	White	36	2017-05-09	armed	M
+2217	Terrell Kyreem Johnson	Black	24	2017-05-10	armed	M
+2218	Robin White	Black	50	2017-05-10	armed	F
+2219	Jeroen Peter Koornwinder	White	50	2017-05-10	armed	M
+2220	TK TK	Hispanic	37.11793090137039	2017-05-11	armed	M
+2221	Ryan Lowell	White	30	2017-05-12	armed	M
+2223	Phillip O'Shea	White	46	2017-05-12	armed	M
+2224	Ronald Singletary	Black	51	2017-05-12	armed	M
+2225	Maxwell Holt	White	37	2017-05-13	armed	M
+2226	Clarence E. Coats	Black	41	2017-05-13	armed	M
+2227	David Jay Juarez	Hispanic	41	2017-05-14	armed	M
+2228	James A. Burton	White	48	2017-05-14	armed	M
+2229	Jonie Block	Black	27	2017-05-15	armed	F
+2230	Jaison Fitzgerald	Black	29	2017-05-15	armed	M
+2231	Buford Shane Whitson	White	47	2017-05-15	armed	M
+2232	Emmanuel Ibarra	Hispanic	34	2017-05-15	armed	M
+2233	Keith Andrew Chesser	White	48	2017-05-15	armed	M
+2234	Isabelle Duval	White	41	2017-05-16	armed	F
+2235	Tristan Long	Black	25	2017-05-16	armed	M
+2236	Edwin Fuentes	Hispanic	24	2017-05-16	armed	M
+2237	Marshall Barrus	White	38	2017-05-16	armed	M
+2238	Daniel George Boak	White	28	2017-05-17	armed	M
+2239	Anthony Paul Ardo	White	47	2017-05-20	armed	M
+2240	Roger Bubar	White	65	2017-05-20	armed	M
+2241	Shannon Edward Estill	White	58	2017-05-20	armed	M
+2242	Jimmie Montel Sanders	Black	33	2017-05-21	armed	M
+2243	Joseph M. Hodgin	White	43	2017-05-21	armed	M
+2246	Aaron M. Thompson	White	31	2017-05-22	armed	M
+2247	Michael Anthony Bonini	White	65	2017-05-23	armed	M
+2248	John Eno	White	59	2017-05-23	armed	M
+2249	Albert Gagnier	White	74	2017-05-23	armed	M
+2250	Jorge Alberto Fuentes	Hispanic	21	2017-05-23	armed	M
+2252	TK TK	Hispanic	37.11793090137039	2017-05-24	armed	M
+2253	Shawn Buck	White	23	2017-05-25	armed	M
+2255	Jamie J. Robinson	White	33	2017-05-26	armed	M
+2256	Joseph Zimmerman	White	34	2017-05-26	armed	M
+2257	Ron Harlan Lewallen	White	30	2017-05-27	armed	M
+2258	Shaquian Tyrone Johnson	Black	22	2017-05-28	armed	M
+2259	Chad Dionne	White	37	2017-05-29	armed	M
+2260	Joseph Godinez	Hispanic	20	2017-05-29	armed	M
+2261	Roman Jade Carrillo	Hispanic	18	2017-05-30	armed	M
+2262	James Gleason	White	24	2017-05-31	armed	M
+2263	James Daniel Hill	White	17	2017-05-31	armed	M
+2264	Francisco Suarez-Madonado	Hispanic	27	2017-06-01	armed	M
+2265	Edward Everett Courtenay	White	51	2017-06-02	armed	M
+2266	Charles Darnell Baker	Black	29	2017-06-02	armed	M
+2268	Naway Willy	Asian	18	2017-06-02	armed	M
+2269	Corsean Lewis	Black	17	2017-06-02	armed	M
+2270	Antonio Gerardo Rodriguez	Hispanic	55	2017-06-02	armed	M
+2271	Donald Lee Cramer	White	44	2017-06-03	armed	M
+2272	Jeremy Austin Lindsey	White	27	2017-06-04	armed	M
+2273	Bruce Dawley	White	66	2017-06-04	armed	M
+2274	Charles Edgar Mullins	White	45	2017-06-05	armed	M
+2275	John Spaulding	Black	47	2017-06-05	armed	M
+2276	Quentin Louis Case	White	34	2017-06-05	armed	M
+2277	Adrian Maurice Hardeman	Black	37	2017-06-05	armed	M
+2278	Mark Ellis	White	54	2017-06-06	armed	M
+2279	Salvadro Alfredo Pablo Lopez	Hispanic	21	2017-06-07	armed	M
+2280	Isaiah M. Hammett	White	21	2017-06-07	armed	M
+2281	Blaine Robert Erb	White	35	2017-06-07	armed	M
+2282	Donald Smith	White	75	2017-06-07	armed	M
+2283	Michele Rice	White	33	2017-06-08	armed	F
+2284	Oscar Junior	Hispanic	45	2017-06-08	armed	M
+2285	Stephen Rich	White	48	2017-06-08	armed	M
+2286	Paul Mashburn	White	58	2017-06-08	armed	M
+2288	Antonio Juarez	Hispanic	44	2017-06-09	armed	M
+2289	Theodore Brendecke	White	82	2017-06-09	armed	M
+2290	Joshua Barre	Black	29	2017-06-09	armed	M
+2291	Isaiah Obet	Other	25	2017-06-10	armed	M
+2292	Robin Blaylock	White	53	2017-06-10	armed	M
+2293	Emmett Edward Hall	White	60	2017-06-10	armed	M
+2294	Terry Williams	Black	19	2017-06-11	armed	M
+2295	Eleuterio Amaya-Torres	Hispanic	63	2017-06-12	armed	M
+2296	John Wesley Bays	White	50	2017-06-12	armed	M
+2297	Avery D. Metrejean	White	35	2017-06-12	armed	M
+2298	Johnny Platas	Hispanic	45	2017-06-12	armed	M
+2299	Austin Durham	White	24	2017-06-13	armed	M
+2300	Barry Jones	White	36	2017-06-13	armed	M
+2301	Jordan Frazier	Black	35	2017-06-13	armed	M
+2302	Chazz Brown	Black	33	2017-06-13	armed	M
+2303	James T. Hodgkinson	White	66	2017-06-14	armed	M
+2304	Michael Morris	White	54	2017-06-14	armed	M
+2305	Tommy Le	Asian	20	2017-06-14	armed	M
+2306	Michael Brown	White	40	2017-06-15	armed	M
+2307	Robert J. Berube	White	41	2017-06-16	armed	M
+2308	Hector Cisneros Soria	Hispanic	30	2017-06-16	armed	M
+2309	Sergio Valdovinos	Hispanic	32	2017-06-16	armed	M
+2311	Nathan Banks	White	37	2017-06-16	armed	M
+2312	Samantha Aguilar	Hispanic	28	2017-06-17	armed	F
+2313	Joseph Paul Hogan	White	48	2017-06-17	armed	M
+2314	Charleena Lyles	Black	30	2017-06-18	armed	F
+2315	William Webster	White	64	2017-06-18	armed	M
+2316	Matthew Colton Stover	Native	21	2017-06-19	armed	M
+2317	Alton Folmar	White	28	2017-06-19	armed	M
+2318	David Pacas	Hispanic	36	2017-06-20	armed	M
+2319	David Bryan Creson	White	40	2017-06-20	armed	M
+2320	Jacob Faulkner	White	32	2017-06-20	armed	M
+2321	Robb Stewart	White	50	2017-06-20	armed	M
+2322	Pedro Ramirez	Hispanic	28	2017-06-20	armed	M
+2323	Brandon D. Lukenbill	White	33	2017-06-21	armed	M
+2324	Daniel Francisco Valenzuela	Hispanic	37	2017-06-21	armed	M
+2326	Santino Trevino	Hispanic	20	2017-06-23	armed	M
+2327	Jesus Ramon Deltoro	Hispanic	34	2017-06-23	armed	M
+2328	Cameron Ollman	White	37	2017-06-24	armed	M
+2329	Christopher Michael Murray	White	24	2017-06-24	armed	M
+2330	Jimmie Bevenue	White	47	2017-06-24	armed	M
+2331	Giovonn Joseph-McDade	Black	20	2017-06-24	armed	M
+2332	Lawrence Heyward Jr.	Black	56	2017-06-25	armed	M
+2333	Deveonte Johnson	Black	24	2017-06-25	armed	M
+2334	Nicholas Johnston	White	47	2017-06-25	armed	M
+2335	Rip Huntington	Hispanic	36	2017-06-26	armed	M
+2336	Jason Magana Herrera	Hispanic	35	2017-06-27	armed	M
+2337	Rodney L. Cole	Black	37	2017-06-28	armed	M
+2339	Marco Cardoza	Hispanic	41	2017-06-29	armed	M
+2340	Joel Gatu Muturi	Black	23	2017-06-29	armed	M
+2341	Jose Guillermo Flores Colon	Hispanic	37	2017-06-29	armed	M
+2343	Brett Rodriguez	Hispanic	33	2017-06-30	armed	M
+2344	Patrick Sanchez	Hispanic	23	2017-07-01	armed	M
+2345	Quintec Locke	Black	37	2017-07-01	armed	M
+2346	Jeremy Holmes	Asian	19	2017-07-01	armed	M
+2347	Tyson Williams	White	39	2017-07-02	armed	M
+2348	Daniel Craven	White	53	2017-07-03	armed	M
+2349	John Donadio	White	51	2017-07-03	armed	M
+2350	Holden Gorka	White	25	2017-07-03	armed	M
+2351	Christopher Henry Cashell	White	45	2017-07-03	armed	M
+2352	Miguel Gonzales	Hispanic	28	2017-07-04	armed	M
+2353	Dana Dubose	Black	36	2017-07-04	armed	M
+2354	Cody Ray McCray	Hispanic	32	2017-07-04	armed	M
+2355	Donald Martin	White	39	2017-07-04	armed	M
+2356	Douglas West	White	46	2017-07-04	armed	M
+2357	Tyrone Orvy Peabody	Native	53	2017-07-04	armed	M
+2358	Zepp Crouchet	Black	42	2017-07-04	armed	M
+2359	Alexander Bonds	Black	34	2017-07-05	armed	M
+2360	Tiffany Lynn Potter	White	29	2017-07-05	armed	F
+2361	Edwin "Beanie" Esker	White	53	2017-07-05	armed	M
+2362	Jamie Huskey	White	45	2017-07-05	armed	M
+2364	Carroll Tuttle	White	51	2017-07-05	armed	M
+2365	Jesus Cervantes	Hispanic	35	2017-07-06	armed	M
+2368	TK TK	White	16	2017-07-07	armed	M
+2369	Kareem Ali Nadir Jones	Black	30	2017-07-07	armed	M
+2370	Michael Anthony Rude	Asian	22	2017-07-08	armed	M
+2371	Cardell Vance III	Black	23	2017-07-08	armed	M
+2372	Tina Medlin	White	50	2017-07-08	armed	F
+2373	Ryan A. Probst	White	28	2017-07-09	armed	M
+2374	Robert Yeiser	White	34	2017-07-09	armed	M
+2375	Brayant Alvarez	Hispanic	24	2017-07-09	armed	M
+2376	Edward Taylor	Black	54	2017-07-09	armed	M
+2377	Cody Ethan Mitchell	White	26	2017-07-10	armed	M
+2378	Gregory Shawn Thrower	White	39	2017-07-10	armed	M
+2379	Randy Engstrom	White	34	2017-07-11	armed	M
+2380	Caleb Edward Blaylock	White	27	2017-07-11	armed	M
+2381	Steve Scott	White	48	2017-07-11	armed	M
+2382	Antonio Garcia Jr.	Black	47	2017-07-11	armed	M
+2383	Silas Andrew Smith	White	54	2017-07-11	armed	M
+2384	Dorsey Glenn Taulbee Jr.	Native	33	2017-07-12	armed	M
+2385	James Gerald Davis	White	40	2017-07-12	armed	M
+2386	Keith Alan Eustace	White	58	2017-07-12	armed	M
+2387	Chancey Chamblee	White	55	2017-07-13	armed	M
+2388	Stephen Steele	White	47	2017-07-13	armed	M
+2389	Pedro Rubio	Hispanic	42	2017-07-13	armed	M
+2390	Gerber Dieguez	Hispanic	29	2017-07-15	armed	M
+2392	Vaughn Shaw	Black	23	2017-07-15	armed	M
+2393	Keith Wade	White	23	2017-07-15	armed	M
+2394	India N. Nelson	Black	25	2017-07-17	armed	F
+2395	Ernesto Sedillo	Hispanic	52	2017-07-17	armed	M
+2396	Eric Wesley Clark	White	43	2017-07-17	armed	M
+2397	Jose Cazares	Hispanic	37	2017-07-17	armed	M
+2398	Daniel Thomas Reid	White	32	2017-07-18	armed	M
+2399	Robert Earl Vaughan	White	70	2017-07-18	armed	M
+2400	Nolan Cornett	White	24	2017-07-19	armed	M
+2401	Anthony Benavidez	Hispanic	24	2017-07-19	armed	M
+2403	Joshua Daniels	White	52	2017-07-20	armed	M
+2404	Isaiah Perkins	Black	27	2017-07-20	armed	M
+2405	Yahir Breito	Hispanic	22	2017-07-21	armed	M
+2406	Vicente Velasquez	Hispanic	42	2017-07-21	armed	M
+2407	Walter Lynde	White	49	2017-07-23	armed	M
+2408	Michael Caponigro	White	59	2017-07-23	armed	M
+2409	Ismael Lopez Rodriguez	Hispanic	41	2017-07-23	armed	M
+2410	Kyle Scott Rushing	White	34	2017-07-23	armed	M
+2411	Jerrod Kershaw	White	31	2017-07-24	armed	M
+2412	Alexander J. Schoessel	White	23	2017-07-25	armed	M
+2413	Michael Joseph Harris	White	28	2017-07-25	armed	M
+2414	Moises Balladares	Hispanic	33	2017-07-25	armed	M
+2415	Aries Clark	Black	16	2017-07-25	armed	M
+2416	Andrew Collins	White	35	2017-07-26	armed	M
+2417	Giovani Casiano	White	26	2017-07-26	armed	M
+2418	Susan Teel	White	62	2017-07-26	armed	F
+2419	Kesharn K. Burney	Black	25	2017-07-26	armed	M
+2420	Sergio Velasco-Martinez	Hispanic	25	2017-07-27	armed	M
+2421	Matthew Folden	White	31	2017-07-27	armed	M
+2422	Alejandro Alvarado	Hispanic	35	2017-07-27	armed	M
+2423	Jerauld Phillip Hammond II	White	46	2017-07-27	armed	M
+2424	Deltra Henderson	Black	39	2017-07-27	armed	M
+2425	Michael Fitzgerald	White	26	2017-07-27	armed	M
+2426	Raymond Cruz	Hispanic	37	2017-07-28	armed	M
+2427	Brian J. Skinner	White	32	2017-07-28	armed	M
+2428	Rodney E. Jacobs	Black	31	2017-07-28	armed	M
+2429	Dennis W. Robinson	White	48	2017-07-29	armed	M
+2430	Jashod Arthur Carter	Black	29	2017-07-29	armed	M
+2431	Dwayne Jeune	Black	32	2017-07-31	armed	M
+2433	Robert Savelli	White	43	2017-07-31	armed	M
+2434	Norberto Nieblas Reyes	Hispanic	39	2017-07-31	armed	M
+2435	Kerry Bradley	Black	37	2017-08-01	armed	M
+2436	Franklin Oden	White	39	2017-08-01	armed	M
+2437	Mikle Eugene Dixon	White	42	2017-08-01	armed	M
+2438	Mark Anthony Sanchez	Hispanic	33	2017-08-01	armed	M
+2439	Miguel Salas	Hispanic	25	2017-08-01	armed	M
+2440	Preston Thornton	Black	29	2017-08-02	armed	M
+2441	Jeffrey Barboa	Hispanic	45	2017-08-02	armed	M
+2442	Quintas Harris	Black	27	2017-08-02	armed	M
+2443	Phillip Rhoades	White	28	2017-08-02	armed	M
+2444	Keith Burkholder	White	57	2017-08-03	armed	M
+2446	Aaron Payne	White	33	2017-08-04	armed	M
+2447	Cory Stephens	White	35	2017-08-04	armed	M
+2448	TK TK	Black	47	2017-08-04	armed	M
+2449	Jeremy Gabrial	White	31	2017-08-04	armed	M
+2450	Melissa Wiseman	White	36	2017-08-04	armed	F
+2451	Joseph Miller	White	54	2017-08-04	armed	M
+2452	Timmy Wilson	White	24	2017-08-05	armed	M
+2453	Pablo Garcia	Hispanic	35	2017-08-05	armed	M
+2454	Kyle Andrew Lankford	White	32	2017-08-06	armed	M
+2455	Danatae Franklin	Black	28	2017-08-06	armed	M
+2456	Winston Espino Sanchez	Hispanic	45	2017-08-07	armed	M
+2457	Jose Ortiz	Hispanic	29	2017-08-07	armed	M
+2459	Peter James Robbins	White	23	2017-08-08	armed	M
+2460	Darreon Neal	Black	17	2017-08-08	armed	M
+2461	Eugene Nelson	Black	20	2017-08-09	armed	M
+2462	Mark P. Coffey	White	33	2017-08-10	armed	M
+2463	Eric Bogart	White	49	2017-08-10	armed	M
+2464	Tyrease Carlyle	Black	31	2017-08-11	armed	M
+2465	Eduardo Navarrete	Hispanic	35	2017-08-12	armed	M
+2466	Christopher Collins	White	24	2017-08-13	armed	M
+2467	Roger Burzinski	White	54	2017-08-13	armed	M
+2468	Carmen William Rongione	White	41	2017-08-13	armed	M
+2469	Patrick Harmon	Black	50	2017-08-13	armed	M
+2470	Hussein Hassan	Black	46	2017-08-13	armed	M
+2471	Steven James Young	White	45	2017-08-14	armed	M
+2472	Robert Emmett Bracewell Jr.	White	20	2017-08-14	armed	M
+2473	Herbert Gilbert	Black	37	2017-08-15	armed	M
+2474	Kenneth Lewis	Black	34	2017-08-16	armed	M
+2475	James Midkiff	White	54	2017-08-16	armed	M
+2476	Peter Daniel Grima	White	65	2017-08-17	armed	M
+2477	Edgar Ramirez Carreto	Hispanic	28	2017-08-17	armed	M
+2478	Clarence Belsar III	White	26	2017-08-18	armed	M
+2479	Derrick Rashard Brabham	Black	25	2017-08-18	armed	M
+2480	Thomas Justin Walton	White	32	2017-08-19	armed	M
+2481	Jonathan Bolger	White	44	2017-08-20	armed	M
+2482	Keshawn Wilson	Black	32	2017-08-20	armed	M
+2483	Jeffrey Jacobs	White	42	2017-08-21	armed	M
+2484	Dennia Flowers	White	66	2017-08-21	armed	M
+2485	Tyler Whitmire	White	22	2017-08-21	armed	M
+2486	Nathaniel Richmond	Black	51	2017-08-21	armed	M
+2487	Thomas Selje	White	64	2017-08-21	armed	M
+2488	Kiwi Herring	Black	30	2017-08-22	armed	F
+2489	Henry Rivera Jr.	Hispanic	71	2017-08-22	armed	M
+2490	Robert Earl Adams	White	30	2017-08-22	armed	M
+2491	Konstantin Morozov	White	48	2017-08-22	armed	M
+2492	Mark Aaron Jensen	White	56	2017-08-22	armed	M
+2493	Ciara Howard	White	26	2017-08-23	armed	F
+2494	Colton Puckett	White	28	2017-08-24	armed	M
+2495	Isaias Raziel Ochoa	Hispanic	19	2017-08-24	armed	M
+2496	Scott Mayfield	Black	24	2017-08-24	armed	M
+2497	Daniel Blyler	White	44	2017-08-25	armed	M
+2498	Kristen Ambury	White	28	2017-08-25	armed	F
+2500	Michael Malik Kawon Lee	Black	18	2017-08-26	armed	M
+2501	William Wilson	Hispanic	26	2017-08-27	armed	M
+2502	Jason Hoops	White	33	2017-08-27	armed	M
+2503	Dwayne Martin	White	34	2017-08-27	armed	M
+2504	Kostatinos Sfaelos	White	62	2017-08-28	armed	M
+2505	William Matthew Holmes	Black	24	2017-08-28	armed	M
+2506	Ricky Ard	Black	55	2017-08-29	armed	M
+2507	Joshua Mark Cloud	White	22	2017-08-29	armed	M
+2508	Brandy Caldwell	White	46	2017-08-29	armed	F
+2510	Thomas Daniel Littlecloud	Native	32	2017-08-30	armed	M
+2511	Issac Cervantes	Hispanic	22	2017-08-31	armed	M
+2512	Debi Lynn Thorkelson	White	54	2017-08-31	armed	F
+2513	Michael Battles	White	32	2017-09-01	armed	M
+2514	Roger Helgerson	White	45	2017-09-01	armed	M
+2515	Daniel Gillis	White	36	2017-09-01	armed	M
+2516	Antwon Springer	Black	37	2017-09-03	armed	M
+2517	Henry Stephen Rakoz	White	47	2017-09-03	armed	M
+2519	Jarvis Hayes	Black	31	2017-09-03	armed	M
+2520	Shane Marsh	White	44	2017-09-04	armed	M
+2521	James Fuller	White	52	2017-09-04	armed	M
+2522	Daniel Wheelock	White	16	2017-09-05	armed	M
+2523	Rueben Galindo	Hispanic	29	2017-09-06	armed	M
+2525	Miguel Richards	Black	31	2017-09-06	armed	M
+2526	Eric Dwan Arnold	Black	41	2017-09-07	armed	M
+2527	Billy Joe Elmore	White	45	2017-09-08	armed	M
+2528	Michael Culhane	White	50	2017-09-08	armed	M
+2529	Ervin Eugene Sweat Jr.	Black	26	2017-09-09	armed	M
+2530	Erick Perez	Hispanic	22	2017-09-10	armed	M
+2531	Joseph Charles Cook	White	76	2017-09-10	armed	M
+2532	Frankie Santos	Hispanic	58	2017-09-10	armed	M
+2533	Spencer Hight	White	32	2017-09-10	armed	M
+2534	Juan Flores	Hispanic	19	2017-09-10	armed	M
+2535	Thomas Addison	Native	25	2017-09-11	armed	M
+2536	Brian Patrick Allen	White	48	2017-09-11	armed	M
+2537	Vincent Edward Hernandez Jr	Hispanic	39	2017-09-11	armed	M
+2538	Rodolfo Ballardo	Hispanic	31	2017-09-13	armed	M
+2539	Gary Joe McCourt	White	50	2017-09-14	armed	M
+2540	Ruben Urbina	Hispanic	15	2017-09-15	armed	M
+2541	Matthew Michael McTague	White	48	2017-09-15	armed	M
+2543	Scout Schultz	White	21	2017-09-16	armed	M
+2544	Nicholas K. Perkins	White	37	2017-09-17	armed	M
+2545	Brian Ziro	Black	21	2017-09-17	armed	M
+2546	Eric Alvarez	Hispanic	40	2017-09-17	armed	M
+2547	Jesse VanSipe	White	33	2017-09-18	armed	M
+2548	Joshua Stubbs	White	25	2017-09-19	armed	M
+2549	Jimme Knight Smith	White	55	2017-09-19	armed	M
+2550	Randall Ross	White	53	2017-09-19	armed	M
+2551	David Scott	White	27	2017-09-19	armed	M
+2552	Magdiel Sanchez	Hispanic	35	2017-09-20	armed	M
+2553	Eddie Russell Jr.	Black	25	2017-09-20	armed	M
+2554	Haraesheo Rice	Black	31	2017-09-20	armed	M
+2555	Mack Brinkley	White	70	2017-09-21	armed	M
+2556	Matthew Wells	White	40	2017-09-21	armed	M
+2557	Austin Dunsmore	Other	25	2017-09-21	armed	M
+2558	Jose Felix Reyes	Hispanic	38	2017-09-21	armed	M
+2559	Alexander Ochoa	Hispanic	26	2017-09-22	armed	M
+2560	Dillan Tabares	Other	27	2017-09-22	armed	M
+2561	TK TK	White	37.11793090137039	2017-09-22	armed	M
+2562	Scott Farnsworth	White	28	2017-09-22	armed	M
+2563	Bryan Wright	White	40	2017-09-22	armed	M
+2564	Scott Michael Chamberlain	White	44	2017-09-22	armed	M
+2565	Damien Murray	Black	39	2017-09-24	armed	M
+2566	Jarred Burke	White	24	2017-09-24	armed	M
+2567	Anthony Robinson	Black	32	2017-09-25	armed	M
+2568	Cody O'Bryan	White	31	2017-09-25	armed	M
+2569	Jeffory Hughes	White	50	2017-09-26	armed	M
+2570	Roger Craig Nielsen	White	31	2017-09-26	armed	M
+2571	Craig A. Johnson	White	50	2017-09-26	armed	M
+2572	Demilo Trayuon Hodge	Black	45	2017-09-27	armed	M
+2573	Anthony Wallace	White	44	2017-09-27	armed	M
+2574	Guy Lynn Scott	White	48	2017-09-27	armed	M
+2575	Michael Bruce Peterson	White	39	2017-09-28	armed	M
+2576	Dominique Tyrell White	Native	30	2017-09-28	armed	M
+2577	Quentin Starke	White	44	2017-09-30	armed	M
+2578	Tyrell Dewayne Pinkston	Black	28	2017-09-30	armed	M
+2579	Lester Jesus Machado	Hispanic	24	2017-10-01	armed	M
+2580	Marquis "Bubba" Jones	Black	27	2017-10-01	armed	M
+2581	Anthony Gallo	White	34	2017-10-01	armed	M
+2583	George Randall Newman	White	26	2017-10-01	armed	M
+2584	Joshua Lanflisi	White	38	2017-10-01	armed	M
+2585	Kevin Anthony Battaglia	White	33	2017-10-02	armed	M
+2586	Marquinton T. Brooks	White	22	2017-10-02	armed	M
+2587	John Loaiza	White	40	2017-10-03	armed	M
+2588	Chad Cochell	White	34	2017-10-04	armed	M
+2589	Sandy Guardiola	Black	48	2017-10-04	armed	F
+2590	Jomekia Minter	Black	37	2017-10-04	armed	M
+2591	Michael Ferrell	White	67	2017-10-04	armed	M
+2593	Cristino Umana-Garcia	Hispanic	29	2017-10-05	armed	M
+2594	Phumee Lee	Asian	28	2017-10-05	armed	M
+2595	Johnny Ray Leeds	White	40	2017-10-05	armed	M
+2596	German Ornelas	Hispanic	31	2017-10-05	armed	M
+2597	Dale Sisson	White	51	2017-10-06	armed	M
+2598	Garrett Hoose	White	47	2017-10-06	armed	M
+2599	Ernesto Padron	Hispanic	52	2017-10-06	armed	M
+2600	Matthew Jonathan Luis Hurtado	Hispanic	28	2017-10-06	armed	M
+2601	Roberto Callejas	Hispanic	35	2017-10-06	armed	M
+2602	Samuel David Lanham	White	25	2017-10-07	armed	M
+2603	Roberto Avendano	Hispanic	37.11793090137039	2017-10-08	armed	M
+2604	Sabrina Ann Garcia	Hispanic	34	2017-10-08	armed	F
+2605	Albert Garcia	Hispanic	58	2017-10-08	armed	M
+2606	Corey Boykin	Black	24	2017-10-08	armed	M
+2607	Cariann Hithon	Black	22	2017-10-08	armed	F
+2608	Glenn Southwood Jr.	White	46	2017-10-08	armed	M
+2609	Vincent Dronet	White	61	2017-10-11	armed	M
+2610	Brandon Wade Rucker	White	43	2017-10-11	armed	M
+2612	John Robert Payne	Black	35	2017-10-12	armed	M
+2613	Sean D. Brady	White	29	2017-10-12	armed	M
+2614	Paul Dolen	White	57	2017-10-13	armed	M
+2615	J.C. Hawkins	Black	42	2017-10-13	armed	M
+2616	Michael David Lopez	Hispanic	44	2017-10-14	armed	M
+2617	Eric Garrison	Black	20	2017-10-16	armed	M
+2618	James Michael Chappell	White	32	2017-10-16	armed	M
+2619	Luis David Flores	Hispanic	34	2017-10-16	armed	M
+2620	Ezekiel Juan Duran	Hispanic	18	2017-10-16	armed	M
+2621	Joshua Clayton Johnson	White	31	2017-10-16	armed	M
+2622	DeAndre Bethea	Black	24	2017-10-17	armed	M
+2623	Daniel Spear	White	35	2017-10-18	armed	M
+2624	Mitchell Fox	White	34	2017-10-19	armed	M
+2625	Matthew Whitley	White	26	2017-10-19	armed	M
+2627	Steven Wayne Truex	White	38	2017-10-19	armed	M
+2628	Jamarco McShann	Black	23	2017-10-20	armed	M
+2629	Phillip Joel Trammell	White	30	2017-10-20	armed	M
+2630	Victor Gonzalez	Hispanic	44	2017-10-21	armed	M
+2631	Jason Marble	White	37	2017-10-21	armed	M
+2633	Johnny Bonta	Native	43	2017-10-22	armed	M
+2634	Samantha Hennard	White	25	2017-10-22	armed	F
+2636	Matthew David Palaita	Hispanic	35	2017-10-23	armed	M
+2637	Ashleigh Bertucci	White	31	2017-10-23	armed	F
+2638	George Gipp	Native	35	2017-10-23	armed	M
+2640	Brandon Uzialko	White	25	2017-10-24	armed	M
+2641	David Campos	Hispanic	34	2017-10-24	armed	M
+2642	Timothy Earl Jackson	Black	33	2017-10-25	armed	M
+2643	Antonio Levison	Black	33	2017-10-25	armed	M
+2644	Sanders Surber	White	32	2017-10-26	armed	M
+2645	James M. Davis	White	34	2017-10-26	armed	M
+2646	Jerry Richardson	Black	46	2017-10-27	armed	M
+2647	Danny Sanchez	Hispanic	40	2017-10-28	armed	M
+2648	Lucas DeFord	Native	27	2017-10-28	armed	M
+2649	Baltazar Escalona-Baez	Hispanic	17	2017-10-28	armed	M
+2650	Eric Higgs	Black	46	2017-10-29	armed	M
+2651	Mark Bidon	White	50	2017-10-29	armed	M
+2652	Brandon Lee Flowers	White	41	2017-10-29	armed	M
+2653	Kalin Jackson	Black	23	2017-10-29	armed	M
+2654	Robert James Lightfeather	Native	33	2017-10-30	armed	M
+2655	Jesus Birelas-Contreras	Hispanic	25	2017-10-31	armed	M
+2656	Luvelle Kennon	Black	27	2017-10-31	armed	M
+2657	Paul Landis Gorden	White	39	2017-10-31	armed	M
+2658	Vincent Hall	Black	22	2017-10-31	armed	M
+2659	Heather Denean Bubrig	White	37	2017-10-31	armed	F
+2660	Jamee Almarez	Hispanic	27	2017-11-01	armed	M
+2661	Christopher Jacobs	White	28	2017-11-01	armed	M
+2662	Wallace Jory	White	56	2017-11-02	armed	M
+2663	Jerry Roach	White	71	2017-11-02	armed	M
+2664	Robert Powell	White	53	2017-11-03	armed	M
+2665	Christopher Edward Loftis	White	39	2017-11-03	armed	M
+2666	Nyung Kyee	Asian	56	2017-11-04	armed	M
+2667	Raymond Davis	Black	24	2017-11-04	armed	M
+2668	Michael Wayne Marin	White	35	2017-11-04	armed	M
+2669	Frank Half	Native	30	2017-11-04	armed	M
+2670	Mason Johnson	White	31	2017-11-04	armed	M
+2671	Augustus Joshua Crawford	Black	20	2017-11-04	armed	M
+2672	John Quincy Grady	White	35	2017-11-05	armed	M
+2673	Marylsa Sanchez	Hispanic	31	2017-11-05	armed	F
+2674	Eddie Lee Patterson	Black	49	2017-11-05	armed	M
+2675	Pamela Webber	White	54	2017-11-06	armed	F
+2676	TK TK	White	48	2017-11-06	armed	M
+2677	Talathia Brooks	White	32	2017-11-07	armed	F
+2678	Jarrett Varnado	Black	35	2017-11-07	armed	M
+2679	James Jacob Bailey	White	30	2017-11-08	armed	M
+2680	Roger Raymond York	White	32	2017-11-08	armed	M
+2681	Victor Demetrius Bray	White	31	2017-11-08	armed	M
+2682	Jason Ike Pero	Native	14	2017-11-08	armed	M
+2683	Paul Jones	Black	25	2017-11-09	armed	M
+2684	Joseph Santos	White	32	2017-11-09	armed	M
+2685	Charles Edwin Nickels	White	35	2017-11-09	armed	M
+2686	Kiser L. Sturgell	White	27	2017-11-09	armed	M
+2688	Terry A. Dubois	White	55	2017-11-10	armed	M
+2689	Thomas Aikens	Black	43	2017-11-10	armed	M
+2690	Ronald L. Klitzka	White	62	2017-11-10	armed	M
+2691	John Bazemore III	Black	25	2017-11-10	armed	M
+2692	TK TK	Black	37.11793090137039	2017-11-10	armed	M
+2693	Matthew Joseph Scudero	White	50	2017-11-10	armed	M
+2694	Shane Jensen	White	19	2017-11-11	armed	M
+2695	Phillip Pitts	Black	41	2017-11-11	armed	M
+2696	Eddy Longoria	White	55	2017-11-11	armed	M
+2697	Larry Ruiz-Barreto	Hispanic	19	2017-11-12	armed	M
+2698	Cornell Lockhart	Black	67	2017-11-13	armed	M
+2700	Kevin J. Neal	White	44	2017-11-14	armed	M
+2702	Thomas Barclay	White	48	2017-11-15	armed	M
+2703	Oscar Anaya	Hispanic	22	2017-11-15	armed	M
+2704	TK TK	Black	37.11793090137039	2017-11-15	armed	M
+2705	Phillip Van Cise	White	59	2017-11-15	armed	M
+2706	Chester Randolph Ward	Black	68	2017-11-16	armed	M
+2709	Shady Bell	Black	46	2017-11-17	armed	M
+2711	Seth Hardwick	White	30	2017-11-17	armed	M
+2713	Preston Bell	Native	24	2017-11-18	armed	M
+2714	Brian Calvert	White	18	2017-11-18	armed	M
+2715	Jacob McCarty	White	27	2017-11-19	armed	M
+2716	Matthew Donald Tobin	White	26	2017-11-19	armed	M
+2717	Seth William Johnson	White	15	2017-11-20	armed	M
+2718	Emilio John Cruz Hernandez	Hispanic	26	2017-11-23	armed	M
+2719	Nikolas Wanner	White	32	2017-11-23	armed	M
+2720	Rehyen Bost-McMurray	Black	17	2017-11-23	armed	M
+2721	Jackie Germaine Ragland	Black	32	2017-11-23	armed	M
+2722	David Leroy Thelen	White	43	2017-11-23	armed	M
+2723	Rocky Miles West	White	26	2017-11-24	armed	M
+2724	Steve Steenhard	White	51	2017-11-24	armed	M
+2725	Nelson F. Rodarte	Hispanic	39	2017-11-25	armed	M
+2726	Johnny Castro	Hispanic	43	2017-11-26	armed	M
+2727	William Freddy Carter Jr.	White	31	2017-11-26	armed	M
+2728	Daniel Navarro	Hispanic	22	2017-11-26	armed	M
+2729	Christian Chavez	Hispanic	40	2017-11-27	armed	M
+2730	Robert Claude Smith	White	64	2017-11-28	armed	M
+2731	Lucas Stone	White	30	2017-11-28	armed	M
+2732	James C. Danforth	White	59	2017-11-28	armed	M
+2733	Aquoness Cathery	Black	24	2017-11-29	armed	M
+2734	Rufus Cedric Baker	Black	32	2017-11-30	armed	M
+2735	Juan Andres Barillas	Hispanic	37	2017-11-30	armed	M
+2736	Trent Fondren	White	33	2017-12-01	armed	M
+2738	Mario Guevara	Hispanic	37	2017-12-02	armed	M
+2739	Christopher Louis Willard	White	33	2017-12-02	armed	M
+2740	Gregory Ray Ham	White	62	2017-12-03	armed	M
+2741	Jeffrey Scott Cantrell	White	46	2017-12-04	armed	M
+2742	Mario Sanabria	Hispanic	69	2017-12-05	armed	M
+2743	Johnnie D. Carter	Black	24	2017-12-05	armed	M
+2745	Scott Addison	White	49	2017-12-06	armed	M
+2746	Jesse Cole Shuping	White	35	2017-12-07	armed	M
+2747	Kyler Grabbingbear	Native	19	2017-12-07	armed	M
+2748	John Souder	White	40	2017-12-07	armed	M
+2749	Frederick Douglas Wilburn	Black	34	2017-12-07	armed	M
+2750	Vernchoy Saechao	Asian	22	2017-12-08	armed	M
+2751	Juliun Pitcher	White	16	2017-12-09	armed	M
+2752	James Newman	White	69	2017-12-09	armed	M
+2753	Kyle Zahacefski	White	24	2017-12-10	armed	M
+2754	Kyle Anthony Mihecoby	Native	28	2017-12-10	armed	M
+2755	Stacy Micheletti	White	51	2017-12-11	armed	M
+2756	Zoe Dowdell	Black	20	2017-12-14	armed	M
+2757	Clifford Keller	White	34	2017-12-15	armed	M
+2759	Todd A. Stone	Black	48	2017-12-18	armed	M
+2760	Robert Edwards	White	33	2017-12-20	armed	M
+2762	Jose Aguero	Hispanic	26	2017-12-21	armed	M
+2763	Jeffrey John Golnick	White	40	2017-12-22	armed	M
+2764	Evilio Gomez	Hispanic	46	2017-12-24	armed	M
+2765	Cody Dalton Eyre	White	20	2017-12-24	armed	M
+2766	Jesse Scarsbrook	Black	28	2017-12-26	armed	M
+2767	Robo Raikoglo	White	30	2017-12-26	armed	M
+2768	Joshua Paul Spottedhorse	Native	36	2017-12-26	armed	M
+2769	Dennis Plowden	Black	25	2017-12-27	armed	M
+2771	Kenneth J. Perna-Rutsky	White	38	2017-12-27	armed	M
+2772	Corey Bailey	Black	30	2017-12-28	armed	M
+2773	Marco Antonio Carlos	Hispanic	31	2017-12-30	armed	M
+2774	Heath Wayne Hodges	White	36	2017-12-30	armed	M
+2775	Mark Steven Parkinson	White	65	2018-01-01	armed	M
+2776	Archie Lawhon III	White	42	2018-01-01	armed	M
+2777	Gary Johns	White	65	2018-01-01	armed	M
+2778	Shana Diane Musquiz	White	30	2018-01-02	armed	F
+2779	Ronald Elliot	White	49	2018-01-02	armed	M
+2780	Louis C. Miller	White	66	2018-01-02	armed	M
+2781	Shaleem Tindle	Black	28	2018-01-03	armed	M
+2782	Robert Hansen	White	27	2018-01-04	armed	M
+2783	Brandon O. Cude	White	31	2018-01-04	armed	M
+2784	William B. Oleson	White	46	2018-01-05	armed	M
+2785	Ledarren D. Mixon	Black	28	2018-01-05	armed	M
+2786	Andy Vo	Asian	35	2018-01-05	armed	M
+2787	Daniel Saavedra-Arreola	Hispanic	24	2018-01-06	armed	M
+2788	Charles Smith Jr.	Black	17	2018-01-06	armed	M
+2789	Jonathan William Leroy	White	39	2018-01-06	armed	M
+2790	Richard Rangel	White	21	2018-01-06	armed	M
+2791	Skyler Burnette	Native	21	2018-01-06	armed	M
+2792	Guillermo Mendoza	Hispanic	57	2018-01-06	armed	M
+2793	Gregory Stough	White	27	2018-01-06	armed	M
+2794	Jackie Harlan Roberts	White	62	2018-01-06	armed	M
+2796	Trayvon Mitchell	Black	38	2018-01-07	armed	M
+2797	Alejandro Valdez	Hispanic	27	2018-01-07	armed	M
+2798	Richard R. Towler	Black	54	2018-01-07	armed	M
+2799	Michael Bender	White	27	2018-01-07	armed	M
+2801	Eugene Loftis	White	25	2018-01-08	armed	M
+2802	Primitivo Macias-Rodriguez	Hispanic	46	2018-01-08	armed	M
+2803	Travis Griffin	Black	20	2018-01-08	armed	M
+2804	Frank William Pawul	White	32	2018-01-08	armed	M
+2805	Thompson Nguyen	Asian	27	2018-01-09	armed	M
+2806	Shalun Dique Smith	Black	21	2018-01-10	armed	M
+2807	Jose Arroyo-Rosales	Hispanic	60	2018-01-11	armed	M
+2808	Justin Coy Adkins	White	44	2018-01-11	armed	M
+2809	Jonathan Bennett	Black	23	2018-01-11	armed	M
+2810	Jared S.R. Williams	White	31	2018-01-12	armed	M
+2811	Terry Amons	Black	43	2018-01-12	armed	M
+2812	Jason D. Whittemore	White	39	2018-01-12	armed	M
+2813	Remi Sabbe	White	54	2018-01-12	armed	M
+2814	Amanuel Dagebo	Black	22	2018-01-12	armed	M
+2815	Jeffrey Alan Burleson	White	37	2018-01-12	armed	M
+2816	Joseph Hilton	White	42	2018-01-13	armed	M
+2817	Christian Escobedo	Hispanic	22	2018-01-14	armed	M
+2818	Robert Martinez	Hispanic	42	2018-01-15	armed	M
+2819	Nathan Giffin	White	32	2018-01-16	armed	M
+2820	Victor M. Reyes	Hispanic	30	2018-01-16	armed	M
+2821	Kerry Lee Nield	White	53	2018-01-16	armed	F
+2823	Geraldine Townsend	Black	72	2018-01-17	armed	F
+2824	Jihad Merrick	Black	29	2018-01-17	armed	M
+2825	Brian Gregory	Black	34	2018-01-17	armed	M
+2826	Donte D. Shannon	Black	26	2018-01-17	armed	M
+2827	Jordan Keckhut	Hispanic	22	2018-01-17	armed	M
+2829	Kevin Sturgis	Black	31	2018-01-18	armed	M
+2830	Marshall Coleman	White	58	2018-01-19	armed	M
+2831	Nicholas Daniel Moore	White	23	2018-01-20	armed	M
+2832	Jason Lappe	White	44	2018-01-20	armed	M
+2833	Shannon Jason Cables	White	46	2018-01-20	armed	M
+2835	John Albers	White	17	2018-01-20	armed	M
+2836	Ronald Jay Lawson	White	46	2018-01-21	armed	M
+2837	Ilkka O. Hiironen	White	35	2018-01-21	armed	M
+2838	Joshua Dale Prough	White	36	2018-01-22	armed	M
+2839	Aaron Olivarez Candanoza	Hispanic	28	2018-01-22	armed	M
+2841	Edward C. Gandy	White	47	2018-01-22	armed	M
+2842	Joe Delira-Alires	Hispanic	35	2018-01-22	armed	M
+2843	Joseph E. Knight	White	40	2018-01-22	armed	M
+2844	Ricky Jerome Boyd	Black	24	2018-01-23	armed	M
+2845	Alvaro Herrera	Hispanic	18	2018-01-23	armed	M
+2847	Shane McVey	White	54	2018-01-23	armed	M
+2848	Humberto Vera-Munoz	Hispanic	27	2018-01-24	armed	M
+2849	David Byron Kidney	White	62	2018-01-24	armed	M
+2850	William Charles Mackenzie	White	66	2018-01-25	armed	M
+2852	Dustin Gonzales Castillo	Hispanic	19	2018-01-25	armed	M
+2853	Steven Hutchins	White	27	2018-01-25	armed	M
+2854	Christopher Eric Giles	White	23	2018-01-26	armed	M
+2855	Axell Vivas	Hispanic	42	2018-01-26	armed	M
+2856	Nathaniel T. Edwards	Black	43	2018-01-26	armed	M
+2857	Matthew Zimmerman	White	42	2018-01-26	armed	M
+2858	William Pollard	Black	45	2018-01-27	armed	M
+2859	Crystalline Barnes	Black	21	2018-01-27	armed	F
+2860	Kirsten Kloppe	White	43	2018-01-27	armed	F
+2861	Anthony S. McDaniel	White	45	2018-01-28	armed	M
+2862	Billy Lewis Rucker	Black	33	2018-01-28	armed	M
+2863	Paul David Johnson	White	38	2018-01-28	armed	M
+2864	Gregory Kocian	White	33	2018-01-28	armed	M
+2865	TK TK	Hispanic	46	2018-01-29	armed	M
+2866	Michael Hansford	Black	52	2018-01-29	armed	M
+2867	Mark Renee Flores	Hispanic	46	2018-01-29	armed	M
+2869	Gilbert Salas	Hispanic	20	2018-01-31	armed	M
+2870	Adrian Valdez	Hispanic	39	2018-01-31	armed	M
+2872	Albert E. Morton	Black	31	2018-02-01	armed	M
+2873	Daniel O. El	Black	32	2018-02-01	armed	M
+2874	William Young	White	56	2018-02-01	armed	M
+2875	Anthony Joe Williams	Black	37	2018-02-01	armed	M
+2876	Alexander W. Simpson	White	32	2018-02-01	armed	M
+2877	Brett Dontae Bush	Black	28	2018-02-01	armed	M
+2878	Taylor Schnortz	White	26	2018-02-01	armed	M
+2879	Charlie Shoupe	White	27	2018-02-02	armed	M
+2880	Mitchell Kitchen	Black	37.11793090137039	2018-02-03	armed	M
+2882	Ernie Lizana	White	49	2018-02-03	armed	M
+2883	Anthony Jacob Weber	Black	16	2018-02-04	armed	M
+2884	Jason Richard Sienze	White	35	2018-02-05	armed	M
+2885	Manuel Zetina	Hispanic	19	2018-02-05	armed	M
+2887	Alex Duran	Hispanic	29	2018-02-06	armed	M
+2888	Cesar Bautista	Hispanic	37	2018-02-06	armed	M
+2889	Hugo Steven Selva	White	22	2018-02-07	armed	M
+2890	Lloyd Harris	White	40	2018-02-08	armed	M
+2891	Ricardo Colon	Hispanic	35	2018-02-08	armed	M
+2892	Tierre Guthrie	Black	39	2018-02-09	armed	M
+2893	David Darden	Black	36	2018-02-09	armed	M
+2894	John Hamilton	White	78	2018-02-09	armed	M
+2895	Steven Tyler Reed	White	25	2018-02-10	armed	M
+2896	Troy Jacques	White	41	2018-02-10	armed	M
+2897	Michael Weber	White	63	2018-02-10	armed	M
+2898	Sidney T. Richardson	Black	48	2018-02-10	armed	M
+2899	Benjamin Gregware	White	42	2018-02-11	armed	M
+2900	Mark Daniels	Black	39	2018-02-11	armed	M
+2901	Raymond Bishop	White	84	2018-02-12	armed	M
+2903	Peter Le	Asian	52	2018-02-13	armed	M
+2904	Dawn Elika Center	White	48	2018-02-13	armed	F
+2905	Jimmy Terry	Black	30	2018-02-14	armed	M
+2906	Travis D. Tucker	White	29	2018-02-14	armed	M
+2907	Preston Ray Holloway	White	27	2018-02-14	armed	M
+2908	Donald Fulton	White	41	2018-02-14	armed	M
+2909	Arthur Joseph Gonzales	Hispanic	57	2018-02-15	armed	M
+2910	Fordell Hill	Native	27	2018-02-15	armed	M
+2911	Wesley Taylor	White	58	2018-02-15	armed	M
+2912	Tim Berger	White	59	2018-02-16	armed	M
+2913	Odrey Paul Reed	White	39	2018-02-16	armed	M
+2914	Lamar Green	Black	28	2018-02-17	armed	M
+2915	Ryan Batchelder	White	28	2018-02-17	armed	M
+2916	Nathaniel Montoya	Hispanic	23	2018-02-17	armed	M
+2917	Paul Stanley Strickland	White	55	2018-02-17	armed	M
+2918	Ernest Manuel Montelongo	Hispanic	33	2018-02-18	armed	M
+2919	Thomas Vincent Alvarez	Hispanic	23	2018-02-19	armed	M
+2920	Lawrence Shaw	Black	45	2018-02-19	armed	M
+2921	Glenn Tyndell	Black	37	2018-02-21	armed	M
+2922	Lonnie Smith	Black	21	2018-02-21	armed	M
+2923	Michael Andrew Schieffer	White	27	2018-02-21	armed	M
+2924	Edward Hallinan	Black	39	2018-02-21	armed	M
+2925	Lee Edward Bonner	Black	37	2018-02-21	armed	M
+2927	Joshua D. Babb	Black	26	2018-02-22	armed	M
+2928	Jacob Uptain	White	27	2018-02-22	armed	M
+2930	Douglas Kemp	White	58	2018-02-23	armed	M
+2931	Randall Beymer	White	62	2018-02-24	armed	M
+2932	Haydon Taylor	Black	25	2018-02-25	armed	M
+2933	Douglas Oneyear	White	36	2018-02-25	armed	M
+2934	TK TK	Hispanic	37.11793090137039	2018-02-25	armed	M
+2935	Aaron Clifford Fike	White	27	2018-02-26	armed	M
+2936	Joshua Kinnard	White	37	2018-02-26	armed	M
+2937	Ethan Straub	White	25	2018-02-26	armed	M
+2938	William Watson	Black	40	2018-02-26	armed	M
+2939	Orbel Nazarians	White	22	2018-02-26	armed	M
+2940	Marlon Smith	Black	29	2018-02-27	armed	M
+2941	Dustin James Case	White	20	2018-02-27	armed	M
+2942	Curtis Bradley Ware	White	33	2018-02-27	armed	M
+2943	Qawi A. Muhammad	Black	48	2018-02-28	armed	M
+2944	Ernesto Michel	Hispanic	47	2018-02-28	armed	M
+2945	Timothy M. Gray	Black	40	2018-03-01	armed	M
+2946	Joel Jacobo	Hispanic	29	2018-03-01	armed	M
+2947	Jose D. Gomez Burgos	Hispanic	29	2018-03-02	armed	M
+2948	Stephen Hudak	White	44	2018-03-02	armed	M
+2949	Christopher Race	White	36	2018-03-02	armed	M
+2950	Erik Dunham	White	48	2018-03-02	armed	M
+2951	James Vaughn	Black	49	2018-03-02	armed	M
+2952	Amanda Alvarez	Hispanic	38	2018-03-03	armed	F
+2953	Marvin McMillian	Black	41	2018-03-03	armed	M
+2954	Angel Luis Ortiz	Hispanic	37.11793090137039	2018-03-04	armed	M
+2955	Brandon Kuhlman	White	28	2018-03-05	armed	M
+2956	David Willoughby	White	33	2018-03-05	armed	M
+2957	Ryan L. Smith	White	44	2018-03-05	armed	M
+2958	Robert Lewis Yates	White	65	2018-03-05	armed	M
+2959	Steven Dalton	White	35	2018-03-05	armed	M
+2960	Andrew Rossi	White	25	2018-03-05	armed	M
+2961	Michael Kline	White	40	2018-03-06	armed	M
+2962	Michael Reynolds	White	36	2018-03-06	armed	M
+2963	Steven Peters	White	55	2018-03-06	armed	M
+2964	Jesus Delgado-Duarte	Hispanic	19	2018-03-06	armed	M
+2965	Louis Troy Risinger	White	70	2018-03-06	armed	M
+2966	James E. Waters	Black	37	2018-03-06	armed	M
+2967	Donald McFarlane	White	53	2018-03-07	armed	M
+2969	Victor Ancira	Hispanic	46	2018-03-07	armed	M
+2970	Jamil Harvey	Black	29	2018-03-08	armed	M
+2971	Dwight Heckman	Native	27	2018-03-08	armed	M
+2972	Alkeeta Allena Walker	White	32	2018-03-09	armed	F
+2973	David Gardea	Hispanic	27	2018-03-09	armed	M
+2974	Hieu Than	Asian	38	2018-03-09	armed	M
+2975	Daniel Stacey Reynolds	Black	20	2018-03-10	armed	M
+2976	Orion Godbout	Hispanic	45	2018-03-10	armed	M
+2977	Joshua Pawlik	White	32	2018-03-11	armed	M
+2978	Andy Lucero	Hispanic	48	2018-03-11	armed	M
+2979	Juan Garcia Alvarez	Hispanic	57	2018-03-11	armed	M
+2980	Decynthia Clements	Black	34	2018-03-12	armed	F
+2981	Jaden Marsh	White	16	2018-03-12	armed	M
+2982	Kenneth Scott Townley	White	47	2018-03-12	armed	M
+2983	Brisco Tim Woodell	White	61	2018-03-12	armed	M
+2984	Justin Lee Dietrich	White	32	2018-03-12	armed	M
+2985	Corky Lee Oliver	White	31	2018-03-12	armed	M
+2986	Michael Ward	Black	46	2018-03-12	armed	M
+2987	Jontell Reedom	Black	27	2018-03-12	armed	M
+2988	Bryan Liles	White	31	2018-03-13	armed	M
+2989	Ryan Chapman	White	26	2018-03-14	armed	M
+2992	James Alfonso Vaughn	Black	49	2018-03-16	armed	M
+2993	Mark Clinton Harrell	White	26	2018-03-16	armed	M
+2994	William Langfitt	White	28	2018-03-16	armed	M
+2995	Bobby Lovin	White	62	2018-03-16	armed	M
+2996	Osbaldo Jimenez Ramirez	Hispanic	50	2018-03-17	armed	M
+2998	Manuel Borrego	Hispanic	40	2018-03-18	armed	M
+2999	Quintin J. Horner	Native	50	2018-03-19	armed	M
+3000	Michael Lavelle Holliman	White	50	2018-03-19	armed	M
+3002	Jermaine Massey	Black	35	2018-03-19	armed	M
+3003	Joel Pflum	White	32	2018-03-20	armed	M
+3004	Kent Earl Pittman	White	56	2018-03-20	armed	M
+3005	Chance Christopher Haegele	White	20	2018-03-20	armed	M
+3006	Scott Mielentz	White	56	2018-03-20	armed	M
+3007	Duane Preciado	Native	39	2018-03-21	armed	M
+3008	Mark Allen Lunn	White	47	2018-03-21	armed	M
+3009	Jason M. Raffaeli	White	25	2018-03-21	armed	M
+3010	Jehad Eid	Asian	21	2018-03-21	armed	M
+3011	Angel Uolla	Hispanic	18	2018-03-21	armed	M
+3012	Santiago Calderon	Hispanic	36	2018-03-22	armed	M
+3014	Michael Leroy McGinnis	White	29	2018-03-23	armed	M
+3015	Steven Cortez	Hispanic	20	2018-03-23	armed	M
+3016	Linus F. Phillip	Black	30	2018-03-23	armed	M
+3017	Kevin Hall	White	40	2018-03-23	armed	M
+3018	Robert Vega	Hispanic	48	2018-03-23	armed	M
+3019	Kevin Robles	White	23	2018-03-23	armed	M
+3021	Zander M. Clark	Native	20	2018-03-24	armed	M
+3022	Kaitlin Marie Demeo	White	25	2018-03-24	armed	F
+3023	Hugo Alvarez	Hispanic	28	2018-03-25	armed	M
+3024	Nathan C. Castle	White	34	2018-03-26	armed	M
+3025	Juan Carlos Romero	Hispanic	41	2018-03-27	armed	M
+3027	Evan Bashir	White	29	2018-03-27	armed	M
+3028	Holly Knighton	White	33	2018-03-27	armed	F
+3029	Jose Aaron Gonzalez	Hispanic	44	2018-03-27	armed	M
+3030	William John Dominguez	White	31	2018-03-28	armed	M
+3031	Aaron Ibrahem	White	26	2018-03-28	armed	M
+3032	Jesse Kilgus	White	51	2018-03-28	armed	M
+3033	Gerald Richard Johns	White	64	2018-03-28	armed	M
+3034	Robert B. Shaw	White	29	2018-03-28	armed	M
+3035	George Pappas	White	61	2018-03-28	armed	M
+3036	Marco Antonio Saavedra	Hispanic	44	2018-03-29	armed	M
+3037	Rodney Toler	Black	39	2018-03-29	armed	M
+3038	James Decoursey	White	35	2018-03-29	armed	M
+3039	Christopher Gatewood	White	39	2018-03-29	armed	M
+3040	Edward Van McCrae	Black	60	2018-03-30	armed	M
+3041	Timothy Breckenridge	White	42	2018-03-30	armed	M
+3042	Jason Birt	White	27	2018-03-31	armed	M
+3043	Nicolas Sedano	Hispanic	21	2018-03-31	armed	M
+3044	Cresencio Rodriguez	Hispanic	33	2018-04-01	armed	M
+3045	Bobby Hinton	Black	60	2018-04-01	armed	M
+3046	Joseph Walden Johnson	White	24	2018-04-01	armed	M
+3047	Timothy Wyatt	Black	41	2018-04-01	armed	M
+3048	Brian Bellamy	Black	41	2018-04-01	armed	M
+3049	Christopher Hall	Black	34	2018-04-01	armed	M
+3050	Luis Yair Alvarez	Hispanic	23	2018-04-01	armed	M
+3051	Donald McCarter	White	38	2018-04-01	armed	M
+3052	John Wussler	White	58	2018-04-01	armed	M
+3053	Jeffrey Louis Parker	White	49	2018-04-03	armed	M
+3054	Deshawn Antonio Carswell	Black	27	2018-04-04	armed	M
+3055	Adan Rene Marrero	Hispanic	34	2018-04-04	armed	M
+3056	Saheed Vassell	Black	34	2018-04-04	armed	M
+3057	Alexis Stinson	White	44	2018-04-04	armed	F
+3058	Kelvin Baldwin	White	30	2018-04-04	armed	M
+3059	Robert Litolff	White	81	2018-04-05	armed	M
+3060	William Frazier	White	40	2018-04-05	armed	M
+3061	Terrance Eppenger	Black	27	2018-04-05	armed	M
+3062	Diante Yarber	Black	26	2018-04-05	armed	M
+3063	Nathaniel Prasad	Asian	18	2018-04-05	armed	M
+3064	Raymond Lyle Bell	White	59	2018-04-05	armed	M
+3065	Rafael Ramirez	Hispanic	56	2018-04-05	armed	M
+3066	Junior Davis Lopez	Hispanic	22	2018-04-05	armed	M
+3067	Antonio Aquino	Asian	34	2018-04-06	armed	M
+3068	Daniel Allen Yielding	White	23	2018-04-06	armed	M
+3069	Mitchell Nelson	White	36	2018-04-06	armed	M
+3070	John A. Elifritz	White	48	2018-04-07	armed	M
+3071	Larry Siordia	White	33	2018-04-07	armed	M
+3072	Carlos Roman Urias	Hispanic	24	2018-04-08	armed	M
+3074	Elijah James Smith	Black	20	2018-04-08	armed	M
+3075	Russell Bowman	White	45	2018-04-08	armed	M
+3076	Daniel Joseph Carver	White	29	2018-04-09	armed	M
+3077	James Matthew Rogers	White	34	2018-04-09	armed	M
+3078	Robert George Issa	White	23	2018-04-09	armed	M
+3079	Zachary Glen Hoven	White	29	2018-04-09	armed	M
+3080	Shawn Michael Hubbard	White	44	2018-04-10	armed	M
+3081	Grechario Mack	Black	30	2018-04-10	armed	M
+3082	Antonino Thomas Gordon	White	28	2018-04-10	armed	M
+3083	Betty Lemoine	White	71	2018-04-11	armed	F
+3084	Kenneth Ross	Black	25	2018-04-11	armed	M
+3085	Keith Alan Kent	White	61	2018-04-11	armed	M
+3086	Chad Eric Montgomery	White	39	2018-04-11	armed	M
+3087	Kendall Lemoine	White	50	2018-04-11	armed	M
+3088	Dashaun Shepard	Black	37.11793090137039	2018-04-12	armed	M
+3089	Benjamin Evans	White	23	2018-04-12	armed	M
+3090	Rumondale Jones	Black	39	2018-04-12	armed	M
+3091	Steven Brooks	Black	45	2018-04-12	armed	M
+3092	Kenneth Warren Resendez	White	34	2018-04-13	armed	M
+3093	Bruce Arnold Allee	White	31	2018-04-13	armed	M
+3094	Jose Pietri	Hispanic	55	2018-04-14	armed	M
+3095	Andre Lavance Rippy	Black	39	2018-04-14	armed	M
+3096	Jessie Thedford	White	32	2018-04-14	armed	M
+3097	Eduardo Andrade	Hispanic	44	2018-04-14	armed	M
+3098	Petrica Peter Muntean	White	24	2018-04-14	armed	M
+3099	Ruben Stewart	Native	36	2018-04-15	armed	M
+3100	Lonnie Marcel Bowen	Black	41	2018-04-17	armed	M
+3101	Sanchez Lowe	Black	25	2018-04-17	armed	M
+3102	Justin Monjay	White	39	2018-04-17	armed	M
+3103	Charles Whitley	White	40	2018-04-17	armed	M
+3104	Justin Oakes	White	32	2018-04-18	armed	M
+3105	William Ray Simcoe	White	45	2018-04-18	armed	M
+3106	Dytadious Mobley	Black	31	2018-04-18	armed	M
+3107	Delorean Pikyavit	Native	32	2018-04-18	armed	M
+3108	David Teneyuque	Black	48	2018-04-18	armed	M
+3109	Lockwood Adrian Gibson	White	49	2018-04-20	armed	M
+3111	Matthew G. Brown	White	18	2018-04-20	armed	M
+3112	Timothy Wayne Anderson	White	48	2018-04-21	armed	M
+3113	Terrence Carlton	Black	25	2018-04-21	armed	M
+3114	Matthew Hartman	White	27	2018-04-22	armed	M
+3115	Miguel Escalona Vivas	Hispanic	37	2018-04-22	armed	M
+3116	Jesse Pena	Hispanic	44	2018-04-24	armed	M
+3117	Demonjhea Jordan	Black	27	2018-04-24	armed	M
+3118	Jese Paul Schlegel	White	41	2018-04-25	armed	M
+3119	Isaac Jackson	Black	42	2018-04-25	armed	M
+3120	Charles Boeh	White	36	2018-04-25	armed	M
+3121	Carlos Deone High	Black	37	2018-04-25	armed	M
+3122	Myra Lisa Micalizio	White	56	2018-04-26	armed	F
+3123	Shukri Ali Said	Asian	36	2018-04-28	armed	F
+3124	David Navarro	White	46	2018-04-28	armed	M
+3125	Nolberto Hernandez Leon	Hispanic	26	2018-04-28	armed	M
+3126	Joseph L. Hoffman	White	41	2018-04-28	armed	M
+3129	Michael Scott Knibbs	White	47	2018-04-29	armed	M
+3130	Joshua Lee Ewing	White	26	2018-04-29	armed	M
+3131	Abadi Gebregziber	Black	64	2018-04-30	armed	M
+3132	Roger Fortner	White	49	2018-05-01	armed	M
+3133	Jason Wayne Traversie	White	44	2018-05-02	armed	M
+3134	Billy Carson Pike	White	48	2018-05-02	armed	M
+3135	Manuel G. Palacio	Hispanic	27	2018-05-02	armed	M
+3136	Timothy Raye Mayfield	Black	67	2018-05-02	armed	M
+3137	Damion Collier	Black	24	2018-05-02	armed	M
+3138	Anthony Trujillo	Hispanic	26	2018-05-03	armed	M
+3139	Sean Louis Justin	White	28	2018-05-03	armed	M
+3140	Christopher A. Wolfe	White	21	2018-05-04	armed	M
+3141	Mitchell Simmons	White	24	2018-05-05	armed	M
+3142	Savannah Hill	White	21	2018-05-05	armed	F
+3143	Dwight Dearth	White	73	2018-05-06	armed	M
+3144	Franklin Robert Vaughn	White	39	2018-05-06	armed	M
+3145	Terence Leslie	Black	32	2018-05-06	armed	M
+3146	David P. Wolosin	White	38	2018-05-06	armed	M
+3147	Juan Alberto Silva	Hispanic	32	2018-05-07	armed	M
+3148	Albert Odom	White	26	2018-05-07	armed	M
+3149	Kimberly McCann	White	55	2018-05-07	armed	F
+3150	David J. Robinson	White	50	2018-05-07	armed	M
+3151	Lisa Rivera	Hispanic	49	2018-05-07	armed	F
+3152	Peter Boden	White	48	2018-05-07	armed	M
+3153	John Simson	White	65	2018-05-08	armed	M
+3154	Phillip Cameron Gibson	White	37	2018-05-08	armed	M
+3155	Thomas Junior Garcia	Hispanic	45	2018-05-08	armed	M
+3156	Elliott Reed	Black	33	2018-05-09	armed	M
+3157	Kenneth Carter	White	46	2018-05-10	armed	M
+3158	Michael E. Hutchman	White	33	2018-05-10	armed	M
+3159	Benjamin Lee Sellers	White	33	2018-05-11	armed	M
+3160	Barry Freeman	White	51	2018-05-11	armed	M
+3161	Bradley Daniel Webster	White	52	2018-05-11	armed	M
+3162	Jacob T. Eldridge	Native	24	2018-05-11	armed	M
+3163	Darrell J. Bruffy	White	55	2018-05-12	armed	M
+3164	Willie Rogers Marable	Black	28	2018-05-13	armed	M
+3165	Philip Steven McMichael	White	36	2018-05-13	armed	M
+3166	Anthony Trice	Black	24	2018-05-14	armed	M
+3168	William N. Derick	White	54	2018-05-14	armed	M
+3169	Rollie J. Davis	White	53	2018-05-14	armed	M
+3170	Bob Browning Cruz	Hispanic	36	2018-05-14	armed	M
+3172	David M. Romansky	White	34	2018-05-15	armed	M
+3173	Kevin Nickle	White	59	2018-05-16	armed	M
+3174	Daniel Timothy Johnson	White	34	2018-05-17	armed	M
+3175	Reynaldo Pena	Hispanic	29	2018-05-18	armed	M
+3176	Dmitri Bullard	White	24	2018-05-18	armed	M
+3177	Jimmy Alan Moss	White	77	2018-05-19	armed	M
+3178	Corey Cordova	White	30	2018-05-19	armed	M
+3179	Santiago Evans-Valencia	Hispanic	36	2018-05-19	armed	M
+3180	Bradley J. Grant	White	36	2018-05-20	armed	M
+3181	Ray Wyatt	White	58	2018-05-21	armed	M
+3182	Ronald Clinton	Black	47	2018-05-21	armed	M
+3183	Martin Sandejo	Hispanic	49	2018-05-22	armed	M
+3184	Makell Meyerin	White	31	2018-05-23	armed	F
+3185	Joshua M. Gomoll	White	25	2018-05-23	armed	M
+3189	Augustine Oliva	White	29	2018-05-25	armed	M
+3190	Dustin Montano	White	31	2018-05-25	armed	M
+3191	Homer Woodroe Tyler	White	51	2018-05-26	armed	M
+3192	Raul Rivera	Hispanic	42	2018-05-27	armed	M
+3193	Eugene Baylis	White	67	2018-05-27	armed	M
+3194	Michael Glad	White	23	2018-05-28	armed	M
+3195	Rabi Brown	Native	34	2018-05-29	armed	M
+3196	Armando Osuna	Hispanic	51	2018-05-29	armed	M
+3197	Zane Anthony James	White	19	2018-05-29	armed	M
+3198	Bryan Rodriguez	Hispanic	29	2018-05-30	armed	M
+3199	Juvan Simon	Black	23	2018-05-30	armed	M
+3200	Katherine Brazeau	White	46	2018-05-31	armed	F
+3201	Jerick Rasheem Gray	Black	42	2018-05-31	armed	M
+3203	Renie Cablay	Asian	55	2018-06-01	armed	M
+3204	TK TK	White	37.11793090137039	2018-06-01	armed	M
+3205	Gus Tousis	Black	43	2018-06-02	armed	M
+3207	Rudy Molina	Hispanic	34	2018-06-03	armed	M
+3208	Joshua S. Stanford	White	40	2018-06-04	armed	M
+3209	Abel Guzman	Hispanic	55	2018-06-05	armed	M
+3210	Joshua Nash Bryant	White	20	2018-06-05	armed	M
+3211	Maurice Granton	Black	24	2018-06-06	armed	M
+3212	Alan Goyano	Hispanic	43	2018-06-06	armed	M
+3213	Roger Dale Sims	White	56	2018-06-06	armed	M
+3214	Brian Puskas	White	47	2018-06-06	armed	M
+3215	Wes Allen	White	33	2018-06-07	armed	M
+3216	Leslie Yolanda Salazar	White	20	2018-06-07	armed	F
+3217	Raymon Truitt	Black	28	2018-06-07	armed	M
+3218	Douglas Conner	White	50	2018-06-07	armed	M
+3220	Todd Gregory	White	47	2018-06-08	armed	M
+3221	LaShanda Anderson	Black	36	2018-06-09	armed	F
+3222	Timothy Owen	White	49	2018-06-09	armed	M
+3223	Brandon Vieweg	White	34	2018-06-10	armed	M
+3225	Nicolas Moncada	Hispanic	29	2018-06-11	armed	M
+3226	DeNathe M. Guilliford	Black	34	2018-06-12	armed	M
+3228	Marqueese Alston	Black	22	2018-06-12	armed	M
+3229	Chavius Hollis	Black	26	2018-06-12	armed	M
+3230	Stephen Cogelia	White	32	2018-06-12	armed	M
+3231	David Arthur	White	44	2018-06-13	armed	M
+3232	Dillan Shane Ezell	White	21	2018-06-13	armed	M
+3233	Joseph Villanueva	Hispanic	29	2018-06-14	armed	M
+3234	Terrence White	Black	18	2018-06-14	armed	M
+3235	Timothy Mosley	Black	33	2018-06-14	armed	M
+3236	Ashley Dean Fulkerson	White	28	2018-06-14	armed	F
+3237	Robert A. White	White	37.11793090137039	2018-06-14	armed	M
+3238	Marcelo Castellano	Hispanic	40	2018-06-14	armed	M
+3240	Dwayne Clyburn	Black	37	2018-06-16	armed	M
+3242	Tahaji Wells	Black	33	2018-06-17	armed	M
+3243	Abe Martinez	Hispanic	44	2018-06-17	armed	M
+3244	Charles Spillers	White	65	2018-06-19	armed	M
+3245	Jonathan Buckley	Black	20	2018-06-19	armed	M
+3247	Robert Roybal	White	55	2018-06-19	armed	M
+3249	Jesse Wade Powell	White	44	2018-06-20	armed	M
+3250	Logan Williamson	White	37	2018-06-22	armed	M
+3251	Timothy Deal	Black	32	2018-06-22	armed	M
+3252	Thomas Albun Beall	White	31	2018-06-22	armed	M
+3253	Schuyler Lake	White	20	2018-06-22	armed	M
+3254	Thurman Blevins	Black	30	2018-06-23	armed	M
+3255	Detandel Pickens Devon	Black	25	2018-06-23	armed	M
+3256	Eric Sweet	White	47	2018-06-23	armed	M
+3257	Robert L. Barton	White	48	2018-06-23	armed	M
+3258	Steven Allan Kaluahinui Hyer Jr.	Other	32	2018-06-23	armed	M
+3259	Luis Argueta	Hispanic	18	2018-06-25	armed	M
+3260	Bobby Blade	White	29	2018-06-25	armed	M
+3261	William Shawn Mann	White	30	2018-06-25	armed	M
+3262	Joey Bronson	White	39	2018-06-27	armed	M
+3263	Anthony Sanchez	Hispanic	36	2018-06-29	armed	M
+3264	Joshua Cartwright	White	36	2018-06-29	armed	M
+3265	James Palmquist	White	54	2018-06-29	armed	M
+3266	Rodney Lee Hunter	Black	27	2018-06-29	armed	M
+3267	Jason Washington	White	45	2018-06-29	armed	M
+3268	Chukwumankpam Mbegbu	Black	19	2018-06-29	armed	M
+3269	Garry Glenn Lawrence	White	36	2018-06-29	armed	M
+3270	Randy Thomas Groom	White	33	2018-06-29	armed	M
+3271	Steve Ballard	White	56	2018-06-29	armed	M
+3272	Daniel Norris	White	33	2018-07-01	armed	M
+3273	Larry San Nicolas	Asian	60	2018-07-01	armed	M
+3274	Joshua B. Reed	White	26	2018-07-01	armed	M
+3275	Frank Dripps	White	52	2018-07-03	armed	M
+3276	Lemuel Bunn	Black	40	2018-07-03	armed	M
+3277	Terrell Eason	Black	33	2018-07-03	armed	M
+3278	Millard Clark	White	41	2018-07-03	armed	M
+3279	Emmanuel Bitsuie	Native	32	2018-07-04	armed	M
+3280	Abraham Noe Flores	Hispanic	34	2018-07-04	armed	M
+3282	Raad Fakhri Salman	Asian	62	2018-07-05	armed	M
+3283	Sylvia Marie Bejarano	Hispanic	33	2018-07-05	armed	F
+3284	Tracy A. Richards	White	55	2018-07-05	armed	M
+3285	John James Corrigan	White	38	2018-07-05	armed	M
+3286	Charles Webb	Black	43	2018-07-06	armed	M
+3287	Eric Hash	Asian	38	2018-07-06	armed	M
+3289	Harold Kraai	White	52	2018-07-07	armed	M
+3291	Craig Yelton	White	34	2018-07-08	armed	M
+3292	John Francis Murphy	White	41	2018-07-08	armed	M
+3293	Shaun Gates	White	40	2018-07-10	armed	M
+3294	Leonardo Cano	Hispanic	53	2018-07-10	armed	M
+3295	William T. McCollum	White	21	2018-07-10	armed	M
+3296	Salome Ramirez	Hispanic	34	2018-07-11	armed	M
+3297	Fidel Miranda	Hispanic	22	2018-07-11	armed	M
+3298	Juan Luna	Hispanic	25	2018-07-13	armed	M
+3299	Archer Amorosi	White	16	2018-07-13	armed	M
+3300	Harith Augustus	Black	37	2018-07-14	armed	M
+3301	Jethro Benjamin	Black	68	2018-07-14	armed	M
+3302	Marlin Mack	Black	25	2018-07-15	armed	M
+3303	Isaac Chapa	White	34	2018-07-15	armed	M
+3304	Jonathan Molina	Hispanic	23	2018-07-15	armed	M
+3305	Isaiah Hayes	White	25	2018-07-17	armed	M
+3306	Rolando Brizuela	Hispanic	57	2018-07-17	armed	M
+3307	Juan Manuel Correa-Leyva	Hispanic	27	2018-07-17	armed	M
+3308	Kerry Edwin Townsend	White	51	2018-07-17	armed	M
+3309	Arthur Lujan	Hispanic	30	2018-07-18	armed	M
+3310	Wesley Shelton	White	33	2018-07-18	armed	M
+3311	Mickey Coy	White	37.11793090137039	2018-07-18	armed	M
+3312	Luis Cruz	Hispanic	19	2018-07-19	armed	M
+3313	Carmen Pizarro	Hispanic	22	2018-07-19	armed	M
+3314	Ruben Maya	Hispanic	37	2018-07-20	armed	M
+3315	Javier Lopez	White	19	2018-07-20	armed	M
+3316	Justin Waiki	Other	33	2018-07-20	armed	M
+3317	Anthony Coleman	White	38	2018-07-20	armed	M
+3318	Arthur Levario	Hispanic	45	2018-07-20	armed	M
+3319	Vincent James Ewer	White	39	2018-07-21	armed	M
+3320	Anthony C. Lopez	Hispanic	21	2018-07-21	armed	M
+3321	Dale Slocum	White	56	2018-07-21	armed	M
+3323	Eliuth Penaloza Nava	Hispanic	50	2018-07-21	armed	M
+3324	Logan Simpson	White	16	2018-07-22	armed	M
+3325	William Bacorn	White	18	2018-07-22	armed	M
+3326	Juan Garcia	Hispanic	38	2018-07-22	armed	M
+3327	Juan Ramon Ramos	Hispanic	32	2018-07-22	armed	M
+3328	Rosalio Hernandez Ortega	Hispanic	33	2018-07-23	armed	M
+3329	Paul Meade	White	71	2018-07-23	armed	M
+3330	John Carlos Natera-Perez	Hispanic	30	2018-07-23	armed	M
+3331	Donna Lynn Allen	White	39	2018-07-24	armed	F
+3332	Devaughdre Delsha Rogers	Black	19	2018-07-24	armed	M
+3333	Cashus Dean Case	White	44	2018-07-24	armed	M
+3334	Richard R. Bahr	White	54	2018-07-25	armed	M
+3335	DMario Perkins	Black	29	2018-07-25	armed	M
+3336	Jose Luis Rodriguez	Hispanic	37.11793090137039	2018-07-25	armed	M
+3338	Michael Heatherly	White	64	2018-07-25	armed	M
+3339	Daniel Hambrick	Black	25	2018-07-26	armed	M
+3340	Jesus Hernandez Murillo	Hispanic	18	2018-07-26	armed	M
+3341	Kenneth Edwin Martell	White	36	2018-07-26	armed	M
+3342	Sergio Acosta	Hispanic	24	2018-07-26	armed	M
+3343	Iman Joseph Buford	White	30	2018-07-26	armed	M
+3344	Gavalynn Mahuka	Asian	53	2018-07-26	armed	M
+3346	Richard Mendoza	Hispanic	32	2018-07-27	armed	M
+3347	Lamar C. Richardson	Black	25	2018-07-28	armed	M
+3349	Michael Neal	White	32	2018-07-28	armed	M
+3350	Arthur Kenzie Garner	White	33	2018-07-28	armed	M
+3351	Richard Gary Black	White	37.11793090137039	2018-07-30	armed	M
+3352	James Edward Blackmon	Black	35	2018-07-31	armed	M
+3353	Skyler Martin	Hispanic	23	2018-07-31	armed	M
+3354	David Edward Hall	Black	27	2018-08-01	armed	M
+3355	David Judge	White	53	2018-08-01	armed	M
+3356	Jonathan Joey Mendoza	Hispanic	35	2018-08-01	armed	M
+3357	Tramaine Marquese Poole	Black	41	2018-08-01	armed	M
+3358	Landon Christopher Wooten	White	18	2018-08-02	armed	M
+3359	Danny Lee	Black	34	2018-08-03	armed	M
+3360	Johnny Kelley	White	49	2018-08-03	armed	M
+3361	Josh Martin	White	31	2018-08-03	armed	M
+3362	Emmanuel Alquisiras	Hispanic	29	2018-08-03	armed	M
+3363	Eric Benjamen Richards	White	33	2018-08-04	armed	M
+3364	John Randolph	White	38	2018-08-04	armed	M
+3365	William "Billy" James Hughes	Native	43	2018-08-05	armed	M
+3366	James Bishop	White	29	2018-08-05	armed	M
+3367	Johnny Fisher	White	68	2018-08-05	armed	M
+3368	Spurgeon Daniels	Black	62	2018-08-06	armed	M
+3369	Levester Taylor	Black	39	2018-08-06	armed	M
+3370	Ricardo Giddings	Black	59	2018-08-06	armed	M
+3371	Daniel Boyer	White	24	2018-08-07	armed	M
+3372	Daniel Valdez	Hispanic	70	2018-08-07	armed	M
+3373	Pedro Lucero	Hispanic	42	2018-08-07	armed	M
+3374	Michael Ducote	White	26	2018-08-07	armed	M
+3375	Joseph Robbins	White	24	2018-08-08	armed	M
+3376	Vaughn Denham	Black	48	2018-08-08	armed	M
+3377	Stephen L. Caldwell	Black	54	2018-08-08	armed	M
+3378	Charles Meadows	Black	48	2018-08-09	armed	M
+3379	Shaun Jeffery Christy	White	37	2018-08-09	armed	M
+3380	Gregory Campfield	Black	40	2018-08-09	armed	M
+3381	Montae Shackleford	Black	28	2018-08-09	armed	M
+3382	Jackey Sampson	White	43	2018-08-10	armed	M
+3383	Adam Knowlton	White	35	2018-08-12	armed	M
+3384	Anthony Daniel Vargas	Hispanic	21	2018-08-12	armed	M
+3385	Anthony Makai Hutchinson	Black	40	2018-08-12	armed	M
+3386	Christopher Anthony Stone	Black	32	2018-08-13	armed	M
+3387	Mario Hobson	Black	48	2018-08-13	armed	M
+3388	Chris Cameron	White	31	2018-08-13	armed	M
+3389	TK TK	Hispanic	37.11793090137039	2018-08-14	armed	M
+3390	Charlie "Lee" Hodges	White	58	2018-08-16	armed	M
+3391	Adrian Herron	Black	30	2018-08-16	armed	M
+3392	Aquantis Givens	Black	21	2018-08-17	armed	M
+3393	Spencer Mendez	Hispanic	15	2018-08-18	armed	M
+3394	Michael Harrison	White	30	2018-08-18	armed	M
+3395	Andres Arteaga	Hispanic	28	2018-08-18	armed	M
+3396	Christopher Alexander Okamoto	Black	21	2018-08-19	armed	M
+3397	Jeremiah Perdue	Black	33	2018-08-19	armed	M
+3398	Charles Marcotte	White	37.11793090137039	2018-08-19	armed	M
+3399	Jeffrey Dennis	Black	36	2018-08-20	armed	M
+3400	Douglas Heath	White	38	2018-08-20	armed	M
+3401	Virginia Romero	Hispanic	34	2018-08-23	armed	F
+3402	Donna Castleberry	White	23	2018-08-23	armed	F
+3403	Jeffery Paul Fabio	White	44	2018-08-24	armed	M
+3404	James Clay	Black	20	2018-08-24	armed	M
+3405	Felipe Perez Casas	Hispanic	41	2018-08-24	armed	M
+3406	Taylor K.E. Tincher	White	18	2018-08-25	armed	M
+3407	Logan Montgomery	White	29	2018-08-25	armed	M
+3408	Jennifer Sharp	White	37	2018-08-25	armed	F
+3409	Stephanie B. Owens	White	41	2018-08-26	armed	F
+3410	Fabian Ortiz Adame	White	25	2018-08-27	armed	M
+3411	Bryce Schenkenberg	White	20	2018-08-27	armed	M
+3412	Eric Jay Hames	White	34	2018-08-27	armed	M
+3413	Sebastian Siney Chamale	Hispanic	37	2018-08-28	armed	M
+3414	Tyler Hodge	White	18	2018-08-28	armed	M
+3415	Randall McKenzie	White	72	2018-08-29	armed	M
+3416	Jalon Johnson	Black	17	2018-08-29	armed	M
+3417	Jessica Cribbs	White	45	2018-08-30	armed	F
+3418	Vanessa Marquez	Hispanic	49	2018-08-30	armed	F
+3419	Dennis Ray Blalock	White	64	2018-08-31	armed	M
+3420	Chase Sullivan	White	36	2018-08-31	armed	M
+3421	Paul Askins	White	61	2018-08-31	armed	M
+3422	Oshae Terry	Black	24	2018-09-01	armed	M
+3423	Fernand "Fred" Lete	Hispanic	70	2018-09-03	armed	M
+3424	Steve L. Anderson	White	40	2018-09-03	armed	M
+3425	Aaron Demonta Fleming	Black	21	2018-09-03	armed	M
+3426	Timmy Henley	White	27	2018-09-04	armed	M
+3428	Mitchell Owen Buel	White	33	2018-09-05	armed	M
+3429	Christopher Sage	White	45	2018-09-05	armed	M
+3430	Darell Richards	Black	19	2018-09-06	armed	M
+3431	DaShawn Cole	Black	28	2018-09-07	armed	M
+3432	Elman Jerald Roberts	White	63	2018-09-08	armed	M
+3433	Brandon Joyner	Black	37.11793090137039	2018-09-09	armed	M
+3434	Dereshia Blackwell	Black	39	2018-09-09	armed	F
+3435	Edward Reynolds	White	57	2018-09-11	armed	M
+3436	Rafael Rivera	Hispanic	32	2018-09-12	armed	M
+3437	Thomas Watkins	Black	38	2018-09-12	armed	M
+3438	Detric Driver	Black	46	2018-09-14	armed	M
+3439	Garrett Finley Mitchell	White	31	2018-09-14	armed	M
+3440	David Huffines	White	40	2018-09-14	armed	M
+3441	Christopher Lee Leonard	White	31	2018-09-15	armed	M
+3442	Stephen Dove	White	50	2018-09-15	armed	M
+3443	Ricardo Avenia	Hispanic	29	2018-09-16	armed	M
+3444	Bruce Smith	White	25	2018-09-16	armed	M
+3445	Jerry Foster	Black	31	2018-09-16	armed	M
+3446	Jose Alvarez	Hispanic	23	2018-09-17	armed	M
+3447	Susan Muller	White	54	2018-09-17	armed	F
+3448	Damon Christopher Gayheart	White	44	2018-09-17	armed	M
+3449	Michael James Murphy	White	43	2018-09-18	armed	M
+3450	Jeffrey Sims	White	37	2018-09-18	armed	M
+3451	Freddie Joe Whitmore	White	55	2018-09-20	armed	M
+3452	Alexander Carballido	Hispanic	40	2018-09-20	armed	M
+3453	Joshua Works	White	26	2018-09-22	armed	M
+3454	Nathaniel Sassafras	Black	29	2018-09-23	armed	M
+3455	Ronald W. Leach	White	29	2018-09-24	armed	M
+3456	Ivan Pena	Hispanic	42	2018-09-24	armed	M
+3457	Michael Stout	White	20	2018-09-24	armed	M
+3458	Dravious Burch	Black	34	2018-09-25	armed	M
+3459	Jaime Lopez	Hispanic	41	2018-09-25	armed	M
+3460	Paul Braswell	Black	29	2018-09-26	armed	M
+3461	Joey Leon Nelson	White	19	2018-09-27	armed	M
+3462	Juan Angel Pinedo	Hispanic	32	2018-09-27	armed	M
+3463	Coltin Brennan Leblanc	White	23	2018-09-27	armed	M
+3464	Datwan Keyo Lewis	Black	41	2018-09-27	armed	M
+3465	Michael Perez	Hispanic	37	2018-09-27	armed	M
+3466	Joseph Dawson	White	24	2018-09-28	armed	M
+3467	Justin Snelson	White	54	2018-09-29	armed	M
+3468	Thomas Howard Luedtke	White	58	2018-09-29	armed	M
+3469	Walter Welch	White	40	2018-09-29	armed	M
+3470	Patrick K. Kimmons	Black	27	2018-09-30	armed	M
+3471	Brian Lee Rogers	White	40	2018-09-30	armed	M
+3472	Keagan Johnson	White	23	2018-10-01	armed	M
+3474	James "Cody" Martin	White	26	2018-10-02	armed	M
+3475	LaJuana Philips	Black	36	2018-10-02	armed	F
+3476	Toby Bailey	Black	38	2018-10-03	armed	M
+3477	Arthur Harbison	White	25	2018-10-04	armed	M
+3478	Sershawn Martez Dillon	Black	31	2018-10-05	armed	M
+3479	Phillip Samuel Moskios	White	48	2018-10-05	armed	M
+3480	Venson Kee Yazzie	Native	43	2018-10-05	armed	M
+3481	Nicholas Salisbury	White	36	2018-10-07	armed	M
+3482	Anthony Lee Hodges	White	39	2018-10-07	armed	M
+3483	Aaron Joseph Chavez	Hispanic	22	2018-10-08	armed	M
+3484	Alexander G. Lindahl	White	24	2018-10-08	armed	M
+3485	Isaiah Ramirez	White	36	2018-10-08	armed	M
+3486	Travis N. Craven	White	25	2018-10-08	armed	M
+3487	Samuel E. Rice	White	30	2018-10-10	armed	M
+3488	Richard Palafox	White	76	2018-10-10	armed	M
+3489	Terrell Blake	Black	39	2018-10-10	armed	M
+3490	Leslie Shayne Miller	White	49	2018-10-10	armed	F
+3491	Kenneth Ryan Busse	White	21	2018-10-10	armed	M
+3492	Alonzo L. Smith	Black	31	2018-10-10	armed	M
+3493	Diamonte Riviore	Black	22	2018-10-11	armed	M
+3494	Samuel Morris	Black	27	2018-10-12	armed	M
+3495	Ashley Elisna Grammer	Other	26	2018-10-12	armed	F
+3496	Kay Kenniker	White	84	2018-10-12	armed	M
+3497	Jacob E. Albrethsen	White	17	2018-10-12	armed	M
+3498	Umberto Sanchez Ramoz	Hispanic	17	2018-10-14	armed	M
+3499	Eric Jamar Lupain Stromer	Black	22	2018-10-14	armed	M
+3500	James Christopher Manus	White	41	2018-10-14	armed	M
+3501	Hustes Davila	Hispanic	58	2018-10-15	armed	M
+3502	Weston Willow Well Cole	White	29	2018-10-17	armed	M
+3503	Keyshon Parham	Black	19	2018-10-17	armed	M
+3505	James Lyle Kuehn	White	61	2018-10-17	armed	M
+3506	Bailey Greek	White	18	2018-10-18	armed	M
+3507	Andrey Tkachenko	White	23	2018-10-18	armed	M
+3508	Sean Dutcher	White	38	2018-10-18	armed	M
+3510	Mahlon Edward Summerour	Black	63	2018-10-18	armed	M
+3511	Neico Crooks, Jr	Black	21	2018-10-19	armed	M
+3512	Christopher Calabro	White	25	2018-10-19	armed	M
+3513	Edward Paul Zumski	White	35	2018-10-20	armed	M
+3514	Robert Smith	White	50	2018-10-20	armed	M
+3515	Kimberly Norris	White	34	2018-10-20	armed	F
+3516	Cedric Pritchard	Black	37.11793090137039	2018-10-21	armed	M
+3517	Jason Whittle	White	26	2018-10-22	armed	M
+3518	William David Williamson	White	61	2018-10-22	armed	M
+3519	Tafahree Maynard	Black	18	2018-10-22	armed	M
+3520	Shaunday Mullins	Native	37	2018-10-23	armed	M
+3521	Robert Mitchell	White	27	2018-10-23	armed	M
+3523	Salvador Morales	Hispanic	37	2018-10-23	armed	M
+3524	Armond Beckwith-Bell	Black	28	2018-10-25	armed	M
+3525	Lloyd Gerald Napouk	Asian	44	2018-10-27	armed	M
+3526	Christopher Carroll	Black	30	2018-10-27	armed	M
+3527	Albert Ramon Dorsey	Black	30	2018-10-29	armed	M
+3528	Billy Jo Johnson	White	34	2018-10-29	armed	M
+3529	Arnaldo Caraveo	Hispanic	27	2018-10-29	armed	M
+3530	Derrick Alexander Sellman	Black	28	2018-10-29	armed	M
+3531	Ida Christy Stiles	White	42	2018-10-29	armed	F
+3532	John Wurms	White	32	2018-10-31	armed	M
+3533	Tony Bernard Smith	Black	24	2018-10-31	armed	M
+3534	Jose Centeno, Jr.	Hispanic	17	2018-10-31	armed	M
+3535	Gonzalo Rico-Jimenez	Hispanic	26	2018-10-31	armed	M
+3537	Andrew Moore	White	25	2018-11-02	armed	M
+3538	Laudemer Arboleda	Black	33	2018-11-03	armed	M
+3539	Kanwarbir Malhi	Asian	25	2018-11-03	armed	M
+3540	Theoddeus Gray	Black	29	2018-11-04	armed	M
+3541	Anthony David Chavez	Hispanic	18	2018-11-04	armed	M
+3542	Ryan Millsap	White	19	2018-11-04	armed	M
+3544	Gary J. Willis	White	61	2018-11-05	armed	M
+3545	Henry Gregory Stroud	White	36	2018-11-05	armed	M
+3546	George Smith	White	72	2018-11-05	armed	M
+3547	Anovath Troy Kongvongxay	Asian	48	2018-11-05	armed	M
+3548	Jesus "Chuy" Guzman	Hispanic	34	2018-11-08	armed	M
+3549	Travis Jordan	Black	36	2018-11-09	armed	M
+3550	Christopher William Parrish	White	33	2018-11-09	armed	M
+3552	James Hanchett	White	61	2018-11-09	armed	M
+3553	Patrick Bryant	Black	41	2018-11-10	armed	M
+3555	Jemel Roberson	Black	26	2018-11-11	armed	M
+3556	TK TK	Hispanic	37.11793090137039	2018-11-11	armed	M
+3557	Edward M. Walsh	White	39	2018-11-12	armed	M
+3558	Andrew Kana	Asian	36	2018-11-12	armed	M
+3559	Tony Mathis	Black	47	2018-11-12	armed	M
+3560	Danny Ayala	Hispanic	37.11793090137039	2018-11-12	armed	M
+3561	Cesar Alehandro Ramos	Hispanic	25	2018-11-12	armed	M
+3562	Marty West	White	63	2018-11-12	armed	M
+3563	Timothy Leon	Black	24	2018-11-13	armed	M
+3564	Rene Prieto	Hispanic	38	2018-11-13	armed	M
+3565	Olajuwon Murphy	Black	22	2018-11-14	armed	M
+3566	Joseph Loughery	White	59	2018-11-14	armed	M
+3567	John David Manning	White	29	2018-11-14	armed	M
+3568	Allen Fanning	Black	18	2018-11-15	armed	M
+3569	Agustin Gonsalez	Hispanic	29	2018-11-15	armed	M
+3570	Jack Fields, Jr.	Black	25	2018-11-15	armed	M
+3571	GD Hendrix	White	48	2018-11-15	armed	M
+3572	Steven Smith	White	60	2018-11-15	armed	M
+3573	Rio Antwuan Thomas	Black	27	2018-11-17	armed	M
+3574	Daniel Cedars	White	65	2018-11-19	armed	M
+3575	Christopher Williams	White	41	2018-11-19	armed	M
+3576	Roderick McDaniel	Black	33	2018-11-19	armed	M
+3577	Roderick McDaniel	Black	33	2018-11-20	armed	M
+3578	Keaton James Larson	White	22	2018-11-21	armed	M
+3579	Billy G. Heeter	White	52	2018-11-21	armed	M
+3580	Robert William Reid	White	42	2018-11-21	armed	M
+3581	Eugene Benjamin Weathers	Black	48	2018-11-21	armed	M
+3582	Martin Lopez	Hispanic	24	2018-11-21	armed	M
+3583	Emantic Fitzgerald Bradford	Black	21	2018-11-22	armed	M
+3584	Cameron McCarthy	White	20	2018-11-22	armed	M
+3585	Patrick Michael Langhoff	White	59	2018-11-22	armed	M
+3586	Christopher L. Anderson	White	46	2018-11-23	armed	M
+3587	Martez Webb	Black	23	2018-11-23	armed	M
+3588	Felix Anthony Calata	Hispanic	32	2018-11-24	armed	M
+3589	Nicholas Charles Ryan	White	19	2018-11-27	armed	M
+3590	Allen Scott Culpepper	White	64	2018-11-27	armed	M
+3591	Jarmane Logan	Black	35	2018-11-27	armed	M
+3592	J Scot Alan Widmark	White	41	2018-11-27	armed	M
+3593	Bert E. Mercado	Asian	42	2018-11-27	armed	M
+3594	Benjamin Kennedy	White	35	2018-11-28	armed	M
+3595	David Villagran	Hispanic	33	2018-11-28	armed	M
+3596	Vernon May	Native	32	2018-11-29	armed	M
+3597	Adrian Bunker	White	37	2018-11-29	armed	M
+3598	Ricardo Galvan	Hispanic	37	2018-11-30	armed	M
+3599	John Young	Black	65	2018-12-01	armed	M
+3600	Jarvis Randall	Black	30	2018-12-01	armed	M
+3601	Demontry Floytra Boyd	Black	43	2018-12-01	armed	M
+3602	Anthony Ray Borden-Cortez	Hispanic	18	2018-12-04	armed	M
+3603	David Alejandro Molina	Hispanic	27	2018-12-05	armed	M
+3604	Justin Smith	White	41	2018-12-05	armed	M
+3605	Paul Ridgeway	White	41	2018-12-05	armed	M
+3606	Anthony M. Edwards	Black	33	2018-12-05	armed	M
+3607	Dimaggio McNelly	Black	53	2018-12-06	armed	M
+3608	Benjamin David Larson	White	42	2018-12-06	armed	M
+3609	Jason O'Bannon	White	46	2018-12-06	armed	M
+3610	Jesus Lainez	Hispanic	51	2018-12-07	armed	M
+3611	Julius Ervin Tate	Black	16	2018-12-07	armed	M
+3612	James N. Robertson	White	41	2018-12-08	armed	M
+3613	Joshua Boyd	Black	24	2018-12-09	armed	M
+3614	Christopher Deandre Mitchell	Black	23	2018-12-09	armed	M
+3615	Terry Don King	White	50	2018-12-09	armed	M
+3616	Shane Wentling	White	41	2018-12-10	armed	M
+3617	George Penev	White	23	2018-12-10	armed	M
+3618	Kyle Hart	White	33	2018-12-10	armed	M
+3619	Kaley Gay	White	25	2018-12-11	armed	F
+3620	Tori Kaneshiro	Asian	30	2018-12-11	armed	F
+3621	Daniel Pierce	White	58	2018-12-11	armed	M
+3622	Marcus Neal	Black	47	2018-12-11	armed	M
+3623	Haze Connor Martin	White	22	2018-12-11	armed	M
+3624	Tameka LaShay Simpson	Black	27	2018-12-11	armed	F
+3625	Demario Bass	Black	29	2018-12-12	armed	M
+3626	Jason Emerson Connell	White	43	2018-12-12	armed	M
+3627	Dylan Parker Thomas	White	18	2018-12-12	armed	M
+3628	Gabriel Romero	Hispanic	19	2018-12-12	armed	M
+3629	Joshua Myers	White	37	2018-12-13	armed	M
+3630	Andre Horton	Black	42	2018-12-13	armed	M
+3631	Edgar Espinoza	Hispanic	35	2018-12-15	armed	M
+3632	Edward Rudhman	White	50	2018-12-16	armed	M
+3633	Rodney J. Geiser	White	60	2018-12-16	armed	M
+3634	Jacob Mohow	White	35	2018-12-16	armed	M
+3635	April Webster	Black	47	2018-12-16	armed	F
+3636	TK TK	White	37.11793090137039	2018-12-17	armed	M
+3637	Angel Viola Decarlo	Black	31	2018-12-18	armed	F
+3638	David Frederick	White	24	2018-12-18	armed	M
+3640	Keith A. Hawley	White	27	2018-12-18	armed	M
+3641	Damon Barstad	White	23	2018-12-20	armed	M
+3642	Jose Lemus	Hispanic	57	2018-12-21	armed	M
+3643	David MacAdams	White	56	2018-12-21	armed	M
+3644	Jason Delgado Perez	Hispanic	36	2018-12-23	armed	M
+3645	Kaulana "Toji" Reinhardt	Other	37.11793090137039	2018-12-23	armed	M
+3646	Abdias Flores	Hispanic	37.11793090137039	2018-12-24	armed	M
+3647	Jennifer Vasquez	Hispanic	24	2018-12-25	armed	F
+3648	Antonio A. Ramos	Hispanic	34	2018-12-25	armed	M
+3649	Michael Jerome Taylor	Black	17	2018-12-26	armed	M
+3650	Gary Warbritton	White	21	2018-12-26	armed	M
+3651	Wayne Falana	Black	35	2018-12-26	armed	M
+3652	Mark Wade "Cornbread" Luttrell	White	34	2018-12-28	armed	M
+3653	Glenn A. Rightsell	White	56	2018-12-28	armed	M
+3654	Shane Lyons	Black	35	2018-12-28	armed	M
+3655	Edwin C. Bundy	White	46	2018-12-28	armed	M
+3656	TK TK	White	42	2018-12-29	armed	M
+3657	Warren Jay Beaubien	White	49	2018-12-30	armed	M
+3658	Kerry D. Blake	Black	44	2018-12-30	armed	M
+3659	Paul Arbitelle	White	45	2018-12-30	armed	M
+3660	Iosia Faletogo	Asian	36	2018-12-31	armed	M
+3661	Matthew Hurley	White	45	2018-12-31	armed	M
+3662	Jesus Ramos	Hispanic	34	2018-12-31	armed	M
+3663	Dylan Michael Smith	White	26	2019-01-01	armed	M
+3664	Brandon Lovell Webster	Black	28	2019-01-01	armed	M
+3665	Matthew Burroughs	Black	35	2019-01-02	armed	M
+3666	Abdoulaye Thiam	Black	20	2019-01-02	armed	M
+3667	Arron Thomas Lambert	White	33	2019-01-02	armed	M
+3668	Samuel Garcia	Hispanic	39	2019-01-03	armed	M
+3669	Robert Myers	White	63	2019-01-03	armed	M
+3670	Joseph Roberts	White	27	2019-01-03	armed	M
+3671	Abiel Innis De Joel Rios	Hispanic	33	2019-01-03	armed	M
+3672	Jae Wesley Hardy	Black	27	2019-01-03	armed	M
+3673	Eric David Sauerhagen	White	31	2019-01-03	armed	M
+3674	Zonell Williams	Black	33	2019-01-04	armed	M
+3675	Jeremy Dean Duncan	White	39	2019-01-04	armed	M
+3676	John Richard Camacho	White	27	2019-01-04	armed	M
+3677	Lawrence Thompson III	Black	32	2019-01-04	armed	M
+3678	Oliver Hernandez	Hispanic	29	2019-01-05	armed	M
+3679	Adolfo Gonzalez	Hispanic	28	2019-01-05	armed	M
+3680	David John Engebretson	White	50	2019-01-05	armed	M
+3681	Shaun Kennedy	White	55	2019-01-05	armed	M
+3682	Kevin Shawn Hanson	Black	42	2019-01-06	armed	M
+3683	Andre C. Gladen	Black	36	2019-01-06	armed	M
+3684	Nil Houer	Asian	38	2019-01-06	armed	M
+3685	Miguel Barraza-Lugo	Hispanic	38	2019-01-07	armed	M
+3686	David Novak	White	35	2019-01-07	armed	M
+3687	Jeremy Dale Edmonds	White	42	2019-01-07	armed	M
+3688	Johnny Lee Burney	Black	70	2019-01-10	armed	M
+3689	Geoffrey Morris	White	29	2019-01-10	armed	M
+3690	Juston Landry	Black	26	2019-01-11	armed	M
+3691	Treshun Symone Miller	Black	20	2019-01-11	armed	M
+3692	Charles Frederick Landeros	Hispanic	30	2019-01-11	armed	M
+3693	Jacob Michael Harris	Black	19	2019-01-11	armed	M
+3694	Bill Akes	White	48	2019-01-12	armed	M
+3695	Christopher A. Schmitt	White	58	2019-01-12	armed	M
+3697	Roberto Tapia	Hispanic	28	2019-01-13	armed	M
+3698	Nathan Thoe	White	34	2019-01-13	armed	M
+3699	Jahmal Derrick Stewart	Black	45	2019-01-14	armed	M
+3701	Louis Jose Burrus	Hispanic	25	2019-01-14	armed	M
+3702	Nathaniel Holland	Black	38	2019-01-14	armed	M
+3703	Damon Murad Asad	White	33	2019-01-14	armed	M
+3704	William Owens	Black	39	2019-01-14	armed	M
+3705	Dean Heerdt	White	58	2019-01-15	armed	M
+3706	Stanley Stepanski III	White	48	2019-01-15	armed	M
+3707	Antonio Arce	Hispanic	14	2019-01-15	armed	M
+3708	D'ettrick Griffin	Black	18	2019-01-15	armed	M
+3709	Quency Chavez Floyd	Black	22	2019-01-15	armed	M
+3711	D'Angelo Brown	Black	37.11793090137039	2019-01-16	armed	M
+3712	Megan Rivera	White	37.11793090137039	2019-01-16	armed	F
+3713	Terry Lee Cockrell	White	57	2019-01-16	armed	M
+3714	Danny Kelley	White	32	2019-01-16	armed	M
+3715	Mikyas Mehary Tegegne	Black	31	2019-01-16	armed	M
+3716	Dale Weich	White	64	2019-01-18	armed	M
+3718	Mark Leo Gregory Gago	White	42	2019-01-19	armed	M
+3719	Jason C. Minnick	White	30	2019-01-19	armed	M
+3720	Chance Mavity	White	26	2019-01-20	armed	M
+3724	Dwight Steward	Black	46	2019-01-23	armed	M
+3725	TK TK	Native	37.11793090137039	2019-01-23	armed	M
+3726	Marcus Gishal	Hispanic	20	2019-01-23	armed	M
+3727	Kevin Grant Vawter	White	46	2019-01-23	armed	M
+3730	Jeffrey Lynn Jones	White	60	2019-01-25	armed	M
+3731	Jacob Archambault	Native	25	2019-01-27	armed	M
+3732	Joey Duane Ramirez	Hispanic	29	2019-01-28	armed	M
+3734	Dennis Tuttle	White	59	2019-01-28	armed	M
+3736	David Michael Bosiljevac	White	55	2019-01-28	armed	M
+3737	Nekiylo Dawayne Graves	Black	27	2019-01-28	armed	M
+3738	Nicholas Philhower	White	30	2019-01-28	armed	M
+3739	Carl Thayer	White	45	2019-01-28	armed	M
+3740	Siatu'u Tauai	Other	51	2019-01-29	armed	M
+3741	Paul Cantu	Hispanic	27	2019-01-29	armed	M
+3742	Michael Joe Jolls	White	47	2019-01-30	armed	M
+3743	Anthony Patrick Pellissier	White	52	2019-01-30	armed	M
+3744	Robert Martinez	Hispanic	45	2019-02-01	armed	M
+3745	Henry Harold Russell	White	47	2019-02-02	armed	M
+3746	Johnny Weeks	Black	68	2019-02-02	armed	M
+3747	Isaiah Thomas	Black	40	2019-02-02	armed	M
+3748	Dylan Joseph-Mark Cross	White	18	2019-02-03	armed	M
+3749	Asuncion J. Gomez-Guerrero	Hispanic	35	2019-02-03	armed	M
+3750	Robert Matz	White	80	2019-02-04	armed	M
+3751	Corey Johnson	Black	44	2019-02-04	armed	M
+3752	Anthony Dewayne Childs	Black	31	2019-02-05	armed	M
+3753	Seth Keo Mallard	White	20	2019-02-06	armed	M
+3754	Allon Jones	Black	43	2019-02-06	armed	M
+3755	Miles Dylan Cooper	White	25	2019-02-06	armed	M
+3756	Bruce Carter	Black	38	2019-02-06	armed	M
+3757	Danny Rodriguez	Hispanic	34	2019-02-07	armed	M
+3758	Michael Robert Novak	White	58	2019-02-07	armed	M
+3760	Nolan Hurtzig	White	29	2019-02-07	armed	M
+3761	Jason Matthew Hill	White	40	2019-02-07	armed	M
+3762	Charles L. Cook	White	49	2019-02-07	armed	M
+3764	Willie Bo McCoy	Black	21	2019-02-09	armed	M
+3765	Jeffrey D. Tyree	White	57	2019-02-09	armed	M
+3766	Jonathan Ramirez	Hispanic	28	2019-02-09	armed	M
+3767	Gabriel Carter	White	25	2019-02-09	armed	M
+3768	Ted Schmitz	White	58	2019-02-10	armed	M
+3769	Willie Jermaine Robinson	Black	34	2019-02-10	armed	M
+3771	Ty'rell Pounds	Black	24	2019-02-11	armed	M
+3772	Phayvanh Inthavong	Asian	32	2019-02-11	armed	M
+3773	Alex Johnson	Black	58	2019-02-12	armed	M
+3774	Christopher Brimsey	Black	20	2019-02-12	armed	M
+3775	Patrick Reed	Black	19	2019-02-12	armed	M
+3776	Johnny Mathis	White	46	2019-02-12	armed	M
+3777	Garrett James Ebenal	White	28	2019-02-13	armed	M
+3778	Greg Alyn Carlson	White	47	2019-02-13	armed	M
+3779	Wilfredo Hernandez	Hispanic	47	2019-02-14	armed	M
+3780	Michael Drayer	White	34	2019-02-14	armed	M
+3781	Mark Morasky	White	37.11793090137039	2019-02-14	armed	M
+3782	Gary Marin	Black	45	2019-02-15	armed	M
+3783	Michael Elam	Black	17	2019-02-16	armed	M
+3784	Nam Quang Le	Asian	34	2019-02-16	armed	M
+3785	Javier Hernandez Morales	Hispanic	48	2019-02-17	armed	M
+3786	Reginald Romero Bursey	Black	32	2019-02-17	armed	M
+3788	Pierre Woods	Black	31	2019-02-18	armed	M
+3789	Clayton Joseph	Asian	16	2019-02-19	armed	M
+3790	Emanuel David Joshua Oates	Black	24	2019-02-19	armed	M
+3791	Kyron Marcell Sands	Black	39	2019-02-20	armed	M
+3792	Kyle Thomas	White	26	2019-02-20	armed	M
+3793	Bradley Blackshire	Black	30	2019-02-22	armed	M
+3794	Kasim Kahrim	Other	36	2019-02-22	armed	M
+3795	Timothy Rhodes	White	28	2019-02-22	armed	M
+3796	Neico Crooks	Black	21	2019-02-22	armed	M
+3797	Felipe Martinez	Hispanic	36	2019-02-22	armed	M
+3798	Sterling Durant Humbert	White	28	2019-02-23	armed	M
+3799	Daniel David Messmer	White	24	2019-02-23	armed	M
+3800	Angel Burke	White	29	2019-02-23	armed	M
+3801	Jackie Scott Pendergrass	White	44	2019-02-23	armed	M
+3802	Tommy Kirby	White	41	2019-02-24	armed	M
+3803	Bryan A. Ryder	White	38	2019-02-25	armed	M
+3804	David Litton	White	40	2019-02-25	armed	M
+3805	Sasha Ann Pishko	White	20	2019-02-26	armed	F
+3806	Tyler Schmidtbauer	White	27	2019-02-26	armed	M
+3807	Joseph Hart	White	51	2019-02-26	armed	M
+3808	Brandon Schmitt	White	48	2019-02-26	armed	M
+3809	James Scott Reed	Black	40	2019-02-27	armed	M
+3810	Michael Pierce	White	29	2019-02-28	armed	M
+3811	Kenneth Joseph Sisneros	Hispanic	34	2019-02-28	armed	M
+3812	Brenda Rodriguez Mendoza	Hispanic	20	2019-03-01	armed	F
+3815	Larry Todd Hoover	White	33	2019-03-02	armed	M
+3817	Clair Jewell	White	35	2019-03-02	armed	F
+3818	Luke Anthony Swann	Black	36	2019-03-04	armed	M
+3819	Stephen Kaylor	White	63	2019-03-04	armed	M
+3820	Daniel Moncada	Hispanic	27	2019-03-04	armed	M
+3821	Jeremy Ponce	Hispanic	17	2019-03-04	armed	M
+3822	Shamikle Jackson	Black	22	2019-03-04	armed	M
+3824	Joshua Worth	White	31	2019-03-05	armed	M
+3825	Danny Brogdon	White	56	2019-03-05	armed	M
+3826	Antonio Joseph Valentine	Black	32	2019-03-05	armed	M
+3827	Donqaule Maurice Gray	Black	25	2019-03-06	armed	M
+3828	Rodney Fisher	White	47	2019-03-07	armed	M
+3829	Carlos Hunter	Hispanic	37.11793090137039	2019-03-07	armed	M
+3830	Dylan Aikey	White	23	2019-03-07	armed	M
+3831	Thomas Wayne Swinford	White	34	2019-03-08	armed	M
+3832	Beth Plant	White	51	2019-03-09	armed	F
+3833	Eric Hagstrom	White	35	2019-03-09	armed	M
+3834	Joel David Kellay	White	46	2019-03-09	armed	M
+3835	Tommy Wayne Welch	White	59	2019-03-09	armed	M
+3836	Rodney Lassiter	Black	30	2019-03-09	armed	M
+3837	Brandon Robertson	Native	34	2019-03-10	armed	M
+3838	Phillip Wayne Outland	White	44	2019-03-10	armed	M
+3839	Sokhom Hon	Asian	31	2019-03-10	armed	M
+3840	Anthony Lee Montoya	Hispanic	51	2019-03-10	armed	M
+3841	Michael J. D'Angelo	White	34	2019-03-11	armed	M
+3842	Robert Mark Frady	White	45	2019-03-12	armed	M
+3843	Latasha Nicole Walton	Black	32	2019-03-12	armed	F
+3844	Brandon Stacey	White	31	2019-03-12	armed	M
+3845	Charles Ballard	Black	41	2019-03-13	armed	M
+3846	Benjamin Melendez	Hispanic	29	2019-03-13	armed	M
+3847	Nina Adams	Black	47	2019-03-13	armed	F
+3849	Shawn Taylor Waite	Native	27	2019-03-14	armed	M
+3850	Jerry Marrero	Hispanic	38	2019-03-14	armed	M
+3851	George Wayne McCallum	White	33	2019-03-14	armed	M
+3852	Victor J. Morales Zavala	White	25	2019-03-14	armed	M
+3853	Michael Cohen	White	47	2019-03-15	armed	M
+3854	Timothy John Beckwith	White	49	2019-03-16	armed	M
+3855	Jorge Luis Rivera-Melendez	Hispanic	33	2019-03-17	armed	M
+3856	Kenneth Cherry	White	36	2019-03-18	armed	M
+3857	Thomas Johnson	Black	22	2019-03-19	armed	M
+3858	Juan Manuel Flores Del Toro	Hispanic	29	2019-03-19	armed	M
+3859	Jesus Calderon	Hispanic	52	2019-03-19	armed	M
+3860	James Hunn	White	61	2019-03-19	armed	M
+3861	Osaze Osagie	Black	29	2019-03-20	armed	M
+3862	Stevie Garcia	Hispanic	37	2019-03-20	armed	M
+3863	Hannah Westall	White	26	2019-03-20	armed	F
+3864	Daishawn Brown	Black	19	2019-03-21	armed	M
+3865	Bruce Puchel	White	45	2019-03-22	armed	M
+3866	Derek Smith	Black	22	2019-03-22	armed	M
+3868	Joseph David Durman	White	46	2019-03-24	armed	M
+3869	Danquirs Napoleon Franklin	Black	27	2019-03-25	armed	M
+3870	Abraham Arellano	Hispanic	26	2019-03-25	armed	M
+3871	Brandon Coty Elliott	White	30	2019-03-25	armed	M
+3872	Kaylon Robinson	Black	18	2019-03-25	armed	M
+3873	Brandon Michael Jacque	White	25	2019-03-27	armed	M
+3874	Stephen Marshall	White	51	2019-03-27	armed	M
+3875	Leonardo Gallegos	Hispanic	40	2019-03-27	armed	M
+3876	Kevin Samuel Capers	White	47	2019-03-27	armed	M
+3877	Chris Joseph	Black	38	2019-03-27	armed	M
+3878	Daviri Robertson	Black	39	2019-03-27	armed	M
+3879	Brian Leslie Statler	Black	30	2019-03-27	armed	M
+3880	Augustine Gutierrez	Hispanic	42	2019-03-28	armed	M
+3881	Pierre J. Cher Frere	Black	25	2019-03-30	armed	M
+3883	Ondrae Levado Hutchinson	Black	30	2019-03-30	armed	M
+3884	Stacy William Kenny	White	33	2019-03-31	armed	F
+3885	Juan Padilla	Hispanic	24	2019-03-31	armed	M
+3886	Oscar Cain	Black	31	2019-03-31	armed	M
+3887	Kevin Ray McEnulty	Native	25	2019-03-31	armed	M
+3888	Lianna Renee London	White	28	2019-04-01	armed	F
+3889	Veltavious Griggs	Black	19	2019-04-01	armed	M
+3890	Bishar Hassan	Black	31	2019-04-01	armed	M
+3892	Barry A. Rucker	White	53	2019-04-03	armed	M
+3893	Alfonso Cervantes	Hispanic	50	2019-04-03	armed	M
+3894	Jeffrey Garner	Hispanic	55	2019-04-03	armed	M
+3895	Zachary Kinard	White	37.11793090137039	2019-04-03	armed	M
+3897	Daniel Robert Ramirez	Hispanic	30	2019-04-04	armed	M
+3898	Benjamin B. Lucas	White	36	2019-04-06	armed	M
+3899	Anthony Orlando Bowers	Black	24	2019-04-07	armed	M
+3901	Charles Bradley Payne	White	42	2019-04-07	armed	M
+3902	Harold Vincent Robinson	Black	37	2019-04-08	armed	M
+3903	Michael Wray Hensley	White	28	2019-04-09	armed	M
+3904	Michael Gulley	White	32	2019-04-09	armed	M
+3905	Terry Davis	Black	33	2019-04-09	armed	M
+3906	Trivenskey O. Odom	Black	27	2019-04-10	armed	M
+3907	Anthony Santana	Hispanic	21	2019-04-10	armed	M
+3908	David Wittman	White	47	2019-04-10	armed	M
+3909	John Darlington	White	57	2019-04-10	armed	M
+3910	Demetrious Brooks	Black	34	2019-04-11	armed	M
+3912	Phillip Thomas Marsh	White	30	2019-04-11	armed	M
+3913	Theresa Medina-Thomas	Hispanic	29	2019-04-11	armed	F
+3914	Myron Flowers	Black	28	2019-04-12	armed	M
+3915	Juan Torres	Hispanic	39	2019-04-12	armed	M
+3916	Luc Ciel	Asian	54	2019-04-12	armed	M
+3917	Augustus Combs	White	27	2019-04-14	armed	M
+3918	Kawaski Trawick	Black	32	2019-04-14	armed	M
+3919	Clarence Leading Fighter	Native	32	2019-04-14	armed	M
+3920	William Crawford	White	47	2019-04-14	armed	M
+3921	Brian Dellaann Butts	White	33	2019-04-14	armed	M
+3922	Henry Lane	Native	42	2019-04-14	armed	M
+3923	Samuel Charles Talbott	White	37.11793090137039	2019-04-15	armed	M
+3924	Chadwick Dale Martin	White	24	2019-04-16	armed	M
+3925	Patrick West	White	42	2019-04-16	armed	M
+3926	Akeen Brown	Black	34	2019-04-17	armed	M
+3927	John Stewart, Jr.	White	46	2019-04-17	armed	M
+3928	John Duane Fairbanks	Native	40	2019-04-18	armed	M
+3929	Michael Allen Felch	White	30	2019-04-18	armed	M
+3930	Luiz Leizado	Hispanic	42	2019-04-18	armed	M
+3931	Soheil Antonio Mojarrad	White	30	2019-04-20	armed	M
+3932	Carlton Steve Brooks	White	63	2019-04-20	armed	M
+3933	Anthony Jose Vega Cruz	Hispanic	18	2019-04-20	armed	M
+3934	Sean Michael Collins	Hispanic	29	2019-04-20	armed	M
+3935	Michael St. Clair	White	42	2019-04-21	armed	M
+3936	David Flores Ramos	Hispanic	32	2019-04-22	armed	M
+3937	Richard Allen Moench	White	50	2019-04-22	armed	M
+3938	Emory Moore	White	29	2019-04-24	armed	M
+3939	Jonathan Patzel	White	29	2019-04-24	armed	M
+3940	Stanley Edward Thompson	White	51	2019-04-25	armed	M
+3941	Kevin Leroy Beasley	Black	23	2019-04-26	armed	M
+3942	Jose Dominguez	Hispanic	47	2019-04-28	armed	M
+3943	Carlos Manuel Dodero	Hispanic	45	2019-04-28	armed	M
+3944	Jeb Colin Brock	White	42	2019-04-29	armed	M
+3945	Alejandro Hernandez	Hispanic	26	2019-04-29	armed	M
+3946	Lawrence Bottoms	White	29	2019-04-29	armed	M
+3947	Shawna Widemann	Asian	49	2019-04-29	armed	F
+3949	TK TK	Hispanic	37.11793090137039	2019-04-30	armed	M
+3950	April Robertson	White	45	2019-04-30	armed	F
+3951	Reinaldo Gonzalez	Hispanic	51	2019-05-01	armed	M
+3952	Isaac Pineda	Hispanic	37	2019-05-01	armed	M
+3953	Timothy Manuel	White	28	2019-05-01	armed	M
+3955	Jorge Albert Merino	Hispanic	37	2019-05-02	armed	M
+3956	Timothy Russell Majchrzak	White	37	2019-05-04	armed	M
+3958	Saoun Pol	Asian	35	2019-05-04	armed	M
+3959	Jason Demarcus Larkin	White	35	2019-05-04	armed	M
+3960	George Herrera	Hispanic	61	2019-05-05	armed	M
+3961	Pedro Colazo-villa	Hispanic	33	2019-05-06	armed	M
+3962	Cesar Tomix Sarmiento-Molina	Hispanic	34	2019-05-07	armed	M
+3963	Aubrey Manning	White	59	2019-05-07	armed	M
+3964	Francisco Anthony Alcaraz	Hispanic	32	2019-05-07	armed	M
+3965	Eddie Herrera	Hispanic	49	2019-05-09	armed	M
+3966	Ryan Smith	Black	31	2019-05-09	armed	M
+3967	Hector Lopez	Hispanic	29	2019-05-09	armed	M
+3968	Derrec Jamal Shaw	Black	25	2019-05-10	armed	M
+3969	Sharell Brown	Black	26	2019-05-11	armed	M
+3970	Edward Fuller	Black	37.11793090137039	2019-05-11	armed	M
+3971	Jeremy Potwin	White	39	2019-05-11	armed	M
+3972	Luis Quinones Rosa	Hispanic	26	2019-05-11	armed	M
+3973	Malik Ali Gresham	Black	36	2019-05-13	armed	M
+3974	Pamela Shantay Turner	Black	45	2019-05-13	armed	F
+3975	James Douglas Meadows	White	45	2019-05-13	armed	M
+3976	Alex Steward Underdown	White	54	2019-05-14	armed	M
+3977	Ronny Rodriguez	Hispanic	43	2019-05-15	armed	M
+3978	Ruben Houston	Black	37.11793090137039	2019-05-15	armed	M
+3979	Djuantez Anthony Mitchell	Black	30	2019-05-15	armed	M
+3980	Michael Nieto	Hispanic	37.11793090137039	2019-05-16	armed	M
+3981	Elizabeth Harris	White	58	2019-05-16	armed	F
+3982	Luis Lomante	Hispanic	39	2019-05-17	armed	M
+3983	Donald Davis, Jr.	Black	40	2019-05-17	armed	M
+3984	Daniel Warren	Black	36	2019-05-17	armed	M
+3985	Dion Grey Hat	Native	27	2019-05-18	armed	M
+3986	Andrew Giovanni Meza	Hispanic	20	2019-05-18	armed	M
+3987	Robert Rabago	Hispanic	17	2019-05-19	armed	M
+3988	Esteban Martinez	Hispanic	59	2019-05-19	armed	M
+3989	Lori Markham	White	47	2019-05-19	armed	F
+3990	Ronnie Churches	Other	45	2019-05-19	armed	M
+3991	Michael Ann Godsey	White	34	2019-05-20	armed	F
+3992	Carlos Javier Roman Santiago	Hispanic	46	2019-05-20	armed	M
+3993	Enosa Strickland	Black	26	2019-05-20	armed	M
+3994	Juan Antonio Sillas	Hispanic	21	2019-05-21	armed	M
+3995	Steven Case	White	29	2019-05-21	armed	M
+3996	Joseph M. Tedrick	White	33	2019-05-22	armed	M
+3997	David Marcus Reece	White	47	2019-05-22	armed	M
+3998	Myles Frazier	Black	22	2019-05-22	armed	M
+4000	Adam Michael McCoy	White	28	2019-05-23	armed	M
+4001	Fred Burton	White	56	2019-05-23	armed	M
+4002	Ryan Brett Thomas	White	41	2019-05-24	armed	M
+4003	Carlvon Mayo	Hispanic	35	2019-05-24	armed	M
+4004	Hamid Ould-Rouis	Other	59	2019-05-24	armed	M
+4005	Terrance Bridges	Black	30	2019-05-26	armed	M
+4006	Robert Sabater	White	49	2019-05-27	armed	M
+4007	Nakia Smith	Black	41	2019-05-27	armed	M
+4008	Curtis Stagger	Black	21	2019-05-28	armed	M
+4009	Gerald Tremblay	White	62	2019-05-29	armed	M
+4010	Crystal Danielle Ragland	Black	32	2019-05-30	armed	F
+4011	Isaac Ray Ruiz	Hispanic	22	2019-05-30	armed	M
+4012	Steve Huff	White	58	2019-05-30	armed	M
+4013	Kyle Needham	White	32	2019-05-31	armed	M
+4016	Nikolai Landry	White	27	2019-06-01	armed	M
+4017	Marcus Boles	Black	35	2019-06-01	armed	M
+4018	Miles Hall	Black	23	2019-06-02	armed	M
+4019	David Hoal	White	59	2019-06-03	armed	M
+4020	Travis James Eckstein	White	23	2019-06-03	armed	M
+4021	Samuel Galberth	Black	43	2019-06-03	armed	M
+4023	Martin Allen Goodier	White	56	2019-06-04	armed	M
+4024	Erik Gebauer	White	45	2019-06-04	armed	M
+4025	Fabian Rivera	Hispanic	28	2019-06-05	armed	M
+4026	Jay Clem	White	37.11793090137039	2019-06-05	armed	M
+4027	Scott Hedgecock	White	54	2019-06-05	armed	M
+4028	Matthew Freeseha	White	39	2019-06-05	armed	M
+4030	Jose De Santiago Media	Hispanic	41	2019-06-06	armed	M
+4031	Edtwon Stamps	Black	27	2019-06-06	armed	M
+4032	Harry Gipson	White	70	2019-06-06	armed	M
+4033	Jose Jesus Astorga	Hispanic	37.11793090137039	2019-06-06	armed	M
+4034	Jose Salvador Meza	Hispanic	35	2019-06-06	armed	M
+4035	Rodnell Cotton	Black	26	2019-06-06	armed	M
+4036	Zendall Noble	White	58	2019-06-06	armed	M
+4037	Jason Nash	White	46	2019-06-07	armed	M
+4038	Bryan Bernard Wallace	Black	39	2019-06-08	armed	M
+4039	Krystal Arvizu	Hispanic	33	2019-06-08	armed	F
+4040	JaQuavion Slaton	Black	20	2019-06-09	armed	M
+4041	David Wayne Downs	White	38	2019-06-09	armed	M
+4042	William James Back	White	41	2019-06-09	armed	M
+4043	Ysidro Osornio-Velasquez	Hispanic	32	2019-06-09	armed	M
+4044	Terry Frost	White	37.11793090137039	2019-06-10	armed	M
+4045	Vincense Williams, Jr.	Black	24	2019-06-10	armed	M
+4046	Brent Durbin-Daniel	Black	19	2019-06-10	armed	M
+4047	Jaquan Derrick Diijon Thompson	Black	27	2019-06-11	armed	M
+4048	Eddie Humberto Segura	Hispanic	40	2019-06-11	armed	M
+4049	Jimmy De Odell	White	61	2019-06-11	armed	M
+4050	Brandon Webber	Black	20	2019-06-12	armed	M
+4052	Marquis Weems	Black	17	2019-06-13	armed	M
+4053	Tramon Savage	Black	22	2019-06-13	armed	M
+4054	Michael Sheehan	White	45	2019-06-15	armed	M
+4055	Mantry Norris	Black	20	2019-06-15	armed	M
+4056	Ty'Rese West	Black	18	2019-06-15	armed	M
+4057	Jamarcus Dejun Moore	Black	28	2019-06-15	armed	M
+4058	Alfredo Chino	Hispanic	38	2019-06-15	armed	M
+4059	Eric Jack Logan	Black	53	2019-06-16	armed	M
+4060	Carlos Vale	Hispanic	31	2019-06-16	armed	M
+4061	Shawn Ray Wilson	White	48	2019-06-16	armed	M
+4062	Mark Anthony Galvan	Hispanic	20	2019-06-17	armed	M
+4063	Francisco Tarin	Hispanic	35	2019-06-17	armed	M
+4064	Brian Isaack Clyde	White	22	2019-06-17	armed	M
+4065	Josh Flores	Hispanic	18	2019-06-18	armed	M
+4066	DeWayne Watkins	Black	74	2019-06-18	armed	M
+4067	Juan Carlos Chapa	Hispanic	33	2019-06-20	armed	M
+4068	Dewayne Tackett	White	38	2019-06-20	armed	M
+4069	Kevin Anthony Alaniz	Hispanic	26	2019-06-22	armed	M
+4070	Scott William Robertson	White	41	2019-06-22	armed	M
+4071	Michael Spencer	White	29	2019-06-23	armed	M
+4072	Jaymil Ellerbe	Black	19	2019-06-24	armed	M
+4073	Bradley Rundle	Black	61	2019-06-24	armed	M
+4074	Peter Alexander Bohning	White	34	2019-06-24	armed	M
+4075	Tomas Hernandez	Hispanic	35	2019-06-25	armed	M
+4076	Shawn D. Blowers	White	43	2019-06-25	armed	M
+4077	Michael Norquest	White	50	2019-06-26	armed	M
+4078	Elijah Collins III	Black	32	2019-06-26	armed	M
+4079	Marvin Green	Black	50	2019-06-27	armed	M
+4080	Benjamin Ray Smith	Black	54	2019-06-27	armed	M
+4081	Stephen D. Sloan	White	35	2019-06-27	armed	M
+4082	Matthew Christian Smith	White	33	2019-06-27	armed	M
+4084	William Aubrey Martin	White	50	2019-06-27	armed	M
+4085	Erik Sandoval	Hispanic	41	2019-06-27	armed	M
+4086	Gene Pool	Black	37	2019-06-28	armed	M
+4087	William Lamb	White	76	2019-06-28	armed	M
+4088	Ryan Moody	White	19	2019-06-28	armed	M
+4089	Zackary Ryan Hoppe	White	40	2019-06-28	armed	M
+4090	TK TK	White	61	2019-06-29	armed	M
+4091	Jack Daniel West	White	61	2019-06-29	armed	M
+4092	Christopher Barela	Hispanic	22	2019-07-01	armed	M
+4093	Terry Allen "Bubba" Payne	White	52	2019-07-01	armed	M
+4094	Aaron Hong	Asian	23	2019-07-01	armed	M
+4095	Ben Fields	Black	67	2019-07-01	armed	M
+4096	Chad Williams	White	44	2019-07-02	armed	M
+4097	Isak Abdirahman Aden	Other	23	2019-07-02	armed	M
+4098	Isaiah Robinson	Black	39	2019-07-02	armed	M
+4099	Mark A. Naugle	White	53	2019-07-03	armed	M
+4100	Stonechild Chiefstick	Native	39	2019-07-03	armed	M
+4101	Jonathan Pingel	White	26	2019-07-03	armed	M
+4102	Christine Soto Venegas	Hispanic	38	2019-07-03	armed	F
+4104	Leonel Mendez	Hispanic	34	2019-07-04	armed	M
+4105	Olivio Sandoval Diaz	Hispanic	47	2019-07-04	armed	M
+4106	Jose Martinez	Hispanic	34	2019-07-05	armed	M
+4107	James C. Pinkston	White	58	2019-07-05	armed	M
+4108	Hannah Williams	White	17	2019-07-05	armed	F
+4110	Angel Ramos Otero	Hispanic	37	2019-07-05	armed	M
+4111	Kareem Omar Morgan	Black	43	2019-07-06	armed	M
+4112	Thomas Graham	White	61	2019-07-07	armed	M
+4113	Tymar Crawford	Black	28	2019-07-07	armed	M
+4114	Johnny W. Dellinger	White	41	2019-07-07	armed	M
+4115	Shawn Toney	White	23	2019-07-08	armed	M
+4116	Anthony James Gonzales	Hispanic	36	2019-07-09	armed	M
+4117	Sean Rambert	Black	23	2019-07-09	armed	M
+4118	Grayson Schuessler	White	26	2019-07-09	armed	M
+4119	Darrell Allen	Black	32	2019-07-10	armed	M
+4120	Dennis Edwards	White	62	2019-07-10	armed	M
+4121	Frankie Feliciano	Hispanic	33	2019-07-11	armed	M
+4122	Logan O. Johnsrud	White	32	2019-07-11	armed	M
+4123	Willem Van Spronsen	White	69	2019-07-13	armed	M
+4125	Brian H. Benfield	White	46	2019-07-13	armed	M
+4126	Jamahl Smith	Black	46	2019-07-13	armed	M
+4127	Blige Sean Christopher Cypress	Black	22	2019-07-14	armed	M
+4128	Onaje Dickinson	Black	20	2019-07-14	armed	M
+4129	Dijon D. Watkins	Black	30	2019-07-14	armed	M
+4130	Ashanti Pinkney	Black	49	2019-07-15	armed	M
+4131	Michael Anthony Brand	White	43	2019-07-15	armed	M
+4132	Jose Javier Gonzalez	Hispanic	52	2019-07-16	armed	M
+4133	Daryl Johannesson	White	56	2019-07-16	armed	M
+4134	Brandon Ray Stansel	White	36	2019-07-16	armed	M
+4135	Kelly Danielle Brumley	White	40	2019-07-16	armed	F
+4136	Stephen Murray	Black	52	2019-07-17	armed	M
+4137	Mark Anson Schoggins	White	35	2019-07-17	armed	M
+4138	Roderick Wilson	Black	35	2019-07-17	armed	M
+4139	Patrick Martinez	Hispanic	53	2019-07-18	armed	M
+4140	Leo Brooks	Black	23	2019-07-18	armed	M
+4141	Makeyvion Devonte Cannon	Black	19	2019-07-18	armed	M
+4142	Witney Rivera	Hispanic	41	2019-07-19	armed	M
+4143	Jeffrey Bodie	White	39	2019-07-19	armed	M
+4144	Elisha Lucero	Hispanic	28	2019-07-21	armed	F
+4145	Hashim Jibiri Wilson	Black	28	2019-07-21	armed	M
+4146	Shawan F. Allen	Black	37.11793090137039	2019-07-22	armed	M
+4147	John David Brown	White	53	2019-07-22	armed	M
+4148	James Manzo	White	27	2019-07-23	armed	M
+4149	Omari Thompson	Black	31	2019-07-23	armed	M
+4150	Joshua Vigil	Hispanic	38	2019-07-23	armed	M
+4152	Alphonso Zaporta	Hispanic	41	2019-07-26	armed	M
+4153	Todd Messner	White	49	2019-07-26	armed	M
+4154	Donald Williams Allamong	White	56	2019-07-26	armed	M
+4155	Adalberto Wolmar Rodriguez	Hispanic	62	2019-07-28	armed	M
+4156	Lane Christopher Martin	White	31	2019-07-30	armed	M
+4157	Donald Lee Joseph	White	37	2019-07-31	armed	M
+4158	Jose Baca-Olivares	Hispanic	37.11793090137039	2019-07-31	armed	M
+4159	Troy Petersen	White	28	2019-07-31	armed	M
+4160	Mauris Nishanga DeSilva	Asian	46	2019-07-31	armed	M
+4161	Jamaal Simpson	Black	21	2019-08-01	armed	M
+4163	Eric Toon	White	36	2019-08-01	armed	M
+4164	Lenny Blaine Griffin	White	48	2019-08-01	armed	M
+4165	Mario Benjamin	Black	34	2019-08-02	armed	M
+4166	Deshon Downing	Black	45	2019-08-02	armed	M
+4167	De'Von Bailey	Black	19	2019-08-03	armed	M
+4168	Oscar Ventura-Gonzalez	Hispanic	32	2019-08-03	armed	M
+4169	Cortney Ronald Staley	White	32	2019-08-03	armed	M
+4170	Connor Betts	White	24	2019-08-04	armed	M
+4171	Robert Clay Wilsford	White	65	2019-08-04	armed	M
+4172	Riche Antonio Santiago	Hispanic	29	2019-08-05	armed	M
+4173	James Lee Kirkwood	Black	49	2019-08-05	armed	M
+4174	Marvin Alexis Urbina	Hispanic	19	2019-08-05	armed	M
+4175	Derrick Davidson	White	56	2019-08-05	armed	M
+4176	Kaizen Crossen	Black	39	2019-08-05	armed	M
+4177	William Biggs	White	43	2019-08-05	armed	M
+4178	Allan George	White	57	2019-08-05	armed	M
+4179	Donald Babbit	White	49	2019-08-06	armed	M
+4180	Detravian Allison	Black	18	2019-08-07	armed	M
+4181	Toussaint Diamon Sims	Black	27	2019-08-08	armed	M
+4182	Jason Xavier Salas	Hispanic	52	2019-08-09	armed	M
+4183	Jose Mendez	Hispanic	37	2019-08-09	armed	M
+4184	Freddrick Andrews Hadden	White	45	2019-08-10	armed	M
+4185	Aaron Luther	White	49	2019-08-12	armed	M
+4186	Scott Souders	White	38	2019-08-12	armed	M
+4188	Jerry Orlando Weaver	Black	51	2019-08-13	armed	M
+4189	Anthony Wayne French	White	37.11793090137039	2019-08-13	armed	M
+4190	Charles Roy Pearson	Black	51	2019-08-13	armed	M
+4191	Cole Steele Jessup	White	20	2019-08-13	armed	M
+4192	Jovany Mercado-Bedolla	Hispanic	26	2019-08-16	armed	M
+4193	Rashad Cunningham	Black	25	2019-08-17	armed	M
+4194	Uzzle Jerome	Black	37.11793090137039	2019-08-17	armed	M
+4195	Mike Parsley	White	62	2019-08-17	armed	M
+4196	Schaston Theodore Lamarr Hodge	Black	27	2019-08-17	armed	M
+4197	Roberto Rene Gabriel	Hispanic	33	2019-08-18	armed	M
+4198	Carlos Torres	Hispanic	39	2019-08-19	armed	M
+4199	Amari Malone	Black	18	2019-08-21	armed	M
+4200	James Crowe	White	27	2019-08-21	armed	M
+4201	TK TK	Hispanic	50	2019-08-21	armed	M
+4202	Roger Schafer	White	57	2019-08-22	armed	M
+4203	Michael Tuck	Black	29	2019-08-22	armed	M
+4206	Larry Leonard Lowry	White	34	2019-08-23	armed	M
+4207	Dennis Carolino	Hispanic	52	2019-08-24	armed	M
+4209	Raymond Lewis Williams	Black	37	2019-08-27	armed	M
+4210	Keith Carter	Black	52	2019-08-27	armed	M
+4211	Wallace Wilder	Black	62	2019-08-28	armed	M
+4212	Tyrone Domingo Banks	Black	30	2019-08-28	armed	M
+4213	Jeremy Connolly	White	28	2019-08-28	armed	M
+4214	Rene Enrique Ruiz	Hispanic	51	2019-08-30	armed	M
+4215	Terry Tillman	Black	23	2019-08-31	armed	M
+4216	Seth Aaron Ator	White	36	2019-08-31	armed	M
+4217	Juan Carlos Macias	Hispanic	37	2019-08-31	armed	M
+4218	Robert Desjarlais	White	49	2019-09-01	armed	M
+4219	Sidney J. Holst	White	49	2019-09-01	armed	M
+4220	Steven Cole Gill	White	35	2019-09-02	armed	M
+4221	Tommy Luke Hranicky	White	17	2019-09-02	armed	M
+4222	Attillio Gilmartin	White	30	2019-09-03	armed	M
+4223	Eduard Alexis Lopez-Ucles	Hispanic	34	2019-09-03	armed	M
+4224	Terry Pierce	White	46	2019-09-03	armed	M
+4225	Fares J. Al-Samno	White	29	2019-09-04	armed	M
+4226	Cortez Shepherd	Black	28	2019-09-05	armed	M
+4228	Vondarrow Dewayne Fisher	Black	42	2019-09-06	armed	M
+4229	Brian Quinones	Hispanic	30	2019-09-07	armed	M
+4230	Bennie Branch	Black	24	2019-09-08	armed	M
+4231	Quentin Broadus	Black	27	2019-09-09	armed	M
+4232	Kristopher Fitzpatrick	White	41	2019-09-09	armed	M
+4233	Hector Miranda	Hispanic	47	2019-09-09	armed	M
+4234	Bobby Ray Duckworth	Black	26	2019-09-10	armed	M
+4235	Caleb Daniel Peterson	White	20	2019-09-11	armed	M
+4236	Tasjon Tyreek Osbourne	Black	18	2019-09-11	armed	M
+4238	Allen Cates	White	29	2019-09-12	armed	M
+4239	Alvaro Duran Venegas	Hispanic	35	2019-09-12	armed	M
+4240	Robert E. Domine	White	77	2019-09-13	armed	M
+4241	Nicholas Walker	Black	31	2019-09-14	armed	M
+4243	Jose Orona	Hispanic	33	2019-09-14	armed	M
+4244	James Hilton Glaze	White	76	2019-09-14	armed	M
+4245	Brian Dryer	White	28	2019-09-15	armed	M
+4246	Ronald Davis	Black	31	2019-09-15	armed	M
+4247	Eric Carter	Black	53	2019-09-16	armed	M
+4248	Jeffrey Michael Gibble	White	33	2019-09-16	armed	M
+4249	Kristopher Adams	White	37	2019-09-16	armed	M
+4250	Gay Ellen Plack	White	57	2019-09-17	armed	F
+4251	Brian Rodden	White	36	2019-09-17	armed	M
+4252	Gregory Edwards	Black	39	2019-09-17	armed	M
+4253	Scott Gabriel Spangler	White	43	2019-09-18	armed	M
+4254	Gabriel Rouse	White	44	2019-09-18	armed	M
+4255	Willie Hudson	Black	33	2019-09-18	armed	M
+4256	Shawn Stevens	Black	49	2019-09-18	armed	M
+4257	Jordan Michael Griffin	Black	18	2019-09-19	armed	M
+4258	Adam Paul English	White	21	2019-09-20	armed	M
+4259	Scott Johnson	White	57	2019-09-20	armed	M
+4260	Jeffrey Peterson	White	29	2019-09-21	armed	M
+4261	Anderson Antelope	Native	58	2019-09-21	armed	M
+4262	TK TK	White	74	2019-09-22	armed	M
+4263	Raymond Hernandez	Hispanic	63	2019-09-23	armed	M
+4264	Jeffery Tyler Aycock	White	28	2019-09-23	armed	M
+4265	Haywood Cannon	White	67	2019-09-24	armed	M
+4266	Daryl Strickland	White	64	2019-09-25	armed	M
+4267	Kevin Dudenhefer	White	32	2019-09-25	armed	M
+4268	Leonard Shand	Black	49	2019-09-26	armed	M
+4269	Chad Willis Huggins	White	28	2019-09-26	armed	M
+4270	Jamaal Ramone Taylor	Black	31	2019-09-28	armed	M
+4271	David Page	White	20	2019-09-29	armed	M
+4272	Antonio Williams	Black	27	2019-09-29	armed	M
+4273	Angela Louise Perkins	White	38	2019-09-29	armed	F
+4275	Anthony Watkins	White	36	2019-09-30	armed	M
+4276	Raphael Michael Torres	Hispanic	35	2019-09-30	armed	M
+4277	Jack Thomas Naylor	White	50	2019-10-01	armed	M
+4278	Roy Tucker	White	75	2019-10-01	armed	M
+4279	Joseph Jesk	White	32	2019-10-01	armed	M
+4280	Christopher G. Louras	White	34	2019-10-01	armed	M
+4281	Michael John	Black	24	2019-10-03	armed	M
+4282	Bruce William Clark	White	37	2019-10-04	armed	M
+4283	Christopher Massey	White	33	2019-10-05	armed	M
+4284	Antonio Vasquez	Hispanic	37	2019-10-06	armed	M
+4285	Maurice Holley	Black	55	2019-10-06	armed	M
+4286	Joshua Chase Conner	White	31	2019-10-07	armed	M
+4287	Bobby Lee Vaughn	White	54	2019-10-07	armed	M
+4288	Crederick Joseph	Black	37	2019-10-08	armed	M
+4289	Joseph Cimino	White	48	2019-10-08	armed	M
+4290	Zachary Aldrige Hall	White	28	2019-10-08	armed	M
+4291	Leo Craig	Black	31	2019-10-09	armed	M
+4292	Michael Uccello	White	48	2019-10-10	armed	M
+4293	Norbert Beyet	White	58	2019-10-10	armed	M
+4294	Sayven Lane Rowland	White	19	2019-10-11	armed	M
+4296	Sawandi Asad Toussaint	Black	21	2019-10-12	armed	M
+4297	Fernando Mora	Hispanic	57	2019-10-12	armed	M
+4298	Levy Isacc Madueno Santibanez	Hispanic	17	2019-10-13	armed	M
+4299	Emilio Mojica	Hispanic	22	2019-10-13	armed	M
+4300	Jose Eduardo Flores	Hispanic	26	2019-10-13	armed	M
+4302	Victor Jarvis	Black	61	2019-10-14	armed	M
+4303	Bonny Thomas	White	54	2019-10-14	armed	F
+4304	Dennis Patrick	White	28	2019-10-15	armed	M
+4306	Nasheem Prioleau	Black	30	2019-10-15	armed	M
+4307	David James Bamber	White	28	2019-10-15	armed	M
+4308	Akinyia Malik Jerome Gray	Black	26	2019-10-15	armed	M
+4309	Chase Andrew Austin	White	28	2019-10-16	armed	M
+4310	Lazzeri James Frazier	Black	21	2019-10-16	armed	M
+4311	Allan Feliz	Black	31	2019-10-17	armed	M
+4312	Marcus Hartsfield	White	27	2019-10-17	armed	M
+4313	Christopher DeQuan Crosby	Black	34	2019-10-17	armed	M
+4314	Cameron Bennett	Black	22	2019-10-17	armed	M
+4315	Malachi Crane	White	29	2019-10-18	armed	M
+4316	Charles Tsakiris	White	38	2019-10-18	armed	M
+4317	McLemore Ronald	White	51	2019-10-19	armed	M
+4318	Terry Countryman	White	34	2019-10-19	armed	M
+4319	Steven Day	Black	30	2019-10-20	armed	M
+4320	Amber Lea Dewitt	White	33	2019-10-20	armed	F
+4321	Joseph Bernhard-Williams Kisar	White	21	2019-10-21	armed	M
+4322	Jason Livegood	White	39	2019-10-21	armed	M
+4323	Claudia Nadia Rodriguez	Hispanic	37	2019-10-21	armed	F
+4324	Jordan Wade Waldrop	White	34	2019-10-23	armed	M
+4325	Matthew Wayne Sutton	White	47	2019-10-23	armed	M
+4326	Victor Hernandez	Black	29	2019-10-23	armed	M
+4327	Vincent Michael Smith	White	29	2019-10-23	armed	M
+4328	Delfon Kinney	Black	44	2019-10-23	armed	M
+4329	Michael Babcock	White	53	2019-10-24	armed	M
+4330	Shannon Gail Rupert	White	45	2019-10-25	armed	F
+4331	Anthony John Michael Zapier	White	19	2019-10-25	armed	M
+4332	Clayton Andrews	White	40	2019-10-25	armed	M
+4333	Kwesi Ashun	Black	33	2019-10-25	armed	M
+4334	Nan Zhao	Asian	45	2019-10-26	armed	M
+4335	Clayton Andrews	White	40	2019-10-26	armed	M
+4336	Johnathan Wayne Slattery	White	27	2019-10-26	armed	M
+4337	Dean Thomas	White	63	2019-10-27	armed	M
+4338	Luis Arreguin-Lara	Hispanic	50	2019-10-27	armed	M
+4339	Earnest Easterling	Black	25	2019-10-27	armed	M
+4340	Dana Sherrod Fletcher	Black	39	2019-10-27	armed	M
+4341	Arturo Moreno	Hispanic	42	2019-10-27	armed	M
+4342	Terry W. Chanley	White	25	2019-10-28	armed	M
+4343	John Feggins	Black	24	2019-10-30	armed	M
+4344	Michael Pinkerman	White	37.11793090137039	2019-10-30	armed	M
+4345	Billy Kongphouthakhoun	Asian	37.11793090137039	2019-10-30	armed	M
+4346	Ricardo Myers	White	62	2019-10-30	armed	M
+4347	Danny James Hall	White	34	2019-10-31	armed	M
+4348	Francis Calonge	White	33	2019-10-31	armed	M
+4349	Edward Roe	White	56	2019-10-31	armed	M
+4350	Benjamin Diaz	Hispanic	22	2019-11-01	armed	M
+4351	Anthony Pena	Hispanic	46	2019-11-01	armed	M
+4352	Luis Morales-Camacho	Hispanic	41	2019-11-01	armed	M
+4353	Luis Fino Nabarrette	Hispanic	38	2019-11-01	armed	M
+4354	Benjamin Diaz	Hispanic	22	2019-11-01	armed	M
+4355	John Hale	White	42	2019-11-02	armed	M
+4356	Michael Kifer	White	29	2019-11-02	armed	M
+4357	Curtis French	White	56	2019-11-03	armed	M
+4358	Michael Austin	Black	32	2019-11-03	armed	M
+4359	Matthew Rasmussen	White	31	2019-11-04	armed	M
+4360	Daniel M. Munoz	Hispanic	21	2019-11-04	armed	M
+4361	Nash Fiske	White	31	2019-11-04	armed	M
+4362	Maurice Brown	Black	48	2019-11-05	armed	M
+4363	Jay P. Messer	White	58	2019-11-05	armed	M
+4364	Michael Lee Nguyen	Asian	32	2019-11-05	armed	M
+4365	Christopher Alan Noe	White	45	2019-11-05	armed	M
+4366	Eddie Ray Maxwell	Black	37	2019-11-06	armed	M
+4367	Corben Hunter Jones	White	20	2019-11-06	armed	M
+4368	Raul Casas Campo	Hispanic	34	2019-11-06	armed	M
+4369	Treva Smutherman	Black	31	2019-11-06	armed	M
+4370	Guy Thomas Barnard	White	26	2019-11-07	armed	M
+4371	Shelby Gazaway	Black	32	2019-11-07	armed	M
+4372	Gerald Newton Allen	White	66	2019-11-07	armed	M
+4373	Christopher Mills	White	37	2019-11-07	armed	M
+4374	Ray Correll	White	38	2019-11-08	armed	M
+4375	Ryan D. Hemmingson	White	44	2019-11-09	armed	M
+4376	Daniel Thomas Childers	White	28	2019-11-09	armed	M
+4377	John Luce	White	22	2019-11-11	armed	M
+4378	Tammy Pierce	White	59	2019-11-11	armed	F
+4379	Sidney Alexis Renew	White	20	2019-11-11	armed	F
+4380	Justin Anderson	White	39	2019-11-12	armed	M
+4381	Michael Kahalehoe	Other	30	2019-11-12	armed	M
+4382	Roy McAllister	Black	27	2019-11-13	armed	M
+4383	Chris Ervie	White	37.11793090137039	2019-11-13	armed	M
+4384	Omar Enrique Garcia	Hispanic	37	2019-11-13	armed	M
+4385	Kennith Waynon Hooker	White	52	2019-11-14	armed	M
+4386	Michael  A. Jolly	White	35	2019-11-14	armed	M
+4387	Treon McCoy	Black	33	2019-11-15	armed	M
+4388	Mark Sheppard	Black	27	2019-11-15	armed	M
+4389	Garrett Ryberg	White	27	2019-11-16	armed	M
+4391	Dante Redmond Jones	Black	28	2019-11-18	armed	M
+4392	Cody McClintick	White	26	2019-11-18	armed	M
+4394	Alex Flores	Hispanic	34	2019-11-19	armed	M
+4395	Jacob Cato	White	34	2019-11-19	armed	M
+4396	Luis A. Cardona	Hispanic	38	2019-11-19	armed	M
+4397	Christopher Terrell Willis	Black	32	2019-11-19	armed	M
+4398	Raul Antonio Menjivar Saabedra	Hispanic	50	2019-11-19	armed	M
+4399	Paul Cheek	White	55	2019-11-20	armed	M
+4400	William Harris	White	51	2019-11-20	armed	M
+4401	Kenneth Simeus	Black	18	2019-11-20	armed	M
+4402	Jessica Ann Beedles	White	42	2019-11-20	armed	F
+4403	Anthony Chilcott	White	36	2019-11-22	armed	M
+4404	Lance Edward Smith	Black	37	2019-11-22	armed	M
+4405	Ariane Lamont McCree	Black	28	2019-11-23	armed	M
+4406	Estevon Cruz	Hispanic	24	2019-11-23	armed	M
+4407	Steven Forrest Saucier	White	34	2019-11-24	armed	M
+4408	Nathaniel Pinnock	Black	22	2019-11-25	armed	M
+4409	Jason Quincey Niccum	White	42	2019-11-25	armed	M
+4410	Eric Sopp	White	48	2019-11-26	armed	M
+4411	Hollis Lewis	White	51	2019-11-26	armed	M
+4412	Micduff Lamarco Robinson	Black	40	2019-11-27	armed	M
+4413	Jeremy Pelican	White	34	2019-11-28	armed	M
+4414	Derrick Everett	Black	30	2019-11-28	armed	M
+4415	Nicholas Cantelmi	White	31	2019-11-28	armed	M
+4416	Raymond Lee	White	54	2019-11-29	armed	M
+4417	Kenneth Layton	White	60	2019-11-29	armed	M
+4418	Keith Alan Bruce	White	40	2019-11-29	armed	M
+4419	TK TK	White	37.11793090137039	2019-11-29	armed	M
+4421	Anthony Rosso	White	68	2019-12-01	armed	M
+4422	Jimmie Phillips	Black	68	2019-12-01	armed	M
+4423	Donald James Eversen	White	60	2019-12-01	armed	M
+4424	Yemerson Melendez	Hispanic	16	2019-12-01	armed	M
+4425	Steven Kerr	White	25	2019-12-01	armed	M
+4426	Jordan Oliver	White	20	2019-12-01	armed	M
+4427	Jerric Harris	Black	21	2019-12-02	armed	M
+4428	Dai Phuoc Nguyen	Asian	38	2019-12-02	armed	M
+4430	Neil Chiago	Native	18	2019-12-02	armed	M
+4431	Thomas Cole Thompson	White	37.11793090137039	2019-12-03	armed	M
+4432	Cameron Lamb	Black	26	2019-12-03	armed	M
+4433	Miguel Russo	Black	31	2019-12-03	armed	M
+4434	Alvern Donnell Walker	Black	58	2019-12-05	armed	M
+4435	Demetrius Williams	Black	31	2019-12-05	armed	M
+4436	Lamar Alexander	Black	41	2019-12-05	armed	M
+4437	Ronnie Jerome Hill	Black	41	2019-12-05	armed	M
+4438	Chad James Green	White	41	2019-12-05	armed	M
+4439	Hunter Steven James Lowry	White	23	2019-12-06	armed	M
+4440	Dominick Matt	Black	17	2019-12-06	armed	M
+4441	London T. Phillips	White	35	2019-12-07	armed	M
+4442	Mark Richard Coleman	White	65	2019-12-07	armed	M
+4443	Koben S. Henriksen	White	51	2019-12-08	armed	M
+4444	Antonio Nichols	Black	47	2019-12-09	armed	M
+4445	Robert Allen Elfgen	White	42	2019-12-10	armed	M
+4446	Mauro Carrillo	Hispanic	42	2019-12-10	armed	M
+4447	Kreed Cornell Bateman	Black	31	2019-12-10	armed	M
+4448	Montay Steven Penning	Black	23	2019-12-10	armed	M
+4449	Francine Graham	Black	50	2019-12-10	armed	F
+4450	David N. Anderson	Black	47	2019-12-10	armed	M
+4451	Terrence Edward White	White	66	2019-12-10	armed	M
+4452	Daniel E. Condon	White	55	2019-12-10	armed	M
+4453	Delos P. Lowe	White	68	2019-12-11	armed	M
+4455	Cortez Bufford	Black	24	2019-12-12	armed	M
+4456	Cade Humphrey	White	30	2019-12-12	armed	M
+4457	Taveonte Art Emmanuel	Black	34	2019-12-12	armed	M
+4458	Bradley Cutchens	White	23	2019-12-12	armed	M
+4459	Anthony Tovar	White	43	2019-12-12	armed	M
+4460	Romello Barnes	Black	22	2019-12-12	armed	M
+4461	Jamee Christopher Deonte Johnson	Black	22	2019-12-14	armed	M
+4462	Victor A. Parsons	White	42	2019-12-14	armed	M
+4463	Louis Patrick Veal	Black	65	2019-12-14	armed	M
+4464	Alejandro Betancourt-Mendoza	Hispanic	18	2019-12-14	armed	M
+4465	Kean Walker	White	23	2019-12-15	armed	M
+4466	Chiasher Fong Vue	Asian	52	2019-12-15	armed	M
+4467	Mohammad Jamal Isaifan	Other	40	2019-12-15	armed	M
+4468	Mario Alberto Torres	Hispanic	27	2019-12-15	armed	M
+4469	Dustin Spencer	Other	34	2019-12-16	armed	M
+4470	Jorge Serrano	Hispanic	25	2019-12-16	armed	M
+4471	Bernie Rascon	Hispanic	28	2019-12-16	armed	M
+4472	Kyle Horton	White	37.11793090137039	2019-12-17	armed	M
+4473	Clyde Jacob Sullivan	White	27	2019-12-17	armed	M
+4474	Ricky Lee Gardipee	White	41	2019-12-17	armed	M
+4475	Dana Brown	Other	27	2019-12-17	armed	M
+4476	Gary Wayne Madewell	White	38	2019-12-19	armed	M
+4477	Christopher Gray	White	29	2019-12-19	armed	M
+4478	Jason Elliot Waterhouse	White	47	2019-12-19	armed	M
+4479	Kentrey Marquis Witherspoon	Black	28	2019-12-19	armed	M
+4480	Jayson Arron Colvin	White	38	2019-12-19	armed	M
+4481	Emanuel Johnson	Black	21	2019-12-19	armed	M
+4482	John Resetar	White	44	2019-12-20	armed	M
+4483	Steven DeWayne Haizlip	Black	61	2019-12-20	armed	M
+4484	Mohamed Ahemed Al-Hashemi	Black	25	2019-12-20	armed	M
+4485	Mark Stoddard	White	40	2019-12-21	armed	M
+4486	Marc Denver Thompson	White	26	2019-12-21	armed	M
+4487	Michael DeCastro	White	57	2019-12-21	armed	M
+4488	Brian Lee Mullen	White	57	2019-12-21	armed	M
+4489	Romir Talley	Black	24	2019-12-22	armed	M
+4490	Kenneth Collins	Black	46	2019-12-22	armed	M
+4491	Richard Ruiz	Hispanic	38	2019-12-23	armed	M
+4492	Austin Chase Swindle	White	24	2019-12-23	armed	M
+4493	Macario Hernandez	Hispanic	34	2019-12-23	armed	M
+4494	Harvey Cantrell	White	65	2019-12-24	armed	M
+4495	Elray Barber	Black	60	2019-12-24	armed	M
+4496	Lori Jean Canada	White	59	2019-12-25	armed	F
+4497	Deangelo Rashad Martin	Black	23	2019-12-25	armed	M
+4498	Antonio Smith	Black	35	2019-12-26	armed	M
+4499	Juan Rosa	Hispanic	35	2019-12-26	armed	M
+4500	Christopher Camacho	Hispanic	16	2019-12-27	armed	M
+4501	John Lowell Dollen	White	37.11793090137039	2019-12-27	armed	M
+4502	Frederick Jeremy Atkin	White	42	2019-12-27	armed	M
+4503	Henry Kistler Berry	White	43	2019-12-27	armed	M
+4504	Albert Benjamin Simon	White	52	2019-12-28	armed	M
+4505	A.B. Carr	White	31	2019-12-28	armed	M
+4506	Heriberto Rodriguez	Hispanic	27	2019-12-28	armed	M
+4507	Troy Kirk	White	31	2019-12-28	armed	M
+4508	Craig Ellis See	White	34	2019-12-28	armed	M
+4509	Patrick Alden	White	29	2019-12-29	armed	M
+4510	Kelly Michael Stephens	White	34	2019-12-29	armed	M
+4511	Manuel Gonzales Verdugo	Hispanic	37.11793090137039	2019-12-29	armed	M
+4512	TK TK	Black	18	2019-12-30	armed	M
+4513	Debra D. Arbuckle	White	51	2019-12-30	armed	F
+4514	Cody McCaulou	White	25	2019-12-30	armed	M
+4515	Eric M. Tellez	White	28	2019-12-31	armed	M
+4516	Frederick Perkins	Black	37	2019-12-31	armed	M
+4517	Dedrick Thomas	Black	37.11793090137039	2019-12-31	armed	M
+4518	Malik Williams	Black	23	2019-12-31	armed	M
+4519	Terry Hudson	Black	57	2019-12-31	armed	M
+4520	Michael Vincent Davis	White	49	2019-12-31	armed	M
+4521	Derrick A. Elseth	White	24	2020-01-01	armed	M
+4522	Gerardo Antonio Conchas-Bustas	Other	20	2020-01-01	armed	M
+4523	Gabriel Strickland	White	25	2020-01-01	armed	M
+4524	Jeffery Dale Millsap	White	26	2020-01-02	armed	M
+4525	Jamari Daiwon Tarver	Black	26	2020-01-02	armed	M
+4526	Troy Sullenger	White	41	2020-01-02	armed	M
+4527	Mariano Ocon	Hispanic	31	2020-01-02	armed	M
+4528	Michael Gregory	Hispanic	30	2020-01-02	armed	M
+4529	Tyree Davis	Black	25	2020-01-04	armed	M
+4530	George Dison	White	57	2020-01-05	armed	M
+4531	Kwamae Jones	Black	17	2020-01-05	armed	M
+4532	Brandon D. Roberts	Black	27	2020-01-05	armed	M
+4533	Drew Nichols Wallas-Flores	Hispanic	30	2020-01-05	armed	M
+4534	Miciah Lee	Black	18	2020-01-05	armed	M
+4535	Samuel Lanham	White	50	2020-01-05	armed	M
+4536	Troy Chase Caster	White	21	2020-01-06	armed	M
+4537	Xavier Jaime Rovie	Hispanic	28	2020-01-06	armed	M
+4538	Orlando Abeyta	Hispanic	28	2020-01-06	armed	M
+4539	Dallas Pearce	Asian	33	2020-01-06	armed	M
+4540	Daniel Duane Jensen	White	59	2020-01-07	armed	M
+4541	Dustin M. Eaton	White	34	2020-01-08	armed	M
+4542	Earl Facey	Black	37	2020-01-09	armed	M
+4543	Cody Carnes	White	30	2020-01-09	armed	M
+4544	Claude Fain	Black	47	2020-01-09	armed	M
+4545	Bernie Wade Johnson	White	34	2020-01-09	armed	M
+4546	Juan Ayon-Ruiz	Hispanic	24	2020-01-10	armed	M
+4548	Eric Reynolds	White	37.11793090137039	2020-01-11	armed	M
+4549	Henry Isaac Jones	Black	47	2020-01-11	armed	M
+4550	Ryan O. Simms	Black	49	2020-01-11	armed	M
+4551	Victor Valencia	Hispanic	31	2020-01-12	armed	M
+4552	Brad Stirewalt	White	47	2020-01-12	armed	M
+4553	Thomas Charles Snyder	White	52	2020-01-12	armed	M
+4554	Keenan McCain	Black	29	2020-01-13	armed	M
+4555	Randy Glen Goodale	White	45	2020-01-13	armed	M
+4556	Eliezer Perez	Hispanic	51	2020-01-14	armed	M
+4557	Renard Antonio Daniels	Black	55	2020-01-15	armed	M
+4558	Frank Cogar	White	35	2020-01-15	armed	M
+4559	Landwell Vance McCall	White	50	2020-01-15	armed	M
+4560	Aaron Phillips	White	31	2020-01-15	armed	M
+4561	Albert Lee Hughes	Black	47	2020-01-15	armed	M
+4562	Jack Bolinger	White	35	2020-01-16	armed	M
+4563	Owen Barton	White	66	2020-01-16	armed	M
+4564	Murbarak Soulemane	Black	19	2020-01-16	armed	M
+4565	Samuel David Mallard	Black	19	2020-01-17	armed	M
+4566	Dustin Alexander Nealis	White	43	2020-01-19	armed	M
+4567	Edward Gendron	White	57	2020-01-20	armed	M
+4568	Miguel Mercado Segura	Hispanic	31	2020-01-20	armed	M
+4569	Jonathan David Messare	White	41	2020-01-20	armed	M
+4570	Dustin Furr	White	39	2020-01-20	armed	M
+4571	Anthony Langley	White	24	2020-01-21	armed	M
+4572	Reginald Leon Boston	Black	20	2020-01-21	armed	M
+4573	Rory Behling	White	32	2020-01-21	armed	M
+4574	Miguel Mercado Segura	Hispanic	31	2020-01-21	armed	M
+4575	Darius J. Tarver	Black	22	2020-01-21	armed	M
+4576	Sok Chin Son	Asian	60	2020-01-21	armed	M
+4577	Jon Phillip Bryant	White	40	2020-01-22	armed	M
+4578	Armando Moreno Garcia	Hispanic	37	2020-01-22	armed	M
+4579	Adam Ray Hernandez	White	34	2020-01-22	armed	M
+4580	Deandre Lee Seaborough-Patterson	Black	22	2020-01-23	armed	M
+4581	James Lewis Mathis	White	30	2020-01-23	armed	M
+4582	Gage Scott Southard	White	26	2020-01-23	armed	M
+4583	Marquis Golden	Black	29	2020-01-23	armed	M
+4584	Andrew Smyrna	Black	32	2020-01-23	armed	M
+4585	Michael Rivera	Black	32	2020-01-23	armed	M
+4586	Scott Joseph Weber	White	27	2020-01-24	armed	M
+4587	Toby Diller	Hispanic	31	2020-01-24	armed	M
+4588	Rebecca Angel Alexander	White	35	2020-01-24	armed	F
+4589	D'ovion Semaj Perkins	Black	19	2020-01-25	armed	M
+4590	Joshua James Brown	Black	34	2020-01-25	armed	M
+4591	Kevin Alan Smallman	White	32	2020-01-27	armed	M
+4593	Aaron T. Booker	Black	22	2020-01-27	armed	M
+4594	John Francis Tippett	White	43	2020-01-27	armed	M
+4595	Joshua Greenleaf	White	27	2020-01-28	armed	M
+4596	Robert Cocio	Hispanic	39	2020-01-28	armed	M
+4597	Jonathan Bentley	White	37	2020-01-28	armed	M
+4598	Jaquyn Oneill Light	Black	20	2020-01-29	armed	M
+4599	Clint Stevens	White	34	2020-01-29	armed	M
+4600	Justin Leman	White	32	2020-01-29	armed	M
+4601	Abdirahman Salad	Black	15	2020-01-30	armed	M
+4602	Keith Dutree Collins	Black	52	2020-01-30	armed	M
+4603	Leonard Parker	Black	53	2020-02-01	armed	M
+4604	Vincent Conti	White	24	2020-02-01	armed	M
+4605	Ronnell Mouzon	Black	41	2020-02-01	armed	M
+4606	Alvin Cole	Black	17	2020-02-02	armed	M
+4607	Jason Gora	White	44	2020-02-02	armed	M
+4608	Marc Dominic Neal	Black	56	2020-02-03	armed	M
+4609	Darius Tarver	Black	23	2020-02-04	armed	M
+4610	Shawn Michael Taylor	White	32	2020-02-04	armed	M
+4611	Dominique Antwon Anderson	Black	26	2020-02-04	armed	M
+4612	Thomas Barbosa	White	41	2020-02-04	armed	M
+4613	Daniel Murillo	White	56	2020-02-05	armed	M
+4614	Gaston A. Nava-Saucedo	Hispanic	33	2020-02-05	armed	M
+4615	Sean Patrick Constance	White	37	2020-02-06	armed	M
+4616	Juston Root	White	41	2020-02-07	armed	M
+4617	Michael Collins	White	38	2020-02-07	armed	M
+4618	Douglas Harold Hart	White	67	2020-02-08	armed	M
+4619	Gordon Whitaker	White	45	2020-02-09	armed	M
+4620	Zane Blaisdell	White	48	2020-02-09	armed	M
+4621	Jeremy Grayson	Black	31	2020-02-09	armed	M
+4622	Michael Leatherwood	White	47	2020-02-09	armed	M
+4623	Bobby Gibbs	Black	40	2020-02-10	armed	M
+4624	Jeremy Todd Baham	White	40	2020-02-10	armed	M
+4625	Thomas Ray Chamblee	White	34	2020-02-10	armed	M
+4626	Hans Alejandro Huitz	Native	51	2020-02-12	armed	M
+4627	Michael Marullo	White	33	2020-02-12	armed	M
+4628	Dakota Lee Chlarson	Native	25	2020-02-13	armed	M
+4629	Brian Francis Filion	White	41	2020-02-13	armed	M
+4630	Aaron Marcos Valdez	Hispanic	19	2020-02-13	armed	M
+4631	William Bluestone	Hispanic	21	2020-02-14	armed	M
+4632	Timothy Leroy Harrington	White	58	2020-02-14	armed	M
+4633	David Kent Heeke	White	63	2020-02-14	armed	M
+4634	Christopher Gutierrez	Hispanic	37.11793090137039	2020-02-14	armed	M
+4635	Timothy Leroy Harrington	White	58	2020-02-14	armed	M
+4636	Daelyn Polu	Asian	16	2020-02-15	armed	M
+4637	Thomas Murray	White	31	2020-02-16	armed	M
+4638	Kerry Michael Bounsom	Asian	33	2020-02-16	armed	M
+4639	Rudy Arenas	Hispanic	40	2020-02-16	armed	M
+4640	Brandon Lewis	White	34	2020-02-16	armed	M
+4641	Travis Mullins	White	29	2020-02-17	armed	M
+4642	Jeremy Dewey	Native	27	2020-02-17	armed	M
+4643	Kevin Adolphe	Black	23	2020-02-18	armed	M
+4644	Alex Francisco Vazquez	Hispanic	38	2020-02-19	armed	M
+4645	Joseph Jewell	Black	17	2020-02-20	armed	M
+4646	John Daniel Dixon	White	75	2020-02-20	armed	M
+4647	Manuel Arebalo	Hispanic	40	2020-02-21	armed	M
+4648	Rodrigo Ivan Aguirre	Hispanic	36	2020-02-22	armed	M
+4649	Lucas Alvarado	White	27	2020-02-24	armed	M
+4650	Print Zutavern	White	28	2020-02-24	armed	M
+4652	Kenneth Sashington	Black	38	2020-02-25	armed	M
+4653	Dylan Olmeda	White	16	2020-02-25	armed	M
+4654	Justin Lee Stackhouse	Black	30	2020-02-26	armed	M
+4655	Ramiro Carrasco	Hispanic	30	2020-02-26	armed	M
+4656	James Thomson	White	30	2020-02-26	armed	M
+4657	Kent Richard Kruger	White	36	2020-02-27	armed	M
+4658	Joshua David Hernandez Lord	White	33	2020-02-27	armed	M
+4659	Dorgel Cisnero-Mesa	Hispanic	39	2020-02-27	armed	M
+4660	Jose L. Rivera	Hispanic	22	2020-02-28	armed	M
+4661	Anthony Taylor	Black	49	2020-02-29	armed	M
+4662	Richard Rodriguez	Hispanic	45	2020-02-29	armed	M
+4663	Stephen Douris	White	45	2020-02-29	armed	M
+4664	Joshua Russell	White	30	2020-03-01	armed	M
+4665	Raymundo Aaron Ceja	Hispanic	30	2020-03-01	armed	M
+4666	Ian Austin Wilson	White	31	2020-03-01	armed	M
+4667	Terry Cagle	White	73	2020-03-02	armed	M
+4668	Ryan Bass	White	39	2020-03-03	armed	M
+4670	Gene Beasley	White	37.11793090137039	2020-03-05	armed	M
+4671	Ajay Kamil Ayseli	Other	31	2020-03-05	armed	M
+4672	Elijah Jamaal Brewer	Black	25	2020-03-05	armed	M
+4673	Tyler M. Jones	Black	24	2020-03-06	armed	M
+4675	Jerry Gaghins	White	37.11793090137039	2020-03-06	armed	M
+4677	Gary Brown	White	43	2020-03-07	armed	M
+4678	Lawson Edward Schaber	White	84	2020-03-08	armed	M
+4679	Desiree Nicole Garza	Hispanic	29	2020-03-08	armed	F
+4681	Keith P. Haux	White	57	2020-03-08	armed	M
+4683	Jennifer Taylor	White	29	2020-03-09	armed	F
+4684	Jesus Bonito Garcia	Hispanic	47	2020-03-09	armed	M
+4686	Joshua Christopher Noles	White	38	2020-03-11	armed	M
+4687	Mary Kate Field	White	32	2020-03-11	armed	F
+4689	Duncan Socrates Lemp	White	21	2020-03-12	armed	M
+4691	Jorge Martinez	Hispanic	30	2020-03-13	armed	M
+4692	Marc Morgan	White	62	2020-03-13	armed	M
+4693	Rosario Angel Alvarado	Hispanic	41	2020-03-13	armed	M
+4694	Dung Nguyen	Asian	50	2020-03-13	armed	M
+4695	Christopher Mullins	White	37.11793090137039	2020-03-13	armed	M
+4696	Jeremiah Medina	Hispanic	31	2020-03-14	armed	M
+4697	Justin Griggs	White	30	2020-03-14	armed	M
+4698	Chase Brooks	White	32	2020-03-14	armed	M
+4699	Jesse Cadillo	White	20	2020-03-14	armed	M
+4700	Michael Brandon Potter	White	38	2020-03-15	armed	M
+4701	Catherine Gomez	Hispanic	25	2020-03-15	armed	F
+4702	Douglas J. Foster	White	47	2020-03-15	armed	M
+4703	Dakota Yancey	White	19	2020-03-15	armed	M
+4704	Darwin Foy	Black	35	2020-03-16	armed	M
+4705	Juanito Ovalle	Hispanic	58	2020-03-16	armed	M
+4706	Dakota Wayne Yancey	White	18	2020-03-16	armed	M
+4707	Charity Thorne	White	42	2020-03-16	armed	F
+4708	William Simpkins	Black	39	2020-03-17	armed	M
+4709	Harold Spencer	Black	61	2020-03-18	armed	M
+4710	Steven Alire	White	51	2020-03-18	armed	M
+4711	Lebarron Ballard	Black	28	2020-03-18	armed	M
+4712	Kyle Anthony Eichler	White	33	2020-03-19	armed	M
+4713	Charles Parker	White	47	2020-03-19	armed	M
+4714	Larry Millraney	White	39	2020-03-20	armed	M
+4716	Kamall Koby Edwards	Black	18	2020-03-20	armed	M
+4717	Alvin Lamont Baum	Black	23	2020-03-20	armed	M
+4718	Carlos Delgado	Hispanic	46	2020-03-23	armed	M
+4719	Charles Edward Marsh	White	50	2020-03-23	armed	M
+4720	Michael Wallace	White	34	2020-03-24	armed	M
+4721	Kathryn R. Hale	White	32	2020-03-24	armed	F
+4722	Christopher Joel Mock	White	45	2020-03-24	armed	M
+4723	Maurico Hernandez	Hispanic	31	2020-03-24	armed	M
+4724	Matthew Moore	White	19	2020-03-25	armed	M
+4725	Glenn A. White	White	53	2020-03-25	armed	M
+4726	Deanna Marie Owsianiak	White	55	2020-03-26	armed	F
+4728	Robert Harman Sword	White	46	2020-03-27	armed	M
+4729	Tyrell Fincher	Black	26	2020-03-27	armed	M
+4730	Shane Farwell	White	46	2020-03-28	armed	M
+4731	Jacob  Emry Mcilveen	White	22	2020-03-29	armed	M
+4732	Etonne Tanzymore	Black	38	2020-03-30	armed	M
+4733	Jessie Stringfield	White	44	2020-03-30	armed	M
+4734	Anthony Eduardo Pacheco	Hispanic	37	2020-03-31	armed	M
+4735	Valente Acosta-Bustillos	Hispanic	52	2020-03-31	armed	M
+4736	Shane Tilman Kent	White	29	2020-03-31	armed	M
+4737	Austin Hines	White	19	2020-04-01	armed	M
+4738	Nathan R. Hodge	Black	66	2020-04-02	armed	M
+4739	David A. Xanatos	White	40	2020-04-02	armed	M
+4740	Jose Moreno	Hispanic	30	2020-04-02	armed	M
+4741	Joseph Zahaczewski	White	69	2020-04-02	armed	M
+4743	Carl Manning	White	62	2020-04-05	armed	M
+4744	Michael Leon Hammett	White	37.11793090137039	2020-04-05	armed	M
+4745	Philip Castonguay	White	39	2020-04-05	armed	M
+4746	Richard Lee Kampstra	White	67	2020-04-05	armed	M
+4747	Kelvin Parks	White	54	2020-04-06	armed	M
+4748	Yamil Acevedo	Hispanic	29	2020-04-06	armed	M
+4749	Idris Abdus-Salaam	Black	33	2020-04-07	armed	M
+4750	Joshua Bacco	White	31	2020-04-07	armed	M
+4751	Jacob Matthew Dau	White	38	2020-04-07	armed	M
+4752	Derek T. Swanson	White	28	2020-04-07	armed	M
+4753	Dewayne Curtis Lafond	Black	45	2020-04-07	armed	M
+4754	Rick Howell	White	59	2020-04-08	armed	M
+4755	Joshua Dariandre Ruffin	Black	17	2020-04-08	armed	M
+4756	Zyon Romeir Wyche	Black	19	2020-04-09	armed	M
+4757	Kenneth Jeremy Blair	White	36	2020-04-09	armed	M
+4759	Matt Goff	White	37.11793090137039	2020-04-10	armed	M
+4761	Jonathan Lee Adams	Black	31	2020-04-11	armed	M
+4762	Leah Baker	White	29	2020-04-11	armed	F
+4763	Errol Bolin	White	51	2020-04-11	armed	M
+4764	Justin Silvernale	White	35	2020-04-12	armed	M
+4765	Javier Vidal	Hispanic	36	2020-04-13	armed	M
+4766	Thomas A. Powell	White	31	2020-04-14	armed	M
+4767	Leslie Flynn	White	39	2020-04-15	armed	M
+4768	Randy Ashland	White	58	2020-04-15	armed	M
+4769	Goldie Bellinger	Black	39	2020-04-15	armed	M
+4770	Juan Ayon-Barraza	Hispanic	24	2020-04-16	armed	M
+4771	Salvatore Friscia	White	48	2020-04-16	armed	M
+4772	Jasman Washington	Black	31	2020-04-16	armed	M
+4773	Derick L. Powe	Black	37.11793090137039	2020-04-17	armed	M
+4774	Marcus Eugene Epps	White	43	2020-04-17	armed	M
+4775	Steven Taylor	Black	33	2020-04-18	armed	M
+4776	Austin Dean Heights	White	24	2020-04-18	armed	M
+4777	Mason Workman	White	40	2020-04-19	armed	M
+4778	Virgill Thrope	Black	28	2020-04-19	armed	M
+4779	Chase Rosa	Black	24	2020-04-21	armed	M
+4780	Nicholas Chavez	Hispanic	27	2020-04-21	armed	M
+4781	Elmer L. Mack	Black	40	2020-04-22	armed	M
+4782	Joshua Johnson	Black	35	2020-04-22	armed	M
+4783	Luan Agolli	White	42	2020-04-23	armed	M
+4785	Brandan Reid Nylander	White	24	2020-04-24	armed	M
+4786	Reed Rickabaugh	White	59	2020-04-24	armed	M
+4787	Farron Morris Hammond	White	61	2020-04-25	armed	M
+4788	De Quang Tran	Asian	26	2020-04-26	armed	M
+4789	Robert Musser	White	32	2020-04-28	armed	M
+4790	William E. Abbe	White	50	2020-04-28	armed	M
+4791	Jesus Caballero	Hispanic	38	2020-04-29	armed	M
+4792	Artemio Mondragon Alfaro	White	29	2020-04-29	armed	M
+4793	Malcolm Xavier Ray Williams	Black	27	2020-04-29	armed	M
+4794	Timothy Alan Gilbert	White	43	2020-04-30	armed	M
+4795	William Debose	Black	21	2020-05-01	armed	M
+4798	Brent Martin	Black	32	2020-05-01	armed	M
+4799	Said Joquin	Black	26	2020-05-01	armed	M
+4800	Michael Ferguson	White	54	2020-05-03	armed	M
+4801	Kortney Shawn Price	White	44	2020-05-03	armed	M
+4802	Michael Faries	White	69	2020-05-03	armed	M
+4803	Filipe Periera	White	45	2020-05-03	armed	M
+4804	Armando Salvatierra	Hispanic	26	2020-05-03	armed	M
+4805	Chad Adams	White	43	2020-05-03	armed	M
+4806	Phillip Michael Carney	White	38	2020-05-03	armed	M
+4807	Demontre Bruner	Black	21	2020-05-04	armed	M
+4808	Qavon Webb	Black	23	2020-05-05	armed	M
+4809	Sandra Lee Harmon	White	56	2020-05-05	armed	F
+4810	William Shimp	White	33	2020-05-05	armed	M
+4811	Justin Charland	White	40	2020-05-05	armed	M
+4812	Jah'Sean Iandie Hodge	Black	21	2020-05-05	armed	M
+4813	Alfredo Delarosa	Hispanic	20	2020-05-05	armed	M
+4814	Dreasjon Reed	Black	21	2020-05-06	armed	M
+4815	James Joseph James	White	47	2020-05-06	armed	M
+4816	Vincent Ralph Pena	Hispanic	38	2020-05-06	armed	M
+4817	Ruben Escarrega	Hispanic	31	2020-05-07	armed	M
+4818	James Pease	White	51	2020-05-07	armed	M
+4819	McHale Rose	Black	19	2020-05-07	armed	M
+4820	Daniel Gomez	Hispanic	21	2020-05-07	armed	M
+4821	Adrian Medearis	Black	48	2020-05-08	armed	M
+4822	Edgar Melgar	Hispanic	42	2020-05-09	armed	M
+4823	Finan H. Berhe	Black	30	2020-05-09	armed	M
+4824	Yassin Mohamed	Black	47	2020-05-09	armed	M
+4825	Darrin Jon Patterson	White	57	2020-05-09	armed	M
+4826	Jonathan Carter	White	27	2020-05-09	armed	M
+4827	David Urrea	White	50	2020-05-10	armed	M
+4828	Gregory Howe	White	37	2020-05-12	armed	M
+4829	David Tylek Atkinson	Black	24	2020-05-13	armed	M
+4830	David Tylek Atkinson	Black	24	2020-05-13	armed	M
+4831	Rayshard Scales	Black	30	2020-05-14	armed	M
+4832	Robert Tincher	White	49	2020-05-14	armed	M
+4833	Donny Leek	White	47	2020-05-14	armed	M
+4834	Robert Avila	White	31	2020-05-15	armed	M
+4835	Hunter Carlstrom	White	33	2020-05-15	armed	M
+4836	Robert Johnson	Black	29	2020-05-16	armed	M
+4837	Wallace Dean Staples	White	42	2020-05-16	armed	M
+4838	Randy Roszell Lewis	Black	38	2020-05-16	armed	M
+4839	Juan M. Montalvo	Hispanic	25	2020-05-17	armed	M
+4840	Bernard Ledlow	White	39	2020-05-17	armed	M
+4841	Robert Wayne Lawson	White	64	2020-05-18	armed	M
+4842	Jacob Bubb	White	28	2020-05-18	armed	M
+4843	Levi Morse	White	32	2020-05-19	armed	M
+4844	Wilbon Cleveland Woodard	White	69	2020-05-19	armed	M
+4846	Tobby Wiggins	Black	45	2020-05-20	armed	M
+4847	Ryan Whitaker	White	40	2020-05-21	armed	M
+4848	Willie Lee Quarles	Black	60	2020-05-21	armed	M
+4849	Bernardo Palacios-Carbajal	Hispanic	22	2020-05-23	armed	M
+4851	Joe Louis Castillanos	Hispanic	38	2020-05-25	armed	M
+4852	Dion Johnson	Black	28	2020-05-25	armed	M
+4853	Jason Jesse Gallegos	White	37	2020-05-26	armed	M
+4854	John Alvarado	Hispanic	22	2020-05-26	armed	M
+4855	Tracy Drowne	White	42	2020-05-26	armed	F
+4856	Robert Avitia	Hispanic	18	2020-05-26	armed	M
+4857	Tony McDade	Black	38	2020-05-27	armed	M
+4858	Joshua Blessed	White	58	2020-05-27	armed	M
+4859	Rommel Mendoza	Hispanic	50	2020-05-27	armed	M
+4860	Hector Hernandez	Hispanic	31	2020-05-27	armed	M
+4861	Modesto Reyes	Black	35	2020-05-27	armed	M
+4862	John Benedict Coleman	White	53	2020-05-28	armed	M
+4863	Steven Edward Ferguson	White	31	2020-05-28	armed	M
+4864	Ruben Smith	Black	35	2020-05-28	armed	M
+4865	Heba Momtaz Al-Azhari	Other	22	2020-05-29	armed	F
+4866	TK TK	White	37.11793090137039	2020-05-29	armed	M
+4867	TK TK	Asian	32	2020-05-29	armed	M
+4868	Momodou Lamin Sisay	Black	39	2020-05-29	armed	M
+4869	Jarvis Sullivan	Black	44	2020-05-29	armed	M
+4870	Derrick Thompson	Black	46	2020-05-30	armed	M
+4871	Israel Berry	White	49	2020-05-31	armed	M
+4872	Thomas Sutherlin	White	32	2020-05-31	armed	M
+4873	David McAtee	Black	53	2020-06-01	armed	M
+4874	Jorge Gomez	Hispanic	25	2020-06-01	armed	M
+4875	Ryan Emblem Moore	White	36	2020-06-01	armed	M
+4876	Sean Monterrosa	Hispanic	22	2020-06-02	armed	M
+4877	Tyquarn Graves	Black	33	2020-06-02	armed	M
+4878	Mary Lawrence	White	39	2020-06-03	armed	F
+4879	Gregory W. Hallback	White	44	2020-06-03	armed	M
+4880	Eric A. Galvan	Hispanic	25	2020-06-03	armed	M
+4881	Scott Anderson Hutton	White	36	2020-06-03	armed	M
+4882	Benjamin Ballard	White	42	2020-06-05	armed	M
+4883	Kamal Flowers	Black	24	2020-06-06	armed	M
+4884	Erik Salgado	Hispanic	22	2020-06-06	armed	M
+4885	Jarrid Hurst	White	35	2020-06-07	armed	M
+4886	Lewis Ruffin	Black	38	2020-06-09	armed	M
+4887	Gregorio Cruz Vanloo	White	28	2020-06-11	armed	M
+4888	Mason James Lira	White	26	2020-06-11	armed	M
+4889	Michael Thomas	Black	62	2020-06-11	armed	M
+4890	Rayshard Brooks	Black	27	2020-06-12	armed	M
+4891	Caine Van Pelt	Black	23	2020-06-12	armed	M
+4893	William Slyter	White	22	2020-06-13	armed	M
+4894	Nicholas Hirsh	White	31	2020-06-15	armed	M
 \.
 
 
