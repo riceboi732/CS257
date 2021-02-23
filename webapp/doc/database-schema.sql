@@ -1,17 +1,17 @@
 CREATE TABLE states(
 	id int,
-	state_name string
+	state_name text
 );
 
 
 CREATE TABLE victims(
 	id int,
-	victim_name string,
-	victim_ethnicity string,
-	victim_age int,
-	incident_date date,
-	armed_status boolean,
-	victim_gender string 
+	victim_name text, 
+	victim_ethnicity text, 
+	victim_age float, 
+	incident_date date, 
+	armed_status text, 
+	victim_gender text 
 );
 
 CREATE TABLE victim_state(
