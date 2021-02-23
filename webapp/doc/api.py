@@ -4,54 +4,61 @@ import psycopg2
 import json 
 import sys 
 
-app = flask.Flask(__name__)
+api = flask.Flask(__name__)
 
-def connect_database():
-    pass 
+def connect_to_database():
+    """connect program to database using config.py"""
+    from config import password
+    from config import database
+    from config import user
 
-def excute_query(cursor, query):
-    pass 
+    try:
+        connection = psycopg2.connect(database=database, user=user, password=password)
+        return connection
+    except Exception as e:
+        print(e)
+        exit()
+        
+    return connection
 
-app.route('/victims')
+def excute_query(cursor, query, check):
+    try:
+        cursor.execute(query, check)
+    except Exception as e:
+        print(e)
+        exit()
+        
+    return cursor.fetchall()
+
+
+@api.route('/victims')
 def get_victims():
-    """
-    REQUEST: /victims 
+    state = flask.request.args.get('state', all)
+    min_year = int(flask.request.args.get('min_year', -10000))
+    max_year = int(flask.request.args.get('max_year', 10000))
+    min_age = int(flask.request.args.get('min_age', -10000))
+    max_age = int(flask.request.args.get('max_age', 10000))
+    ethnicity = flask.request.args.get('ethnicity', all)
+    armed = flask.request.args.get('armed', all)
     
-    GET parameters: 
-        state(Optinal, default: all states): Only return victims from the specified states
-        min_year(Optional, default: -10000): Only return victims that are equal to or greater this year
-        max_year(Optional, default: 10000): Only return victims that are equal or less than this year 
-        min_age(Optional, default: -1000): Only return victims that are equal or older than this age
-        max_age(Optional, default: 1000): Only return victims that are equal or younger than this age
-        ethnicity(Optional, default: all ethnicity): Only return victims that are of the specified ethnicities 
-        armed(Optional, default: all): Only return victims that were specified to be armed or not
+    connection = connect_to_database
+    cursor = execute_querey(connection.cursor, query, check)
+    querey = "SELECT victims.incident_date, victims.victim_name, victims.victim_age, victims.victim_gender, victims.victim_ethnicity, victims.armed_status FROM victim_state, victims, states WHERE states.name = %s AND victims.id = victim_state.victim_id AND state.id = victim_state.state_id AND victim.incident_date >= min_year AND victim.incident_date <= max_year AND victim.victim_age <= max_age AND victim.victime_age >= min_year"
+    
 
-    RESPONSE: Returns a list of JSON, which of each are victims met the specified paramters, if there are any. 
-        date - (date) The date of the shooting 
-        name - (String) The name of the victim
-        age - (Integer) The age of the victim 
-        gender - (String) The gender of the victim
-        ethnicity - (String) The ethnicity of victim 
-        armed - (String) An armed or unarmed indicator
-
-    Example: 
-        http://.../victims?state=Alaska&max_year=2003&armed=unarmed
-    """
-    pass
-
-app.route('/victims/analyze/year/<state>')
+@api.route('/victims/analyze/year/<state>')
 def get_years_vis_data(state):
     pass
 
-app.route('/victims/analyze/ethnicity/<state>')
+@api.route('/victims/analyze/ethnicity/<state>')
 def get_ethnicity_vis_data(state):
     pass
 
-app.route('/victims/analyze/armed/<state>')
+@api.route('/victims/analyze/armed/<state>')
 def get_armed_vis_data(state):
     pass
 
-app.route('/victims/analyze/gender/<state>'):
+@api.route('/victims/analyze/gender/<state>'):
 def get_gender_vis_data(state):
     pass 
 
