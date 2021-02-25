@@ -6,12 +6,13 @@ import json
 import sys 
 
 api = flask.Blueprint('api', __name__)
+#api = flask.Flask(__name__)
 
 def connect_to_database():
     """connect program to database using config.py"""
-    from config import password
-    from config import database
-    from config import user
+    #from config import password
+    #from config import database
+    #from config import user
 
     try:
         connection = psycopg2.connect(database='shootings', user='', password='')

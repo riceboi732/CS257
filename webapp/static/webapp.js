@@ -18,12 +18,12 @@ function initialize() {
 }
 
 function getAPIBaseURL() {
-    var baseURL = window.location.protocol + '//' + window.location.hostname + ':' + window.location.port + '/api';
+    var baseURL = window.location.protocol + '//' + window.location.hostname + ':' + window.location.port + '/victims';
     return baseURL;
 }
 
 function onMinnesotaButton() {
-    var url = getAPIBaseURL() + '/Minnesota/';
+    var url = getAPIBaseURL() + '?state=MN';
 
     fetch(url, {method: 'get'})
 
@@ -33,13 +33,13 @@ function onMinnesotaButton() {
         var listBody = '';
         for (var k = 0; k < minnesota.length; k++) {
             var victim = minnesota[k];
-            listBody += '<li>' + minnesota['date']
-                      + ', ' + minnesota['name']
-                      + ',' + minnesota['age']
-                      + ', ' + minnesota['gender'];
-                      + ', ' + minnesota['ethnicity'];
-                      + ', ' + minnesota['armed'];
-                      + ', ' + minnesota['state'];
+            listBody += '<li>' + victim['date']
+                      + ', ' + victim['name']
+                      + ',' + victim['age']
+                      + ', ' + victim['gender'];
+                      + ', ' + victim['ethnicity'];
+                      + ', ' + victim['armed'];
+                      + ', ' + victim['state'];
                       + '</li>\n';
         }
 
@@ -55,7 +55,7 @@ function onMinnesotaButton() {
 }
 
 function onWashingtonButton() {
-    var url = getAPIBaseURL() + '/Washington/';
+    var url = getAPIBaseURL() + '?state=WA';
 
     fetch(url, {method: 'get'})
 
@@ -65,16 +65,16 @@ function onWashingtonButton() {
         var listBody = '';
         for (var k = 0; k < washington.length; k++) {
             var victim = washington[k];
-            listBody += '<li>' + washington['date']
-                      + ', ' + washington['name']
-                      + ',' + washington['age']
-                      + ', ' + washington['gender'];
-                      + ', ' + washington['ethnicity'];
-                      + ', ' + washington['armed'];
-                      + ', ' + washington['state'];
+            listBody += '<li>' + victim['date']
+                      + ', ' + victim['name']
+                      + ',' + victim['age']
+                      + ', ' + victim['gender'];
+                      + ', ' + victim['ethnicity'];
+                      + ', ' + victim['armed'];
+                      + ', ' + victim['state'];
                       + '</li>\n';
         }
-
+        console.log(listBody)
         var victimListElement = document.getElementById('victims_list');
         if (victimListElement) {
             victimListElement.innerHTML = listBody;
