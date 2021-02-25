@@ -5,8 +5,7 @@ import argparse
 import json 
 import sys 
 
-api = flask.Blueprint('api', __name__)
-#api = flask.Flask(__name__)
+api = flask.Blueprint('', __name__)
 
 def connect_to_database():
     """connect program to database using config.py"""

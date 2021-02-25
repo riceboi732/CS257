@@ -18,13 +18,13 @@ function initialize() {
 }
 
 function getAPIBaseURL() {
-    var baseURL = window.location.protocol + '//' + window.location.hostname + ':' + window.location.port + '/victims';
+    var baseURL = window.location.protocol + '//' + window.location.hostname + ':' + window.location.port + '';
     return baseURL;
 }
 
 function onMinnesotaButton() {
-    var url = getAPIBaseURL() + '?state=MN';
-
+    var url = getAPIBaseURL() + '/victims?state=MN';
+    console.log(url)
     fetch(url, {method: 'get'})
 
     .then((response) => response.json())
@@ -55,7 +55,7 @@ function onMinnesotaButton() {
 }
 
 function onWashingtonButton() {
-    var url = getAPIBaseURL() + '?state=WA';
+    var url = getAPIBaseURL() + '/victims?state=WA';
 
     fetch(url, {method: 'get'})
 

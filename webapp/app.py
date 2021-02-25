@@ -13,7 +13,7 @@ import flask
 import api
 
 app = flask.Flask(__name__, static_folder='static', template_folder='templates')
-app.register_blueprint(api.api, url_prefix='/api')
+app.register_blueprint(api.api, url_prefix='')
 
 # This route delivers the user your site's home page.
 @app.route('/')
