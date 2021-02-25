@@ -9,12 +9,12 @@ api = flask.Blueprint('', __name__)
 
 def connect_to_database():
     """connect program to database using config.py"""
-    #from config import password
-    #from config import database
-    #from config import user
+    from config import password
+    from config import database
+    from config import user
 
     try:
-        connection = psycopg2.connect(database='shootings', user='', password='')
+        connection = psycopg2.connect(database=database, user=user, password=password)
         return connection
     except Exception as e:
         print(e)
