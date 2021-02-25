@@ -14,7 +14,7 @@ def connect_to_database():
     from config import user
 
     try:
-        connection = psycopg2.connect(database=database, user=user, password=password)
+        connection = psycopg2.connect(database='shootings', user='', password='')
         return connection
     except Exception as e:
         print(e)
@@ -25,6 +25,7 @@ def connect_to_database():
 def excute_query(cursor, query, check):
     try:
         cursor.execute(query, check)
+        print('QUERY:', cursor.query.decode('utf-8'))
     except Exception as e:
         print(e)
         exit()
@@ -34,13 +35,13 @@ def excute_query(cursor, query, check):
 
 @api.route('/victims')
 def get_victims():
-    state = flask.request.args.get('state', default = 'MN')
+    state = flask.request.args.get('state', 'all')
     min_year = flask.request.args.get('min_year', '1000')
     max_year = flask.request.args.get('max_year', '5000')
     min_age = flask.request.args.get('min_age', '-10000')
     max_age = flask.request.args.get('max_age', '10000')
-    ethnicity = flask.request.args.get('ethnicity', 'White')
-    armed = flask.request.args.get('armed', 'armed')
+    ethnicity = flask.request.args.get('ethnicity', 'all')
+    armed = flask.request.args.get('armed', 'all')
     
     state_check = '%' + state + '%'
     min_year_check = int(min_year)
@@ -55,13 +56,13 @@ def get_victims():
     query = '''SELECT victims.incident_date, victims.victim_name, 
                 victims.victim_age, victims.victim_gender, victims.victim_ethnicity, victims.armed_status, states.state_name 
                 FROM victim_state, victims, states 
-                WHERE states.state_name = %s AND victims.id = victim_state.victim_id AND states.id = victim_state.state_id 
+                WHERE states.state_name LIKE %s AND victims.id = victim_state.victim_id AND states.id = victim_state.state_id 
                 AND victims.victim_age >= CAST(%s AS int) AND victims.victim_age <= CAST(%s AS int)
-                AND victims.victim_ethnicity = %s
-                AND victims.armed_status = %s 
-                AND victims.incident_date BETWEEN '01-01-%%s' AND '12-31-%%s' 
+                AND victims.victim_ethnicity LIKE %s
+                AND victims.armed_status LIKE %s 
+                AND victims.incident_date BETWEEN '01-01-%s' AND '12-31-%s' 
                 ORDER BY victims.incident_date;'''
-    
+
     if state == 'all':
         query = '''SELECT victims.incident_date, victims.victim_name, 
                 victims.victim_age, victims.victim_gender, victims.victim_ethnicity, victims.armed_status, states.state_name 
@@ -69,7 +70,7 @@ def get_victims():
                 WHERE victims.victim_age >= CAST(%s AS int) AND victims.victim_age <= CAST(%s AS int)
                 AND victims.victim_ethnicity = %s 
                 AND victims.armed_status = %s 
-                AND victims.incident_date BETWEEN '01-01-%%s' AND '12-31-%%s' 
+                AND victims.incident_date BETWEEN '01-01-%s' AND '12-31-%s' 
                 ORDER BY victims.incident_date;'''
         
         check = (min_age_check, max_age_check, ethnicity_check, armed_check, min_year_check, max_year_check, )
@@ -80,7 +81,7 @@ def get_victims():
                 FROM victim_state, victims, states 
                 WHERE victims.victim_age >= CAST(%s AS int) AND victims.victim_age <= CAST(%s AS int)
                 AND victims.armed_status = %s 
-                AND victims.incident_date BETWEEN '01-01-%%s' AND '12-31-%%s' 
+                AND victims.incident_date BETWEEN '01-01-%s' AND '12-31-%s' 
                 ORDER BY victims.incident_date;'''
         check = (min_age_check, max_age_check, armed_check, min_year_check, max_year_check, )
 
@@ -90,7 +91,7 @@ def get_victims():
                 FROM victim_state, victims, states 
                 WHERE victims.victim_age >= CAST(%s AS int) AND victims.victim_age <= CAST(%s AS int)
                 AND victims.victim_ethnicity = %s  
-                AND victims.incident_date BETWEEN '01-01-%%s' AND '12-31-%%s' 
+                AND victims.incident_date BETWEEN '01-01-%s' AND '12-31-%s' 
                 ORDER BY victims.incident_date;'''
         
         check = (min_age_check, max_age_check, ethnicity_check, min_year_check, max_year_check, )
@@ -100,7 +101,7 @@ def get_victims():
                 victims.victim_age, victims.victim_gender, victims.victim_ethnicity, victims.armed_status, states.state_name 
                 FROM victim_state, victims, states 
                 WHERE victims.victim_age >= CAST(%s AS int) AND victims.victim_age <= CAST(%s AS int)
-                AND victims.incident_date BETWEEN '01-01-%%s' AND '12-31-%%s' 
+                AND victims.incident_date BETWEEN '01-01-%s' AND '12-31-%s' 
                 ORDER BY victims.incident_date;'''
         check = (min_age_check, max_age_check, min_year_check, max_year_check, )
 
@@ -111,7 +112,7 @@ def get_victims():
                 WHERE states.state_name = %s AND victims.id = victim_state.victim_id AND states.id = victim_state.state_id 
                 AND victims.victim_age >= %CAST(%s AS int) AND victims.victim_age <= CAST(%s AS int)
                 AND victims.armed_status = %s 
-                AND victims.incident_date BETWEEN '01-01-%%s' AND '12-31-%%s' 
+                AND victims.incident_date BETWEEN '01-01-%s' AND '12-31-%s' 
                 ORDER BY victims.incident_date;'''
         check = (state_check, min_age_check, max_age_check, armed_check, min_year_check, max_year_check, )
 
@@ -121,7 +122,7 @@ def get_victims():
                 FROM victim_state, victims, states 
                 WHERE states.state_name = %s AND victims.id = victim_state.victim_id AND states.id = victim_state.state_id 
                 AND victims.victim_age >= CAST(%s AS int) AND victims.victim_age <= CAST(%s AS int)
-                AND victims.incident_date BETWEEN '01-01-%%s' AND '12-31-%%s' 
+                AND victims.incident_date BETWEEN '01-01-%s' AND '12-31-%s' 
                 ORDER BY victims.incident_date;'''
         check = (state_check, min_age_check, max_age_check, min_year_check, max_year_check, )
 
@@ -132,17 +133,25 @@ def get_victims():
                 WHERE states.state_name = %s AND victims.id = victim_state.victim_id AND states.id = victim_state.state_id 
                 AND victims.victim_age >= CAST(%s AS int) AND victims.victim_age <= CAST(%s AS int)
                 AND victims.victim_ethnicity = %s
-                AND victims.incident_date BETWEEN '01-01-%%s' AND '12-31-%%s' 
+                AND victims.incident_date BETWEEN '01-01-%s' AND '12-31-%s' 
                 ORDER BY victims.incident_date;'''
         check = (state_check, min_age_check, max_age_check, ethnicity_check, min_year_check, max_year_check, )
 
-
     connection = connect_to_database()
-    cursor = excute_query(connection.cursor(), query, check)
+    #cursor = excute_query(connection.cursor(), query, check)
+
+    #Hardcoded for the assignment due on 2/24
+    hardQuery = '''SELECT victims.incident_date, victims.victim_name, 
+                victims.victim_age, victims.victim_gender, victims.victim_ethnicity, victims.armed_status, states.state_name 
+                FROM victim_state, victims, states 
+                WHERE states.state_name LIKE %s AND victims.id = victim_state.victim_id AND states.id = victim_state.state_id  
+                ORDER BY victims.incident_date;'''
+    hardCheck = (state_check,)
+    hardCursor = excute_query(connection.cursor(), hardQuery, hardCheck)
 
     victims_list = []
 
-    for row in cursor:
+    for row in hardCursor:
         date = row[0]
         name = row[1]
         age = row[2]
@@ -155,7 +164,7 @@ def get_victims():
 
     connection.close()
 
-    return json.dump(victims_list)
+    return json.dumps(victims_list, indent=4, default=str)
 
     
     
