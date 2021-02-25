@@ -1,22 +1,19 @@
 /*
  * webapp.js
- * Jeff Ondich
- * 6 November 2020
- *
- * A little bit of Javascript for the tiny web app sample for CS257.
+ * Victor Huang Martin Bernard
  */
 
 window.onload = initialize;
 
 function initialize() {
-    var element = document.getElementById('cats_button');
+    var element = document.getElementById('minnesota_button');
     if (element) {
-        element.onclick = onCatsButton;
+        element.onclick = onMinnesotaButton;
     }
 
-    var element = document.getElementById('dogs_button');
+    var element = document.getElementById('washington_button');
     if (element) {
-        element.onclick = onDogsButton;
+        element.onclick = onWashingtonButton;
     }
 }
 
@@ -25,27 +22,30 @@ function getAPIBaseURL() {
     return baseURL;
 }
 
-function onCatsButton() {
-    var url = getAPIBaseURL() + '/cats/';
+function onMinnesotaButton() {
+    var url = getAPIBaseURL() + '/Minnesota/';
 
     fetch(url, {method: 'get'})
 
     .then((response) => response.json())
 
-    .then(function(cats) {
+    .then(function(minnesota) {
         var listBody = '';
-        for (var k = 0; k < cats.length; k++) {
-            var cat = cats[k];
-            listBody += '<li>' + cat['name']
-                      + ', ' + cat['birth_year']
-                      + '-' + cat['death_year']
-                      + ', ' + cat['description'];
+        for (var k = 0; k < minnesota.length; k++) {
+            var victim = minnesota[k];
+            listBody += '<li>' + minnesota['date']
+                      + ', ' + minnesota['name']
+                      + ',' + minnesota['age']
+                      + ', ' + minnesota['gender'];
+                      + ', ' + minnesota['ethnicity'];
+                      + ', ' + minnesota['armed'];
+                      + ', ' + minnesota['state'];
                       + '</li>\n';
         }
 
-        var animalListElement = document.getElementById('animal_list');
-        if (animalListElement) {
-            animalListElement.innerHTML = listBody;
+        var victimListElement = document.getElementById('victims_list');
+        if (victimListElement) {
+            victimListElement.innerHTML = listBody;
         }
     })
 
@@ -54,27 +54,30 @@ function onCatsButton() {
     });
 }
 
-function onDogsButton() {
-    var url = getAPIBaseURL() + '/dogs/';
+function onWashingtonButton() {
+    var url = getAPIBaseURL() + '/Washington/';
 
     fetch(url, {method: 'get'})
 
     .then((response) => response.json())
 
-    .then(function(dogs) {
+    .then(function(washington) {
         var listBody = '';
-        for (var k = 0; k < dogs.length; k++) {
-            var dog = dogs[k];
-            listBody += '<li>' + dog['name']
-                      + ', ' + dog['birth_year']
-                      + '-' + dog['death_year']
-                      + ', ' + dog['description'];
+        for (var k = 0; k < washington.length; k++) {
+            var victim = washington[k];
+            listBody += '<li>' + washington['date']
+                      + ', ' + washington['name']
+                      + ',' + washington['age']
+                      + ', ' + washington['gender'];
+                      + ', ' + washington['ethnicity'];
+                      + ', ' + washington['armed'];
+                      + ', ' + washington['state'];
                       + '</li>\n';
         }
 
-        var animalListElement = document.getElementById('animal_list');
-        if (animalListElement) {
-            animalListElement.innerHTML = listBody;
+        var victimListElement = document.getElementById('victims_list');
+        if (victimListElement) {
+            victimListElement.innerHTML = listBody;
         }
     })
 
