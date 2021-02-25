@@ -1,6 +1,7 @@
 """Martin Bernard and Victor Huang"""
 import flask 
 import psycopg2
+import argparse
 import json 
 import sys 
 
@@ -33,95 +34,111 @@ def excute_query(cursor, query, check):
 
 @api.route('/victims')
 def get_victims():
-    state = flask.request.args.get('state', 'all')
-    min_year = int(flask.request.args.get('min_year', '1000'))
-    max_year = int(flask.request.args.get('max_year', '5000'))
-    min_age = int(flask.request.args.get('min_age', -10000))
-    max_age = int(flask.request.args.get('max_age', 10000))
-    ethnicity = flask.request.args.get('ethnicity', 'all')
-    armed = flask.request.args.get('armed', 'all')
+    state = flask.request.args.get('state', default = 'MN')
+    min_year = flask.request.args.get('min_year', '1000')
+    max_year = flask.request.args.get('max_year', '5000')
+    min_age = flask.request.args.get('min_age', '-10000')
+    max_age = flask.request.args.get('max_age', '10000')
+    ethnicity = flask.request.args.get('ethnicity', 'White')
+    armed = flask.request.args.get('armed', 'armed')
+    
+    state_check = '%' + state + '%'
+    min_year_check = int(min_year)
+    max_year_check = int(max_year)
+    min_age_check = min_age 
+    max_age_check =  max_age 
+    ethnicity_check = '%' + ethnicity + '%'
+    armed_check = '%' + armed + '%'
 
-
-    check = (state, min_year, max_year, min_age, max_age, ethnicity, armed,)
+    check = (state_check, min_age_check, max_age_check, ethnicity_check, armed_check, min_year_check, max_year_check, )
     
     query = '''SELECT victims.incident_date, victims.victim_name, 
                 victims.victim_age, victims.victim_gender, victims.victim_ethnicity, victims.armed_status, states.state_name 
                 FROM victim_state, victims, states 
                 WHERE states.state_name = %s AND victims.id = victim_state.victim_id AND states.id = victim_state.state_id 
-                AND victims.victim_age >= %s AND victims.victim_age <= %s
-                AND victims.victim_ethnicity = %s 
+                AND victims.victim_age >= CAST(%s AS int) AND victims.victim_age <= CAST(%s AS int)
+                AND victims.victim_ethnicity = %s
                 AND victims.armed_status = %s 
-                AND victims.incident_date BETWEEN '01-01-%s' AND '12-31-%s' 
+                AND victims.incident_date BETWEEN '01-01-%%s' AND '12-31-%%s' 
                 ORDER BY victims.incident_date;'''
     
     if state == 'all':
         query = '''SELECT victims.incident_date, victims.victim_name, 
                 victims.victim_age, victims.victim_gender, victims.victim_ethnicity, victims.armed_status, states.state_name 
                 FROM victim_state, victims, states 
-                WHERE victims.victim_age >= %s AND victims.victim_age <= %s
+                WHERE victims.victim_age >= CAST(%s AS int) AND victims.victim_age <= CAST(%s AS int)
                 AND victims.victim_ethnicity = %s 
                 AND victims.armed_status = %s 
-                AND victims.incident_date BETWEEN '01-01-%s' AND '12-31-%s' 
+                AND victims.incident_date BETWEEN '01-01-%%s' AND '12-31-%%s' 
                 ORDER BY victims.incident_date;'''
+        
+        check = (min_age_check, max_age_check, ethnicity_check, armed_check, min_year_check, max_year_check, )
 
     elif state == 'all' and ethnicity == 'all':
         query = '''SELECT victims.incident_date, victims.victim_name, 
                 victims.victim_age, victims.victim_gender, victims.victim_ethnicity, victims.armed_status, states.state_name 
                 FROM victim_state, victims, states 
-                WHERE victims.victim_age >= %s AND victims.victim_age <= %s
+                WHERE victims.victim_age >= CAST(%s AS int) AND victims.victim_age <= CAST(%s AS int)
                 AND victims.armed_status = %s 
-                AND victims.incident_date BETWEEN '01-01-%s' AND '12-31-%s' 
+                AND victims.incident_date BETWEEN '01-01-%%s' AND '12-31-%%s' 
                 ORDER BY victims.incident_date;'''
+        check = (min_age_check, max_age_check, armed_check, min_year_check, max_year_check, )
 
     elif state == 'all' and armed == 'all':
         query = '''SELECT victims.incident_date, victims.victim_name, 
                 victims.victim_age, victims.victim_gender, victims.victim_ethnicity, victims.armed_status, states.state_name 
                 FROM victim_state, victims, states 
-                WHERE victims.victim_age >= %s AND victims.victim_age <= %s
+                WHERE victims.victim_age >= CAST(%s AS int) AND victims.victim_age <= CAST(%s AS int)
                 AND victims.victim_ethnicity = %s  
-                AND victims.incident_date BETWEEN '01-01-%s' AND '12-31-%s' 
+                AND victims.incident_date BETWEEN '01-01-%%s' AND '12-31-%%s' 
                 ORDER BY victims.incident_date;'''
+        
+        check = (min_age_check, max_age_check, ethnicity_check, min_year_check, max_year_check, )
 
     elif state == 'all' and ethnicity == 'all' and armed == 'all':
         query = '''SELECT victims.incident_date, victims.victim_name, 
                 victims.victim_age, victims.victim_gender, victims.victim_ethnicity, victims.armed_status, states.state_name 
                 FROM victim_state, victims, states 
-                WHERE victims.victim_age >= %s AND victims.victim_age <= %s
-                AND victims.incident_date BETWEEN '01-01-%s' AND '12-31-%s' 
+                WHERE victims.victim_age >= CAST(%s AS int) AND victims.victim_age <= CAST(%s AS int)
+                AND victims.incident_date BETWEEN '01-01-%%s' AND '12-31-%%s' 
                 ORDER BY victims.incident_date;'''
+        check = (min_age_check, max_age_check, min_year_check, max_year_check, )
 
     elif ethnicity == 'all':
         query = '''SELECT victims.incident_date, victims.victim_name, 
                 victims.victim_age, victims.victim_gender, victims.victim_ethnicity, victims.armed_status, states.state_name 
                 FROM victim_state, victims, states 
                 WHERE states.state_name = %s AND victims.id = victim_state.victim_id AND states.id = victim_state.state_id 
-                AND victims.victim_age >= %s AND victims.victim_age <= %s 
+                AND victims.victim_age >= %CAST(%s AS int) AND victims.victim_age <= CAST(%s AS int)
                 AND victims.armed_status = %s 
-                AND victims.incident_date BETWEEN '01-01-%s' AND '12-31-%s' 
+                AND victims.incident_date BETWEEN '01-01-%%s' AND '12-31-%%s' 
                 ORDER BY victims.incident_date;'''
+        check = (state_check, min_age_check, max_age_check, armed_check, min_year_check, max_year_check, )
 
     elif ethnicity == 'all' and armed == 'all':
         query = '''SELECT victims.incident_date, victims.victim_name, 
                 victims.victim_age, victims.victim_gender, victims.victim_ethnicity, victims.armed_status, states.state_name 
                 FROM victim_state, victims, states 
                 WHERE states.state_name = %s AND victims.id = victim_state.victim_id AND states.id = victim_state.state_id 
-                AND victims.victim_age >= %s AND victims.victim_age <= %s
-                AND victims.incident_date BETWEEN '01-01-%s' AND '12-31-%s' 
+                AND victims.victim_age >= CAST(%s AS int) AND victims.victim_age <= CAST(%s AS int)
+                AND victims.incident_date BETWEEN '01-01-%%s' AND '12-31-%%s' 
                 ORDER BY victims.incident_date;'''
+        check = (state_check, min_age_check, max_age_check, min_year_check, max_year_check, )
 
     elif armed == 'all':
         query = '''SELECT victims.incident_date, victims.victim_name, 
                 victims.victim_age, victims.victim_gender, victims.victim_ethnicity, victims.armed_status, states.state_name 
                 FROM victim_state, victims, states 
                 WHERE states.state_name = %s AND victims.id = victim_state.victim_id AND states.id = victim_state.state_id 
-                AND victims.victim_age >= %s AND victims.victim_age <= %s
+                AND victims.victim_age >= CAST(%s AS int) AND victims.victim_age <= CAST(%s AS int)
                 AND victims.victim_ethnicity = %s
-                AND victims.incident_date BETWEEN '01-01-%s' AND '12-31-%s' 
+                AND victims.incident_date BETWEEN '01-01-%%s' AND '12-31-%%s' 
                 ORDER BY victims.incident_date;'''
+        check = (state_check, min_age_check, max_age_check, ethnicity_check, min_year_check, max_year_check, )
 
 
     connection = connect_to_database()
-    cursor = excute_query(connection.cursor, query, check)
+    cursor = excute_query(connection.cursor(), query, check)
 
     victims_list = []
 
@@ -154,9 +171,14 @@ def get_ethnicity_vis_data(state):
 def get_armed_vis_data(state):
     pass
 
-@api.route('/victims/analyze/gender/<state>'):
+@api.route('/victims/analyze/gender/<state>')
 def get_gender_vis_data(state):
     pass 
 
-
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser('Webapp')
+    parser.add_argument('host', help='the host on which this application is running')
+    parser.add_argument('port', type=int, help='the port on which this application is listening')
+    arguments = parser.parse_args()
+    api.run(host=arguments.host, port=arguments.port, debug=True)
 
