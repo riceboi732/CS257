@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='victims.css') }}" />
+        <title>
+        </title>
+    </head>
+    <body>
+        <div class = "main-wrapper">
+            <div class = "sidebar-container">
+                <div id ="indicate-state">
+                    <h1> Some State</h1>
+                </div>
+                <div class = "search-container">
+                    <input type="text" placeholder="Name..." id="search">
+                </div>
+                <div class = "year-container">
+                    <h2>Year</h2>
+                    <div id = "search-container">
+                        <h4 id="search-label">From: </h4>
+                        <input type="text" placeholder="Year..." id = "from-year">
+                    </div>
+                    <div id="search-container">
+                        <h4 id="search-label">To: </h4>
+                        <input type="text" placeholder="Year..." id = "to-year">
+                    </div>
+                </div>
+                <div class = "ethnicity-container">
+                    <h2>Race</h2>
+                    <div id="checkbox-container">
+                        <h4 class="race-label">Asian</h4>
+                        <input type="checkbox" id="asian" name="asian" checked>
+                    </div>
+                    <div id="checkbox-container">
+                        <h4 class="race-label">African-American</h4>
+                        <input type="checkbox" id="asian" name="asian" checked>
+                    </div>
+                    <div id="checkbox-container">
+                        <h4 class="race-label">Hispanic</h4>
+                        <input type="checkbox" id="asian" name="asian" checked>
+                    </div>
+                    <div id="checkbox-container">
+                        <h4 class="race-label">White</h4>
+                        <input type="checkbox" id="asian" name="asian" checked>
+                    </div>
+                    <div id="checkbox-container">
+                        <h4 class="race-label">Other</h4>
+                        <input type="checkbox" id="asian" name="asian" checked>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+    </body>
+</html>

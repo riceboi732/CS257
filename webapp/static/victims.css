@@ -1,0 +1,157 @@
+html{
+    height: 100%;
+    width: 100%; 
+}
+body{
+    height: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px
+}
+.main-wrapper{
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-color: red;
+}
+
+.sidebar-container{
+    height: 100%;
+    width: 182px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+}
+
+#indicate-state{
+    top: 0;
+    left: 0;
+    height: 55px;
+    text-align: center;
+    color: white;
+    border-style: solid;
+    border-top-color: #111;
+    border-left-color: #111;
+    border-right-color: #111;
+    border-bottom-color: #808080;
+    border-width: 1px;
+    margin-bottom: 10px;
+}
+
+.search-container{
+    height: 50px;
+    width: 180px;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden; 
+    border-style: solid; 
+    border-top-color: #111;
+    border-left-color: #111;
+    border-right-color: #111;
+    border-bottom-color: #808080;
+    border-width: 1px;
+    margin-bottom: 10px; 
+}
+
+#search{
+    height: 35px;
+    width: 180px;
+}
+
+.year-container{
+    height: 100px;
+    width: 180px;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden; 
+    border-style: solid; 
+    border-top-color: #111;
+    border-left-color: #111;
+    border-right-color: #111;
+    border-bottom-color: #808080;
+    border-width: 1px;
+    padding-bottom: 0px;
+    margin-bottom: 10px; 
+}
+
+.sidebar-container h2{
+    top: 0px;
+    left: 0px;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.year-container #search-container{
+    height: 20px;
+    width: 180px;
+    position: relative;
+    border-style: solid;
+    border-color: #111;
+    border-width: 1px; 
+    
+}
+.year-container #search-label{
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    padding-right: 5px;
+    color: white;
+    float: left; 
+}
+
+.year-container #from-year{
+    width: 100px; 
+    padding-right: 10px;    
+}
+
+.year-container #to-year{
+    width: 100px; 
+    padding-right: 10px; 
+    margin-left: 21px;  
+}
+
+.ethnicity-container{
+    height: 150px;
+    width: 180px; 
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px; 
+}
+
+.ethnicity-container #checkbox-container{
+    height: 20px;
+    width: 180px;
+    position: relative;
+    border-style: solid;
+    border-color: white; 
+    border-width: 1px; 
+}
+
+.race-label{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    padding-right: 5px;
+    color: white;
+    float: left; 
+}

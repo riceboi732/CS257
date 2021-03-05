@@ -15,6 +15,11 @@ function initialize() {
     if (element) {
         element.onclick = onWashingtonButton;
     }
+
+    var element = document.getElementById('test_button');
+    if (element) {
+        element.onclick = onTestButton;
+    }
 }
 
 function getAPIBaseURL() {
@@ -84,5 +89,9 @@ function onWashingtonButton() {
     .catch(function(error) {
         console.log(error);
     });
+}
+
+function onTestButton() {
+    location.href = "victims.html";
 }
 
