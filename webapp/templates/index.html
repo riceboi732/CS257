@@ -2,22 +2,138 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='webapp.css') }}" />
-    <script type="text/javascript" src="{{ url_for('static', filename='webapp.js') }}"></script>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='web.css') }}" />
+    <script type="text/javascript" src="{{ url_for('static', filename='web.js') }}"></script>
     <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}" />
-    <title></title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+    <script src="js/datamaps.usa.min.js"></script>
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width = device-width, initial-scale=1">
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: black;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: black;
+}
+
+h2{
+    color: white;
+}
+
+nav {
+  float: left;
+  width: 50%;
+  height: 100%;
+  background: black;
+  padding: 20px;
+  width:100px;
+  height:500px; 
+  overflow:auto;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: green;
+  height: 100%;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+body {
+  margin: 40px;
+  font-family: Helvetica;
+  background: black;
+}
+</style>
 </head>
-
 <body>
-    <h3>Police Shootings For Each State</h3>
+    <header>
+      <h2>Shootings in America</h2>
+    </header>
+    
+    <section>
+    <nav>
+    <p><button id="AL">Alabama</button></p>
+	<p><button id="AK">Alaska</button></p>
+	<p><button id="AZ">Arizona</button></p>
+	<p><button id="AR">Arkansas</button></p>
+	<p><button id="CA">California</button></p>
+	<p><button id="CO">Colorado</button></p>
+	<p><button id="CT">Connecticut</button></p>
+	<p><button id="DE">Delaware</button></p>
+	<p><button id="DC">District Of Columbia</button></p>
+	<p><button id="FL">Florida</button></p>
+	<p><button id="GA">Georgia</button></p>
+	<p><button id="HI">Hawaii</button></p>
+	<p><button id="ID">Idaho</button></p>
+	<p><button id="IL">Illinois</button></p>
+	<p><button id="IN">Indiana</button></p>
+	<p><button id="IA">Iowa</button></p>
+	<p><button id="KS">Kansas</button></p>
+	<p><button id="KY">Kentucky</button></p>
+	<p><button id="LA">Louisiana</button></p>
+	<p><button id="ME">Maine</button></p>
+	<p><button id="MD">Maryland</button></p>
+	<p><button id="MA">Massachusetts</button></p>
+	<p><button id="MI">Michigan</button></p>
+	<p><button id="MN">Minnesota</button></p>
+	<p><button id="MS">Mississippi</button></p>
+	<p><button id="MO">Missouri</button></p>
+	<p><button id="MT">Montana</button></p>
+	<p><button id="NE">Nebraska</button></p>
+	<p><button id="NV">Nevada</button></p>
+	<p><button id="NH">New Hampshire</button></p>
+	<p><button id="NJ">New Jersey</button></p>
+	<p><button id="NM">New Mexico</button></p>
+	<p><button id="NY">New York</button></p>
+	<p><button id="NC">North Carolina</button></p>
+	<p><button id="ND">North Dakota</button></p>
+	<p><button id="OH">Ohio</button></p>
+	<p><button id="OK">Oklahoma</button></p>
+	<p><button id="OR">Oregon</button></p>
+	<p><button id="PA">Pennsylvania</button></p>
+	<p><button id="RI">Rhode Island</button></p>
+	<p><button id="SC">South Carolina</button></p>
+	<p><button id="SD">South Dakota</button></p>
+	<p><button id="TN">Tennessee</button></p>
+	<p><button id="TX">Texas</button></p>
+	<p><button id="UT">Utah</button></p>
+	<p><button id="VT">Vermont</button></p>
+	<p><button id="VA">Virginia</button></p>
+	<p><button id="WA">Washington</button></p>
+	<p><button id="WV">West Virginia</button></p>
+	<p><button id="WI">Wisconsin</button></p>
+	<p><button id="WY">Wyoming</button></p>
+    <ul id="state_list"></ul>
+    </nav>
 
-    <p><button id="minnesota_button">Minnesota</button></p>
-    <p><button id="washington_button">Washington</button></p>
-    <p><button id="test_button">Test</button></p>
+    <div id="state-summary"></div>
 
-    <ul id="victims_list"></ul>
-
-    <h3>One other page</h3>
-    <p>You can go to <a href="other.html">this other page</a>.</p>
-</body>
+    <div id="map-container"></div>
+    </section>
+    </body>
 </html>
