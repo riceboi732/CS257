@@ -43,7 +43,22 @@ function onButtonClicked(clicked_id) {
         console.log(error);
     });
 }
+var genderCheck = [];
 
+function checkMale(){
+    if (checkBox.checked == true){
+        genderCheck.push(document.getElementById("myCheck").value);
+    } else {
+         text.style.display = "none";
+      }
+}
+function checkFemale(){
+    if (checkBox.checked == true){
+        genderCheck.push(document.getElementById("myCheck").value);
+    } else {
+         text.style.display = "none";
+      }
+}
 var ethnicChecks = [];
 
 function checkAfrican(){
