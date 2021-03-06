@@ -27,10 +27,9 @@ body {
   justify-content: center;
   height: 10vh;
   margin-top: 5vh; 
-  background: #2F4F4F;
 }
 
-.search{
+/* .search{
   display: flex;
   align-items: flex-start;
   height: 7vh; 
@@ -51,23 +50,20 @@ body {
   border: 1px solid grey;
   border-left: none;
   cursor: pointer; 
-}
-#age {
+} */
+/* #age {
   display: flex; 
   height: 9vh;
-  background: #2F4F4F;
 }
 
 .year {
   display: flex;
   flex-direction: column; 
   height: auto; 
-  background: #2F4F4F;
 }
 
 .from_year{
   display: flex;
-  background: #2F4F4F;
   padding-left: 5vh;
 }
 
@@ -80,7 +76,6 @@ body {
 
 .to_year{
   display: flex;
-  background: #2F4F4F;
   padding-left: 54px;
 }
 
@@ -89,13 +84,16 @@ body {
   border: 1px solid grey;
   border-right: none; 
 }
-
-
+ */
+ .gender {
+  display: flex;
+  flex-direction: column;
+  height: 10vh; 
+}
 .race {
   display: flex;
   flex-direction: column;
   height: 16vh; 
-  background: #2F4F4F;
 }
 
 .race_checkbox {
@@ -108,7 +106,6 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   height: 10vh; 
-  background: #2F4F4F;
   padding-top: 0;
 }
 
@@ -119,37 +116,33 @@ body {
 
 .filter {
   display: flex;
-  height: 8vh;
-  background: #2F4F4F;
+  height: 5vh;
 }
 
 .filter button{
   height: 100%;
   width: 100%;
-
 }
 
-.analyze {
+/* .analyze {
   display: flex;
-  height: 6vh;
-  background: #2F4F4F;
+  height: 5vh;
 }
 
 .analyze_button {
   height: 100%;
   width: 100%;
-}
+} */
 
-.home {
+/* .home {
   display: flex;
   height: 5vh;
-  background: #2F4F4F;
 }
 
 .home_button {
   height: 100%;
   width: 100%;
-}
+} */
 
 .bread_table {
   display: flex;
@@ -175,13 +168,14 @@ body {
 
 /*CSS for the data*/
 .data { 
-  width:50%; 
+  width:30%; 
   height:80%; 
   position: fixed; 
   top: 20%; 
   left: 40%;
   margin-top: -100px; 
-  margin-left: -100px; 
+  margin-left: -100px;
+  overflow:auto;
 } 
 /* Implment later
 #map-container {

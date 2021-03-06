@@ -70,14 +70,14 @@
         <p><!-- <a href="victims.html"> --><button id="WY" value = "WY"  onClick="onButtonClicked(this.id)">Wyoming</button></p><!-- </a> -->
     </div>
     <div class="sidebar">
-        <div id="state"> Some State 
+        <div id="state"> Filter Data 
         </div>
-        <div class="search">
+        <!-- <div class="search">
             <input type="text" placeholder="Victim's Name" name="search_victim">
             <button type="submit">
             </button>
-        </div>
-        <div id="age"> Age
+        </div> -->
+        <!-- <div id="age"> Age
         </div>
         <div class="year"> Year
             <div class="from_year">
@@ -88,22 +88,30 @@
                 To:
                 <input type="text" placeholder="Maximum Year" name="max_year">
             </div>
+        </div> -->
+        <div class="gender"> Gender
+            <div class="race_checkbox"> Female: 
+                <input type="checkbox" id="female" unchecked>
+            </div>
+            <div class="race_checkbox"> Male: 
+                <input type="checkbox" id="male" unchecked>
+            </div>
         </div>
         <div class="race"> Race
-            <div class="race_checkbox"> African American: 
-                <input type="checkbox" id="african_american" unchecked>
+            <label for="race_checkbox"> African American:</label>
+                <input type="checkbox" id="african_american" onClick="checkAfrican()">
             </div>
             <div class="race_checkbox"> Asian: 
-                <input type="checkbox" id="african_american" unchecked>
+                <input type="checkbox" id="asian" onClick="checkAsian()">
             </div>
             <div class="race_checkbox"> Hispanic: 
-                <input type="checkbox" id="african_american" unchecked>
+                <input type="checkbox" id="hispanic" onClick="checkHispanic()">
             </div>
             <div class="race_checkbox"> White: 
-                <input type="checkbox" id="african_american" unchecked>
+                <input type="checkbox" id="white" onClick="checkWhite()">
             </div>
             <div class="race_checkbox"> Other: 
-                <input type="checkbox" id="african_american" unchecked>
+                <input type="checkbox" id="other" onClick="checkOther()">
             </div>
         </div>
         <div class="armed">Armed
@@ -117,12 +125,12 @@
         <div class="filter">
             <button id="filter_button">Filter</button>
         </div>
-        <div class="analyze">
+        <!-- <div class="analyze">
             <button class="analyze_button">Analyze</button>
-        </div>
-        <div class="home">  
+        </div> -->
+        <!-- <div class="home">  
             <button class="home_button">Home</button>
-        </div>
+        </div> -->
     </div>
     <div class="bread_table">
         <div id="breadcrumb">

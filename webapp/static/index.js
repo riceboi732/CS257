@@ -11,7 +11,6 @@ function getAPIBaseURL() {
     var baseURL = window.location.protocol + '//' + window.location.hostname + ':' + window.location.port + '';
     return baseURL;
 }
-
 function onButtonClicked(clicked_id) {
     var element = document.getElementById(clicked_id);
     state = document.getElementById(clicked_id).value;
@@ -45,6 +44,44 @@ function onButtonClicked(clicked_id) {
     });
 }
 
+var ethnicChecks = [];
+
+function checkAfrican(){
+    if (checkBox.checked == true){
+        ethnicCheck.push(document.getElementById("myCheck").value);
+    } else {
+         text.style.display = "none";
+      }
+}
+function checkAsian(){
+    if (checkBox.checked == true){
+        ethnicCheck.push(document.getElementById("myCheck").value);
+    } else {
+         text.style.display = "none";
+      }
+}
+function checkHispanic(){
+    if (checkBox.checked == true){
+        ethnicCheck.push(document.getElementById("myCheck").value);
+    } else {
+         text.style.display = "none";
+      }
+}
+function checkWhite(){
+    if (checkBox.checked == true){
+        ethnicCheck.push(document.getElementById("myCheck").value);
+    } else {
+         text.style.display = "none";
+      }
+}
+function checkOther(){
+    if (checkBox.checked == true){
+        ethnicCheck.push(document.getElementById("myCheck").value);
+    } else {
+         text.style.display = "none";
+      }
+}
+document.getElementById("demo").innerHTML = ethnicCheck;
 //* Implment Later
 //  * webapp.js
 //  * Victor Huang, Martin Bernard
