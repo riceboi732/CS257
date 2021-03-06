@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='web.css') }}" />
+    <script type="text/javascript" src="{{ url_for('static', filename='web.js') }}"></script>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}" />
+    <!-- These are required for the DataMaps library to work
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+     You need this one for the US map
+    <script src="js/datamaps.usa.min.js"></script> -->
+
+    <title>First Draft</title>
+</head>
+
+<body>
+    <h3>List of US States</h3>
+    <div>
+        <p><button id="AL" value = "alabama" onClick="initialize(this.id)">Alabama</button></p>
+        <p><button id="AK" value = "alaska" onClick="initialize(this.id)">Alaska</button></p>
+        <p><button id="AZ" value = "arizona" onClick="initialize(this.id)">Arizona</button></p>
+        <p><button id="AR" value = "arkansas" onClick="initialize(this.id)">Arkansas</button></p>
+        <p><button id="CA" value = "california" onClick="initialize(this.id)">California</button></p>
+        <p><button id="CO" value = "colorado" onClick="initialize(this.id)">Colorado</button></p>
+        <p><button id="CT" value = "connecticut" onClick="initialize(this.id)">Connecticut</button></p>
+        <p><button id="DE" value = "delaware" onClick="initialize(this.id)">Delaware</button></p>
+        <p><button id="DC" value = "district_of_columbia" onClick="initialize(this.id)">District Of Columbia</button></p>
+        <p><button id="FL" value = "florida" onClick="initialize(this.id)">Florida</button></p>
+        <p><button id="GA" value = "georgia" onClick="initialize(this.id)">Georgia</button></p>
+        <p><button id="HI" value = "hawaii" onClick="initialize(this.id)">Hawaii</button></p>
+        <p><button id="ID" value = "idaho" onClick="initialize(this.id)">Idaho</button></p>
+        <p><button id="IL" value = "illinois" onClick="initialize(this.id)">Illinois</button></p>
+        <p><button id="IN" value = "indiana" onClick="initialize(this.id)">Indiana</button></p>
+        <p><button id="IA" value = "iowa" onClick="initialize(this.id)">Iowa</button></p>
+        <p><button id="KS" value = "kansas" onClick="initialize(this.id)">Kansas</button></p>
+        <p><button id="KY" value = "kentucky" onClick="initialize(this.id)">Kentucky</button></p>
+        <p><button id="LA" value = "louisiana" onClick="initialize(this.id)">Louisiana</button></p>
+        <p><button id="ME" value = "maine" onClick="initialize(this.id)">Maine</button></p>
+        <p><button id="MD" value = "maryland" onClick="initialize(this.id)">Maryland</button></p>
+        <p><button id="MA" value = "massachusetts" onClick="initialize(this.id)">Massachusetts</button></p>
+        <p><button id="MI" value = "michigan" onClick="initialize(this.id)">Michigan</button></p>
+        <p><button id="MN" value = "minnesota" onClick="initialize(this.id)">Minnesota</button></p>
+        <p><button id="MS" value = "mississippi" onClick="initialize(this.id)">Mississippi</button></p>
+        <p><button id="MO" value = "missouri" onClick="initialize(this.id)">Missouri</button></p>
+        <p><button id="MT" value = "montana" onClick="initialize(this.id)">Montana</button></p>
+        <p><button id="NE" value = "nebraska" onClick="initialize(this.id)">Nebraska</button></p>
+        <p><button id="NV" value = "nevada" onClick="initialize(this.id)">Nevada</button></p>
+        <p><button id="NH" value = "new_hampshire" onClick="initialize(this.id)">New Hampshire</button></p>
+        <p><button id="NJ" value = "new_jersey" onClick="initialize(this.id)">New Jersey</button></p>
+        <p><button id="NM" value = "new_mexico" onClick="initialize(this.id)">New Mexico</button></p>
+        <p><button id="NY" value = "new_york" onClick="initialize(this.id)">New York</button></p>
+        <p><button id="NC" value = "north_carolina" onClick="initialize(this.id)">North Carolina</button></p>
+        <p><button id="ND" value = "north_dakota" onClick="initialize(this.id)">North Dakota</button></p>
+        <p><button id="OH" value = "ohio" onClick="initialize(this.id)">Ohio</button></p>
+        <p><button id="OK" value = "oklahoma" onClick="initialize(this.id)">Oklahoma</button></p>
+        <p><button id="OR" value = "oregon" onClick="initialize(this.id)">Oregon</button></p>
+        <p><button id="PA" value = "pennsylvania" onClick="initialize(this.id)">Pennsylvania</button></p>
+        <p><button id="RI" value = "rhode_island" onClick="initialize(this.id)">Rhode Island</button></p>
+        <p><button id="SC" value = "south_carolina" onClick="initialize(this.id)">South Carolina</button></p>
+        <p><button id="SD" value = "south_dakota" onClick="initialize(this.id)">South Dakota</button></p>
+        <p><button id="TN" value = "tennessee" onClick="initialize(this.id)">Tennessee</button></p>
+        <p><button id="TX" value = "texas" onClick="initialize(this.id)">Texas</button></p>
+        <p><button id="UT" value = "utah" onClick="initialize(this.id)">Utah</button></p>
+        <p><button id="VT" value = "vermont" onClick="initialize(this.id)">Vermont</button></p>
+        <p><button id="VA" value = "virginia" onClick="initialize(this.id)">Virginia</button></p>
+        <p><button id="WA" value = "washington" onClick="initialize(this.id)">Washington</button></p>
+        <p><button id="WV" value = "west_virginia" onClick="initialize(this.id)">West Virginia</button></p>
+        <p><button id="WI" value = "wisconsin" onClick="initialize(this.id)">Wisconsin</button></p>
+        <p><button id="WY" value = "wyoming" onClick="initialize(this.id)">Wyoming</button></p>
+    </div>
+    
+    <ul id="victims_list"></ul>
+
+<!-- Implment later
+    <div id="state-summary"></div>
+
+    <div id="map-container"></div> -->
+</body>
+</html>
