@@ -4,16 +4,7 @@
 
 window.onload = initialize;
 
-function initialize(clicked_id) {
-
-}
-function state_clicked(clicked_id){
-    var element = document.getElementById(clicked_id);
-    state = document.getElementById(clicked_id).value;
-
-    if(element){
-        element.onclick = onButtonClicked;
-    }
+function initialize() {
 }
 
 function getAPIBaseURL() {
@@ -22,6 +13,8 @@ function getAPIBaseURL() {
 }
 
 function onButtonClicked(clicked_id) {
+    var element = document.getElementById(clicked_id);
+    state = document.getElementById(clicked_id).value;
     var url = getAPIBaseURL() + '/victims?state=' + state;
     console.log(url)
     fetch(url, {method: 'get'})
@@ -41,7 +34,6 @@ function onButtonClicked(clicked_id) {
                       + ', ' + victim['state'];
                       + '</li>\n';
         }
-
         var victimListElement = document.getElementById('victims_list');
         if (victimListElement) {
             victimListElement.innerHTML = listBody;

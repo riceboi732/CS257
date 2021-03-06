@@ -2,8 +2,8 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='web.css') }}" />
-    <script type="text/javascript" src="{{ url_for('static', filename='web.js') }}"></script>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='index.css') }}" />
+    <script type="text/javascript" src="{{ url_for('static', filename='victims.js') }}"></script>
     <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}" />
     <!-- These are required for the DataMaps library to work
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
@@ -17,61 +17,59 @@
 <body>
     <h3>List of US States</h3>
     <div>
-        <p><button id="AL" value = "AL" onClick="state_clicked(this.id)">Alabama</button></p>
-        <p><button id="AK" value = "AK" onClick="state_clicked(this.id)">Alaska</button></p>
-        <p><button id="AZ" value = "AZ" onClick="state_clicked(this.id)">Arizona</button></p>
-        <p><button id="AR" value = "AR" onClick="state_clicked(this.id)">Arkansas</button></p>
-        <p><button id="CA" value = "CA" onClick="state_clicked(this.id)">California</button></p>
-        <p><button id="CO" value = "CO" onClick="state_clicked(this.id)">Colorado</button></p>
-        <p><button id="CT" value = "CT" onClick="state_clicked(this.id)">Connecticut</button></p>
-        <p><button id="DE" value = "DE" onClick="state_clicked(this.id)">Delaware</button></p>
-        <p><button id="DC" value = "DC" onClick="state_clicked(this.id)">District Of Columbia</button></p>
-        <p><button id="FL" value = "FL" onClick="state_clicked(this.id)">Florida</button></p>
-        <p><button id="GA" value = "GA" onClick="state_clicked(this.id)">Georgia</button></p>
-        <p><button id="HI" value = "HI" onClick="state_clicked(this.id)">Hawaii</button></p>
-        <p><button id="ID" value = "ID" onClick="initialize(this.id)">Idaho</button></p>
-        <p><button id="IL" value = "IL" onClick="state_clicked(this.id)">Illinois</button></p>
-        <p><button id="IN" value = "IN" onClick="state_clicked(this.id)">Indiana</button></p>
-        <p><button id="IA" value = "IA" onClick="state_clicked(this.id)">Iowa</button></p>
-        <p><button id="KS" value = "KS" onClick="state_clicked(this.id)">Kansas</button></p>
-        <p><button id="KY" value = "KY" onClick="state_clicked(this.id)">Kentucky</button></p>
-        <p><button id="LA" value = "LA" onClick="state_clicked(this.id)">Louisiana</button></p>
-        <p><button id="ME" value = "ME" onClick="state_clicked(this.id)">Maine</button></p>
-        <p><button id="MD" value = "MD" onClick="state_clicked(this.id)">Maryland</button></p>
-        <p><button id="MA" value = "MA" onClick="state_clicked(this.id)">Massachusetts</button></p>
-        <p><button id="MI" value = "MI" onClick="state_clicked(this.id)">Michigan</button></p>
-        <p><button id="MN" value = "MN" onClick="state_clicked(this.id)">Minnesota</button></p>
-        <p><button id="MS" value = "MS" onClick="state_clicked(this.id)">Mississippi</button></p>
-        <p><button id="MO" value = "MO" onClick="state_clicked(this.id)">Missouri</button></p>
-        <p><button id="MT" value = "MT" onClick="state_clicked(this.id)">Montana</button></p>
-        <p><button id="NE" value = "NE" onClick="state_clicked(this.id)">Nebraska</button></p>
-        <p><button id="NV" value = "NV" onClick="state_clicked(this.id)">Nevada</button></p>
-        <p><button id="NH" value = "NH" onClick="state_clicked(this.id)">New Hampshire</button></p>
-        <p><button id="NJ" value = "NJ" onClick="state_clicked(this.id)">New Jersey</button></p>
-        <p><button id="NM" value = "NM" onClick="state_clicked(this.id)">New Mexico</button></p>
-        <p><button id="NY" value = "NY" onClick="state_clicked(this.id)">New York</button></p>
-        <p><button id="NC" value = "NC" onClick="state_clicked(this.id)">North Carolina</button></p>
-        <p><button id="ND" value = "ND" onClick="state_clicked(this.id)">North Dakota</button></p>
-        <p><button id="OH" value = "OH" onClick="state_clicked(this.id)">Ohio</button></p>
-        <p><button id="OK" value = "OK" onClick="state_clicked(this.id)">Oklahoma</button></p>
-        <p><button id="OR" value = "OR" onClick="state_clicked(this.id)">Oregon</button></p>
-        <p><button id="PA" value = "PA" onClick="state_clicked(this.id)">Pennsylvania</button></p>
-        <p><button id="RI" value = "RI" onClick="state_clicked(this.id)">Rhode Island</button></p>
-        <p><button id="SC" value = "SC" onClick="state_clicked(this.id)">South Carolina</button></p>
-        <p><button id="SD" value = "SD" onClick="state_clicked(this.id)">South Dakota</button></p>
-        <p><button id="TN" value = "TN" onClick="state_clicked(this.id)">Tennessee</button></p>
-        <p><button id="TX" value = "TX" onClick="state_clicked(this.id)">Texas</button></p>
-        <p><button id="UT" value = "UT" onClick="state_clicked(this.id)">Utah</button></p>
-        <p><button id="VT" value = "VT" onClick="state_clicked(this.id)">Vermont</button></p>
-        <p><button id="VA" value = "VA" onClick="state_clicked(this.id)">Virginia</button></p>
-        <p><button id="WA" value = "WA" onClick="state_clicked(this.id)">Washington</button></p>
-        <p><button id="WV" value = "WV" onClick="state_clicked(this.id)">West Virginia</button></p>
-        <p><button id="WI" value = "WI" onClick="state_clicked(this.id)">Wisconsin</button></p>
-        <p><button id="WY" value = "WY" onClick="state_clicked(this.id)">Wyoming</button></p>
+        <p><a href="victims.html"><button id="AL" value = "AL"  onClick="onButtonClicked(this.id)">Alabama</button></p></a>
+        <p><a href="victims.html"><button id="AK" value = "AK"  onClick="onButtonClicked(this.id)">Alaska</button></p></a>
+        <p><a href="victims.html"><button id="AZ" value = "AZ"  onClick="onButtonClicked(this.id)">Arizona</button></p></a>
+        <p><a href="victims.html"><button id="AR" value = "AR"  onClick="onButtonClicked(this.id)">Arkansas</button></p></a>
+        <p><a href="victims.html"><button id="CA" value = "CA"  onClick="onButtonClicked(this.id)">California</button></p></a>
+        <p><a href="victims.html"><button id="CO" value = "CO"  onClick="onButtonClicked(this.id)">Colorado</button></p></a>
+        <p><a href="victims.html"><button id="CT" value = "CT"  onClick="onButtonClicked(this.id)">Connecticut</button></p></a>
+        <p><a href="victims.html"><button id="DE" value = "DE"  onClick="onButtonClicked(this.id)">Delaware</button></p></a>
+        <p><a href="victims.html"><button id="DC" value = "DC"  onClick="onButtonClicked(this.id)">District Of Columbia</button></p></a>
+        <p><a href="victims.html"><button id="FL" value = "FL"  onClick="onButtonClicked(this.id)">Florida</button></p></a>
+        <p><a href="victims.html"><button id="GA" value = "GA"  onClick="onButtonClicked(this.id)">Georgia</button></p></a>
+        <p><a href="victims.html"><button id="HI" value = "HI"  onClick="onButtonClicked(this.id)">Hawaii</button></p></a>
+        <p><a href="victims.html"><button id="ID" value = "ID"  onClick="onButtonClicked(this.id)">Idaho</button></p></a>
+        <p><a href="victims.html"><button id="IL" value = "IL"  onClick="onButtonClicked(this.id)">Illinois</button></p></a>
+        <p><a href="victims.html"><button id="IN" value = "IN"  onClick="onButtonClicked(this.id)">Indiana</button></p></a>
+        <p><a href="victims.html"><button id="IA" value = "IA"  onClick="onButtonClicked(this.id)">Iowa</button></p></a>
+        <p><a href="victims.html"><button id="KS" value = "KS"  onClick="onButtonClicked(this.id)">Kansas</button></p></a>
+        <p><a href="victims.html"><button id="KY" value = "KY"  onClick="onButtonClicked(this.id)">Kentucky</button></p></a>
+        <p><a href="victims.html"><button id="LA" value = "LA"  onClick="onButtonClicked(this.id)">Louisiana</button></p></a>
+        <p><a href="victims.html"><button id="ME" value = "ME"  onClick="onButtonClicked(this.id)">Maine</button></p></a>
+        <p><a href="victims.html"><button id="MD" value = "MD"  onClick="onButtonClicked(this.id)">Maryland</button></p></a>
+        <p><a href="victims.html"><button id="MA" value = "MA"  onClick="onButtonClicked(this.id)">Massachusetts</button></p></a>
+        <p><a href="victims.html"><button id="MI" value = "MI"  onClick="onButtonClicked(this.id)">Michigan</button></p></a>
+        <p><a href="victims.html"><button id="MN" value = "MN"  onClick="onButtonClicked(this.id)">Minnesota</button></p></a>
+        <p><a href="victims.html"><button id="MS" value = "MS"  onClick="onButtonClicked(this.id)">Mississippi</button></p></a>
+        <p><a href="victims.html"><button id="MO" value = "MO"  onClick="onButtonClicked(this.id)">Missouri</button></p></a>
+        <p><a href="victims.html"><button id="MT" value = "MT"  onClick="onButtonClicked(this.id)">Montana</button></p></a>
+        <p><a href="victims.html"><button id="NE" value = "NE"  onClick="onButtonClicked(this.id)">Nebraska</button></p></a>
+        <p><a href="victims.html"><button id="NV" value = "NV"  onClick="onButtonClicked(this.id)">Nevada</button></p></a>
+        <p><a href="victims.html"><button id="NH" value = "NH"  onClick="onButtonClicked(this.id)">New Hampshire</button></p></a>
+        <p><a href="victims.html"><button id="NJ" value = "NJ"  onClick="onButtonClicked(this.id)">New Jersey</button></p></a>
+        <p><a href="victims.html"><button id="NM" value = "NM"  onClick="onButtonClicked(this.id)">New Mexico</button></p></a>
+        <p><a href="victims.html"><button id="NY" value = "NY"  onClick="onButtonClicked(this.id)">New York</button></p></a>
+        <p><a href="victims.html"><button id="NC" value = "NC"  onClick="onButtonClicked(this.id)">North Carolina</button></p></a>
+        <p><a href="victims.html"><button id="ND" value = "ND"  onClick="onButtonClicked(this.id)">North Dakota</button></p></a>
+        <p><a href="victims.html"><button id="OH" value = "OH"  onClick="onButtonClicked(this.id)">Ohio</button></p></a>
+        <p><a href="victims.html"><button id="OK" value = "OK"  onClick="onButtonClicked(this.id)">Oklahoma</button></p></a>
+        <p><a href="victims.html"><button id="OR" value = "OR"  onClick="onButtonClicked(this.id)">Oregon</button></p></a>
+        <p><a href="victims.html"><button id="PA" value = "PA"  onClick="onButtonClicked(this.id)">Pennsylvania</button></p></a>
+        <p><a href="victims.html"><button id="RI" value = "RI"  onClick="onButtonClicked(this.id)">Rhode Island</button></p></a>
+        <p><a href="victims.html"><button id="SC" value = "SC"  onClick="onButtonClicked(this.id)">South Carolina</button></p></a>
+        <p><a href="victims.html"><button id="SD" value = "SD"  onClick="onButtonClicked(this.id)">South Dakota</button></p></a>
+        <p><a href="victims.html"><button id="TN" value = "TN"  onClick="onButtonClicked(this.id)">Tennessee</button></p></a>
+        <p><a href="victims.html"><button id="TX" value = "TX"  onClick="onButtonClicked(this.id)">Texas</button></p></a>
+        <p><a href="victims.html"><button id="UT" value = "UT"  onClick="onButtonClicked(this.id)">Utah</button></p></a>
+        <p><a href="victims.html"><button id="VT" value = "VT"  onClick="onButtonClicked(this.id)">Vermont</button></p></a>
+        <p><a href="victims.html"><button id="VA" value = "VA"  onClick="onButtonClicked(this.id)">Virginia</button></p></a>
+        <p><a href="victims.html"><button id="WA" value = "WA"  onClick="onButtonClicked(this.id)">Washington</button></p></a>
+        <p><a href="victims.html"><button id="WV" value = "WV"  onClick="onButtonClicked(this.id)">West Virginia</button></p></a>
+        <p><a href="victims.html"><button id="WI" value = "WI"  onClick="onButtonClicked(this.id)">Wisconsin</button></p></a>
+        <p><a href="victims.html"><button id="WY" value = "WY"  onClick="onButtonClicked(this.id)">Wyoming</button></p></a>
     </div>
     
-    <ul id="victims_list"></ul>
-
 <!-- Implment later
     <div id="state-summary"></div>
 
