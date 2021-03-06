@@ -1,14 +1,188 @@
+/* CSS for the state list*/
 body {
   margin: 20px;
   font-family: Helvetica;
   background: #ddffdd;
 }
-div {
+.statelist {
   float:left;
   width:150px;
   height:700px;
   overflow:auto;
 }
+
+/* CSS for the filter*/
+.sidebar{
+  float:right;
+  display: flex;
+  flex-direction: column; 
+  background: none;
+  border: none;
+  width: 30vh;
+}
+
+#state{
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  margin-top: 5vh; 
+  background: #2F4F4F;
+}
+
+.search{
+  display: flex;
+  align-items: flex-start;
+  height: 7vh; 
+  background:none;
+  border: none; 
+}
+
+.search input[type=text] {
+  height: 100%;
+  width: 75%; 
+  border: 1px solid grey;
+  border-right: none; 
+} 
+
+.search button {
+  height: 100%;
+  flex: 1; 
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer; 
+}
+#age {
+  display: flex; 
+  height: 9vh;
+  background: #2F4F4F;
+}
+
+.year {
+  display: flex;
+  flex-direction: column; 
+  height: auto; 
+  background: #2F4F4F;
+}
+
+.from_year{
+  display: flex;
+  background: #2F4F4F;
+  padding-left: 5vh;
+}
+
+.from_year input[type=text]{
+  width: 50%; 
+  border: 1px solid grey;
+  margin-right: 5px; 
+  border-right: none; 
+}
+
+.to_year{
+  display: flex;
+  background: #2F4F4F;
+  padding-left: 54px;
+}
+
+.to_year input[type=text]{
+  width: 92px; 
+  border: 1px solid grey;
+  border-right: none; 
+}
+
+
+.race {
+  display: flex;
+  flex-direction: column;
+  height: 16vh; 
+  background: #2F4F4F;
+}
+
+.race_checkbox {
+  display: flex; 
+  padding-left: 31px; 
+}
+
+.armed {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 10vh; 
+  background: #2F4F4F;
+  padding-top: 0;
+}
+
+.armed_checkbox{
+  display: flex; 
+  padding-left: 31px;
+}
+
+.filter {
+  display: flex;
+  height: 8vh;
+  background: #2F4F4F;
+}
+
+.filter button{
+  height: 100%;
+  width: 100%;
+
+}
+
+.analyze {
+  display: flex;
+  height: 6vh;
+  background: #2F4F4F;
+}
+
+.analyze_button {
+  height: 100%;
+  width: 100%;
+}
+
+.home {
+  display: flex;
+  height: 5vh;
+  background: #2F4F4F;
+}
+
+.home_button {
+  height: 100%;
+  width: 100%;
+}
+
+.bread_table {
+  display: flex;
+  flex-direction: column; 
+  background: none;
+  border: none;
+  width: 100%;
+}
+
+.bread_table #breadcrumb {
+  height: 20px; 
+  width: 100%; 
+  background: none;
+  border: none;
+}
+
+.bread_table #table {
+  height: 100%;
+  width: 100%;
+  background: none; 
+  border: none; 
+}
+
+/*CSS for the data*/
+.data { 
+  width:50%; 
+  height:80%; 
+  position: fixed; 
+  top: 20%; 
+  left: 40%;
+  margin-top: -100px; 
+  margin-left: -100px; 
+} 
 /* Implment later
 #map-container {
   position: relative;
