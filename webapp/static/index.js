@@ -47,14 +47,14 @@ var genderCheck = [];
 
 function checkMale(){
     if (checkBox.checked == true){
-        genderCheck.push(document.getElementById("myCheck").value);
+        genderCheck.push(document.getElementById("male").value);
     } else {
          text.style.display = "none";
       }
 }
 function checkFemale(){
     if (checkBox.checked == true){
-        genderCheck.push(document.getElementById("myCheck").value);
+        genderCheck.push(document.getElementById("female").value);
     } else {
          text.style.display = "none";
       }
@@ -63,35 +63,35 @@ var ethnicChecks = [];
 
 function checkAfrican(){
     if (checkBox.checked == true){
-        ethnicCheck.push(document.getElementById("myCheck").value);
+        ethnicCheck.push(document.getElementById("african_american").value);
     } else {
          text.style.display = "none";
       }
 }
 function checkAsian(){
     if (checkBox.checked == true){
-        ethnicCheck.push(document.getElementById("myCheck").value);
+        ethnicCheck.push(document.getElementById("asian").value);
     } else {
          text.style.display = "none";
       }
 }
 function checkHispanic(){
     if (checkBox.checked == true){
-        ethnicCheck.push(document.getElementById("myCheck").value);
+        ethnicCheck.push(document.getElementById("hispanic").value);
     } else {
          text.style.display = "none";
       }
 }
 function checkWhite(){
     if (checkBox.checked == true){
-        ethnicCheck.push(document.getElementById("myCheck").value);
+        ethnicCheck.push(document.getElementById("white").value);
     } else {
          text.style.display = "none";
       }
 }
 function checkOther(){
     if (checkBox.checked == true){
-        ethnicCheck.push(document.getElementById("myCheck").value);
+        ethnicCheck.push(document.getElementById("other").value);
     } else {
          text.style.display = "none";
       }
