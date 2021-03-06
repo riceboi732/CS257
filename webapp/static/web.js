@@ -5,17 +5,11 @@
 window.onload = initialize;
 
 function initialize(clicked_id) {
+
+}
+function state_clicked(clicked_id){
     var element = document.getElementById(clicked_id);
-    var state,
-    element = document.getElementById(clicked_id);
-    if (element != null) {
-        state = element.value;
-        alert(state);
-        alert(clicked_id);
-    }
-    else {
-        state = null;
-    }
+    state = document.getElementById(clicked_id).value;
 
     if(element){
         element.onclick = onButtonClicked;
@@ -28,7 +22,7 @@ function getAPIBaseURL() {
 }
 
 function onButtonClicked(clicked_id) {
-    var url = getAPIBaseURL() + '/victims?state=' + clicked_id;
+    var url = getAPIBaseURL() + '/victims?state=' + state;
     console.log(url)
     fetch(url, {method: 'get'})
 
