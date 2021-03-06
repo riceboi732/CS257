@@ -4,16 +4,21 @@
 
 window.onload = initialize;
 
-function initialize() {
-    initializeMap();
-    var element = document.getElementById('minnesota_button');
-    if (element) {
-        element.onclick = onMinnesotaButton;
+function initialize(clicked_id) {
+    var element = document.getElementById(clicked_id);
+    var state,
+    element = document.getElementById(clicked_id);
+    if (element != null) {
+        state = element.value;
+        alert(state);
+        alert(clicked_id);
+    }
+    else {
+        state = null;
     }
 
-    var element = document.getElementById('washington_button');
-    if (element) {
-        element.onclick = onWashingtonButton;
+    if(element){
+        element.onclick = onButtonClicked;
     }
 }
 
@@ -22,17 +27,17 @@ function getAPIBaseURL() {
     return baseURL;
 }
 
-function onMinnesotaButton() {
-    var url = getAPIBaseURL() + '/victims?state=MN';
+function onButtonClicked(clicked_id) {
+    var url = getAPIBaseURL() + '/victims?state=' + clicked_id;
     console.log(url)
     fetch(url, {method: 'get'})
 
     .then((response) => response.json())
 
-    .then(function(minnesota) {
+    .then(function(state) {
         var listBody = '';
-        for (var k = 0; k < minnesota.length; k++) {
-            var victim = minnesota[k];
+        for (var k = 0; k < state.length; k++) {
+            var victim = state[k];
             listBody += '<li>' + victim['date']
                       + ', ' + victim['name']
                       + ',' + victim['age']
@@ -54,37 +59,6 @@ function onMinnesotaButton() {
     });
 }
 
-function onWashingtonButton() {
-    var url = getAPIBaseURL() + '/victims?state=WA';
-
-    fetch(url, {method: 'get'})
-
-    .then((response) => response.json())
-
-    .then(function(washington) {
-        var listBody = '';
-        for (var k = 0; k < washington.length; k++) {
-            var victim = washington[k];
-            listBody += '<li>' + victim['date']
-                      + ', ' + victim['name']
-                      + ',' + victim['age']
-                      + ', ' + victim['gender'];
-                      + ', ' + victim['ethnicity'];
-                      + ', ' + victim['armed'];
-                      + ', ' + victim['state'];
-                      + '</li>\n';
-        }
-        console.log(listBody)
-        var victimListElement = document.getElementById('victims_list');
-        if (victimListElement) {
-            victimListElement.innerHTML = listBody;
-        }
-    })
-
-    .catch(function(error) {
-        console.log(error);
-    });
-}
 //* Implment Later
 //  * webapp.js
 //  * Victor Huang, Martin Bernard
