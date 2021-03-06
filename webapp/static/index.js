@@ -81,7 +81,6 @@ function checkOther(){
          text.style.display = "none";
       }
 }
-document.getElementById("demo").innerHTML = ethnicCheck;
 //* Implment Later
 //  * webapp.js
 //  * Victor Huang, Martin Bernard
