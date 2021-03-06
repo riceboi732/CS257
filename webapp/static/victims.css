@@ -1,157 +1,167 @@
-html{
-    height: 100%;
-    width: 100%; 
-}
 body{
-    height: 100%;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px
+    display: flex;
+    min-height: 100vh;
+    margin: 0; 
+    background: #F5F5F5;
 }
-.main-wrapper{
-    top: 0px;
-    left: 0px;
+
+.sidebar{
+    display: flex;
+    flex-direction: column; 
+    background: none;
+    border: none;
+    width: 30vh;
+}
+
+#state{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    margin-top: 5vh; 
+    background: #2F4F4F;
+}
+
+.search{
+    display: flex;
+    align-items: flex-start;
+    height: 7vh; 
+    background:none;
+    border: none; 
+}
+
+.search input[type=text] {
+    height: 100%;
+    width: 75%; 
+    border: 1px solid grey;
+    border-right: none; 
+} 
+
+.search button {
+    height: 100%;
+    flex: 1; 
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer; 
+}
+#age {
+    display: flex; 
+    height: 9vh;
+    background: #2F4F4F;
+}
+
+.year {
+    display: flex;
+    flex-direction: column; 
+    height: auto; 
+    background: #2F4F4F;
+}
+
+.from_year{
+    display: flex;
+    background: #2F4F4F;
+    padding-left: 5vh;
+}
+
+.from_year input[type=text]{
+    width: 50%; 
+    border: 1px solid grey;
+    margin-right: 5px; 
+    border-right: none; 
+}
+
+.to_year{
+    display: flex;
+    background: #2F4F4F;
+    padding-left: 54px;
+}
+
+.to_year input[type=text]{
+    width: 92px; 
+    border: 1px solid grey;
+    border-right: none; 
+}
+
+
+.race {
+    display: flex;
+    flex-direction: column;
+    height: 16vh; 
+    background: #2F4F4F;
+}
+
+.race_checkbox {
+    display: flex; 
+    padding-left: 31px; 
+}
+
+.armed {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 10vh; 
+    background: #2F4F4F;
+    padding-top: 0;
+}
+
+.armed_checkbox{
+    display: flex; 
+    padding-left: 31px;
+}
+
+.filter {
+    display: flex;
+    height: 8vh;
+    background: #2F4F4F;
+}
+
+.filter button{
     height: 100%;
     width: 100%;
-    position: fixed;
-    background-color: red;
+
 }
 
-.sidebar-container{
+.analyze {
+    display: flex;
+    height: 6vh;
+    background: #2F4F4F;
+}
+
+.analyze_button {
     height: 100%;
-    width: 182px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
+    width: 100%;
 }
 
-#indicate-state{
-    top: 0;
-    left: 0;
-    height: 55px;
-    text-align: center;
-    color: white;
-    border-style: solid;
-    border-top-color: #111;
-    border-left-color: #111;
-    border-right-color: #111;
-    border-bottom-color: #808080;
-    border-width: 1px;
-    margin-bottom: 10px;
+.home {
+    display: flex;
+    height: 5vh;
+    background: #2F4F4F;
 }
 
-.search-container{
-    height: 50px;
-    width: 180px;
-    position: relative;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden; 
-    border-style: solid; 
-    border-top-color: #111;
-    border-left-color: #111;
-    border-right-color: #111;
-    border-bottom-color: #808080;
-    border-width: 1px;
-    margin-bottom: 10px; 
+.home_button {
+    height: 100%;
+    width: 100%;
 }
 
-#search{
-    height: 35px;
-    width: 180px;
+.bread_table {
+    display: flex;
+    flex-direction: column; 
+    background: none;
+    border: none;
+    width: 100%;
 }
 
-.year-container{
-    height: 100px;
-    width: 180px;
-    position: relative;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden; 
-    border-style: solid; 
-    border-top-color: #111;
-    border-left-color: #111;
-    border-right-color: #111;
-    border-bottom-color: #808080;
-    border-width: 1px;
-    padding-bottom: 0px;
-    margin-bottom: 10px; 
+.bread_table #breadcrumb {
+    height: 20px; 
+    width: 100%; 
+    background: none;
+    border: none;
 }
 
-.sidebar-container h2{
-    top: 0px;
-    left: 0px;
-    text-align: left;
-    margin-top: 0px;
-    margin-bottom: 5px;
-    color: white;
+.bread_table #table {
+    height: 100%;
+    width: 100%;
+    background: none; 
+    border: none; 
 }
 
-.year-container #search-container{
-    height: 20px;
-    width: 180px;
-    position: relative;
-    border-style: solid;
-    border-color: #111;
-    border-width: 1px; 
-    
-}
-.year-container #search-label{
-    text-align: left;
-    margin-top: 0px;
-    margin-bottom: 2px;
-    padding-right: 5px;
-    color: white;
-    float: left; 
-}
-
-.year-container #from-year{
-    width: 100px; 
-    padding-right: 10px;    
-}
-
-.year-container #to-year{
-    width: 100px; 
-    padding-right: 10px; 
-    margin-left: 21px;  
-}
-
-.ethnicity-container{
-    height: 150px;
-    width: 180px; 
-    position: relative;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    border-style: solid;
-    border-color: white;
-    border-width: 1px; 
-}
-
-.ethnicity-container #checkbox-container{
-    height: 20px;
-    width: 180px;
-    position: relative;
-    border-style: solid;
-    border-color: white; 
-    border-width: 1px; 
-}
-
-.race-label{
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 2px;
-    padding-right: 5px;
-    color: white;
-    float: left; 
-}

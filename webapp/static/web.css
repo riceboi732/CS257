@@ -1,13 +1,33 @@
-/*
-    webapp.css
-    Jeff Ondich
-    6 November 2020
-
-    CSS for the tiny web app for CS257.
-*/
-
 body {
-  margin: 40px;
+  margin: 20px;
   font-family: Helvetica;
-  background: black;
+  background: #ddffdd;
 }
+div {
+  float:left;
+  width:150px;
+  height:700px;
+  overflow:auto;
+}
+/* Implment later
+#map-container {
+  position: relative;
+  float: left;
+  height: 0;
+  width: 80%;
+  padding-bottom: 60%;
+  background: blue;
+}
+#goals {
+  float: left;
+  width: 40%;
+}
+#state-summary {
+  float: right;
+  width: 40%;
+}
+.hoverpopup {
+  background: #eeeeee;
+  border: 1px black solid;
+  padding: 5px;
+} */

@@ -15,7 +15,7 @@ def connect_to_database():
     from config import user
 
     try:
-        connection = psycopg2.connect(database=database, user=user, password=password)
+        connection = psycopg2.connect(database='shootings', user='', password='')
         return connection
     except Exception as e:
         print(e)
