@@ -3,6 +3,7 @@ import flask
 import psycopg2
 import argparse
 import json 
+import os
 import sys 
 
 api = flask.Blueprint('', __name__)
@@ -15,7 +16,7 @@ def connect_to_database():
     from config import user
 
     try:
-        connection = psycopg2.connect(database='shootings', user='', password='')
+        connection = psycopg2.connect(database=database, user=user, password=password)
         return connection
     except Exception as e:
         print(e)
@@ -171,7 +172,7 @@ def get_victims():
     return json.dumps(victims_list, indent=4, default=str)
 
     
-@api.route('/victims/analyze/year/<state_ab>')
+@api.route('/victims/analyze/<state_ab>')
 def get_vis_data(state_ab):
     state = state_ab
     min_year = 1000
@@ -211,6 +212,9 @@ def get_vis_data(state_ab):
 
     return json.dumps(victims_list, indent=4, default=str)
 
+@api.route('/api/help')
+def get_api_help():
+    return flask.render_template('api_help.html')
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser('Webapp')

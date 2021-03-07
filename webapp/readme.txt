@@ -1,10 +1,14 @@
-Working Features:
+AUTHORS: Martin Bernard & Victor Huang
+
+DATA: Victims of police shootings in the United States from 2015 to 2020
+
+FEATURES CURRENTLY WORKING: 
     - Clickable state button: Allow users to click on a state and redirect them to a second page where victims from that state are listed
     - Year Range Text Input: Allow users to choose the range of year when the shootings occurred
     - Race Checkbox: Allow users to choose the victims from a specific race/ethnicity
     - Armed Checkbox: Allow users to view unarmed or armed victims
 
-Features to be Implamented:
+FEATURES NOT YET WORKING: 
     - Clickable Map of the US: When the user click on a state on the map, it will redirect them to a page where all the victims
                                from the clicked-state will be displayed
     - View All button: A button that redirects the user to a second page where all the victims from the United States are listed
