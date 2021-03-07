@@ -15,7 +15,7 @@
 '''
 
 # Change these values as appropriate for your postgresql setup.
-database = 'shootings'
-user = 'victorhuang'
-password = 'Edison2China'
+user='jondich'
+password=''
+database='grading'
 
