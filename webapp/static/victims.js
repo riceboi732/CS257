@@ -4,27 +4,23 @@
 
 window.onload = initialize;
 
-function initialize() {
-}
-
-function getAPIBaseURL() {
+function initialize(){
     var baseURL = window.location.protocol + '//' + window.location.hostname + ':' + window.location.port + '';
-    return baseURL;
-}
+    
+    var url = window.location.href;
+    var state_id = url.substring(41)
 
-function onButtonClicked(clicked_id) {
-    var element = document.getElementById(clicked_id);
-    state = document.getElementById(clicked_id).value;
-    var url = getAPIBaseURL() + '/victims?state=' + state;
-    console.log(url)
-    fetch(url, {method: 'get'})
+    var apiUrl = baseURL + '/victims?state=' + state_id;
+    console.log(apiUrl)
+
+    fetch(apiUrl, {method: 'get'})
 
     .then((response) => response.json())
-
+    
     .then(function(state) {
         var listBody = '';
         for (var k = 0; k < state.length; k++) {
-            var victim = state[k];
+            var victim = state[k]
             listBody += '<li>' + victim['date']
                       + ', ' + victim['name']
                       + ',' + victim['age']
@@ -39,10 +35,85 @@ function onButtonClicked(clicked_id) {
             victimListElement.innerHTML = listBody;
         }
     })
+}
 
-    .catch(function(error) {
-        console.log(error);
-    });
+function onFilter(){
+    var min_year = document.getElementById('min_year').value;
+    var max_year = document.getElementById('max_year').value; 
+
+    var ethnicity = raceCheck();
+
+    var arm = armedCheck();
+
+    if (ethnicity === undefined){
+        ethnicity = "all"
+    }
+
+    var baseURL = window.location.protocol + '//' + window.location.hostname + ':' + window.location.port + '';
+
+    var url = window.location.href;
+    var state_id = url.substring(41)
+
+    var apiUrl = baseURL + '/victims?state=' + state_id + '&ethnicity=' + ethnicity + '&armed=' + arm 
+                    + '&min_year=' + min_year + '&max_year=' + max_year;
+    console.log(apiUrl)
+    fetch(apiUrl, {method: 'get'})
+
+    .then((response) => response.json())
+    
+    .then(function(state) {
+        var listBody = '';
+        for (var k = 0; k < state.length; k++) {
+            var victim = state[k]
+            listBody += '<li>' + victim['date']
+                      + ', ' + victim['name']
+                      + ',' + victim['age']
+                      + ', ' + victim['gender'];
+                      + ', ' + victim['ethnicity'];
+                      + ', ' + victim['armed'];
+                      + ', ' + victim['state'];
+                      + '</li>\n';
+        }
+        var victimListElement = document.getElementById('victims_list');
+        if (victimListElement) {
+            victimListElement.innerHTML = listBody;
+        }
+    })
+}
+
+function raceCheck(){
+    var raceDict = {'african_american': "Black", 
+                    'asian': "Asian", 'hispanic': "Hispanic", 'other': "Other"}
+    var raceId = ['african_american', 'asian', 'hispanic', 'white', 'other']
+
+    var checkedRace = "all"
+
+    for(var i = 0; i < raceId.length; i++){
+        if(document.getElementById(raceId[i]).checked){
+            checkedRace = raceId[i]
+        }
+    }
+
+    if(raceDict[checkedRace] == undefined){
+        return "all";
+    }
+    else{
+        return raceDict[checkedRace]
+    }
+}
+
+function armedCheck() {
+    var armedId = ['armed', 'unarmed'];
+
+    var checkedArm = 'all';
+
+    for(var i = 0; i < armedId.length; i++){
+        if(document.getElementById(armedId[i]).checked){
+            checkedArm = armedId[i]
+        }
+    }
+    console.log(checkedArm);
+    return checkedArm; 
 }
 
 //* Implment Later

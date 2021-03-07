@@ -4,98 +4,23 @@
 
 window.onload = initialize;
 
-function initialize() {
+function initialize(){
+    const wrapper = document.getElementById('state_button_container');
+    if (wrapper != null) {
+        wrapper.addEventListener('click', (event) => {
+            if (event.target.className === 'stateButton'){
+                var template = getAPIBaseURL() + '/victims.html?state=' + event.target.id;
+                window.location.assign(template);
+            }
+        })
+    }
 }
 
 function getAPIBaseURL() {
     var baseURL = window.location.protocol + '//' + window.location.hostname + ':' + window.location.port + '';
     return baseURL;
 }
-function onButtonClicked(clicked_id) {
-    var element = document.getElementById(clicked_id);
-    state = document.getElementById(clicked_id).value;
-    var url = getAPIBaseURL() + '/victims?state=' + state;
-    console.log(url)
-    fetch(url, {method: 'get'})
 
-    .then((response) => response.json())
-
-    .then(function(state) {
-        var listBody = '';
-        for (var k = 0; k < state.length; k++) {
-            var victim = state[k];
-            listBody += '<li>' + victim['date']
-                      + ', ' + victim['name']
-                      + ',' + victim['age']
-                      + ', ' + victim['gender'];
-                      + ', ' + victim['ethnicity'];
-                      + ', ' + victim['armed'];
-                      + ', ' + victim['state'];
-                      + '</li>\n';
-        }
-        var victimListElement = document.getElementById('victims_list');
-        if (victimListElement) {
-            victimListElement.innerHTML = listBody;
-        }
-    })
-
-    .catch(function(error) {
-        console.log(error);
-    });
-}
-var genderCheck = [];
-
-function checkMale(){
-    if (checkBox.checked == true){
-        genderCheck.push(document.getElementById("male").value);
-    } else {
-         text.style.display = "none";
-      }
-}
-function checkFemale(){
-    if (checkBox.checked == true){
-        genderCheck.push(document.getElementById("female").value);
-    } else {
-         text.style.display = "none";
-      }
-}
-var ethnicChecks = [];
-
-function checkAfrican(){
-    if (checkBox.checked == true){
-        ethnicCheck.push(document.getElementById("african_american").value);
-    } else {
-         text.style.display = "none";
-      }
-}
-function checkAsian(){
-    if (checkBox.checked == true){
-        ethnicCheck.push(document.getElementById("asian").value);
-    } else {
-         text.style.display = "none";
-      }
-}
-function checkHispanic(){
-    if (checkBox.checked == true){
-        ethnicCheck.push(document.getElementById("hispanic").value);
-    } else {
-         text.style.display = "none";
-      }
-}
-function checkWhite(){
-    if (checkBox.checked == true){
-        ethnicCheck.push(document.getElementById("white").value);
-    } else {
-         text.style.display = "none";
-      }
-}
-function checkOther(){
-    if (checkBox.checked == true){
-        ethnicCheck.push(document.getElementById("other").value);
-    } else {
-         text.style.display = "none";
-      }
-}
 //* Implment Later
 //  * webapp.js
 //  * Victor Huang, Martin Bernard
