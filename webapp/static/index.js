@@ -5,6 +5,7 @@
 window.onload = initialize;
 
 function initialize(){
+    //Gives the state abbreviation of clicked state as an url parameter  
     const wrapper = document.getElementById('state_button_container');
     if (wrapper != null) {
         wrapper.addEventListener('click', (event) => {
@@ -23,7 +24,9 @@ function getAPIBaseURL() {
     return baseURL;
 }
 
+
 function initializeMap(){
+    //Create the map
     var map = new Datamap({ element: document.getElementById('map-container'),
                             scope: 'usa',
                             projection: 'equirectangular',

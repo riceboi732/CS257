@@ -1,11 +1,13 @@
+<!--Martin Bernard and Victor Huang-->
 <!DOCTYPE html>
-<html>
+<html lang="en" xml:lang="en">
     <head>
         <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='victims.css') }}" />
         <script src="{{ url_for('static', filename='victims.js') }}"></script>
         <title>
             Victims 
         </title>
+        <meta content="text/html; charset=utf-8" />
     </head>
     <body>
         <div class="sidebar">
@@ -38,30 +40,30 @@
             </div>
             <div class="race"> Race
                 <div class="race_checkbox"> African American: 
-                    <input type="checkbox" id="african_american" unchecked>
+                    <input type="radio" id="african_american" name="race" unchecked>
                 </div>
                 <div class="race_checkbox"> Asian: 
-                    <input type="checkbox" id="asian" unchecked>
+                    <input type="radio" id="asian" name="race" unchecked>
                 </div>
                 <div class="race_checkbox"> Hispanic: 
-                    <input type="checkbox" id="hispanic" unchecked>
+                    <input type="radio" id="hispanic" name="race" unchecked>
                 </div>
                 <div class="race_checkbox"> Native: 
-                    <input type="checkbox" id="native" unchecked>
+                    <input type="radio" id="native" name="race" unchecked>
                 </div>
                 <div class="race_checkbox"> White: 
-                    <input type="checkbox" id="white" unchecked>
+                    <input type="radio" id="white" name="race" unchecked>
                 </div>
                 <div class="race_checkbox"> Other: 
-                    <input type="checkbox" id="other" unchecked>
+                    <input type="radio" id="other" name="race" unchecked>
                 </div>
             </div>
             <div class="armed">Armed
                 <div class="armed_checkbox"> Armed:
-                    <input type="checkbox" id="armed" unchecked>
+                    <input type="radio" id="armed" name="armed_status" unchecked>
                 </div>
                 <div class="armed_checkbox"> Unarmed: 
-                    <input type="checkbox" id="unarmed" unchecked>
+                    <input type="radio" id="unarmed" name="armed_status" unchecked>
                 </div>
             </div>
             <div class="filter">

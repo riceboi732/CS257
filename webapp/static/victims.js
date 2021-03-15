@@ -5,6 +5,8 @@
 window.onload = initialize;
 
 function initialize(){
+
+    //initialize tables of the victims from the chosen state
     var apiUrl = getAPIBaseURL() + '/victims?state=' + getStateId();
     console.log(apiUrl)
 
@@ -19,6 +21,7 @@ function initialize(){
         }
     })
 
+    //Indicates the state the user has chose
     var state_name_element = document.getElementById('full_name');
     if (state_name_element){
         console.log(getStateId())
@@ -29,7 +32,9 @@ function initialize(){
 
 }
 
+
 function getStateName(abbreviation){
+    //Return the full name of a state when given its abbreviation 
     var state_dict = {"AL": "Alabama", "AK": "Alaska", "AZ": "Arizona", "AR": "Arkansas", "CA": "California",
                       "CO": "Colorado", "CT": "Connecticut", "DE": "Delaware", "DC": "District of Columbia",
                       "FL": "Florida", "GA": "Georgia", "HI": "Hawaii", "ID": "Idaho","IL": "Illinois",
@@ -45,11 +50,13 @@ function getStateName(abbreviation){
 }
 
 function getAPIBaseURL() {
+    //Get the base url 
     var baseURL = window.location.protocol + '//' + window.location.hostname + ':' + window.location.port + '';
     return baseURL;
 }
 
 function getStateId(){
+    //Get the state abbreviation from the page's url 
     var url = window.location.href;
     var state_id = url.substring(41);
 
@@ -57,6 +64,7 @@ function getStateId(){
 }
 
 function onFilter(){
+    //Calls the API based on the given filter parameters 
     var min_year = document.getElementById('min_year').value;
     var max_year = document.getElementById('max_year').value; 
     var min_age = document.getElementById('min_age').value;
@@ -89,12 +97,13 @@ function onFilter(){
 }
 
 function raceCheck(){
+    //Checks to see which race has been selected 
     var raceDict = {'african_american': "Black", 
                     'asian': "Asian", 'hispanic': "Hispanic", 'native': "Native", 'white': "White", 'other': "Other"}
     var raceId = ['african_american', 'asian', 'hispanic', 'native', 'white', 'other']
 
     var checkedRace = "all"
-        
+
     for(var i = 0; i < raceId.length; i++){
         if(document.getElementById(raceId[i]).checked){
             checkedRace = raceId[i]
@@ -110,6 +119,7 @@ function raceCheck(){
 }
 
 function armedCheck() {
+    //Check which armed status has been checked 
     var armedId = ['armed', 'unarmed'];
 
     var checkedArm = 'all';
@@ -124,6 +134,7 @@ function armedCheck() {
 }
 
 function makeTable(state){
+    //Create the HTML table 
     var titleRow = '<tr>\n' 
                     + '<th>' + 'Date' + '</th>\n'
                     + '<th>' + 'Name' + '</th>\n'
@@ -161,10 +172,12 @@ function makeTable(state){
 }
 
 function onHome(){
+    //Reassign location when home button is clicked 
     window.location.assign(getAPIBaseURL());
 }
 
 function onSearch(){
+    //Returns the victims based on the search value 
     var search_value = document.getElementById('search').value;
     
     var apiUrl = getAPIBaseURL() + '/victims?state=' + getStateId() + '&search=' + search_value; 
@@ -185,6 +198,7 @@ function onSearch(){
 }
 
 function makeBread(){
+    //Makes breadcrumb navigation 
     var homeBread = '<a href=' + getAPIBaseURL() + '> Home</a>';
 
     var homeBreadButton = document.getElementById('home');
