@@ -5,12 +5,7 @@
 window.onload = initialize;
 
 function initialize(){
-    var baseURL = window.location.protocol + '//' + window.location.hostname + ':' + window.location.port + '';
-    
-    var url = window.location.href;
-    var state_id = url.substring(41)
-
-    var apiUrl = baseURL + '/victims?state=' + state_id;
+    var apiUrl = getAPIBaseURL() + '/victims?state=' + getStateId();
     console.log(apiUrl)
 
     fetch(apiUrl, {method: 'get'})
@@ -18,23 +13,47 @@ function initialize(){
     .then((response) => response.json())
     
     .then(function(state) {
-        var listBody = '';
-        for (var k = 0; k < state.length; k++) {
-            var victim = state[k]
-            listBody += '<li>' + victim['date']
-                      + ', ' + victim['name']
-                      + ',' + victim['age']
-                      + ', ' + victim['gender'];
-                      + ', ' + victim['ethnicity'];
-                      + ', ' + victim['armed'];
-                      + ', ' + victim['state'];
-                      + '</li>\n';
-        }
-        var victimListElement = document.getElementById('victims_list');
+        var victimListElement = document.getElementById('victims_table');
         if (victimListElement) {
-            victimListElement.innerHTML = listBody;
+            victimListElement.innerHTML = makeTable(state);
         }
     })
+
+    var state_name_element = document.getElementById('full_name');
+    if (state_name_element){
+        console.log(getStateId())
+        state_name_element.innerHTML = getStateName(getStateId())
+    }
+
+    makeBread(); 
+
+}
+
+function getStateName(abbreviation){
+    var state_dict = {"AL": "Alabama", "AK": "Alaska", "AZ": "Arizona", "AR": "Arkansas", "CA": "California",
+                      "CO": "Colorado", "CT": "Connecticut", "DE": "Delaware", "DC": "District of Columbia",
+                      "FL": "Florida", "GA": "Georgia", "HI": "Hawaii", "ID": "Idaho","IL": "Illinois",
+                      "IN": "Indiana", "IA": "Iowa", "KS": "Kansas", "KY": "Kentucky", "LA": "Louisiana", "ME": "Maine",
+                      "MD": "Maryland", "MA": "Massachusetts", "MI": "Michigan", "MN": "Minnesota", "MS": "Mississippi", "MO": "Missouri",
+                      "MT": "Montana", "NE": "Nebraska", "NV": "Nevada", "NH": "New Hempshire", "NJ": "New Jersey", "NM": "New Mexico", 
+                      "NY": "New York", "NC": "North Carolina", "ND": "North Dakota", "OH": "Ohio", "OK": "Oklahoma",  "OR": "Oregon",
+                      "PA": "Pennsylvania", "RI": "Rhode Island", "SC": "South Carolina", "SD": "South Dakota", "TN": "Tennessee",
+                      "TX": "Texas", "UT": "Utah", "VT": "Vermont", "VA": "Virginia", "WA": "Washington", "WV": "West Virginia",
+                      "WI": "Wisconsin", "WY": "Wyoming", "all": "United States"};
+    
+    return state_dict[abbreviation]; 
+}
+
+function getAPIBaseURL() {
+    var baseURL = window.location.protocol + '//' + window.location.hostname + ':' + window.location.port + '';
+    return baseURL;
+}
+
+function getStateId(){
+    var url = window.location.href;
+    var state_id = url.substring(41);
+
+    return state_id; 
 }
 
 function onFilter(){
@@ -49,12 +68,7 @@ function onFilter(){
         ethnicity = "all"
     }
 
-    var baseURL = window.location.protocol + '//' + window.location.hostname + ':' + window.location.port + '';
-
-    var url = window.location.href;
-    var state_id = url.substring(41)
-
-    var apiUrl = baseURL + '/victims?state=' + state_id + '&ethnicity=' + ethnicity + '&armed=' + arm 
+    var apiUrl = getAPIBaseURL() + '/victims?state=' + getStateId() + '&ethnicity=' + ethnicity + '&armed=' + arm 
                     + '&min_year=' + min_year + '&max_year=' + max_year;
     console.log(apiUrl)
     fetch(apiUrl, {method: 'get'})
@@ -62,29 +76,20 @@ function onFilter(){
     .then((response) => response.json())
     
     .then(function(state) {
-        var listBody = '';
-        for (var k = 0; k < state.length; k++) {
-            var victim = state[k]
-            listBody += '<li>' + victim['date']
-                      + ', ' + victim['name']
-                      + ',' + victim['age']
-                      + ', ' + victim['gender'];
-                      + ', ' + victim['ethnicity'];
-                      + ', ' + victim['armed'];
-                      + ', ' + victim['state'];
-                      + '</li>\n';
+        if(makeTable(state) === "No Results. Please try again."){
+            document.getElementById('victims_table').style.textAlign = "center"; 
         }
-        var victimListElement = document.getElementById('victims_list');
+        var victimListElement = document.getElementById('victims_table');
         if (victimListElement) {
-            victimListElement.innerHTML = listBody;
+            victimListElement.innerHTML = makeTable(state);
         }
     })
 }
 
 function raceCheck(){
     var raceDict = {'african_american': "Black", 
-                    'asian': "Asian", 'hispanic': "Hispanic", 'other': "Other"}
-    var raceId = ['african_american', 'asian', 'hispanic', 'white', 'other']
+                    'asian': "Asian", 'hispanic': "Hispanic", 'native': "Native", 'white': "White", 'other': "Other"}
+    var raceId = ['african_american', 'asian', 'hispanic', 'native', 'white', 'other']
 
     var checkedRace = "all"
 
@@ -116,83 +121,77 @@ function armedCheck() {
     return checkedArm; 
 }
 
-//* Implment Later
-//  * webapp.js
-//  * Victor Huang, Martin Bernard
-//  */
+function makeTable(state){
+    var titleRow = '<tr>\n' 
+                    + '<th>' + 'Date' + '</th>\n'
+                    + '<th>' + 'Name' + '</th>\n'
+                    + '<th>' + 'Age' + '</th>\n'
+                    + '<th>' + 'Gender' + '</th>\n'
+                    + '<th>' + 'Ethnicity' + '</th>\n'
+                    + '<th>' + 'Armed Status' + '</th>\n'
+                    + '<th>' + 'State' + '</th>\n'
+                    + '</tr>\n'
+    var vicTable = '';
+    console.log(state.length)
+    if(state.length == 0){
+        return "No Results. Please try again."
+    }
+    else{
+        for (var k = 0; k < state.length; k++) {
+            var victim = state[k]
+            var ethnicity = victim['ethnicity']
+            if(ethnicity == 'Black'){
+                ethnicity = 'African American'
+            }
 
+            vicTable += '<tr>\n' + '<td>' 
+                        + victim['date'] + '</td>\n'
+                        + '<td>' + victim['name'] + '</td>\n'
+                        + '<td>' + parseInt(victim['age'], 10) + '</td>\n'
+                        + '<td>' + victim['gender'] + '</td>\n'
+                        + '<td>' + ethnicity + '</td>\n'
+                        + '<td>' + victim['armed'] + '</td>\n'
+                        + '<td>' + victim['state'] + '</td>\n' + '</tr>\n';
+        }
 
-// window.onload = initialize;
+        return titleRow + vicTable 
+    }
+}
 
-// // This is example data that gets used in the click-handler below. Also, the fillColor
-// // specifies the color those states should be. There's also a default color specified
-// // in the Datamap initializer below.
-// var extraStateInfo = {
-//     MN: {population: 5640000, jeffhaslivedthere: true, fillColor: '#2222aa'},
-//     CA: {population: 39500000, jeffhaslivedthere: true, fillColor: '#2222aa'},
-//     NM: {population: 2100000, jeffhaslivedthere: false, fillColor: '#2222aa'},
-//     OH: {population: 0, jeffhaslivedthere: false, fillColor: '#aa2222'}
-// };
+function onHome(){
+    window.location.assign(getAPIBaseURL());
+}
 
-// function initialize() {
-//     initializeMap();
-// }
+function onSearch(){
+    var search_value = document.getElementById('search').value;
+    
+    var apiUrl = getAPIBaseURL() + '/victims?state=' + getStateId() + '&search=' + search_value; 
+    console.log(apiUrl)
+    fetch(apiUrl,{method: 'get'})
 
-// function initializeMap() {
-//     var map = new Datamap({ element: document.getElementById('map-container'), // where in the HTML to put the map
-//                             scope: 'usa', // which map?
-//                             projection: 'equirectangular', // what map projection? 'mercator' is also an option
-//                             done: onMapDone, // once the map is loaded, call this function
-//                             data: extraStateInfo, // here's some data that will be used by the popup template
-//                             fills: { defaultFill: '#999999' },
-//                             geographyConfig: {
-//                                 //popupOnHover: false, // You can disable the hover popup
-//                                 //highlightOnHover: false, // You can disable the color change on hover
-//                                 popupTemplate: hoverPopupTemplate, // call this to obtain the HTML for the hover popup
-//                                 borderColor: '#eeeeee', // state/country border color
-//                                 highlightFillColor: '#bbbbbb', // color when you hover on a state/country
-//                                 highlightBorderColor: '#000000', // border color when you hover on a state/country
-//                             }
-//                           });
-// }
+    .then((response) => response.json())
 
-// // This gets called once the map is drawn, so you can set various attributes like
-// // state/country click-handlers, etc.
-// function onMapDone(dataMap) {
-//     dataMap.svg.selectAll('.datamaps-subunit').on('click', onStateClick);
-// }
+    .then(function(state){
+        if(makeTable(state) === "No Results. Please try again."){
+            document.getElementById('victims_table').style.textAlign = "center"; 
+        }
+        var victimTableElement = document.getElementById('victims_table');
+        if(victimTableElement){
+            victimTableElement.innerHTML = makeTable(state);
+        }
+    })
+}
 
-// function hoverPopupTemplate(geography, data) {
-//     var population = 0;
-//     if (data && 'population' in data) {
-//         population = data.population;
-//     }
+function makeBread(){
+    var homeBread = '<a href=' + getAPIBaseURL() + '> Home</a>';
 
-//     var jeffHasLivedThere = 'No';
-//     if (data && 'jeffhaslivedthere' in data && data.jeffhaslivedthere) {
-//         jeffHasLivedThere = 'Yes';
-//     }
+    var homeBreadButton = document.getElementById('home');
+    if(homeBreadButton){
+        homeBreadButton.innerHTML = homeBread;
+    }
 
-//     var template = '<div class="hoverpopup"><strong>' + geography.properties.name + '</strong><br>\n'
-//                     + '<strong>Population:</strong> ' + population + '<br>\n'
-//                     + '<strong>Has Jeff lived there?</strong> ' + jeffHasLivedThere + '<br>\n'
-//                     + '</div>';
-
-//     return template;
-// }
-
-// function onStateClick(geography) {
-//     // geography.properties.name will be the state/country name (e.g. 'Minnesota')
-//     // geography.id will be the state/country name (e.g. 'MN')
-//     var stateSummaryElement = document.getElementById('state-summary');
-//     if (stateSummaryElement) {
-//         var summary = '<p><strong>State:</strong> ' + geography.properties.name + '</p>\n'
-//                     + '<p><strong>Abbreviation:</strong> ' + geography.id + '</p>\n';
-//         if (geography.id in extraStateInfo) {
-//             var info = extraStateInfo[geography.id];
-//             summary += '<p><strong>Population:</strong> ' + info.population + '</p>\n';
-//         }
-
-//         stateSummaryElement.innerHTML = summary;
-//     }
-// }
+    var currPage = document.getElementById('cur_page');
+    if(currPage){
+        currPage.innerHTML = getStateName(getStateId())
+    }
+}

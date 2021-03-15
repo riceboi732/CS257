@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!--Map-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+        <script src="{{ url_for('static', filename='datamaps.usa.min.js') }}"></script>
+
         <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='index.css') }}" />
         <script type="text/javascript" src="{{ url_for('static', filename='index.js') }}"></script>
         <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}" />
@@ -15,68 +20,65 @@
             <div class='state_select'>
                 <h3>States</h3>
                 <div id="state_button_container">
-                    <button class= "stateButton" id="AL" value = "alabama"> Alabama</button>
-                    <button class= "stateButton" id="AK" value = "alaska">Alaksa</button>
-                    <button class= "stateButton" id="AZ" value = "arizona">Arizona</button>
-                    <button class= "stateButton" id="AR" value = "arkansas">Arkansas</button>
-                    <button class= "stateButton" id="CA" value = "california">California</button>
-                    <button class= "stateButton" id="CO" value = "colorado">Colorado</button>
-                    <button class= "stateButton" id="CT" value = "connecticut">Connecticut</button>
-                    <button class= "stateButton" id="DE" value = "delaware">Delaware</button>
-                    <button class= "stateButton" id="DC" value = "district_of_columbia">D.C</button>
-                    <button class= "stateButton" id="FL" value = "florida">Florida</button>
-                    <button class= "stateButton" id="GA" value = "georgia">Georgia</button>
-                    <button class= "stateButton" id="HI" value = "hawaii">Hawaii</button>
-                    <button class= "stateButton" id="ID" value = "idaho">Idaho</button>
-                    <button class= "stateButton" id="IL" value = "illinois">Illinois</button>
-                    <button class= "stateButton" id="IN" value = "indiana">Indiana</button>
-                    <button class= "stateButton" id="IA" value = "iowa">Iowa</button>
-                    <button class= "stateButton" id="KS" value = "kansas">Kansas</button>
-                    <button class= "stateButton" id="KY" value = "kentucky">Kentucky</button>
-                    <button class= "stateButton" id="LA" value = "Louisiana">Louisiana</button>
-                    <button class= "stateButton" id="ME" value = "maine">Maine</button>
-                    <button class= "stateButton" id="MD" value = "maryland">Maryland</button>
-                    <button class= "stateButton" id="MA" value = "massachusetts">Massachusetts</button>
-                    <button class= "stateButton" id="MI" value = "michigan">Michigan</button>
-                    <button class= "stateButton" id="MN" value = "minnesota">Minnesota</button>
-                    <button class= "stateButton" id="MS" value = "mississippi">Mississippi</button>
-                    <button class= "stateButton" id="MO" value = "missouri">Missouri</button>
-                    <button class= "stateButton" id="MT" value = "montana">Montana</button>
-                    <button class= "stateButton" id="NE" value = "nebraska">Nebraska</button>
-                    <button class= "stateButton" id="NV" value = "nevada">Nevada</button>
-                    <button class= "stateButton" id="NH" value = "new_hampshire">New Hempshire</button>
-                    <button class= "stateButton" id="NJ" value = "new_jersey">New Jersey</button>
-                    <button class= "stateButton" id="NM" value = "new_mexico">New Mexico</button>
-                    <button class= "stateButton" id="NY" value = "new_york">New York </button>
-                    <button class= "stateButton" id="NC" value = "north_carolina">North Carolina</button>
-                    <button class= "stateButton" id="ND" value = "north_dakota">North Dakota</button>
-                    <button class= "stateButton" id="OH" value = "ohio">Ohio</button>
-                    <button class= "stateButton" id="OK" value = "oklahoma">Oklahoma</button>
-                    <button class= "stateButton" id="OR" value = "oregon">Oregon</button>
-                    <button class= "stateButton" id="PA" value = "pennsylvania">Pennsylvania</button>
-                    <button class= "stateButton" id="RI" value = "rhode_island">Rhode Island</button>
-                    <button class= "stateButton" id="SC" value = "south_carolina">South Carolina</button>
-                    <button class= "stateButton" id="SD" value = "south_dakota">South Dakota</button>
-                    <button class= "stateButton" id="TN" value = "tennessee">Tennessee</button>
-                    <button class= "stateButton" id="TX" value = "texas">Texas</button>
-                    <button class= "stateButton" id="UT" value = "utah">Utah</button>
-                    <button class= "stateButton" id="VT" value = "vermont">Vermont</button>
-                    <button class= "stateButton" id="VA" value = "virginia">Virginia</button>
-                    <button class= "stateButton" id="WA" value = "washington">Washington</button>
-                    <button class= "stateButton" id="WV" value = "west_virginia">West Virginia</button>
-                    <button class= "stateButton" id="WI" value = "wisconsin">Wisconsin</button>
-                    <button class= "stateButton" id="WY" value = "wyoming">Wyoming</button>
+                    <button class="stateButton" id="AL" value = "Alabama"> Alabama</button>
+                    <button class="stateButton" id="AK" value = "Alaska">Alaksa</button>
+                    <button class="stateButton" id="AZ" value = "Arizona">Arizona</button>
+                    <button class="stateButton" id="AR" value = "Arkansas">Arkansas</button>
+                    <button class="stateButton" id="CA" value = "California">California</button>
+                    <button class="stateButton" id="CO" value = "Colorado">Colorado</button>
+                    <button class="stateButton" id="CT" value = "Connecticut">Connecticut</button>
+                    <button class="stateButton" id="DE" value = "Delaware">Delaware</button>
+                    <button class="stateButton" id="DC" value = "District of columbia">D.C</button>
+                    <button class="stateButton" id="FL" value = "Florida">Florida</button>
+                    <button class="stateButton" id="GA" value = "Georgia">Georgia</button>
+                    <button class="stateButton" id="HI" value = "Hawaii">Hawaii</button>
+                    <button class="stateButton" id="ID" value = "Idaho">Idaho</button>
+                    <button class="stateButton" id="IL" value = "Illinois">Illinois</button>
+                    <button class="stateButton" id="IN" value = "Indiana">Indiana</button>
+                    <button class="stateButton" id="IA" value = "Iowa">Iowa</button>
+                    <button class="stateButton" id="KS" value = "Kansas">Kansas</button>
+                    <button class="stateButton" id="KY" value = "Kentucky">Kentucky</button>
+                    <button class="stateButton" id="LA" value = "Louisiana">Louisiana</button>
+                    <button class="stateButton" id="ME" value = "Maine">Maine</button>
+                    <button class="stateButton" id="MD" value = "Maryland">Maryland</button>
+                    <button class="stateButton" id="MA" value = "Massachusetts">Massachusetts</button>
+                    <button class="stateButton" id="MI" value = "Michigan">Michigan</button>
+                    <button class="stateButton" id="MN" value = "Minnesota">Minnesota</button>
+                    <button class="stateButton" id="MS" value = "Mississippi">Mississippi</button>
+                    <button class="stateButton" id="MO" value = "Missouri">Missouri</button>
+                    <button class="stateButton" id="MT" value = "Montana">Montana</button>
+                    <button class="stateButton" id="NE" value = "Nebraska">Nebraska</button>
+                    <button class="stateButton" id="NV" value = "Nevada">Nevada</button>
+                    <button class="stateButton" id="NH" value = "New Hampshire">New Hempshire</button>
+                    <button class="stateButton" id="NJ" value = "New Jersey">New Jersey</button>
+                    <button class="stateButton" id="NM" value = "New Mexico">New Mexico</button>
+                    <button class="stateButton" id="NY" value = "New York">New York </button>
+                    <button class="stateButton" id="NC" value = "North Carolina">North Carolina</button>
+                    <button class="stateButton" id="ND" value = "North Dakota">North Dakota</button>
+                    <button class="stateButton" id="OH" value = "Ohio">Ohio</button>
+                    <button class="stateButton" id="OK" value = "Oklahoma">Oklahoma</button>
+                    <button class="stateButton" id="OR" value = "Oregon">Oregon</button>
+                    <button class="stateButton" id="PA" value = "Pennsylvania">Pennsylvania</button>
+                    <button class="stateButton" id="RI" value = "Rhode Island">Rhode Island</button>
+                    <button class="stateButton" id="SC" value = "South Carolina">South Carolina</button>
+                    <button class="stateButton" id="SD" value = "South Dakota">South Dakota</button>
+                    <button class="stateButton" id="TN" value = "Tennessee">Tennessee</button>
+                    <button class="stateButton" id="TX" value = "Texas">Texas</button>
+                    <button class="stateButton" id="UT" value = "Utah">Utah</button>
+                    <button class="stateButton" id="VT" value = "Vermont">Vermont</button>
+                    <button class="stateButton" id="VA" value = "Virginia">Virginia</button>
+                    <button class="stateButton" id="WA" value = "Washington">Washington</button>
+                    <button class="stateButton" id="WV" value = "West Virginia">West Virginia</button>
+                    <button class="stateButton" id="WI" value = "Wisconsin">Wisconsin</button>
+                    <button class="stateButton" id="WY" value = "Wyoming">Wyoming</button>
+                    <button class="stateButton" id="all" value = "United States"> View All</button>
                 </div>
 
             </div>
             <div class="us_map">
-                <h1> US Map Coming Soon!</h1>
+                <div id="map-container"></div>
             </div>
         </div>
-        <!-- Implment later
-            <div id="state-summary"></div>
-
-            <div id="map-container"></div> -->
     </body>
 </html>
 

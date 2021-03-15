@@ -5,6 +5,22 @@ body{
     background: #F5F5F5;
 }
 
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
 .sidebar{
     display: flex;
     flex-direction: column; 
@@ -86,7 +102,7 @@ body{
 .race {
     display: flex;
     flex-direction: column;
-    height: 16vh; 
+    height: 19vh; 
     background: #2F4F4F;
 }
 
@@ -152,10 +168,21 @@ body{
 }
 
 .bread_table #breadcrumb {
-    height: 20px; 
+    height: 50px; 
     width: 100%; 
     background: none;
     border: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#breadcrumb ul{
+    list-style: none;
+    padding-left: 10px; 
+}
+
+#breadcrumb li{
+    display: inline;
 }
 
 .bread_table #table {
@@ -166,4 +193,7 @@ body{
     background: none; 
     border: none; 
 }
+
+
+
 

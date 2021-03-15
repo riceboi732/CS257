@@ -2,19 +2,20 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='victims.css') }}" />
-        <script src="{{ url_for('static', filename='victims2.js') }}"></script>
+        <script src="{{ url_for('static', filename='victims.js') }}"></script>
         <title>
             Victims 
         </title>
     </head>
     <body>
         <div class="sidebar">
-            <div id="state"> Some State 
+            <div id="state"> 
+                <h3 id="full_name"></h3>
             </div>
             
             <div class="search">
-                <input type="text" placeholder="Victim's Name" name="search_victim">
-                <button type="submit">
+                <input type="text" placeholder="Victim's Name" name="search_victim" id="search">
+                <button type="submit" onclick = "onSearch()">
                 </button>
             </div>
             <div id="age"> Age
@@ -39,6 +40,9 @@
                 <div class="race_checkbox"> Hispanic: 
                     <input type="checkbox" id="hispanic" unchecked>
                 </div>
+                <div class="race_checkbox"> Native: 
+                    <input type="checkbox" id="native" unchecked>
+                </div>
                 <div class="race_checkbox"> White: 
                     <input type="checkbox" id="white" unchecked>
                 </div>
@@ -61,15 +65,20 @@
                 <button class="analyze_button">Analyze</button>
             </div>
             <div class="home">  
-                <button class="home_button">Home</button>
+                <button class="home_button" onclick='onHome()'>Home</button>
             </div>
         </div>
         <div class="bread_table">
             <div id="breadcrumb">
-
+                <ul>
+                    <li id="home"></li>
+                    <li>></li>
+                    <li id="cur_page"></li>
+                </ul>
             </div>
             <div id="table">
-                <ul id="victims_list"></ul>
+                <table id = 'victims_table'></table>
+                
             </div>
         </div>
     </body>

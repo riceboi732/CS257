@@ -1,0 +1,63 @@
+REQUEST: /victims
+
+GET parameters
+    min_year(Optional, default: 1000): Only returns victims that were shot during or after this year
+    max_year(Optional, default: 5000): Only returns victims that were shot during or before this year
+    state(Optional, default: all states): Only returns victims from specified states
+    min_age(Optional, default: 0): Only returns victims that are at or above specified age
+    max_age(Optional, default: 1000): Only returns victims that are at or below specified age
+    ethnicity(Optional, default: all ethnicity): Only returns victims that are of specified ethnicity
+    armed(Optional, default: all): Only returns victims that were specified to be armed or not
+
+REPONSE: A JSON list of dictionaries, each of which represent a victim, sorted by the date of the shooting.
+Each dictionary in the list will have the following fields. 
+    date - (date) The date of the shooting
+    name - (String) The name of the victim
+    age - (Integer) The age of the victim
+    gender - (String) The gender of the victim
+    ethnicity - (String) The ethnicity of the victim
+    armed - (String) An armed or unarmed indicator
+
+EXAMPLE(S):
+    /victims?state=AL&max_year=2018&ethnicity=Black&armed=unarmed
+
+    [ { "date": "2015-10-31", "name": "Bennie Lee Tignor", "age": 56.0, "gender": "M", "ethnicity": "Black", "armed": "unarmed", "state": "AL" }, 
+    { "date": "2017-11-18", "name": "Lawrence Hawkins", "age": 56.0, "gender": "M", "ethnicity": "Black", "armed": "unarmed", "state": "AL" } ]
+
+REQUEST: '/victims/analyze/<state_ab>'
+
+GET parameters
+    state_ab(Required): Only returns victims that were shot in the specified state (abbreviation)
+
+RESPONSE: A JSON list of dictionaries, each of which represent a victim, stored by the date of the shooting. 
+Each dictionary in the lsit will have the following fields.
+    date - (date) The date of the shooting
+    name - (String) The name of the victim
+    age - (Integer) The age of the victim
+    gender - (String) The gender of the victim
+    ethnicity - (String) The ethnicity of the victim
+    armed - (String) An armed or unarmed indicator
+
+EXAMPLE(S):
+    /victims/analyze/VA
+
+    [ { "date": "2015-01-14", "name": "Mario Jordan", "age": 34.0, "gender": "M", "ethnicity": "Black", "armed": "armed", "state": "VA" }, 
+    { "date": "2015-03-24", "name": "Walter J. Brown III", "age": 29.0, "gender": "M", "ethnicity": "Black", "armed": "armed", "state": "VA" },...]
+
+REQUEST: '/api/help'
+
+GET parameters
+    None 
+
+RESPONSE: A text file that is a help statement about the API.
+
+EXAMPLE(S):
+    /api/help
+
+    REQUEST: /victims
+
+    GET parameters
+        min_year(Optional, default: 1000): Only returns victims that were shot during or after this year
+        max_year(Optional, default: 5000): Only returns victims that were shot during or before this year
+        ...
+
