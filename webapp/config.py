@@ -1,3 +1,3 @@
-username = "victorhuang"
-password = "Edison2China"
+user = ""
+password = ""
 database = "shootings"
