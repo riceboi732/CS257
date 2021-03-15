@@ -59,6 +59,8 @@ function getStateId(){
 function onFilter(){
     var min_year = document.getElementById('min_year').value;
     var max_year = document.getElementById('max_year').value; 
+    var min_age = document.getElementById('min_age').value;
+    var max_age = document.getElementById('max_age').value; 
 
     var ethnicity = raceCheck();
 
@@ -69,14 +71,14 @@ function onFilter(){
     }
 
     var apiUrl = getAPIBaseURL() + '/victims?state=' + getStateId() + '&ethnicity=' + ethnicity + '&armed=' + arm 
-                    + '&min_year=' + min_year + '&max_year=' + max_year;
+                    + '&min_year=' + min_year + '&max_year=' + max_year + '&min_age=' + min_age + '&max_age=' + max_age;
     console.log(apiUrl)
     fetch(apiUrl, {method: 'get'})
 
     .then((response) => response.json())
     
     .then(function(state) {
-        if(makeTable(state) === "No Results. Please try again."){
+        if(makeTable(state) === "No Results. Please try another combination."){
             document.getElementById('victims_table').style.textAlign = "center"; 
         }
         var victimListElement = document.getElementById('victims_table');
@@ -134,7 +136,7 @@ function makeTable(state){
     var vicTable = '';
     console.log(state.length)
     if(state.length == 0){
-        return "No Results. Please try again."
+        return "No Results. Please try another combination."
     }
     else{
         for (var k = 0; k < state.length; k++) {
@@ -172,7 +174,7 @@ function onSearch(){
     .then((response) => response.json())
 
     .then(function(state){
-        if(makeTable(state) === "No Results. Please try again."){
+        if(makeTable(state) === "No Results. Please try another combination."){
             document.getElementById('victims_table').style.textAlign = "center"; 
         }
         var victimTableElement = document.getElementById('victims_table');

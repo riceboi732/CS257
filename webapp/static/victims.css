@@ -49,7 +49,7 @@ tr:nth-child(even) {
 .search input[type=text] {
     height: 100%;
     width: 75%; 
-    border: 1px solid blue;
+    border: 1px solid grey;
     border-right: none; 
 } 
 
@@ -62,8 +62,32 @@ tr:nth-child(even) {
 }
 #age {
     display: flex; 
+    flex-direction: column;
     height: 9vh;
     background: #2F4F4F;
+    
+}
+#age ul {
+    list-style: none;
+    padding-left: 22px; 
+}
+
+#age li{
+    display: inline;
+}
+
+#input_age{
+    flex: 1; 
+    background-color: #2F4F4F;
+}
+
+#min_age {
+    width: 50px; 
+}
+
+#max_age{
+    width: 50px;
+    margin-left: 15px; 
 }
 
 .year {
@@ -93,8 +117,9 @@ tr:nth-child(even) {
 }
 
 .to_year input[type=text]{
-    width: 92px; 
+    width: 57.5%; 
     border: 1px solid grey;
+    margin-right: 1px; 
     border-right: none; 
 }
 
@@ -193,12 +218,7 @@ tr:nth-child(even) {
     background: none; 
     border: none; 
 }
-.victims_table{
-    display: flex; 
-    height: 100%;
-    width: 100%;
-    justify-content: center;
-    background: none; 
-    border: none;
-    overflow: auto;
-}
+
+
+
+
