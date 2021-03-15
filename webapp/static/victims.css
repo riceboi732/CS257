@@ -49,7 +49,7 @@ tr:nth-child(even) {
 .search input[type=text] {
     height: 100%;
     width: 75%; 
-    border: 1px solid grey;
+    border: 1px solid blue;
     border-right: none; 
 } 
 
@@ -193,7 +193,12 @@ tr:nth-child(even) {
     background: none; 
     border: none; 
 }
-
-
-
-
+.victims_table{
+    display: flex; 
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    background: none; 
+    border: none;
+    overflow: auto;
+}
