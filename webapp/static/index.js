@@ -28,13 +28,13 @@ function initializeMap(){
                             scope: 'usa',
                             projection: 'equirectangular',
                             done: onMapDone,
-                            fills: { defaultFill: '#00FFFF' },
+                            fills: { defaultFill: '#FFFFFF' },
                             geographyConfig: {
                                 //popupOnHover: false,
                                 //highlightOnHover: false,
                                 popupTemplate: hoverPopupTemplate,
-                                borderColor: '#eeeeee',
-                                highlightFillColor: '#bbbbbb',
+                                borderColor: '#bbbbbb',
+                                highlightFillColor: '#cccccc',
                                 highlightBorderColor: '#000000',
                             }
                             });
@@ -45,7 +45,7 @@ function onMapDone(dataMap) {
 }
 
 function hoverPopupTemplate(geography) {
-    var template = '<div class="hoverpopup"><strong>' + geography.properties.name + '</strong><br>\n';
+    var template = '<div class="hoverpopup" style = "color:black;"><strong>' + geography.properties.name + '</strong><br>\n';
 
     return template;
 }
