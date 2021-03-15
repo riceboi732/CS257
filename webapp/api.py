@@ -7,9 +7,8 @@ import sys
 
 api = flask.Blueprint('', __name__)
 
-
 def connect_to_database():
-    """connect program to database using config.py"""
+    """Import the database information from config.py and connect to the database"""
     from config import password
     from config import database
     from config import user
@@ -23,6 +22,13 @@ def connect_to_database():
     return connection
 
 def excute_query(cursor, query, check):
+    """Returns all the rows of the query result
+    
+    Parameters
+        cursor: cursor object
+        query: SQL query statement 
+        check: Tuple that checks for SQL injections
+    """
     try:
         cursor.execute(query, check)
         print('QUERY:', cursor.query.decode('utf-8'))
@@ -35,6 +41,8 @@ def excute_query(cursor, query, check):
 
 @api.route('/victims')
 def get_victims():
+
+    #
     state = flask.request.args.get('state', 'all')
     min_year = flask.request.args.get('min_year', '1000')
     max_year = flask.request.args.get('max_year', '5000')

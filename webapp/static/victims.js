@@ -94,7 +94,7 @@ function raceCheck(){
     var raceId = ['african_american', 'asian', 'hispanic', 'native', 'white', 'other']
 
     var checkedRace = "all"
-
+        
     for(var i = 0; i < raceId.length; i++){
         if(document.getElementById(raceId[i]).checked){
             checkedRace = raceId[i]
